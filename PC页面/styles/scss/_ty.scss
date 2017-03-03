@@ -1,0 +1,257 @@
+@charset "utf-8";
+%ty_icon { background: url("../images/ty_sp.png") no-repeat 0 0; }
+%ty_red_bac { background: url('../images/ty_red_bac.png'); }
+%ty_black_bac { background: url('../images/ty_black_bac.png'); }
+@media screen and (min-width:1020px) and (max-width:1599px){
+	.ty_all,.ty_content,.ty_footerIn{ width: 1300+300-320px; }
+	.ty_footer{ min-width: 1300+300-320px; }
+	.ty_all{ min-width: 1270px; }
+}
+@media screen and (min-width:1600px) and (max-width:1919px){
+	.ty_all,.ty_content,.ty_footerIn{ width: 1300+300px; }
+	.ty_footer{ min-width: 1300+300px; }
+	.ty_all{ min-width: 1270px; }
+}
+@media screen and (min-width: 1920px) {
+    .ty_all,.ty_content,.ty_footerIn{ width: 1920px }
+	.ty_footer{ min-width: 1920px; }
+	.ty_all{ min-width: 1270px; }
+}
+
+// 首页
+.ty_all{ margin: 0 auto; }
+.ty_header{ padding-top: 10px; height: 160px; }
+.ty_logo{ float: left; margin-left: 20px; }
+.ty_listbar{ float: right; 
+	.list1{
+		li{ float: left; width: 100px; height: 60px; font-size: 18px; line-height: 60px; text-align: center; color: #231815; transition: all .2s linear; -webkit-transition: all .2s linear; margin-right: 1px;
+			&:hover{ background: #ce2240; color: #fff; 
+				a{ color: #fff; }
+			}
+		}
+		.on{ background: #ce2240; color: #fff; 
+			a{ color: #fff; }
+		}
+		a{ display: block; color: #231815; }
+	}
+	.list2{ margin: 0 auto; padding-top: 30px; text-align: center;
+		li{ display: inline-block; width: 100px; height: 30px; font-size: 14px;
+			a{ display: block; }
+		}
+	}
+	.phone_menu{ display: none; width: 30px; position: absolute; top: 5px; left: 10px; padding: 10px 10px; outline: none; }
+}
+.ty_content{ padding: 0 10px; margin-left: -20px; }
+.ty_big_con{ float: left; width: 1240px; height: 820px; padding: 10px; background-color: #f5f4f5; margin-left: 20px;
+	img{ display: block; width: 1240px; height: 820px; }
+}
+.ty_small_con{ float: left; width: 300-20px; height: 405-20px; padding: 10px; background-color: #f5f4f5; transition: all .9s linear; -webkit-transition: all .9s linear; margin-left: 20px; margin-bottom: 840-405-405px;
+	img{ display: block; width: 280px; height: 280px; }
+	h3{ padding-top: 10px; height: 55px; line-height: 55px; border-bottom: 2px solid #a2a2a2; font-size: 16px; }
+	.btns{ margin-top: 12px; 
+		a{ float: left; height: 24px; line-height: 24px; padding: 0 8px; background-color: #ce2240; color: #fff; margin-right: 1px; }
+	}
+	.imgs{ display: block; width: 280px; height: 280px; position: relative; 
+		&:hover{
+			.bar{ filter:alpha(opacity=100); -moz-opacity:1; opacity: 1; }
+		}
+	}
+	.bar{ display: block; filter:alpha(opacity=0); -moz-opacity:0; opacity: 0; width: 100%; height: 100%; position: absolute; top: 0; left: 0; @extend %ty_red_bac; transition: all .3s linear; -webkit-transition: all .3s linear;  }
+	.add{ display: block; width: 58px; height: 58px; position: absolute; top: 50%; left: 50%; margin-left: -29px; margin-top: -29px; @extend %ty_icon; background-position: 0 0; }
+}
+.ty_more{ display: block; margin: 370px auto 65px; margin-top: 370px; width: 200px; height: 80px; line-height: 80px; background-color: #f5f4f5; color: #878787; font-size: 18px; text-align: center; }
+.ty_footer{ width: 100%; margin: 0 auto; height: 345px; background-color: #f5f4f5; }
+.ty_footerIn{ margin: 0 auto; 
+	.left{ float: left; padding-left: 200px;
+		h2{ font-size: 22px; padding-top: 50px; }
+		p{ padding-top: 50px; line-height: 36px; font-size: 18px; color: #878787; }
+	}
+	.right{ float: right; padding: 80px 166px 0 0; 
+		img{ display: block; width: 200px; height: 200px; }
+	}
+}
+// 作品页面
+.ty_titles{ margin: 0 0 30px 20px; font-size: 18/4.85*7.27px; 
+	span{ font-weight: bold; color: #ce2040; margin-left: 5px; }
+}
+// 关于页面
+.ty_about{ width: 1200px; 
+	.ty_content{ width: 1200px; }
+}
+.ty_about_con{ width: 1200px; 
+	.menu{ float: left; position: relative; width: 280px; background: #f6f6f6; padding: 20px 0; 
+		a{ display: block; display: block; height: 40px; line-height: 40px; color: #666666; padding-left: 30px; font-size: 15px; -webkit-transition: .3s ease-out; -moz-transition: .3s ease-out; transition: .3s ease-out; -webkit-transition-property: background,color; -moz-transition-property: background,color; transition-property: background,color; 
+		}
+		.on a,a:hover{ background: #ffffff; color: #e0244d; border-left: 3px solid #e0244d; padding-left: 27px; }
+	}
+}
+.ty_detial{ width: 820px; float: right; 
+	.t1{ font-size: 13px; color: #000; margin-bottom: 25px; }
+}
+.ty_titles2{ font-size: 20px; margin-bottom: 30px;
+	span{ font-weight: bold; color: #ce2040; margin-left: 5px; }
+}
+.ty_service_list{ margin-bottom: 50px; }
+.service{ margin-bottom:100px; position:relative; }
+.service-info{ padding-top:20px; }
+.service-info p{ margin-bottom:25px; line-height:24px; font-size:13px; }
+.service-title{ height:70px; }
+.service-title img{ margin-top:20px; }
+.ty_service_list li{ display:block; height:132px; overflow:hidden; cursor: pointer; }
+.ty_service_list ul{ display:block; position:relative; }
+.service-l{ width:175px; height:132px; text-align:center; color:#adadad; }
+.arrow h4,.service-l h4{ font-size:18px; height:24px; line-height:24px; display:block; color:#555; margin-top:35px; }
+.arrow span,.service-l span{ height:14px; line-height:14px; font-size:11px; font-family:'Verdana','Arial'; margin-top:2px; display:block; }
+.arrow p,.service-l p{ margin-top:15px; font-size:13px; }
+.service-r{ margin-left:225px; line-height:24px; color:#666; height:100%; }
+.service-r div{display:table; width:100%; height:100%}
+.service-r p{ display:table-cell; vertical-align:middle; }
+.arrow{ overflow:hidden; width:175px; height:132px; background:#e0244d; color:#fff; position:absolute; top:0; left:0; text-align:center; }
+.arrow-t{ width:175px; height:132px; color:#fff; overflow:hidden; }
+.arrow-t h4{ color:#fff; }
+.network,.contactus,.about{ margin-bottom: 30px; }
+
+.ty_detial2{ width: 880px; float: right; 
+	.person{
+		li{ width: 400px; height: 305px; float: left; margin: 0 20px 30px 0; position: relative;
+			img{ display: block; width: 400px; height: 305px; }
+			&:hover{
+				.bar{ filter:alpha(opacity=100); -moz-opacity:1; opacity: 1; }
+			}
+		}
+		.bar{ display: block; filter:alpha(opacity=0); -moz-opacity:0; opacity: 0; width: 100%; height: 100%; position: absolute; top: 0; left: 0; @extend %ty_red_bac; transition: all .3s linear; -webkit-transition: all .3s linear;  cursor: pointer; overflow: hidden;
+			h4{ color: #fff; padding: 40px 0 0 80px; font-size: 18/7.68*11.52px; }
+			p{ padding: 10px 30px 0 80px; font-size: 13px; color: #fff; }
+			h3{ position: absolute; left: 0; bottom: 0; padding: 20px 30px; font-size: 18/7.68*11.52px; color: #fff; }
+		}
+	}
+}
+
+.newframe{ position:fixed; top:0; left:0; width:100%; height:100%; overflow-x:hidden; overflow-y:auto; opacity:0; visibility:hidden;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+ }
+.newframe-wrap { width: 100%; height: 100%; display: table; position: relative; z-index: 2; }
+.ty_wrapbac{ position: fixed; left: 0;top: 0; z-index: 1; width: 100%; height: 100%; display: table; @extend %ty_black_bac; }
+.newframe-inner { display: table-cell; vertical-align: middle; }
+.newframe.show{ opacity:1; visibility:visible; }
+.open-news { width: 940px; margin: 0px auto 50px auto; position: relative; background: #fff; }
+.inner-right{ position:absolute; top:0; right:-60px; width:60px; }
+.inner-right a{ width:60px; height:60px; display:block; position:relative;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+ }
+
+.inner-right{ 
+	.share{ width:60px; height:60px; display:block; position:relative; background:#e0244d url('../images/shareh.png') no-repeat 50% 50%; }
+	.close{ background:#242424 url('../images/close.png') no-repeat 50% 50%; }
+	.close:hover{ background:#e0244d url('../images/closeh.png') no-repeat 50% 50%; }
+	.weibo{ background:#242424 url('../images/weibo.png') no-repeat 50% 50%; }
+	.weibo:hover{ background:#e0244d url('../images/weiboh.png') no-repeat 50% 50%; }
+	.weixin{ background:#242424 url('../images/weixin.png') no-repeat 50% 50%; }
+	.weixin:hover{ background:#e0244d url('../images/weixinh.png') no-repeat 50% 50%; }
+	a:hover b{ visibility:hidden; opacity:0; }
+	a b{ display:block; height:1px; width:24px; position:absolute; bottom:0; left:18px; background:#2a2a2a; visibility:visible; opacity:1;
+	    -webkit-transition: all .3s ease-out;
+	    -moz-transition: all .3s ease-out;
+	    transition: all .3s ease-out;
+	 }
+}
+.crumbs li{ display:block; float:left; margin:0 2px; font-size:13px; color:#666; line-height:25px; }
+.crumbs li a{ display:block; font-size:13px; color:#666; line-height:25px; }
+.news-inner{ padding:40px 60px 60px; 
+	.news-ct{ line-height: 18/9.6*14.4px; color: #878787; font-size: 18/9.6*5.76px }
+	.pic{ margin-top: 20px;
+		img{ width: 640px; display: block; margin: 0 auto; }
+		.aboutpic{ padding-top: 10px; text-align: center; }
+	}
+	.text{ margin-top: 20px; }
+	.btns{ margin-top: 12px; 
+		a{ float: left; height: 24px; line-height: 24px; padding: 0 8px; background-color: #ce2240; color: #fff; margin-right: 1px; }
+	}
+}
+.open-news{ width:940px; margin:0px auto 50px auto; position:relative; z-index: 2; background:#fff; }
+
+.news-article h4.maintitle{ color:#000; height:48px; line-height:50px; display:block; font-weight:500; font-size:20px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; padding-bottom: 20px; }
+.news-article h5.subtitle{ border-top:2px solid #878787; color:#666; padding:22px 0 10px 0; font-size:14px; }
+
+.ty_phone_bac{ position: fixed; top: 0; left: 0; width: 100%; height: 100%; display: block; z-index: 5; background: rgba(0,0,0,0.2); display: none; }
+
+@media screen and (min-width:1px) and (max-width:1019px){
+	body,.ty_all,.ty_content,.ty_footerIn{ width: 100%; }
+	body .ty_content{ padding-top: 53px; }
+	.ty_logo{ margin-left: 0; float: none; display: inline-block;
+		img{ margin: 0 auto; height: 45px; padding-top: 8px; }
+	}
+	.ty_header{ padding-top: 0; height: 53px; text-align: center; position: fixed; top: 0; left: 0; width: 100%; background: #fff; z-index: 6; }
+	.ty_listbar{ float: none; 
+		.list2{ display: none; }
+		.list1{ background: #efefef; position: fixed; z-index: 5; top: 0; left: 0; width: 260px; height: 100%; transform: translateX(-100%); -webkit-transform: translateX(-100%); transition: all .2s linear; -webkit-transition: all .2s linear; 
+			li{ float: none; display: block; height: 45px; line-height: 45px; width: 100%; border-bottom: 1px solid #dad9d9;
+				a{ width: 260px; display: block; text-align: center; color: #555555; font-size: 15px; }
+			}
+			.on{ color: #fff; background: #c2253e; }
+		}
+		.showlist{ transform: translateX(0); -webkit-transform: translateX(0); z-index: 99; }
+		.phone_menu{ display: block; }
+	}
+	.ty_content { padding: 0 10px; margin-left: 0; box-sizing: border-box; }
+	.ty_big_con{ width: 100%; margin-left: 0; padding: 5px; box-sizing: border-box; height: auto; margin-bottom: 5px;
+		img{ width: 100%; height: auto; }
+	}
+	.ty_small_con{ margin-left: 0; padding: 5px 5px 10px; box-sizing: border-box; width: 49%; height: auto; margin-bottom: 5px;
+		.imgs{ display: block; width: auto; height: auto; }
+		img{ width: 100%; height: auto; }
+		.bar{ display: none; }
+		.btns{ font-size: 10px; 
+			a{ height: 18px; line-height: 18px; padding: 0 6px;}
+		}
+		h3{ height: 40px; line-height: 40px; padding-top: 5px; }
+	}
+	.ty_more{ margin: 64px auto 10px; width: 100px; height: 30px; line-height: 30px; font-size: 12px; }
+	.ty_small_con:nth-child(even){ float: right; }
+	.ty_footer{ height: auto; background-color: #f5f4f5; }
+	.ty_footerIn{ margin: 0 auto; display: inline-block;
+		.left{ float: none; padding: 0 15px; width: 100%; box-sizing: border-box;
+			h2{ font-size: 18px; padding-top: 20px; }
+			p{ padding-top: 10px; line-height: 28px; font-size: 12px; color: #878787; }
+		}
+		.right{ float: none; padding: 0; text-align: center;
+			img{ display: block; margin: 0 auto;  width: 200px; height: 200px; padding: 30px 0 0; }
+		}
+	}
+	.ty_titles{ display: none; }
+	// 手机版关于页面
+	.ty_about{ 
+		.ty_content{ width: 100%; }
+		.ty_header{ background: #c2253e; z-index: 8; }
+		.ty_logo{ display: none; }
+		.ty_about_con{ width: 100%;
+			.menu{ position: fixed; z-index: 2; top: 53px; background: transparent; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); width: 100%; padding: 0; display: none;
+				li{ border-bottom: #dfdfdf 1px solid; text-align: center; height: 50px; line-height: 50px;
+					a{ border-left: 0; padding-left: 0; height: 50px; line-height: 50px; background: #fff; }
+				}
+				.on{ background: #e0e0e0; color: #555; 
+					a{ background: #e0e0e0; color: #555; }
+				}
+			}
+		}
+		.ty_phone_title{ text-align: center; font-size: 14px; color: #fff; position: absolute; z-index: 5;  top: 0; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); padding: 0 30px; height: 53px; line-height: 53px;
+			.downicon{ display: inline-block; width: 15px; height: 6px; vertical-align: middle; background: url("../images/ty_sp.png") no-repeat 0 0; background-position: 0 -142px; transition: all .2s linear; -webkit-transition: all .2s linear; margin-left: 5px; }
+		}
+		.ty_detial{ width: 100%; padding-top: 30px; }
+		.arrow{ display: none; }
+		.ty_service_list li{ height: auto; display: block; }
+		.service-l{ width: 100%; float: none; height: auto; display: block; background: #c2253e; padding: 10px 0; margin: 15px 0 10px 0;
+			h4{ margin-top: 0; color: #fff; }
+			span,p{ color: #fff; }
+			p{ margin-top: 2px; }
+		}
+		.service-r{ width: 100%; float: none; margin-left: 0; height: auto; 
+			p{ font-size: 12px; }
+		}
+		.ty_titles2{ margin-bottom: 0; }
+	}
+}
