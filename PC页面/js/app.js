@@ -9,7 +9,6 @@ $(document).ready(function(){
 		}
 	}
 	if (document.body.clientWidth>=768) {
-		
 		$(window).scroll(function() {
 	  		var listTop = 240;
 	  		var listNT = parseInt(document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop);
@@ -50,17 +49,17 @@ $(document).ready(function(){
 			}
 		});
 	}else{
-		$(document).on("touchend",'.phone_menu', function(e){
+		$(document).on("touchend click",'.phone_menu', function(e){
 			stophref(e);
 			$(".ty_listbar .list1").addClass("showlist");
 			$(".ty_phone_bac").show();
 		});
-		$(document).on("touchend",'.ty_phone_bac', function(e){
+		$(document).on("touchend click",'.ty_phone_bac', function(e){
 			stophref(e);
 			$(".ty_listbar .list1").removeClass("showlist");
 			$(".ty_phone_bac").hide();
 		});
-		$(document).on("touchend",'.ty_phone_title', function(e){
+		$(document).on("click",'.ty_phone_title', function(e){
 			stophref(e);
 			if ($(this).hasClass("up")) {
 				$(this).removeClass("up");
@@ -70,7 +69,7 @@ $(document).ready(function(){
 				$(".ty_content .menu").slideDown();
 			}
 		});
-		$(document).on("touchend",'.ty_big_con .imgs,.ty_small_con .imgs,.ty_small_con h3 a', function(e){
+		$(document).on("click",'.ty_big_con .imgs,.ty_small_con .imgs,.ty_small_con h3 a', function(e){
 			stophref(e);
 			if ($(this).hasClass('imgs')) {
 				var itname = "." + $(this).parent().attr("id");
