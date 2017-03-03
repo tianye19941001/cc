@@ -12,14 +12,7 @@ $(document).ready(function(){
 		$(window).scroll(function() {
 	  		var listTop = 240;
 	  		var listNT = parseInt(document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop);
-	  		if (listNT>listTop) {
-	  			$(".ty_about_con .menu").css({
-	  				"position":"fixed",
-	  				"top":"0"
-	  			})
-	  		}else{
-	  			$(".ty_about_con .menu").css("position","relative")
-	  		}
+	  		(listNT>listTop)? $(".ty_about_con .menu").css({"position":"fixed","top":"0"}) : $(".ty_about_con .menu").css("position","relative");
 		});
 		$(".ty_service_list li").on("hover mousemove", function(){
 			if($(".ty_service_list .arrow").is(":animated")){
@@ -33,11 +26,7 @@ $(document).ready(function(){
 		});
 		$(document).on("click",'.ty_big_con .imgs,.ty_small_con .imgs,.ty_small_con h3 a', function(e){
 			stophref(e);
-			if ($(this).hasClass('imgs')) {
-				var itname = "." + $(this).parent().attr("id");
-			}else{
-				var itname = "." + $(this).parent().parent().attr("id");
-			}
+			$(this).hasClass('imgs')? itname = "." + $(this).parent().attr("id") : itname = "." + $(this).parent().parent().attr("id");
 			$(itname).addClass("show");
 		});
 		$('.newframe').on("click",'.ty_wrapbac,.close', function(e){
@@ -49,7 +38,7 @@ $(document).ready(function(){
 			}
 		});
 	}else{
-		$(document).on("touchend click",'.phone_menu', function(e){
+		$(document).on("click",'.phone_menu', function(e){
 			stophref(e);
 			$(".ty_listbar .list1").addClass("showlist");
 			$(".ty_phone_bac").show();
@@ -60,7 +49,6 @@ $(document).ready(function(){
 			$(".ty_phone_bac").hide();
 		});
 		$(document).on("click",'.ty_phone_title', function(e){
-			stophref(e);
 			if ($(this).hasClass("up")) {
 				$(this).removeClass("up");
 				$(".ty_content .menu").slideUp();
@@ -71,12 +59,7 @@ $(document).ready(function(){
 		});
 		$(document).on("click",'.ty_big_con .imgs,.ty_small_con .imgs,.ty_small_con h3 a', function(e){
 			stophref(e);
-			if ($(this).hasClass('imgs')) {
-				var itname = "." + $(this).parent().attr("id");
-			}else{
-				var itname = "." + $(this).parent().parent().attr("id");
-			}
-			console.log(itname)
+			$(this).hasClass('imgs')? itname = "." + $(this).parent().attr("id") : itname = "." + $(this).parent().parent().attr("id");
 			$(itname).addClass("show");
 			$(".ty_content,.ty_more,.ty_footer").hide();
 		});
