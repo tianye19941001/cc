@@ -70,6 +70,17 @@ $(document).ready(function(){
 				$(".ty_content .menu").slideDown();
 			}
 		});
+		$(document).on("touchend",'.ty_big_con .imgs,.ty_small_con .imgs,.ty_small_con h3 a', function(e){
+			stophref(e);
+			if ($(this).hasClass('imgs')) {
+				var itname = "." + $(this).parent().attr("id");
+			}else{
+				var itname = "." + $(this).parent().parent().attr("id");
+			}
+			console.log(itname)
+			$(itname).addClass("show");
+			$(".ty_content,.ty_more,.ty_footer").hide();
+		});
 	}
 
 });
