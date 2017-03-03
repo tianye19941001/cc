@@ -60,6 +60,16 @@ $(document).ready(function(){
 			$(".ty_listbar .list1").removeClass("showlist");
 			$(".ty_phone_bac").hide();
 		});
+		$(document).on("touchend",'.ty_phone_title', function(e){
+			stophref(e);
+			if ($(this).hasClass("up")) {
+				$(this).removeClass("up");
+				$(".ty_content .menu").slideUp();
+			}else{
+				$(this).addClass("up");
+				$(".ty_content .menu").slideDown();
+			}
+		});
 	}
 
 });
