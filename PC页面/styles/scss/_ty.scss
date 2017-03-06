@@ -26,12 +26,12 @@
 		.ty_detial2 .person .bar p{ padding-left: 40px }
 	}
 }
-@media screen and (min-width:1500px) and (max-width:1900px){
+@media screen and (min-width:1500px) and (max-width:1880px){
 	.ty_all,.ty_content,.ty_footerIn{ width: 1300+300-100px; }
 	.ty_footer{ min-width: 1300+300-100px; }
 	.ty_all{ min-width: 1180px; }
 }
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 1880px) {
     .ty_all,.ty_content,.ty_footerIn{ width: 1920-120px }
 	.ty_footer{ min-width: 1920-120px; }
 	.ty_all{ min-width: 1180px; }
@@ -41,11 +41,13 @@
 
 // 首页
 .ty_all{ margin: 0 auto; }
-.ty_header{ padding-top: 10px; height: 160px; }
-.ty_logo{ float: left; margin-left: 20px; }
-.ty_listbar{ float: right; 
+.ty_header{ padding-top: 45px; height: 160px; }
+.ty_logo{ float: left; margin-left: 20px; 
+	img{ width: 280px; }
+}
+.ty_listbar{ float: right; margin-right: 150px;
 	.list1{
-		li{ float: left; width: 100px; height: 60px; font-size: 18px; line-height: 60px; text-align: center; color: #231815; transition: all .2s linear; -webkit-transition: all .2s linear; margin-right: 1px;
+		li{ float: left; width: 100px; height: 50px; font-size: 18px; line-height: 50px; text-align: center; color: #231815; transition: all .2s linear; -webkit-transition: all .2s linear; margin-right: 1px;
 			&:hover{ background: #ce2240; color: #fff; 
 				a{ color: #fff; }
 			}
@@ -209,8 +211,8 @@
 @media screen and (min-width:1px) and (max-width:1019px){
 	body,.ty_all,.ty_content,.ty_footerIn{ width: 100%; }
 	body .ty_content{ padding-top: 53px; }
-	.ty_logo{ margin-left: 0; float: none; display: inline-block;
-		img{ margin: 0 auto; height: 45px; padding-top: 8px; }
+	body .ty_logo{ margin-left: 0; float: none; display: inline-block;
+		img{ margin: 0 auto; height: 45px; padding-top: 8px; width: auto; }
 	}
 	.ty_header{ padding-top: 0; height: 53px; text-align: center; position: fixed; top: 0; left: 0; width: 100%; background: #fff; z-index: 6; }
 	.ty_listbar{ float: none; 

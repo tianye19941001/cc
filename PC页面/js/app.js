@@ -48,18 +48,22 @@ $(document).ready(function(){
 	if ( myBrowser() == 8 ) {
 		var clentWidth = document.body.clientWidth;
 		$(".ty_all").css("min-width","1270px");
-		if (clentWidth >= 1920) {
-			$(".ty_all,.ty_content,.ty_footerIn").css("width","1920px");
-			$(".ty_footer").css("min-width","1920px");
-		}else if( 1920 > clentWidth >= 1600 ){
-			$(".ty_all,.ty_content,.ty_footerIn").css("width","1600px");
-			$(".ty_footer").css("min-width","1600px");
-		}else if( 1599 > clentWidth >= 0 ){
-			$(".ty_all,.ty_content,.ty_footerIn").css("width","1280px");
-			$(".ty_footer").css("min-width","1280px");
+		if (clentWidth >= 1880) {
+			$(".ty_all,.ty_content,.ty_footerIn").css("width","1800px");
+			$(".ty_footer").css("min-width","1800px");
+		}else if( 1880 > clentWidth >= 1500 ){
+			$(".ty_all,.ty_content,.ty_footerIn").css("width","1500px");
+			$(".ty_footer").css("min-width","1500px");
+		}else if( 1500 > clentWidth >= 0 ){
+			$(".ty_all,.ty_content,.ty_footerIn").css("width","1200px");
+			$(".ty_footer").css("min-width","1200px");
 		}
 	}
 	if (document.body.clientWidth>=768) {
+		$('#ty_tb').click(function(e){
+			stophref(e);
+			$('html,body').animate({scrollTop: $('.ty_footer').offset().top},600);
+		});
 		$(window).scroll(function() {
 	  		var listTop = 240;
 	  		var listNT = parseInt(document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop);
@@ -90,6 +94,12 @@ $(document).ready(function(){
 		});
 		
 	}else{
+		$('#ty_tb').click(function(e){
+			stophref(e);
+			$('html,body').animate({scrollTop: $('.ty_footer').offset().top},600);
+			$(".ty_listbar .list1").removeClass("showlist");
+			$(".ty_phone_bac").hide();
+		});
 		$(document).on("click",'.phone_menu', function(e){
 			stophref(e);
 			$(".ty_listbar .list1").addClass("showlist");
