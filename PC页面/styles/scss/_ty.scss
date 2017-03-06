@@ -6,6 +6,25 @@
 	.ty_all,.ty_content,.ty_footerIn{ width: 1300+300-320px; }
 	.ty_footer{ min-width: 1300+300-320px; }
 	.ty_all{ min-width: 1270px; }
+	body{
+		.ty_footerIn .right{ padding-top: 30px }
+		.ty_footerIn,.ty_footer{ height: 280px; }
+		.ty_footerIn .left h2{ font-size: 20px; padding-top: 35px }
+		.ty_footerIn .left p{ padding-top: 30px; font-size:16px; line-height: 30px }
+		.ty_more{ margin: 40px auto; font-size: 16px; width: 180px; height: 60px; line-height: 60px }
+		.ty_titles{ margin-bottom: 20px; font-size:24px; }
+		.news-inner{ padding: 20px 40px; }
+		.news-article h4.maintitle{ padding-bottom: 10px; }
+		.news-article h5.subtitle{ padding: 10px 0 0; }
+		.ty_small_con h3{ height: 50px; line-height: 50px; }
+		.news-inner .text{ margin-top: 15px; }
+		.ty_listbar .list2{ padding-top: 20px; }
+		.ty_header{ height: 130px; }
+		.ty_detial .t1{ margin-bottom: 18px }
+		.ty_detial2 .person .bar h4{ font-size: 24px; padding-left: 40px }
+		.ty_detial2 .person .bar h3{ font-size: 24px; }
+		.ty_detial2 .person .bar p{ padding-left: 40px }
+	}
 }
 @media screen and (min-width:1600px) and (max-width:1919px){
 	.ty_all,.ty_content,.ty_footerIn{ width: 1300+300px; }
@@ -17,6 +36,8 @@
 	.ty_footer{ min-width: 1920px; }
 	.ty_all{ min-width: 1270px; }
 }
+
+
 
 // 首页
 .ty_all{ margin: 0 auto; }
@@ -47,7 +68,7 @@
 }
 .ty_small_con{ float: left; width: 300-20px; height: 405-20px; padding: 10px; background-color: #f5f4f5; transition: all .9s linear; -webkit-transition: all .9s linear; margin-left: 20px; margin-bottom: 840-405-405px;
 	img{ display: block; width: 280px; height: 280px; }
-	h3{ padding-top: 10px; height: 55px; line-height: 55px; border-bottom: 2px solid #a2a2a2; font-size: 16px; }
+	h3{ padding-top: 10px; height: 55px; line-height: 55px; border-bottom: 1px solid #a2a2a2; font-size: 16px; }
 	.btns{ margin-top: 12px; 
 		a{ float: left; height: 24px; line-height: 24px; padding: 0 8px; background-color: #ce2240; color: #fff; margin-right: 1px; }
 	}
@@ -61,7 +82,7 @@
 	.bar{ display: block; filter:alpha(opacity=0); -moz-opacity:0; opacity: 0; width: 100%; height: 100%; position: absolute; top: 0; left: 0; @extend %ty_red_bac; transition: all .3s linear; -webkit-transition: all .3s linear;  }
 	.add{ display: none; width: 58px; height: 58px; position: absolute; top: 50%; left: 50%; margin-left: -29px; margin-top: -29px; @extend %ty_icon; background-position: 0 0; }
 }
-.ty_more{ display: block; margin: 370px auto 65px; margin-top: 370px; width: 200px; height: 80px; line-height: 80px; background-color: #f5f4f5; color: #878787; font-size: 18px; text-align: center; }
+.ty_more{ display: block; margin: 370px auto 65px; margin-top: 70px; width: 200px; height: 80px; line-height: 80px; background-color: #f5f4f5; color: #878787; font-size: 18px; text-align: center; }
 .ty_footer{ width: 100%; margin: 0 auto; height: 345px; background-color: #f5f4f5; }
 .ty_footerIn{ margin: 0 auto; 
 	.left{ float: left; padding-left: 200px;
@@ -216,7 +237,7 @@
 		}
 		h3{ height: 40px; line-height: 40px; padding-top: 5px; }
 	}
-	.ty_more{ margin: 64px auto 10px; width: 100px; height: 30px; line-height: 30px; font-size: 12px; }
+	.ty_more{ margin: 24px auto 15px; width: 100px; height: 30px; line-height: 30px; font-size: 12px; }
 	.ty_small_con:nth-child(odd){ float: right; }
 	.ty_footer{ height: auto; background-color: #f5f4f5; }
 	.ty_footerIn{ margin: 0 auto; display: inline-block;
@@ -281,3 +302,5 @@
 	.ty_wrapbac{ display: none; }
 	.news-inner .news-ct{ font-size: 12px; }
 }
+// 修改新增
+.ty_small_con_hide{ display: none; }

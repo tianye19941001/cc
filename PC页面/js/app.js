@@ -20,13 +20,43 @@ $(document).ready(function(){
 	        return IEMethod;
 	    };
 	}
-	alert(myBrowser());
+	
 	function stophref(e) {
 		if ( e && e.stopPropagation ){
 			e.stopPropagation(); 
 		}else{
 			window.event.cancelBubble = true;
 			return false;
+		}
+	}
+	$('.ty_more').on("click", function(e){
+		stophref(e);
+		var stepMore = 6;
+		var nums = parseInt($(".ty_small_con_hide").length);
+		if (nums >= stepMore) {
+			for (var i = 0; i < stepMore; i++) {
+				$(".ty_small_con_hide").eq(0).removeClass('ty_small_con_hide');
+			}
+		}else if(nums == 0){
+			alert("没有更多啦！")
+		}else{
+			for (var i = 0; i < nums; i++) {
+				$(".ty_small_con_hide").eq(0).removeClass('ty_small_con_hide');
+			}
+		}
+	});
+	if ( myBrowser() == 8 ) {
+		var clentWidth = document.body.clientWidth;
+		$(".ty_all").css("min-width","1270px");
+		if (clentWidth >= 1920) {
+			$(".ty_all,.ty_content,.ty_footerIn").css("width","1920px");
+			$(".ty_footer").css("min-width","1920px");
+		}else if( 1920 > clentWidth >= 1600 ){
+			$(".ty_all,.ty_content,.ty_footerIn").css("width","1600px");
+			$(".ty_footer").css("min-width","1600px");
+		}else if( 1599 > clentWidth >= 0 ){
+			$(".ty_all,.ty_content,.ty_footerIn").css("width","1280px");
+			$(".ty_footer").css("min-width","1280px");
 		}
 	}
 	if (document.body.clientWidth>=768) {
@@ -58,13 +88,14 @@ $(document).ready(function(){
 				$(this).parents('.newframe').removeClass("show");
 			}
 		});
+		
 	}else{
 		$(document).on("click",'.phone_menu', function(e){
 			stophref(e);
 			$(".ty_listbar .list1").addClass("showlist");
 			$(".ty_phone_bac").show();
 		});
-		$(document).on("touchend click",'.ty_phone_bac', function(e){
+		$(document).on("click",'.ty_phone_bac', function(e){
 			stophref(e);
 			$(".ty_listbar .list1").removeClass("showlist");
 			$(".ty_phone_bac").hide();
