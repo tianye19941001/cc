@@ -56,6 +56,17 @@
 	.pointr{ float: right; }
 }
 // 首页
+// 联系
+.happy_where_content{ width: 1200px; padding-top: 85px; margin: 0 auto; }
+.connect_type{ width: 100%; @extend .clearfix;
+	.list{ width: 33%; float: left; height: 34px; line-height: 17px; text-align: left; font-size: 13px; color: #727171; @extend .clearfix; }
+	.r,.l{ float: left; }
+	.icon_phone,.icon_email,.icon_location{ width: 35px; height: 34px; display: block;  @extend %ty_icon; margin-right: 46px; }
+	.icon_phone{ background-position: 0 -189px; }
+	.icon_email{ background-position: -35px -189px; }
+	.icon_location{ background-position: -70px -189px; }
+}
+
 // 招聘
 .happy_all_width{ width: 1280px; margin: 0 auto; padding: 50px 0;
 	.img_room{ width: 100%; display: block; }
