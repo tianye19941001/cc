@@ -50,6 +50,7 @@
 		>li{ float: left; width: 100px; height: 50px; font-size: 18px; line-height: 50px; text-align: center; color: #231815; transition: all .2s linear; -webkit-transition: all .2s linear; margin-right: 1px;
 			&:hover{ background: #ce2240; color: #fff; 
 				>a{ color: #fff; }
+				.list2{ display: block; }
 			}
 		}
 		>.on{ background: #ce2240; color: #fff; 
@@ -342,4 +343,4 @@
 // 修改新增
 .ty_small_con_hide{ display: none; }
 .ty_iframe{ width: 940-60-60px; padding: 0 60px; overflow: hidden; }
-.newframe_aboutO .open-news{ top: 50px; }
+.newframe_aboutO .open-news{ top: 10px; }

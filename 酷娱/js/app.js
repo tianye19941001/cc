@@ -100,14 +100,6 @@ $(document).ready(function(){
 		}
 	}
 	if (document.body.clientWidth>=768) {
-		$('#ty_works').hover(function(e){
-			stophref(e);
-			$(".list2").show();
-		});
-		$('.list2').mouseleave(function(e){
-			stophref(e);
-			$(".list2").hide();
-		});
 		$('#ty_tb').click(function(e){
 			stophref(e);
 			$('html,body').animate({scrollTop: $('.ty_footer').offset().top},600);
