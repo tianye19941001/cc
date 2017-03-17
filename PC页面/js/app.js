@@ -163,6 +163,7 @@ $(document).ready(function(){
 				$(".ty_content .menu").slideDown();
 			}
 		});
+		$(".ty_small_con img").height($(".ty_small_con img").width());
 		$(document).on("click",'.ty_big_con .imgs,.ty_small_con .imgs,.ty_small_con h3 a,.ty_detial2 .person li a', function(e){
 			stophref(e);
 			$('#ty_iframe').attr('src',$(this).attr('href'));
