@@ -37,8 +37,33 @@
 	.ty_all{ min-width: 1180px; }
 }
 
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
 
-.oh{ overflow: hidden; }
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-pagination-bullet-active{ background: #d8074b !important; }
+.oh{ overflow: hidden !important; }
 // 首页
 .ty_all{ margin: 0 auto; }
 .ty_header{ padding-top: 45px; height: 160px; }
@@ -68,6 +93,7 @@
 .ty_content{ padding: 0 10px; margin-left: -20px; }
 .ty_big_con{ float: left; width: 1240-80px; height: 820-40px; padding: 10px; background-color: #f5f4f5; margin-left: 20px;
 	img{ display: block; width: 1240-80px; height: 820-40px; }
+	.imgs{ display: block; width: 100%; height: 100%; }
 }
 .ty_small_con{ float: left; width: 300-20-20px; height: 405-20-20px; padding: 10px; background-color: #f5f4f5; transition: all .9s linear; -webkit-transition: all .9s linear; margin-left: 20px; margin-bottom: 840-405-405px;
 	img{ display: block; width: 260px; height: 260px; }
@@ -156,7 +182,7 @@
 	}
 }
 
-.newframe{ position:fixed; top:0; left:0; width:100%; height:100%; overflow-x:hidden; overflow-y:auto; display: none;
+.newframe{ position:fixed; top:0; left:0; width:100%; height:100%; overflow-x:hidden; overflow-y:auto; display: none; z-index: 2;
     -webkit-transition: all .3s ease-out;
     -moz-transition: all .3s ease-out;
     transition: all .3s ease-out;
@@ -244,7 +270,7 @@
 	}
 	.ty_small_con{ margin-left: 0; padding: 5px 5px 10px; box-sizing: border-box; width: 49%; height: auto; margin-bottom: 5px;
 		.imgs{ display: block; width: auto; height: auto; }
-		img{ width: 100%; height: auto; }
+		img{ width: 100% !important; height: auto !important; }
 		.bar{ display: none; }
 		.btns{ font-size: 10px; overflow: hidden; white-space: nowrap; height: 18px;
 			a{ height: 18px; line-height: 18px; padding: 0 6px;}

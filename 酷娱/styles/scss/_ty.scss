@@ -6,13 +6,14 @@
 %ty_black_bac15 { background: url('../images/blackbac15.png'); }
 
 // 公共部分
+.happy_body2{ background-color: #efeff2; }
 .happy_header{ position: fixed; top: 0; left: 0; width: 1280px; height: 58px; background-color: #fff; @extend .clearfix; left: 50%; margin-left: -640px;
 	.logo{ float: left; margin: 12px 0 0 74px; @extend .clearfix; padding-right: 50px; border-right: 2px solid #e1e1e1;
 		img{ display: block; float: left; }
 	}
 	.nav{ float: right; height: 58px; line-height: 58px; margin-right: 100px;
 		.list1{ @extend .clearfix; font-size: 12px;
-			>li{ width: 80px; float: left; text-align: center;
+			>li{ width: 80px; float: left; text-align: center; 
 				&:hover{
 					.list2{ display: block; }
 					>span,>a{border: 1px solid #e2497b; color: #d8074b; 
@@ -20,7 +21,7 @@
 					}
 				}
 			}
-			>li>span,>li>a{ color: #727171; cursor: pointer; display: inline-block; height: 26px; vertical-align: middle; line-height: 26px; padding: 0 3px; position: relative; 
+			>li>span,>li>a{ color: #727171; cursor: pointer; display: inline-block; height: 26px; vertical-align: middle; line-height: 26px; padding: 0 3px; position: relative; transition: all .2s linear; -webkit-transition: all .2s linear;
 			}
 			.icon_down{ display: none; width: 7px; height: 4px; position: absolute; right: -14px; top: 12px; @extend %ty_icon; background-position: 0 -260px; }
 			.on{ 
@@ -28,9 +29,9 @@
 				>a,span{border: 1px solid #e2497b; color: #d8074b;} 
 			}
 		}
-		.list2{ display: none; border-top: 5px solid #d7074b; width: 110px; padding: 0 10px; @extend %ty_black_bac15; margin-left: 20px;
+		.list2{ display: none; border-top: 5px solid #d7074b; width: 110px; padding: 0 10px; @extend %ty_black_bac15;  transition: all .4s linear; -webkit-transition: all .4s linear;margin-left: 20px;
 			li{ height: 36px; line-height: 36px; border-top: 1px dashed #727171; text-align: left;
-				a{ color: #c7c8c8; }
+				a{ color: #c7c8c8; transition: all .2s linear; -webkit-transition: all .2s linear; }
 				&:first-child{ border-top: 0; }
 				&:hover a{ color: #fff; 
 					.r{ display: block; margin-right: 10px; }
@@ -56,6 +57,13 @@
 	.pointr{ float: right; }
 }
 // 首页
+// 团队
+.happy_we{ width: 100%; padding-top: 108px;}
+.happy_we_leader{ width: 1280-30px; height: 440-36px; padding: 18px 16px; margin: 0 auto; background-color: #fff; background-color: #fff; }
+.happy_we_leaderIn{ @extend .clearfix; width: 1280-30-2px; height: 440-36-2px; border: 1px solid #c7c7c7;
+	.left{ float: left; width: 320px; height: 100%; }
+	.right{ float: right; width: 766px; height: 100%; }
+}
 // 联系
 .happy_where_content{ width: 1200px; padding-top: 85px; margin: 0 auto; }
 .connect_type{ width: 100%; @extend .clearfix;
@@ -68,15 +76,30 @@
 }
 .form_where{ padding-top: 66px;
 	.inps{ float: left; width: 370px; height: auto; margin: 0 30px 0 10px; }
-	.inp{ float: left; width: 368px; height: 43px; line-height: 43px; border: 1px solid #f5f5f5; margin-bottom: 12px; background-color: #f5f5f5; text-indent: 12px; 
+	.inp{ float: left; width: 368px; height: 43px; line-height: 43px; border: 1px solid #f5f5f5; margin-bottom: 12px; background-color: #f5f5f5; text-indent: 12px; outline: none;
 		&:focus{ border: 1px solid #d8074b; }
 	}
-	.area{ float: left; width: 768-40px; height: 158-40px;  border: 1px solid #f5f5f5; background-color: #f5f5f5; padding: 20px; margin-bottom: 12px; resize:none;
+	.area{ float: left; width: 768-40px; height: 158-40px;  border: 1px solid #f5f5f5; background-color: #f5f5f5; padding: 20px; margin-bottom: 12px; resize:none; outline: none;
 		&:focus{ border: 1px solid #d8074b; }
 	}
 	.inpsub{ display: block; overflow: hidden; width: 146px; height: 40px; line-height: 40px; margin: 0 auto; background-color: #d8074b; font-size: 17px; color: #fff; border: 0 ; 
 	}
 	.submit{ float: left; padding: 56px 0 88px; width: 100%; }
+}
+.happy_where_bottom{ padding: 80px 0 145px; text-align: left;
+	li{ float: left; width: 275-2px; height: 80-2px; border:1px solid #d7d7d7; overflow: hidden; position: relative; margin-left: 24px; transition: all .4s linear; -webkit-transition: all .4s linear;
+		&:first-child{ margin-left: 12px; }
+		a{ display: block; }
+		&:hover{ border: 1px solid #d8074b; 
+			.bar{ background-color: #d8074b; }
+		}
+	}
+	.bar{ position: absolute; left: 0; bottom: 0; display: block; width: 100%; height: 16px; background-color: #f5f5f5; transition: all .4s linear; -webkit-transition: all .4s linear; }
+	.happy_line{ width: 275-2-20px; margin: 0 auto; }
+	.p1{ height: 32px; line-height: 32px; color: #3e3a39; font-size: 15px; padding: 0 10px;
+		span{ font-size: 10px; color: #a2a2a2; }
+	}
+	.p2{ height: 28px; line-height: 28px; font-size: 10px; color: #727171; padding: 0 10px; }
 }
 // 招聘
 .happy_all_width{ width: 1280px; margin: 0 auto; padding: 50px 0;
@@ -99,7 +122,7 @@
 	.titIt{ height: 40px; line-height: 40px; font-size: 15px; color: #727171; 
 		.icon_down{  width: 19px; height: 18px;float: right; @extend %ty_icon; background-position: -99px -124px; margin-top: 11px; cursor: pointer; }
 	}
-	.allit{ padding: 10px 25px 20px 25px; background-color: #efeef3; display: none; transition: all .9s linear; -webkit-transition: all .9s linear;
+	.allit{ padding: 10px 25px 20px 25px; background-color: #efeef3; display: none; transition: all .4s linear; -webkit-transition: all .4s linear;
 		h5{ color: #868586; font-size: 11px; line-height: 20px; }
 		p{ color: #626262; font-size: 10px; line-height: 15px; }
 	}

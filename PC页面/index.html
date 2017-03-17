@@ -7,9 +7,11 @@
 	<meta name="format-detection" content="address=no">
 	<title>Document</title>
 	<link rel="stylesheet" href="styles/styles.css">
+	<link rel="stylesheet" href="styles/swiper.min.css">
 </head>
 <body>
 <div class="ty_all">
+
 	<!-- 头部logo和导航 -->
 	<div class="ty_header clearfix">
 		<a href="index.html" class="ty_logo"><img src="images/cc_logo.png" alt=""></a>
@@ -40,9 +42,37 @@
 	<!-- 主体部分-->
 	<div class="ty_content clearfix">
 		<div class="ty_big_con">
-			<a class="imgs" href="dialog_1_iframe.html" target="_blank">
-				<img src="images/temp/temp_1.png" alt="">
-			</a>
+			<!-- Swiper -->
+		    <div class="swiper-container">
+		        <div class="swiper-wrapper">
+		            <div class="swiper-slide">
+						<a class="imgs" href="dialog_1_iframe.html" target="_blank">
+							<img src="images/temp/temp_1.png" alt="">
+						</a>
+		            </div>
+		            <div class="swiper-slide">
+						<a class="imgs" href="dialog_1_iframe.html" target="_blank">
+							<img src="images/temp/temp_2.png" alt="">
+						</a>
+		            </div>
+		            <div class="swiper-slide">
+						<a class="imgs" href="dialog_1_iframe.html" target="_blank">
+							<img src="images/temp/temp_3.png" alt="">
+						</a>
+		            </div>
+		            <div class="swiper-slide">
+						<a class="imgs" href="dialog_1_iframe.html" target="_blank">
+							<img src="images/temp/temp_4.png" alt="">
+						</a>
+		            </div>
+		        </div>
+		        <!-- Add Pagination -->
+		        <div class="swiper-pagination"></div>
+		        <!-- Add Arrows -->
+		        <div class="swiper-button-next"></div>
+		        <div class="swiper-button-prev"></div>
+		    </div>
+			
 		</div>
 		<div class="ty_small_con">
 			<a class="imgs" href="dialog_1_iframe2.html" target="_blank">
@@ -273,6 +303,19 @@
 </div>
 <!-- 尾部end -->
 <script src="js/jquery.min.js"></script>
+<script src="js/swiper.jquery.min.js"></script>
 <script src="js/app.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: 3000
+    });
+</script>
 </body>
 </html>

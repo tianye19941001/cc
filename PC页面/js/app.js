@@ -123,6 +123,7 @@ $(document).ready(function(){
 		$(document).on("click",'.ty_big_con .imgs,.ty_small_con .imgs,.ty_small_con h3 a,.ty_detial2 .person li a', function(e){
 			stophref(e);
 			$('#ty_iframe').attr('src',$(this).attr('href'));
+			$('#ty_iframe').height(1000);
 			$('body').addClass('oh');
 			$('.newframe').height("100%").addClass("show");
 		});
@@ -164,6 +165,7 @@ $(document).ready(function(){
 			}
 		});
 		$(".ty_small_con img").height($(".ty_small_con img").width());
+		$(".ty_big_con img").height($(".ty_big_con img").width()/290*176);
 		$(document).on("click",'.ty_big_con .imgs,.ty_small_con .imgs,.ty_small_con h3 a,.ty_detial2 .person li a', function(e){
 			stophref(e);
 			$('#ty_iframe').attr('src',$(this).attr('href'));
