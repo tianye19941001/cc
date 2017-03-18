@@ -63,6 +63,8 @@
     align-items: center;
 }
 .swiper-pagination-bullet-active{ background: #d8074b !important; }
+body .swiper-button-next{ width: 23px; height: 43px; background-image: url("../images/ty_sp.png"); background-position: -31px -188px; -moz-background-size: auto auto; -webkit-background-size: auto auto; background-size: auto auto; }
+body .swiper-button-prev{ width: 23px; height: 43px; background-image: url("../images/ty_sp.png"); background-position: 0 -188px; -moz-background-size: auto auto; -webkit-background-size: auto auto; background-size: auto auto; }
 .oh{ overflow: hidden !important; }
 // 首页
 .ty_all{ margin: 0 auto; }
@@ -371,5 +373,6 @@
 }
 // 修改新增
 .ty_small_con_hide{ display: none; }
-.ty_iframe{ width: 940-60-60px; padding: 0 60px; overflow: hidden; }
+.ty_iframe{ width: 940-60-60px; padding: 0 60px; overflow: hidden; height: 400px; }
 .newframe_aboutO .open-news{ top: 10px; }
+
