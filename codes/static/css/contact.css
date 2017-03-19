@@ -1,0 +1,70 @@
+.h5 {
+  background: #6b6b6b;
+}
+.h5 .w2 {
+  width: 100%;
+  position: static;
+  left: 0px;
+  right: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.h5 .w2 img {
+  width: 100%;
+  display: block;
+}
+.h5 .w2 .des {
+  float: none;
+  width: 300px;
+  padding-bottom: 75px;
+  padding-top: 30px;
+  padding-left: 30px;
+  clear: both;
+}
+.top {
+  width: 100%;
+  display: block;
+}
+.w {
+  position: relative;
+}
+.w2 {
+  width: 60%;
+  /* position: absolute; */
+  /* margin: 0 auto; */
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+  /* left: inherit; */
+  left: 50%;
+  margin-left: -30%;
+}
+.w2 img {
+  display: block;
+  width: 50%;
+  float: left;
+}
+.w2 .des {
+  width: 50%;
+  float: left;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+.w2 .des .t {
+  color: #009e96;
+  font-size: 18px;
+  padding-bottom: 5px;
+  border-bottom: 1px #fff dashed;
+  /* border-style: dashed; */
+  margin-bottom: 10px;
+}
+.w2 .des .item {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 24px;
+  height: 24px;
+}
+.bg {
+  position: absolute;
+  display: block;
+  bottom: 90px;
+}

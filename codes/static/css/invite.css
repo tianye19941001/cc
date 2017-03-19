@@ -1,0 +1,95 @@
+.h5 .main {
+  width: 100%;
+  padding: 10px;
+}
+.h5 .main .t {
+  font-size: 24px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.h5 .content li {
+  float: none;
+  width: 100%;
+}
+.top {
+  width: 100%;
+  display: block;
+}
+body {
+  background: #1e1f23;
+}
+.icon {
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+  position: relative;
+  background: url('../img/add.png');
+  background-size: 100%;
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+  right: 150px;
+}
+li[data-index].active .icon {
+  background-size: 100%;
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+  right: 150px;
+  background-image: url('../img/min.png');
+}
+.main {
+  width: 820px;
+  margin: 0 auto;
+}
+.main .t {
+  color: #009e96;
+  font-size: 40px;
+  border-bottom: 1px dashed #fff;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.main .t1 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.main .t2 {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.content {
+  margin-bottom: 30px;
+}
+.content ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style: none;
+}
+.content ul li {
+  float: left;
+  width: 50%;
+  position: relative;
+  cursor: pointer;
+}
+.content ul li .tt {
+  color: #fff;
+  font-size: 14px;
+  line-height: 40px;
+  height: 40px;
+}
+.content ul li.des {
+  display: none;
+  width: 100%;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 0;
+}
+.content ul li.des.active {
+  display: block;
+}

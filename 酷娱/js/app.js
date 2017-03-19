@@ -56,6 +56,19 @@ $(document).ready(function(){
 			throw new Error('setIframeHeight Error');
 		}
 	}
+	$('.ty_flipster .lbtn,.happy_lr_btns .leftbtn').click(function(){
+		$('.flipster__button--prev').trigger('click');
+	});
+	$('.ty_flipster .rbtn,.happy_lr_btns .rightbtn').click(function(){
+		$('.flipster__button--next').trigger('click');
+	});
+	$('.happy_ZP_thing .icon_down').click(function(){
+		if ($(this).parent().parent().hasClass('on')) {
+			$(this).parent().parent().removeClass('on');
+		}else{
+			$(this).parent().parent().addClass('on');	
+		}
+	});
 	$('#ty_iframe').load(
         function(){
         	if ($(this).contents().find("body").find('.newframe_about').length > 0) {

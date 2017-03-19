@@ -76,7 +76,6 @@ $(document).ready(function(){
     			}else{
     				$('#ty_iframe').height($('#ty_iframe').contents().find("body").find(".news-article").height() + 15); 
     			}
-	             
 	    	}else{
 	            if ($('#ty_iframe').height()==($('#ty_iframe').contents().find("body").find(".news-article").height() + 55)) {
     				return false;
@@ -89,7 +88,10 @@ $(document).ready(function(){
     	}else if($('#ty_iframe').length=0){
     		clearInterval(iframeit);
     	}
-	},300);
+    	var minH = $(window).height();
+		$(".ty_wrapbac").css('min-height',minH+'px');
+		$(".ty_wrapbac").height($('#ty_iframe').height() + 70);
+	},200);
 	$('.ty_more').on("click", function(e){
 		stophref(e);
 		var stepMore = 6;
@@ -97,7 +99,7 @@ $(document).ready(function(){
 		if (nums >= stepMore) {
 			for (var i = 0; i < stepMore; i++) {
 				$(".ty_small_con_hide").eq(0).removeClass('ty_small_con_hide');
-			}
+			}Å
 		}else if(nums == 0){
 			alert("没有更多啦！")
 		}else{
@@ -121,7 +123,20 @@ $(document).ready(function(){
 		}
 	}
 	if (document.body.clientWidth>=768) {
+		var itsimg = setInterval(function(){
+			if ($('#ty_iframe').length>0 && $('#ty_iframe').attr('src')!='#') {
+	    		if ($('#ty_iframe').contents().find("body").find('.newframe_about').length > 0) {
+					$('#ty_iframe').contents().find("body").find(".news-inner .news-ct img").css({"width":"auto","height":"auto","max-width":"660px"});
+		    	}else{
+					$('#ty_iframe').contents().find("body").find(".news-inner .news-ct img").css({"width":"auto","height":"auto","max-width":"800px"});
 
+		    	}
+	    	}else if($('#ty_iframe').attr('src')=='#'){
+	    		return false;
+	    	}else if($('#ty_iframe').length=0){
+	    		clearInterval(itsimg);
+	    	}
+		},300);
 		$('#ty_tb').click(function(e){
 			stophref(e);
 			$('html,body').animate({scrollTop: $('.ty_footer').offset().top},600);
