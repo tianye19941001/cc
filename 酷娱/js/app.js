@@ -58,9 +58,11 @@ $(document).ready(function(){
 	}
 	$('.ty_flipster .lbtn,.happy_lr_btns .leftbtn').click(function(){
 		$('.flip-prev').trigger('click');
+		$('.slideBox .prev').trigger('click');
 	});
 	$('.ty_flipster .rbtn,.happy_lr_btns .rightbtn').click(function(){
 		$('.flip-next').trigger('click');
+		$('.slideBox .next').trigger('click');
 	});
 	if ($('.ty_flipster').length > 0) {
 		var flipIn = setInterval(function(argument) {

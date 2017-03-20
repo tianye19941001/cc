@@ -45,35 +45,17 @@
 <div class="happy_content happy_we2">
 	<div class="happy_con_in">
 		<div class="intro_top">
-			<div class="swiper-container">
-		        <div class="swiper-wrapper">
-		            <div class="swiper-slide">
-						<a class="imgs" href="dialog_1_iframe.html" target="_blank">
-							<img src="images/temp/temp8.png" alt=""> 
-						</a>
-		            </div>
-		            <div class="swiper-slide">
-						<a class="imgs" href="dialog_1_iframe.html" target="_blank">
-							<img src="images/temp/temp4.png" alt=""> 
-						</a>
-		            </div>
-		            <div class="swiper-slide">
-						<a class="imgs" href="dialog_1_iframe.html" target="_blank">
-							<img src="images/temp/temp7.png" alt=""> 
-						</a>
-		            </div>
-		            <div class="swiper-slide">
-						<a class="imgs" href="dialog_1_iframe.html" target="_blank">
-							<img src="images/temp/temp4.png" alt=""> 
-						</a>
-		            </div>
-		        </div>
-		        <!-- Add Pagination -->
-		        <!-- <div class="swiper-pagination"></div> -->
-		        <!-- Add Arrows -->
-		        <!-- <div class="swiper-button-next"></div> -->
-		        <!-- <div class="swiper-button-prev"></div> -->
-		    </div>
+			<div id="slideBox" class="slideBox">
+				<div class="bd">
+					<ul>
+						<li><a href="http://www.SuperSlide2.com" target="_blank"><img src="images/temp/temp4.png" /></a></li>
+						<li><a href="http://www.SuperSlide2.com" target="_blank"><img src="images/temp/temp7.png" /></a></li>
+						<li><a href="http://www.SuperSlide2.com" target="_blank"><img src="images/temp/temp8.png" /></a></li>
+					</ul>
+				</div>
+				<a class="prev" href="javascript:void(0)"></a>
+				<a class="next" href="javascript:void(0)"></a>
+			</div>
 			<div class="ty_flipster">
 				<div class="lbtn"><i></i></div>
 				<div class="rbtn"><i></i></div>
@@ -228,23 +210,10 @@
 </div>
 <script src="js/jquery.min.js"></script>
 <script src="js/app.js"></script>
-<script src="js/swiper.jquery.min.js"></script>
+<script src="js/jquery.SuperSlide.2.1.1.js"></script>
 <script>
-    var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        nextButton: '.rbtn,.rightbtn',
-        prevButton: '.lbtn,.leftbtn',
-        effect : 'fade',
-		fade: {
-		  crossFade: false,
-		},
-        slidesPerView: 1,
-        paginationClickable: true,
-        spaceBetween: 30,
-        loop: true,
-        autoplay: 3000,
-        speed: 1000
-    });
+	jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true,delayTime:1000});
 </script>
+
 </body>
 </html>
