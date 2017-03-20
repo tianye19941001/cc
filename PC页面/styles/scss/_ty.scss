@@ -62,9 +62,10 @@
     -webkit-align-items: center;
     align-items: center;
 }
-.swiper-pagination-bullet-active{ background: #d8074b !important; }
-body .swiper-button-next{ width: 23px; height: 43px; background-image: url("../images/ty_sp.png"); background-position: -31px -188px; -moz-background-size: auto auto; -webkit-background-size: auto auto; background-size: auto auto; }
-body .swiper-button-prev{ width: 23px; height: 43px; background-image: url("../images/ty_sp.png"); background-position: 0 -188px; -moz-background-size: auto auto; -webkit-background-size: auto auto; background-size: auto auto; }
+body .swiper-pagination-bullet{ background-color: #fff; opacity: 1; }
+body .swiper-pagination-bullet-active{ background: none; border: 2px solid #fff; position: relative; top: 2px; }
+body .swiper-button-next{ display: none; width: 23px; height: 43px; background-image: url("../images/ty_sp.png"); background-position: -31px -188px; -moz-background-size: auto auto; -webkit-background-size: auto auto; background-size: auto auto; }
+body .swiper-button-prev{ display: none; width: 23px; height: 43px; background-image: url("../images/ty_sp.png"); background-position: 0 -188px; -moz-background-size: auto auto; -webkit-background-size: auto auto; background-size: auto auto; }
 .oh{ overflow: hidden !important; }
 // 首页
 .ty_all{ margin: 0 auto; }

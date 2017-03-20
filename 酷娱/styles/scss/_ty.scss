@@ -25,6 +25,14 @@
 	0%{ left: -200px; }
 	100%{ left: -1px; }
 }
+@keyframes bar_leader2{
+	0%{ left: -300px; }
+	100%{ left: -1px; }
+}
+@-webkit-keyframes bar_leader2{
+	0%{ left: -300px; }
+	100%{ left: -1px; }
+}
 @keyframes img_leader{
 	0%{ top: -500px; }
 	100%{ top: 0; }
@@ -49,6 +57,16 @@
 @-webkit-keyframes all_width_img{
 	0%{ transform: scale(2); -webkit-transform: scale(2); }
 	70%{ transform: scale(.8); -webkit-transform: scale(.8); }
+	100%{ transform: scale(1); -webkit-transform: scale(1); }
+}
+@keyframes img_p1{
+	0%{ transform: scale(.5); -webkit-transform: scale(.5); }
+	70%{ transform: scale(1.5); -webkit-transform: scale(1.5); }
+	100%{ transform: scale(1); -webkit-transform: scale(1); }
+}
+@-webkit-keyframes img_p1{
+	0%{ transform: scale(.5); -webkit-transform: scale(.5); }
+	70%{ transform: scale(1.5); -webkit-transform: scale(1.5); }
 	100%{ transform: scale(1); -webkit-transform: scale(1); }
 }
 .happy_body2{ background-color: #efeff2; }
@@ -102,9 +120,9 @@
 	.pointr{ float: right; }
 }
 // 首页
-.index_con{ min-width: 1280px; padding-top: 100px; 
-	.flipster{ overflow: hidden; }
-	.zzsc-container{ overflow: hidden; height: 430px; position: relative;
+.index_con{ min-width: 1280px; padding-top: 140px;
+	.flipster{  }
+	.zzsc-container{ height: 450px; position: relative;
 		.Button { display: inline-block; margin: 0; background-color: #da0d25; background-position: center center; background-repeat: no-repeat; color: #7a0715; text-shadow: none; vertical-align: middle; cursor: pointer; border: 0; -ms-transition: color 300ms ease, background-color 300ms ease; -webkit-transition: color 300ms ease, background-color 300ms ease; -moz-transition: color 300ms ease, background-color 300ms ease; -o-transition: color 300ms ease, background-color 300ms ease; transition: color 300ms ease, background-color 300ms ease;
 		}
 		.Button:hover,.Button:focus { color: #7a0715; background: #f22840; }
@@ -140,7 +158,7 @@
 	}
 }
 .flipster__button{ display: none !important; }
-.happy_index_bottoms{ position: relative;
+.happy_index_bottoms{ position: relative; padding-top: 20px; width: 1280px; margin: 0 auto;
 	ul{ @extend .clearfix; }
 	li{ float: left; margin-right: 60px; position: relative; transition: all .2s linear; -webkit-transition: all .2s linear; overflow: hidden; padding-bottom: 40px; top: 0;
 		a{ display: block; @extend .clearfix; }
@@ -153,7 +171,7 @@
 			p{ color: #231815; }
 		}
 	}
-	.ty_more{ float: right; width: 72px; height: 18px; border: 1px solid #999; line-height: 18px;  text-align: center; color: #3e3a39; font-size: 7px; position: absolute; top: 5px; right: 6px; z-index: 2; }
+	.ty_more{ float: right; width: 72px; height: 18px; border: 1px solid #999; line-height: 18px;  text-align: center; color: #3e3a39; font-size: 7px; position: absolute; top: 25px; right: 6px; z-index: 2; }
 	.r_icon{ width: 262px; height: 3px; display: block; @extend %ty_icon2; background-position: -170px -463px; position: absolute; left: -300px; top: 30px; transition: all .2s linear; -webkit-transition: all .2s linear; }
 }
 
@@ -164,14 +182,17 @@
 .intro_con{ width: 1280px; height: auto; margin: 84px auto 0; }
 .intro_con_t{ width: 100%; height: 420px; position: relative; margin-bottom: 72px;
 	.left{ width: 590-2px; height: 420-2px; border: 1px solid #c8c8c8; float: left; position: relative; z-index: 1;
-		.bar{ position: absolute; width: 590px; height: 306px; z-index: 2; left: -1px; bottom: -1px; background-color: #d8074b; }
-		img{ position: absolute; display: block; width: 600px; height: 385px; top: 18px; left: 18px; box-shadow: 2px -2px 2px rgba(0,0,0,.3); z-index: 3; }
+		.bar{ position: absolute; width: 590px; height: 306px; z-index: 2; left: -1px; bottom: -1px; background-color: #d8074b; animation: bar_leader2 .3s linear; -webkit-animation: bar_leader2 .3s linear; }
+		img{ position: absolute; display: block; width: 600px; height: 385px; top: 18px; left: 18px; box-shadow: 2px -2px 2px rgba(0,0,0,.3); z-index: 3; animation: img_p1 .5s linear; -webkit-animation: img_p1 .5s linear; transition: all .2s linear; -webkit-transition: all .2s linear;
+			&:hover{ transform: scale(1.1); -webkit-transform: scale(1.1); }
+		}
 	}
 	.right{ float: right; width: 620px; height: 410px; padding-top: 10px; text-align: left; position: relative; z-index: 2; overflow: hidden;
 		.happy_titbar{
 			.t1{ color: #d7074b; }
 		}
-		.text{ color: #727171; font-size: 13px; line-height: 28px; text-indent: 28px; }
+		.text{ color: #727171; font-size: 13px; line-height: 28px; text-indent: 28px; display: none; }
+		.show{ display: block; }
 		.ty_more{ width: 110px; height: 30px; display: block; position: absolute; right: 0; bottom: 0; font-size: 10px; color: #fff; background-color: #c4c6d2; line-height: 30px; text-align: center; text-indent: 0; }
 		.dian{ @extend .clearfix; position: absolute; right: 12px; top: 15px;
 			i{ float: left; margin-left: 15px; width: 15px; height: 15px; border: 1px solid #898989; position: relative; cursor: pointer; }
@@ -411,7 +432,7 @@
 }
 
 .oh{ overflow: hidden; }
-.newframe{ position:fixed; top:0; left:0; width:100%; height:100%; overflow-x:hidden; overflow-y:auto; visibility:hidden; opacity:0;
+.newframe{ position:fixed; top:58px; left:0; width:100%; height:100%; overflow-x:hidden; overflow-y:auto; display: none; z-index: 6;
     -webkit-transition: all .3s ease-out;
     -moz-transition: all .3s ease-out;
     transition: all .3s ease-out;
@@ -419,7 +440,7 @@
 .newframe-wrap { width: 100%; height: 100%; display: table; position: relative; z-index: 2; }
 .ty_wrapbac{ position: absolute; left: 0;top: 0; z-index: 1; width: 100%; height: 100%; display: table; @extend %ty_black_bac; }
 .newframe-inner { display: table-cell; vertical-align: middle; }
-.newframe.show{ opacity:1; visibility:visible; 
+.newframe.show{ display: block;
 	.inner-right a b{ visibility:visible; }
 }
 .open-news { width: 940px; margin: 0px auto 0 auto; position: relative; background: #fff; }
@@ -436,6 +457,12 @@
 	.close:hover{ background:#e0244d url('../images/closeh.png') no-repeat 50% 50%; }
 	.weibo{ background:#242424 url('../images/weibo.png') no-repeat 50% 50%; }
 	.weibo:hover{ background:#e0244d url('../images/weiboh.png') no-repeat 50% 50%; }
+	.tt{ background:#242424 url('../images/tt.png') no-repeat 50% 50%; }
+	.tt:hover{ background:#e0244d url('../images/tth.png') no-repeat 50% 50%; }
+	.douban{ background:#242424 url('../images/douban.png') no-repeat 50% 50%; }
+	.douban:hover{ background:#e0244d url('../images/doubanh.png') no-repeat 50% 50%; }
+ 	.renren{ background:#242424 url('../images/renren.png') no-repeat 50% 50%; }
+	.renren:hover{ background:#e0244d url('../images/renrenh.png') no-repeat 50% 50%; }
 	.weixin{ background:#242424 url('../images/weixin.png') no-repeat 50% 50%; }
 	.weixin:hover{ background:#e0244d url('../images/weixinh.png') no-repeat 50% 50%; }
 	a:hover b{ visibility:hidden; opacity:0; }
@@ -448,25 +475,25 @@
 .crumbs li{ display:block; float:left; margin:0 2px; font-size:13px; color:#666; line-height:25px; }
 .crumbs li a{ display:block; font-size:13px; color:#666; line-height:25px; }
 .news-inner{ padding:40px 60px 60px; 
-	.news-ct{ line-height: 18/9.6*14.4px; color: #878787; font-size: 18/9.6*5.76px }
+	.news-ct{ line-height: 18/9.6*14.4px; color: #727171; font-size: 12px }
 	.pic{ margin-top: 20px;
-		img{ width: 640px; display: block; margin: 0 auto; }
+		img{ width: 100%; display: block; margin: 0 auto; }
 		.aboutpic{ padding-top: 10px; text-align: center; }
 	}
-	.text{ margin-top: 20px; }
-	.btns{ margin-top: 12px; 
-		a{ float: left; height: 24px; line-height: 24px; padding: 0 8px; background-color: #ce2240; color: #fff; margin-right: 1px; }
+	.text{ margin-top: 20px; text-indent: 24px; }
+	.btns{ margin-top: 50px; text-align: center;
+		a{ display: inline-block; height: 25px; line-height: 25px;width: 92px; background-color: #c4c6d2; color: #fff; text-align: center; }
+	}
+	.happy_titbar{ width: auto; padding: 0 20px; 
+		.t1{ color: #d7074b; }
 	}
 }
 .open-news{ width:940px; margin:0px auto 0 auto; position:relative; z-index: 2; background:#fff; }
 
 .news-article h4.maintitle{ color:#000; height:48px; line-height:50px; display:block; font-weight:500; font-size:20px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; padding-bottom: 20px; }
-.news-article h5.subtitle{ border-top:2px solid #878787; color:#666; padding:22px 0 10px 0; font-size:14px; }
-
+.news-article h5.subtitle{ color: #3e3a39; font-size: 16px; line-height: 25px; margin: 10px 0 30px; }
 .ty_phone_bac{ position: fixed; top: 0; left: 0; width: 100%; height: 100%; display: block; z-index: 5; background: rgba(0,0,0,0.2); display: none; }
 .ty_phone_title{ display: none; cursor: pointer; }
-
-
 .newframe_about{ 
 	.open-news{ margin-top: 0; width: 680px; }
 	.ty_iframe{ width: 680px; padding: 0; }
@@ -479,6 +506,34 @@
 	}
 }
 // 修改新增
+
+@media screen and (min-width:1px) and (max-width:1019px){
+	.open-news{ width: 100%; margin-bottom: 0; }
+	.news-article h4.maintitle{ text-align: center; padding-bottom: 0; height: 53px; line-height: 53px; }
+	.news-article h5.subtitle{ padding: 10px 0; }
+	.news-inner .pic img{ width: 80%; }
+	.news-inner .text{ margin-top: 10px; }
+	.newframe{ -webkit-overflow-scrolling : touch; top: 0; left: 0; bottom: 0; right: 0; z-index: 5; display: none; }
+	.newframe.show{ display: block; }
+	.news-inner{ padding: 53px 10px 10px; }
+	.ty_wrapbac{ display: none; }
+	.news-inner .news-ct{ font-size: 12px; 
+		img{ width: 100%; height: auto; }
+	}
+	body .newframe_about{ 
+		.open-news{ margin-top: 0; width: 100%; }
+		.news-inner{ padding: 10px; }
+		.news-inner .pic{ margin-top: 0; }
+		.news-inner .pic img{ width: 100%; margin: 0; }
+		.news-inner .text{ padding: 15px; margin-top: 0 ; line-height: 24px; margin-bottom: 10px; font-size: 13px; }
+		.name{ font-size: 24px; height: 40px; line-height: 40px; font-weight: 500; color: #434343; margin-bottom: 10px; 
+			em{ font-size: 18px; color: #999; margin-left: 10px; }
+		}
+	}
+	body .ty_iframe{ width: 100%; box-sizing:border-box; padding: 0 10px; }
+	body .newframe_about .ty_iframe{ width: 100%; box-sizing:border-box; padding: 0; padding-top: 50px; }
+	body .newframe_aboutO .open-news{ top: 0px; }
+}
 .ty_small_con_hide{ display: none; }
-.ty_iframe{ width: 940-60-60px; padding: 0 60px; overflow: hidden; }
+.ty_iframe{ width: 940-60-60px; padding: 0 60px; overflow: hidden; height: 400px; }
 .newframe_aboutO .open-news{ top: 15px; }
