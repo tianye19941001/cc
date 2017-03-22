@@ -168,8 +168,8 @@ body .swiper-button-prev{ display: none; width: 23px; height: 43px; background-i
 
 .ty_detial2{ width: 880px; float: right; 
 	.person{
-		li{ width: 400px; height: 305px; float: left; margin: 0 20px 30px 0; position: relative;
-			img{ display: block; width: 400px; height: 305px; }
+		li{ width: 270px; height: 205px; float: left; margin: 0 20px 30px 0; position: relative;
+			img{ display: block; width: 270px; height: 205px; }
 			&:hover{
 				.bar{ filter:alpha(opacity=100); -moz-opacity:1; opacity: 1; 
 					h3{ display: inline-block; }
@@ -178,8 +178,8 @@ body .swiper-button-prev{ display: none; width: 23px; height: 43px; background-i
 			>a{ display: block; }
 		}
 		.bar{ display: block; filter:alpha(opacity=0); -moz-opacity:0; opacity: 0; width: 100%; height: 100%; position: absolute; top: 0; left: 0; @extend %ty_red_bac; transition: all .3s linear; -webkit-transition: all .3s linear;  cursor: pointer; overflow: hidden;
-			h4{ color: #fff; padding: 40px 0 0 80px; font-size: 18/7.68*11.52px; }
-			p{ padding: 10px 30px 0 80px; font-size: 13px; color: #fff; }
+			h4{ color: #fff; padding: 40px 0 0 40px; font-size: 18/7.68*11.52px; }
+			p{ padding: 10px 30px 0 40px; font-size: 13px; color: #fff; }
 			h3{ display: none; position: absolute; left: 0; bottom: 0; padding: 20px 30px; font-size: 18/7.68*11.52px; color: #fff; transition: all .3s linear; -webkit-transition: all .3s linear; }
 		}
 	}
