@@ -188,8 +188,13 @@ body{ background-color: #f3f5f6; width: 100%; min-width: 1280px; overflow-x: hid
 	.main{ width: 1280px; position: relative; margin: 0 auto; }
 	.main>.p1{ width: 1000px; margin: 0 auto; padding-top: 85px; line-height: 28px; font-size: 15px; color: #fff; height: 140px; overflow: hidden; }
 	.lake_con3_icons{ @extend .clearfix; 
-		li{ float: left; width: 320px; height: 340-85px; text-align: center; position: relative; padding-top: 85px; }
-		.lake_con{ width: 110px; height: 111px; display: block; }
+		li{ float: left; width: 320px; height: 340-85px; text-align: center; position: relative; padding-top: 60px; -webkit-transition: all .5s ease-out; -moz-transition: all .5s ease-out; transition: all .5s ease-out; top: 0;	&:hover{ top: -40px; } 
+		}
+		.lake_icon{ width: 110px; height: 111px; display: block; margin: 0 auto; margin-bottom: 20px; }
+		.lake_con3_i1{ background: url(../images/lake_list1.png); }
+		.lake_con3_i2{ background: url(../images/lake_list2.png); }
+		.lake_con3_i3{ background: url(../images/lake_list3.png); }
+		.lake_con3_i4{ background: url(../images/lake_list4.png); }
 		h3{ height: 40px; line-height: 40px; font-size: 22px; color: #ffffff; position: relative;
 			i{ background-color: #ffd2a3; position: absolute; display: block; width: 110px; height: 1px; bottom: 0px; left: 50%; margin-left: -55px; }
 		}
@@ -206,34 +211,54 @@ body{ background-color: #f3f5f6; width: 100%; min-width: 1280px; overflow-x: hid
 		}
 	}
 	.btns{ text-align: center; 
-		i{ width: 39px; height: 38px; display: inline-block; }
+		i{ width: 39px; height: 38px; display: inline-block; cursor: pointer; }
 		.lbtn{ background-image: url(../images/left_btn.png); margin-right: 20px; }
 		.rbtn{ background-image: url(../images/right_btn.png); }
 	}
 }
-.lake_con5{ height: 436px; height: 436px; background-color: #d5d9dc;
+.lake_con5{ height: 436px; background-color: #d5d9dc; position: relative;
 	.poldiv{ left: -110px; }
-	.main{ position: relative; width: 1000px; margin: 0 auto; }
-	.c_type{ width: 100%; @extend .clearfix;
+	.main{ position: relative; width: 1000px; height: 100%; margin: 0 auto; position: relative; }
+	.c_type{ width: 100%; @extend .clearfix; padding-top: 92px;
 		.list{ width: 33%; float: left; height: 34px; line-height: 17px; text-align: left; font-size: 13px; color: #727171; @extend .clearfix; }
 		.r,.l{ float: left; }
-		.icon_phone,.icon_email,.icon_location{ width: 35px; height: 34px; display: block;  @extend %ty_icon; margin-right: 46px; }
+		.icon_phone,.icon_email,.icon_location{ width: 35px; height: 34px; display: block;  @extend %ty_icon; margin-right: 32px; }
 		.icon_phone{ background-position: 0 -189px; }
 		.icon_email{ background-position: -35px -189px; }
 		.icon_location{ background-position: -70px -189px; }
 	}
 	.form_where{ padding-top: 66px;
-		.inps{ float: left; width: 370px; height: auto; margin: 0 30px 0 10px; }
-		.inp{ float: left; width: 368px; height: 43px; line-height: 43px; border: 1px solid #f5f5f5; margin-bottom: 12px; background-color: #f5f5f5; text-indent: 12px; outline: none;
-			&:focus{ border: 1px solid #d8074b; }
+		.inps{ float: left; width: 316px; height: auto; margin: 0 25px 0 0; }
+		.inp{ float: left; width: 316px; height: 43px; line-height: 43px; margin-bottom: 12px; background-color: #f5f5f5; text-indent: 12px; outline: none; border: none;
+			&:focus{ background-color: #ff8607; color: #fff;
+				::-webkit-input-placeholder{color: #fff;}    
+				:-moz-placeholder{color: #fff;}                  
+				::-moz-placeholder{color: #fff;}              
+				:-ms-input-placeholder{color: #fff;} 
+			}
 		}
-		.area{ float: left; width: 768-40px; height: 158-40px;  border: 1px solid #f5f5f5; background-color: #f5f5f5; padding: 20px; margin-bottom: 12px; resize:none; outline: none;
-			&:focus{ border: 1px solid #d8074b; }
+		.area{ float: left; width: 619px; height: 158-40px; background-color: #f5f5f5; padding: 20px; margin-bottom: 12px; resize:none; outline: none; border: none; 
+			&:focus{ background-color: #ff8607; color: #fff;
+				::-webkit-input-placeholder{color: #fff;}    
+				:-moz-placeholder{color: #fff;}                  
+				::-moz-placeholder{color: #fff;}              
+				:-ms-input-placeholder{color: #fff;} 
+			}
 		}
 		.inpsub{ display: block; overflow: hidden; width: 146px; height: 40px; line-height: 40px; margin: 0 auto; background-color: #d8074b; font-size: 17px; color: #fff; border: 0 ; 
 		}
-		.submit{ float: left; padding: 56px 0 88px; width: 100%; }
+		.submit{ float: left; padding: 16px 0 0; width: 100%; }
 	}
+	.btns{ @extend .clearfix; position: absolute; bottom: 20px; left: 4px;
+		li{ float: left; margin-right: 8px; }
+		a{ width: 34px; height: 30px; display: block; 
+			&:hover{ background-color: #ff8607; }
+		}	
+	}
+	.weibo{ background:#9d9d9e url('../images/weiboh.png') no-repeat 50% 50%; }
+	.qq{ background:#9d9d9e url('../images/qq.png') no-repeat 50% 50%; }
+ 	.renren{ background:#9d9d9e url('../images/renrenh.png') no-repeat 50% 50%; }
+	.weixin{ background:#9d9d9e url('../images/weixinh.png') no-repeat 50% 50%; }
 }
 .lake_footer{ min-width: 1280px; width: 100%; height: 65px; line-height: 65px; position: relative; margin: 0 auto; background-color: #98a1a7;
 	.t1{ padding-right: 50px; color: #fff; font-size: 13px; text-align: right; background-color: #98a1a7; }
