@@ -99,7 +99,7 @@ $(document).ready(function(){
 		if (nums >= stepMore) {
 			for (var i = 0; i < stepMore; i++) {
 				$(".ty_small_con_hide").eq(0).removeClass('ty_small_con_hide');
-			}Å
+			}
 		}else if(nums == 0){
 			alert("没有更多啦！")
 		}else{

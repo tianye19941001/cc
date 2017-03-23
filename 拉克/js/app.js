@@ -62,4 +62,44 @@ $(document).ready(function(){
 	$('.lake_lunbo_control .rbtn').click(function(){
 		$('.slideBox .next').trigger('click');
 	});
+
+	function movescroll(btn,to) {
+		$('html,body').animate({scrollTop: $(to).offset().top-60},600);
+	}
+	$('.lake_header_list li').click(function(){
+		var thisIndex = parseInt($('.lake_header_list li').index($(this)));
+		switch (thisIndex){
+			case 0:
+				movescroll($(this),'.lake_con2');
+				break;
+			case 1:
+				movescroll($(this),'.lake_con3');
+				break;
+			case 2:
+				movescroll($(this),'.lake_con4');
+				break;
+			case 3:
+				movescroll($(this),'.lake_con5');
+				break;
+			default:
+				break;
+		}
+	});
+	$(window).scroll(function() {
+  		var listNT = parseInt(document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop);
+  		var t1 = parseInt($('.lake_con2').offset().top),
+  			t2 = parseInt($('.lake_con3').offset().top),
+  			t3 = parseInt($('.lake_con4').offset().top),
+  			t4 = parseInt($('.lake_con5').offset().top);
+  		if ( t2 > listNT  && listNT > t1 ) {
+  			console.log(110);
+  			$('.lake_header_list li').eq(0).addClass('on').siblings().removeClass('on');
+  		}else if( t3 > listNT  && listNT > t2 ){
+  			$('.lake_header_list li').eq(1).addClass('on').siblings().removeClass('on');
+  		}else if( t4 > listNT  && listNT > t3 ){
+  			$('.lake_header_list li').eq(2).addClass('on').siblings().removeClass('on');
+  		}else if( listNT > t4 ){
+  			$('.lake_header_list li').eq(3).addClass('on').siblings().removeClass('on');
+  		}
+	});
 });
