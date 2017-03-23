@@ -18,12 +18,15 @@
 		.news-article h5.subtitle{ padding: 10px 0 0; }
 		.ty_small_con h3{ height: 50px; line-height: 50px; }
 		.news-inner .text{ margin-top: 15px; }
-		.ty_listbar .list2{ padding-top: 20px; }
-		.ty_header{ height: 130px; }
+		.ty_listbar .list2{ padding-top: 6px; }
+		.ty_header{ height: 100px; }
 		.ty_detial .t1{ margin-bottom: 18px }
 		.ty_detial2 .person .bar h4{ font-size: 24px; padding-left: 40px }
 		.ty_detial2 .person .bar h3{ font-size: 24px; }
 		.ty_detial2 .person .bar p{ padding-left: 40px }
+		.ty_big_con { height: 600px;
+			img{ margin-top: -90px; }
+		}
 	}
 }
 @media screen and (min-width:1500px) and (max-width:1880px){
