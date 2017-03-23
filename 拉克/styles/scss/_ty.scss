@@ -5,14 +5,15 @@
 %ty_where_bac { background: url('../images/where_bac.png'); }
 %ty_black_bac { background: url('../images/ty_black_bac.png'); }
 %ty_black_bac15 { background: url('../images/blackbac15.png'); }
-@media screen and (min-width:0px) and (max-width:1279px){
+@media screen and (min-width:0px) and (max-width:1439px){
 	body .lake_con{
-		.poldiv{ position: absolute; left: -180px; top: 85px; }
+		.main .poldiv{ display: none; }
 	}
 }
-@media screen and (min-width:1280px) and (max-width:1880px){
+@media screen and (min-width:1440px) and (max-width:1520px){
 	body .lake_con{
-		.poldiv{ position: absolute; left: -180px; top: 85px; }
+		.poldiv{ left: -75-140px; }
+		.lake_con3 .poldiv,.lake_con4 .poldiv{ left: -75px; }
 	}
 }
 // 公共部分
@@ -126,7 +127,7 @@ body{ background-color: #f3f5f6; width: 100%; min-width: 1280px; overflow-x: hid
 	}
 }
 .lake_con{ width: 100%; min-width: 1280px; padding-top: 60px;
-	.poldiv{ position: absolute; left: -180px; top: 85px; 
+	.poldiv{ position: absolute; left: -180px; top: 85px; -webkit-transition: all .5s ease-out; -moz-transition: all .5s ease-out; transition: all .5s ease-out;
 		.p1{ font-size: 32px; color: #4c4948; line-height: 36px;
 			span{ font-size: 14px; color: #929292; }
 		}
@@ -213,12 +214,13 @@ body{ background-color: #f3f5f6; width: 100%; min-width: 1280px; overflow-x: hid
 }
 .lake_con4{ width: 100%; min-width: 1280px; height: 650px;
 	.poldiv{ left: -110px; }
-	.main{ width: 1280px; margin: 0 auto; position: relative; }
-	.cops{ @extend .clearfix; width: 1280+75px; margin-left: -75px;	padding-top: 132px;
+	.main{ width: 1280px; margin: 0 auto; position: relative; height: 546px; }
+	.cops{ @extend .clearfix; width: 1280+75px; margin-left: -75px;	padding-top: 132px; display: none;
 		li{ float: left; margin: 0 0 75px 75px; width: 196px; height: 132px; 
 			&:hover{ background-color: #fff; box-shadow: 3px 3px 3px rgba(0,0,0,.3) }
 		}
 	}
+	.show{ display: block; }
 	.btns{ text-align: center; 
 		i{ width: 39px; height: 38px; display: inline-block; cursor: pointer; }
 		.lbtn{ background-image: url(../images/left_btn.png); margin-right: 20px; }

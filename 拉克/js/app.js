@@ -57,10 +57,10 @@ $(document).ready(function(){
 		}
 	}
 	$('.lake_lunbo_control .lbtn').click(function(){
-		$('.slideBox .prev').trigger('click');
+		$('.lake_con1 .slideBox .prev').trigger('click');
 	});
 	$('.lake_lunbo_control .rbtn').click(function(){
-		$('.slideBox .next').trigger('click');
+		$('.lake_con1 .slideBox .next').trigger('click');
 	});
 
 	function movescroll(btn,to) {
@@ -87,19 +87,47 @@ $(document).ready(function(){
 	});
 	$(window).scroll(function() {
   		var listNT = parseInt(document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop);
-  		var t1 = parseInt($('.lake_con2').offset().top),
-  			t2 = parseInt($('.lake_con3').offset().top),
-  			t3 = parseInt($('.lake_con4').offset().top),
-  			t4 = parseInt($('.lake_con5').offset().top);
+  		var t1 = parseInt($('.lake_con2').offset().top-200),
+  			t2 = parseInt($('.lake_con3').offset().top-200),
+  			t3 = parseInt($('.lake_con4').offset().top-200),
+  			t4 = parseInt($('.lake_con5').offset().top-200);
   		if ( t2 > listNT  && listNT > t1 ) {
-  			console.log(110);
   			$('.lake_header_list li').eq(0).addClass('on').siblings().removeClass('on');
   		}else if( t3 > listNT  && listNT > t2 ){
   			$('.lake_header_list li').eq(1).addClass('on').siblings().removeClass('on');
   		}else if( t4 > listNT  && listNT > t3 ){
   			$('.lake_header_list li').eq(2).addClass('on').siblings().removeClass('on');
-  		}else if( listNT > t4 ){
+  		}
+  		if( listNT >= 2773 ){
   			$('.lake_header_list li').eq(3).addClass('on').siblings().removeClass('on');
   		}
 	});
+	$('.lake_con4 .rbtn').click(function(){
+		if($('.lake_con4 ul').is(":animated")){
+			return false;
+		} else{
+			var indexcop = $('.lake_con4 ul').index($('.lake_con4 .show')),
+				lengthcop = $('.lake_con4 ul').length - 1;
+			if (lengthcop == indexcop) {
+				return false;
+			}else{
+				$('.lake_con4 .show').removeClass('show');
+				$('.lake_con4 .cops').eq(indexcop+1).addClass('show');
+			}
+		}
+	})
+	$('.lake_con4 .lbtn').click(function(){
+		if($('.lake_con4 ul').is(":animated")){
+			return false;
+		} else{
+			var indexcop = $('.lake_con4 ul').index($('.lake_con4 .show')),
+				lengthcop = $('.lake_con4 ul').length - 1;
+			if (indexcop == 0) {
+				return false;
+			}else{
+				$('.lake_con4 .show').removeClass('show');
+				$('.lake_con4 .cops').eq(indexcop-1).addClass('show');
+			}
+		}
+	})
 });
