@@ -355,6 +355,11 @@
 			.ty_more{ float: right; }
 		}
 	}
+	.ty_moreB{ text-align: center; 
+		a{ width: 96*2px; height: 50px; display: inline-block; line-height: 50px; text-align: center; background-color: #c4c6d2; color: #fff; font-size: 14px; transition: all .2s linear; -webkit-transition: all .2s linear; margin: 40px 0 80px; 
+			&:hover{ background-color: #d8074b; }
+		}
+	}
 }
 // 团队
 .happy_we{ width: 100%; padding-top: 108px;}
