@@ -1,0 +1,62 @@
+@charset "utf-8";
+%ty_icon { background: url("../images/ty_sp.png") no-repeat 0 0; }
+%ty_icon2 { background: url("../images/ty_sp2.png") no-repeat 0 0; }
+%ty_red_bac { background: url('../images/ty_red_bac.png'); }
+%ty_where_bac { background: url('../images/where_bac.png'); }
+%ty_black_bac { background: url('../images/ty_black_bac.png'); }
+%ty_black_bac15 { background: url('../images/blackbac15.png'); }
+@media screen and (min-width:0px) and (max-width:1459px){
+	
+}
+@media screen and (min-width:1460px) and (max-width:1540px){
+	
+}
+@function pxt($px){
+	@return $px/1.5*1px;
+}
+@function pxt2($px){
+	@return $px/1.2*1px;
+}
+// 公共部分
+.wx_header{ width: 100%; min-width: 1280px; background-color: #fff;
+	.logo{ width: pxt(191); float: left; padding: pxt(25) pxt(35) pxt(60) pxt(50);
+		img{ display: block; width: 100%; height: auto; }
+	}
+	.leftlist{ margin-left: pxt(191+85); font-family: "黑体"; padding-top: pxt(50); 
+		.tit{ font-size: pxt(25); color: #000; padding-left: pxt(15); }
+		.tit2{ font-size: pxt(45); color: #000; font-style: italic; font-family: "Arial"; padding-left: pxt(15); }
+	}
+	.list1{ float: left; }
+	.list2{ float: right; }
+	.navlist{ @extend .clearfix;
+		ul{ @extend .clearfix; }
+		li{ float: left; 
+			a{ font-size: pxt(22); color: #000; display: block; text-align:justify; text-justify:inter-word; min-width: pxt(60); margin-right: 10px; padding: 6px 15px; line-height: 20px; height: 42px;
+				span{ display: inline-block; text-align: center; width: 100%; }
+				&:after{ display:inline-block; overflow:hidden; width:100%; height:0; content:''; vertical-align:top; }
+			}
+		}
+		.list1{
+			a{
+				&:hover{ color: #c1c1c1; }
+			}
+			.on{
+				a{ color: #fff; background-color: #1994e1; border-radius: 3px; }
+			}
+		}
+		.list2{
+			a{
+				&:hover{ color: #1994e1; }
+			}
+		}
+	}
+}
+.wx_con{
+	.con_all{ width: 100%; min-width: 1280px; 
+		.wx_lunbo{ width: 100%; height: 100%;
+			img{ width: 100%; width: 100%; display: block; }
+		}
+	}
+}
+.wx_about{ background-color: #e7e7e7; height: pxt(456);
+}
