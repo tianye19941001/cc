@@ -340,10 +340,10 @@
 // 出品
 .happy_product{ width: 1100px; margin: 0 auto; padding-top: 100px;
 	.happy_con_in{ margin-bottom: 20px; }
-	.happy_we_leader{ width: 1100-30px; height: 440-36-100-50px; padding: 18px 16px; margin: 0 auto; background-color: #fff; background-color: #fff; position: relative; 
-		.bar{ width: 318px; height: 266-50px; position: absolute; display: block; background-color: #d8074b; left: -1px; bottom: -1px; z-index: 1; animation: bar_leader .8s ease-in-out; -webkit-animation: bar_leader .8s ease-in-out; opacity: 1; filter: alpha(opacity=100); }
+	.happy_we_leader{ width: 1100-30px; height: 440-36-100-70px; padding: 18px 16px; margin: 0 auto; background-color: #fff; background-color: #fff; position: relative; 
+		.bar{ width: 318px; height: 266-100px; position: absolute; display: block; background-color: #d8074b; left: -1px; bottom: -1px; z-index: 1; animation: bar_leader .8s ease-in-out; -webkit-animation: bar_leader .8s ease-in-out; opacity: 1; filter: alpha(opacity=100); }
 	}
-	.happy_we_leaderIn{ @extend .clearfix; width: 1100-30-2-24px; height: 440-36-2-24-100-50px; border: 1px solid #c7c7c7; padding: 12px; position: relative;
+	.happy_we_leaderIn{ @extend .clearfix; width: 1100-30-2-24px; height: 440-36-2-24-100-70px; border: 1px solid #c7c7c7; padding: 12px; position: relative;
 		.left{ float: left; width: 320px; height: 100%; 
 			img{ display: block; width: 320px; height: 100%; position: relative; z-index: 2; top: 0; animation: img_leader 1.3s ease-in-out; -webkit-animation: img_leader 1.3s ease-in-out; }
 		}
@@ -351,7 +351,7 @@
 			.name{ font-size: 24px; color: #d7074b; padding-top: 6px;
 				a{ color: #3e3a39; }
 			}
-			.about{ padding-top: 15px; }
+			.about{ padding-top: 15px; height: 120px; }
 			.ty_more{ float: right; }
 		}
 	}
@@ -360,6 +360,7 @@
 			&:hover{ background-color: #d8074b; }
 		}
 	}
+	.happy_con_in_hide{ display: none; }
 }
 // 团队
 .happy_we{ width: 100%; padding-top: 108px;}
