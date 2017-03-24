@@ -60,6 +60,18 @@ body{ font-family: "黑体"; }
 	}
 	.btn{ display: inline-block; width: pxt2(230); height: pxt2(56); line-height: pxt2(56); color: #1994e1; border: 2px solid #1994e1; font-size: pxt2(25); text-align: center; font-size: pxt2(30); }
 }
+.wx_footer{ width: 100%; min-width: 1280px; height: pxt2(360); background-color: #fff; }
+.wx_footerIn{ width: 1280px; margin: 0 auto; @extend .clearfix; font-size: pxt2(25);
+	.ewm{ float: left; width: pxt2(164); margin-right: pxt2(60); padding-top: pxt2(70);  text-align: center;
+		img{ width: 100%; }
+		p{ width: 100%; padding-top: 12px; } 
+	}
+	.detial{ float: left; line-height: pxt2(38); padding: pxt2(70) 0 0 pxt2(90); }
+	.connect{ float: right; padding-top: pxt2(70); line-height: pxt2(38);
+		.p2{ font-size: pxt2(38); }
+	}
+}
+// 
 .wx_about{ background-color: #e7e7e7; height: pxt2(456); @extend .clearfix; width: 100%; min-width: 1280px;
 	.wx_aboutIn{ width: 1280px; margin: 0 auto; position: relative; }
 	.limg{ width: pxt2(430-44); height: pxt2(514-44); padding: pxt2(22); position: absolute; top: pxt2(-133); left: 10px;
@@ -86,13 +98,17 @@ body{ font-family: "黑体"; }
 	.btn{ margin-top: pxt2(50); }
 }
 .wx_studio{ background-color: #e7e7e7; height: pxt2(915); width: 100%; min-width: 1280px; }
-.wx_studioIn{ width: 1280px; margin: 0 auto; 
+.wx_studioIn{ width: 1280px; margin: 0 auto; position: relative; @extend .clearfix;
 	.leftdiv{ float: left; width: pxt2(920); 
 		h3{ font-size: pxt2(38); padding-top: pxt2(120); }
-		.de{ font-size: pxt2(25); padding-top: pxt2(20); }
+		.de{ font-size: pxt2(25); padding-top: pxt2(26); line-height: 40px; }
 	}
 	.deimg{ padding-top: pxt2(70);
 		img{ width: pxt2(362); height: pxt2(350); float: left; }
+		p{ float: right; width: pxt2(480); font-size: pxt2(25); line-height: 38px; }
+		.btn{ float: left; margin-left: 68px; margin-top: 50px; }
 	}
-	.rightdiv{ float: right; width: pxt2(530); }
+	.rightdiv{ float: right; width: pxt2(530); padding-top: pxt2(120); 
+		h4{ color: #1994e1; font-size: pxt2(63); line-height: pxt2(70); position: absolute; right: 0; bottom: 0; }
+	}
 }
