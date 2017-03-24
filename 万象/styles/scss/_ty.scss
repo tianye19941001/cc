@@ -112,3 +112,16 @@ body{ font-family: "黑体"; }
 		h4{ color: #1994e1; font-size: pxt2(63); line-height: pxt2(70); position: absolute; right: 0; bottom: 0; }
 	}
 }
+// 视频内容页面
+.video_con{ width: 100%; min-width: 1280px; @extend .clearfix; overflow: hidden;
+	.leftbar{ float: left; width: 25%; color: #fff; background-color: #000; padding-bottom: 2000px; margin-bottom: -2000px; }
+	.rightbar{ float: left; width: 75%; padding-bottom: 2000px; margin-bottom: -2000px; 
+		img{ width: 100%; }
+	}
+	.leftbarIn{ padding: 0 8% 0 10%; 
+		h2{ font-size: pxt2(38); padding: 30px 0 50px; }
+		h3{ font-size: pxt2(38); padding: 30px 0 20px; }
+		p{ font-size: pxt2(25); line-height: 40px; }
+		img{ width: auto; max-width: 100%; }
+	}
+}
