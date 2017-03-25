@@ -1,5 +1,18 @@
 
 $(document).ready(function(){
+	function autoheight(){
+		var Nwidth = $(window).width(),
+			Nheight = Nwidth/1920*800;
+		if (Nwidth > 1280) {
+			$('.video_con,.wx_list_f').height(Nheight);
+		}else{
+			$('.video_con,.wx_list_f').height(1280/1920*800);
+		}
+	}
+	autoheight();
+	$(window).resize(function() {
+ 		autoheight();
+	});
 	function myBrowser(){
 		var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
 	    var isOpera = userAgent.indexOf("Opera") > -1;

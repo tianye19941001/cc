@@ -35,16 +35,37 @@
 </div>
 <div class="wx_con">
 	<div class="video_con">
-		<div class="leftbar">
-			<div class="leftbarIn">
-				<h2>Red wine estate</h2>
-				<p>Famous French wine, can be made into red wine mask, a variety of cosmetics series,  is a popular modern cosmetics. Can drink cosmetics from china.</p>
-				<h3>制作花絮</h3>
-				<img src="images/temp/temp12.png" alt="">
+		<div id="slideBox" class="slideBox">
+			<div class="bd">
+				<ul>
+					<li>
+						<ul class="wx_list_f">
+							<li><a href=""><img src="images/temp/temp14.png" /></a></li>
+							<li><a href=""><img src="images/temp/temp15.png" /></a></li>
+							<li><a href=""><img src="images/temp/temp16.png" /></a></li>
+							<li><a href=""><img src="images/temp/temp17.png" /></a></li>
+						</ul>
+					</li>
+					<li>
+						<ul class="wx_list_f">
+							<li><a href=""><img src="images/temp/temp14.png" /></a></li>
+							<li><a href=""><img src="images/temp/temp14.png" /></a></li>
+							<li><a href=""><img src="images/temp/temp14.png" /></a></li>
+							<li><a href=""><img src="images/temp/temp14.png" /></a></li>
+						</ul>
+					</li>
+					<li>
+						<ul class="wx_list_f">
+							<li><a href=""><img src="images/temp/temp15.png" /></a></li>
+							<li><a href=""><img src="images/temp/temp15.png" /></a></li>
+							<li><a href=""><img src="images/temp/temp15.png" /></a></li>
+							<li><a href=""><img src="images/temp/temp15.png" /></a></li>
+						</ul>
+					</li>
+				</ul>
 			</div>
-		</div>
-		<div class="rightbar">
-			<img src="images/temp/temp13.png" alt="">
+			<a class="prev" href="javascript:void(0)"></a>
+			<a class="next" href="javascript:void(0)"></a>
 		</div>
 	</div>
 </div>
@@ -73,7 +94,7 @@
 <script src="js/app.js"></script>
 <script src="js/jquery.SuperSlide.2.1.1.js"></script>
 <script>
-	jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true,delayTime:1000,mouseOverStop:false,interTime:5000});
+	jQuery(".slideBox").slide({mainCell:".bd>ul",autoPlay:true,delayTime:1000,mouseOverStop:true,interTime:5000});
 </script>
 </body>
 </html>
