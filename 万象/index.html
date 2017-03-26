@@ -7,6 +7,7 @@
 	<meta name="format-detection" content="address=no">
 	<title>Document</title>
 	<link rel="stylesheet" href="styles/styles.css">
+	<script src="js/jquery.min.js"></script>
 </head>
 <body>
 
@@ -28,8 +29,16 @@
 				<li><a href=""><span>about</span><br>关于我们</a></li>
 				<li><a href=""><span>business</span><br>业务介绍</a></li>
 				<li><a href=""><span>studio</span><br>影棚</a></li>
-				<li><a href=""><span>contact</span><br>联系方式</a></li>
+				<li id="contact"><a href=""><span>contact</span><br>联系方式</a></li>
 			</ul>
+		</div>
+	</div>
+	<div class="contact_bar header_contact">
+		<div class="tit">联系我们	<i class="icon_close">x</i></div>
+		<div class="con">
+			<img src="images/temp/temp2.png" />
+			<p class="p1">010-67788829 <br>010-67788839</p>
+			<p class="p2">北京朝阳区百子湾路29号I工场文化产业园1号库 <br>邮编100022 <br> No.1 Warehouse of i-works <br>  Culture Industry Cluster, <br>No.29 Baiziwan Road,Chaoyang District</p>
 		</div>
 	</div>
 </div>
@@ -76,24 +85,56 @@
 				<h3>平面摄影</h3>
 				<p>The most <br> professional photographers <br> team, <br> car photography, <br> advertising photography, <br> e-commerce photography.</p>
 				<a class="btn" href="">Detials</a>
+				<div class="contact_bar">
+					<div class="tit">平面摄影	<i class="icon_close">x</i></div>
+					<div class="con">
+						<img src="images/temp/temp2.png" />
+						<p class="p1">010-67788829 <br>010-67788839</p>
+						<p class="p2">北京朝阳区百子湾路29号I工场文化产业园1号库 <br>邮编100022 <br> No.1 Warehouse of i-works <br>  Culture Industry Cluster, <br>No.29 Baiziwan Road,Chaoyang District</p>
+					</div>
+				</div>
 			</li>
 			<li>
 				<img src="images/temp/temp5.png" alt="">
 				<h3>平面摄影</h3>
 				<p>The most <br> professional photographers <br> team, <br> car photography, <br> advertising photography, <br> e-commerce photography.</p>
 				<a class="btn" href="">Detials</a>
+				<div class="contact_bar">
+					<div class="tit">平面摄影	<i class="icon_close">x</i></div>
+					<div class="con">
+						<img src="images/temp/temp2.png" />
+						<p class="p1">010-67788829 <br>010-67788839</p>
+						<p class="p2">北京朝阳区百子湾路29号I工场文化产业园1号库 <br>邮编100022 <br> No.1 Warehouse of i-works <br>  Culture Industry Cluster, <br>No.29 Baiziwan Road,Chaoyang District</p>
+					</div>
+				</div>
 			</li>
 			<li>
 				<img src="images/temp/temp6.png" alt="">
 				<h3>平面摄影</h3>
 				<p>The most <br> professional photographers <br> team, <br> car photography, <br> advertising photography, <br> e-commerce photography. <br> e-commerce photography. <br> e-commerce photography.</p>
 				<a class="btn" href="">Detials</a>
+				<div class="contact_bar">
+					<div class="tit">平面摄影	<i class="icon_close">x</i></div>
+					<div class="con">
+						<img src="images/temp/temp2.png" />
+						<p class="p1">010-67788829 <br>010-67788839</p>
+						<p class="p2">北京朝阳区百子湾路29号I工场文化产业园1号库 <br>邮编100022 <br> No.1 Warehouse of i-works <br>  Culture Industry Cluster, <br>No.29 Baiziwan Road,Chaoyang District</p>
+					</div>
+				</div>
 			</li>
 			<li>
 				<img src="images/temp/temp7.png" alt="">
 				<h3>平面摄影</h3>
 				<p>The most <br> professional photographers <br> team, <br> car photography, <br> advertising photography, <br> e-commerce photography.</p>
 				<a class="btn" href="">Detials</a>
+				<div class="contact_bar">
+					<div class="tit">平面摄影	<i class="icon_close">x</i></div>
+					<div class="con">
+						<img src="images/temp/temp2.png" />
+						<p class="p1">010-67788829 <br>010-67788839</p>
+						<p class="p2">北京朝阳区百子湾路29号I工场文化产业园1号库 <br>邮编100022 <br> No.1 Warehouse of i-works <br>  Culture Industry Cluster, <br>No.29 Baiziwan Road,Chaoyang District</p>
+					</div>
+				</div>
 			</li>
 		</ul>
 	</div>
@@ -136,10 +177,14 @@
 	</div>
 </div>
 
-<script src="js/jquery.min.js"></script>
+
 <script src="js/app.js"></script>
 <script src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script src="js/divscroll.js"></script>
 <script>
+	$(function() {
+		$('.contact_bar .con').perfectScrollbar();
+	});
 	jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true,delayTime:1000,mouseOverStop:false,interTime:5000});
 </script>
 </body>

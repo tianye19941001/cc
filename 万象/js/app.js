@@ -9,6 +9,7 @@ $(document).ready(function(){
 			$('.video_con,.wx_list_f').height(1280/1920*800);
 		}
 	}
+	$('.wlIn li').height($('.wlIn li').width());
 	autoheight();
 	$(window).resize(function() {
  		autoheight();
@@ -75,7 +76,8 @@ $(document).ready(function(){
 	$('.lake_lunbo_control .rbtn').click(function(){
 		$('.lake_con1 .slideBox .next').trigger('click');
 	});
-
+	$('.wx_business .contact_bar').eq(2).addClass('contact_bar2');
+	$('.wx_business .contact_bar').eq(3).addClass('contact_bar2');
 	function movescroll(btn,to) {
 		$('html,body').animate({scrollTop: $(to).offset().top-60},600);
 	}
@@ -126,5 +128,29 @@ $(document).ready(function(){
 				$('.lake_con4 .cops').eq(indexcop-1).addClass('show');
 			}
 		}
+	})
+	$('.wlIn li a').click(function(e){
+		stophref(e);
+		var tindex = $('.wlIn li').index($(this).parent());
+        $('.wlIn li').removeClass('on').eq(tindex).addClass('on');
+		$('.workright .hd li').eq(tindex).trigger('click');
+	})
+	$('.contact_bar .icon_close').click(function(){
+		$(this).parents('.contact_bar').hide(500);
+	})
+	$('#contact a').click(function(e){
+		stophref(e);
+		$('.header_contact').show(200);
+	})
+	$('.wx_business .btn').click(function(e){
+		stophref(e);
+		$('.wx_business li').removeClass('on');
+		$(this).parent().addClass('on');
+		$('.wx_business .contact_bar').hide(200);
+		$(this).siblings('.contact_bar').show(200);
+	})
+	$('.wx_business .icon_close').click(function(e){
+		stophref(e);
+		$(this).parents('.contact_bar').hide(200);
 	})
 });

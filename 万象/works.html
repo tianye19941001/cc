@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimal-ui">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="address=no">
+	<title>Document</title>
+	<link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+<div class="wx_header">
+	<a href="#" class="logo"><img src="images/logo.png" alt=""></a>
+	<div class="leftlist">
+		<h1 class="tit">万象时尚影像制作</h1>
+		<p class="tit2">ALL IMAGES</p>
+		<div class="navlist">
+			<ul class="list1">
+				<li class="on"><a href=""><span>Car pictures</span><br> 汽车图片</a></li>
+				<li><a href=""><span>AD pictures</span><br>广告制作</a></li>
+				<li><a href=""><span>RB pictures</span><br>电子商务</a></li>
+				<li><a href=""><span>Video ads</span><br>视频制作</a></li>
+				<li><a href=""><span>CGI</span><br>三维</a></li>
+				<li><a href=""><span>Tidbits</span><br>花絮</a></li>
+			</ul>
+			<ul class="list2">
+				<li><a href=""><span>about</span><br>关于我们</a></li>
+				<li><a href=""><span>business</span><br>业务介绍</a></li>
+				<li><a href=""><span>studio</span><br>影棚</a></li>
+				<li><a href=""><span>contact</span><br>联系方式</a></li>
+			</ul>
+		</div><i></i>
+	</div>
+</div>
+<div class="wx_con">
+	<div class="video_con">
+		<div class="workleft">
+			<div class="rightbar">
+				<i class="back_icon"></i>
+				<i class="t_icon"></i>
+				<i class="b_icon"></i>
+			</div>
+			<div class="wlIn">
+				<ul>
+					<li class="on">
+						<div class="bar"></div>
+						<a href=""><img src="images/temp/temp18.png" alt=""></a>
+					</li>
+					<li>
+						<div class="bar"></div>
+						<a href=""><img src="images/temp/temp18.png" alt=""></a>
+					</li>
+					<li>
+						<div class="bar"></div>
+						<a href=""><img src="images/temp/temp18.png" alt=""></a>
+					</li>
+					<li>
+						<div class="bar"></div>
+						<a href=""><img src="images/temp/temp18.png" alt=""></a>
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+		<div class="workright">
+			<div id="slideBox" class="slideBox">
+				<div class="hd">
+					<ul>
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+					</ul>
+				</div>
+				<div class="bd">
+					<ul>
+						<li>
+							<a href=""><img src="images/temp/temp19.png" /></a>
+						</li>
+						<li>
+							<a href=""><img src="images/temp/temp19.png" /></a>
+						</li>
+						<li>
+							<a href=""><img src="images/temp/temp19.png" /></a>
+						</li>
+						<li>
+							<a href=""><img src="images/temp/temp19.png" /></a>
+						</li>
+					</ul>
+				</div>
+				<a class="prev" href="javascript:void(0)"></a>
+				<a class="next" href="javascript:void(0)"></a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="wx_footer">
+	<div class="wx_footerIn">
+		<div class="ewm">
+			<img src="images/ewm1.png" alt="">
+			<p>万象时尚制作</p>
+		</div>
+		<div class="ewm">
+			<img src="images/ewm1.png" alt="">
+			<p>万象影棚</p>
+		</div>
+		<div class="detial">
+			<p>北京朝阳区百子湾路29号I工场文化产业园1号库<br>邮编100022 <br>No.1 Warehouse of i-works Culture Industry Cluster,<br>No.29 Baiziwan Road,Chaoyang District</p>
+			<p>京ICP备09087191号-1</p>
+		</div>
+		<div class="connect">
+			<p class="p1">www.wxphoto.com <br>wanxss@126.com</p>
+			<p class="p2">010-67788829 <br>010-67788839</p>
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script>
+	jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true,delayTime:500,mouseOverStop:true,interTime:5000,trigger:"click",
+        endFun: function () {
+            var infoTmp = $(".workright .bd li").filter(function(){return $(this).css('display')!='none';});
+            var index = $(".workright .bd li").index(infoTmp);
+            $('.wlIn li').removeClass('on').eq(index).addClass('on');
+        }
+    });
+</script>
+</body>
+</html>

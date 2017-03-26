@@ -5,6 +5,7 @@
 %ty_where_bac { background: url('../images/where_bac.png'); }
 %ty_black_bac { background: url('../images/ty_black_bac.png'); }
 %ty_black_bac15 { background: url('../images/blackbac15.png'); }
+%ty_black_bac30 { background: url('../images/blackbac30.png'); }
 
 // 公共部分
 @keyframes header{
@@ -128,12 +129,12 @@
 				>a,span{border: 1px solid #e2497b; color: #d8074b;} 
 			}
 		}
-		.list2{ display: none; border-top: 5px solid #d7074b; width: 110px; padding: 0 10px; @extend %ty_black_bac15;  transition: all .4s linear; -webkit-transition: all .4s linear;margin-left: 20px;
+		.list2{ display: none; border-top: 5px solid #d7074b; width: 110px; padding: 0 10px; @extend %ty_black_bac30;  transition: all .4s linear; -webkit-transition: all .4s linear;margin-left: 20px;
 			li{ height: 36px; line-height: 36px; border-top: 1px dashed #727171; text-align: left;
-				a{ color: #c7c8c8; transition: all .2s linear; -webkit-transition: all .2s linear; }
+				a{ color: #fff; transition: all .2s linear; -webkit-transition: all .2s linear; cursor: pointer; }
 				&:first-child{ border-top: 0; }
-				&:hover a{ color: #fff; 
-					.r{ display: block; margin-right: 10px; }
+				&:hover a{ color: #d8074b; 
+					.r{ display: block; margin-right: 10px; color: #d8074b;  }
 				}
 			}
 			.r{ display: none; float: right; color: #fff; }

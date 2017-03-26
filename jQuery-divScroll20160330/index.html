@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>兼容IE8+的美化滚动条</title>
+<style>
+*{ margin:0; padding:0;font-size:14px;}
+body{}
+.part1{width: 225px;height: 140px;overflow: hidden;border:1px solid #ccc; float:left;}
+.item{position: relative;height: 140px;overflow: hidden;overflow-y: hidden;outline: none; line-height:20px;}
+.part2{ float:left;width:300px;margin-left:20px;height:300px;border:1px solid #ccc;overflow: hidden; background: rgb(42,46,52); color: #c4c4c4;}
+.part2 .item{height:300px;line-height:30px;}
+.part2  li{ padding-left:10px;font-family:"microsoft yahei"}
+</style>
+</head>
+<body>
+<div class="part1">
+	<div class="item">
+        1<br />
+        2<br />
+        3<br />
+        4<br />
+        5<br />
+        6<br />
+        7<br />
+        8<br />
+        9<br />
+        10<br />
+        11<br />
+        12<br />
+        13<br />
+        14<br />
+        15<br />
+    </div>
+</div>
+<div class="part2">
+	<div class="item">
+       <ul>
+       		<li>组织机构图</li>
+            <li>查看人事信息</li>
+            <li>劳动合同</li>
+            <li>绩效考核（跳转到绩效系统）</li>
+            <li>部门经理清单</li>
+            <li>假日管理</li>
+            <li>考勤管理</li>
+            <li>我部门人力信息报表</li>
+            <li>我下属人力信息报表</li>
+            <li>组织机构图</li>
+            <li>查看人事信息</li>
+            <li>劳动合同</li>
+            <li>绩效考核（跳转到绩效系统）</li>
+            <li>部门经理清单</li>
+            <li>假日管理</li>
+            <li>考勤管理</li>
+            <li>我部门人力信息报表</li>
+            <li>我下属人力信息报表</li>
+            <li>组织机构图</li>
+            <li>查看人事信息</li>
+            <li>劳动合同</li>
+            <li>绩效考核（跳转到绩效系统）</li>
+            <li>部门经理清单</li>
+            <li>假日管理</li>
+            <li>考勤管理</li>
+            <li>我部门人力信息报表</li>
+            <li>我下属人力信息报表</li>
+       </ul>
+    </div>
+</div>
+<script type="text/javascript" src="jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="divscroll.js"></script>
+<script type="text/javascript">
+$(function() {
+   $('.item').perfectScrollbar();
+});
+</script>
+
+</body>
+</html>

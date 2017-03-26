@@ -52,13 +52,24 @@ body{ font-family: "黑体"; }
 		}
 	}
 }
+.contact_bar{ position: absolute; right: 20px; top: 186px; z-index: 5; background-image: url(../images/blue80bac.png); color: #fff; width: pxt(700); height: pxt(915); box-shadow: 0 0 4px rgba(0,0,0,.5); overflow: hidden; text-align: left; display: none;
+	.tit{ font-size: pxt2(38); height: pxt2(70); line-height: pxt2(70); padding-left: pxt2(50); position: relative; background-color: #1994e1; }
+	.icon_close{ display: inline-block; width: 60px; height: 60px; text-align: center; right: 10px; top: 0; font-size: pxt2(62); position: absolute; font-style: normal; cursor: pointer; }
+	.con{ padding: pxt2(20) pxt2(86) pxt2(80) pxt2(55); height: 430px;
+		img{ width: 100%; margin-bottom: 12px; }
+		.p1{ font-size: pxt2(38); line-height: pxt2(40); padding: pxt2(38) 6px 0 6px; }
+		.p2{ font-size: pxt2(25); line-height: pxt2(40); padding: 20px 6px 0; }
+	}
+}
 .wx_con{
 	.con_all{ width: 100%; min-width: 1280px; 
 		.wx_lunbo{ width: 100%; height: 100%;
 			img{ width: 100%; height: 100%; display: block; }
 		}
 	}
-	.btn{ display: inline-block; width: pxt2(230); height: pxt2(56); line-height: pxt2(56); color: #1994e1; border: 2px solid #1994e1; font-size: pxt2(25); text-align: center; font-size: pxt2(30); }
+	.btn{ display: inline-block; width: pxt2(230); height: pxt2(56); line-height: pxt2(58); color: #1994e1; border: 2px solid #1994e1; font-size: pxt2(25); text-align: center; font-size: pxt2(30); 
+		&:hover{ color: #fff; border: 2px solid #1994e1; background-color: #1994e1; }
+	}
 }
 .wx_footer{ width: 100%; min-width: 1280px; height: pxt2(360); background-color: #fff; }
 .wx_footerIn{ width: 1280px; margin: 0 auto; @extend .clearfix; font-size: pxt2(25);
@@ -71,7 +82,7 @@ body{ font-family: "黑体"; }
 		.p2{ font-size: pxt2(38); }
 	}
 }
-// 
+//  
 .wx_about{ background-color: #e7e7e7; height: pxt2(456); @extend .clearfix; width: 100%; min-width: 1280px;
 	.wx_aboutIn{ width: 1280px; margin: 0 auto; position: relative; }
 	.limg{ width: pxt2(430-44); height: pxt2(514-44); padding: pxt2(22); position: absolute; top: pxt2(-133); left: 10px;
@@ -89,12 +100,19 @@ body{ font-family: "黑体"; }
 	}
 }
 .wx_business{ width: 100%; min-width: 1280px; background-color: #fff; height: pxt2(1026);
-	ul{ @extend .clearfix; width: 1280px; margin: 0 auto; display: block; height: 100%; }
-	li{ width: 25%; text-align: center; float: left; height: 100%;
-		img{ width: pxt2(190); height: pxt2(190); padding-top: pxt2(125); }
-		h3{ font-size: pxt2(38); padding-top: pxt2(70); }
-		p{ font-size: pxt2(25); line-height: 40px; padding-top: 20px; height: 40*8px; }
+	>ul{ @extend .clearfix; width: 1280px; margin: 0 auto; display: block; height: 100%; 
+		>li{ width: 25%; text-align: center; float: left; height: 100%; transition: all .8s ease; -webkit-transition: all .8s ease; position: relative; z-index: 3;
+			>img{ width: pxt2(190); height: pxt2(190); padding-top: pxt2(125); }
+			>h3{ font-size: pxt2(38); padding-top: pxt2(70); }
+			>p{ font-size: pxt2(25); line-height: 40px; padding-top: 20px; height: 40*8px; }
+			&:hover{ transform: scale(1.05); -webkit-transform: scale(1.05); background-color: #efeeee; box-shadow: 0 0 5px rgba(0,0,0,.5) }
+		}
 	}
+	.on{ z-index: 4; 
+		.contact_bar{  }
+	}
+	.contact_bar{  left: 100px; z-index: 7; display: none; }
+	.contact_bar2{ left: auto; right: 100px; }
 	.btn{ margin-top: pxt2(50); }
 }
 .wx_studio{ background-color: #e7e7e7; height: pxt2(915); width: 100%; min-width: 1280px; }
@@ -110,10 +128,11 @@ body{ font-family: "黑体"; }
 	}
 	.rightdiv{ float: right; width: pxt2(530); padding-top: pxt2(120); 
 		h4{ color: #1994e1; font-size: pxt2(63); line-height: pxt2(70); position: absolute; right: 0; bottom: 0; }
+		img{ width: 100% }
 	}
 }
 // 视频内容页面
-.video_con{ width: 100%; min-width: 1280px; @extend .clearfix; overflow: hidden;
+.video_con{ width: 100%; min-width: 1280px; @extend .clearfix;
 	.leftbar{ float: left; width: 25%; color: #fff; background-color: #000; height: 100%; }
 	.rightbar{ float: left; width: 75%; height: 100%;
 		img{ width: 100%; height: 100%; display: block;}
@@ -130,7 +149,40 @@ body{ font-family: "黑体"; }
 	.next{ width: 83px; height: 87px; -webkit-transform: translateY(-50%); position: absolute; right: 30px; top: 50%; background-image: url(../images/right.png); }
 }
 .wx_list_f{ width: 100%; height: 100%; @extend .clearfix; 
-	li{ float: left; width: 25%; height: 100%; display: block; }
-	a{ display: block; height: 100%; }
+	li{ float: left; width: 25%; height: 100%; display: block; position: relative; 
+		.in{ display: block; height: 100%; display: block; transition: all .4s ease; -webkit-transition: all .4s ease; box-shadow: 0 0 6px rgba(0,0,0,.8); position: relative;
+			&:hover{ transform: scale(1.05); -webkit-transform: scale(1.05); z-index: 3; 
+				.bar{ opacity: 1; filter: alpha(opacity=100);}
+			}
+		}
+	}
 	img{ width: 100%; height: 100%; display: block; }
+	.bar{ width: 100%; height: pxt2(180); position: absolute; background-image: url(../images/white70bac.png); left: 0; bottom: 0; color: #2294eb; opacity: 0; filter: alpha(opacity=0); transition: all .4s ease; -webkit-transition: all .4s ease;
+		h3{ font-size: pxt2(35); color: #2294eb; padding:15px 0 0 50px;
+			a{ color: #2294eb;  }
+			&:hover{ text-decoration: underline; }
+		}
+		p{ font-size: pxt2(26); line-height: pxt2(40); padding: 15px 0 0 50px; }
+	}
+}
+.workleft{ float: left; width: 25%; height: 100%; background-color: #000; position: relative; 
+	.rightbar{ position: absolute; right: -30px; top: 20px; width: 30px; height: 254px; background-image: url(../images/blackbar.png); z-index: 3; }
+	.wlIn{ width: 100%; height: 100%; 
+		li{ width: 33%; float: left; position: relative; overflow: hidden; 
+			a{ display: block; width: 90%; height: 90%; margin: 5%; position: relative; z-index: 3; overflow: hidden; }
+			img{ width: 100%; height: 100%; display: block; transition: all .8s ease; -webkit-transition: all .8s ease; }
+			&:hover{
+				img{ transform: scale(1.1); -webkit-transform: scale(1.1); }
+			}
+		}
+        .bar{ width: 100%; height: 50%; position: absolute; background-color: #1994e1; left: 0; bottom: 0; z-index: 2; display: none; }
+        .on{
+          .bar{ display: block; }
+        }
+	}
+}
+.video_oh{ overflow: hidden; }
+.workright{ float: left; width: 75%; height: 100%; 
+	img{ display: block; width: 100%; height: 100% }
+	.hd{ display: none; }
 }

@@ -34,11 +34,11 @@
 	</div>
 </div>
 <div class="wx_con">
-	<div class="video_con">
+	<div class="video_con ">
 		<div class="leftbar">
 			<div class="leftbarIn">
 				<h2>Red wine estate</h2>
-				<p>Famous French wine, can be made into red wine mask, a variety of cosmetics series,  is a popular modern cosmetics. Can drink cosmetics from china.</p>
+				<p>Famous French wine, can be made into red wine mask, a variety of cosmetics series,  is a popular modern cosmetics. Can drink cosmetics from chinais a popular modern cosmetics. Can drink cosmetics from china.</p>
 				<h3>制作花絮</h3>
 				<img src="images/temp/temp12.png" alt="">
 			</div>
@@ -71,8 +71,12 @@
 
 <script src="js/jquery.min.js"></script>
 <script src="js/app.js"></script>
+<script src="js/divscroll.js"></script>
 <script src="js/jquery.SuperSlide.2.1.1.js"></script>
 <script>
+	$(function() {
+		$('.leftbar').perfectScrollbar();
+	});
 	jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true,delayTime:1000,mouseOverStop:false,interTime:5000});
 </script>
 </body>
