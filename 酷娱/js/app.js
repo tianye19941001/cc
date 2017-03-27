@@ -119,7 +119,7 @@ $(document).ready(function(){
     	var index = $('.intro_con_t .dian i').index($(this));
     	$('.intro_con_t .text').eq(index).show(300);
     });
-	$(document).on("click",'.happy_small_dy a,.happy_big_dy a,.happy_we_leader a,.flipster a,.happy_index_bottoms a,.happy_we_people a,.intro_con_t .ty_more,.intro_con_m a,.intro_top .bd a,.happy_where_bottom a', function(e){
+	$(document).on("click",'.happy_small_dy a,.happy_big_dy a,.happy_we_leader a,.flipster a,.happy_index_bottoms li a,.happy_we_people a,.intro_con_t .ty_more,.intro_con_m a,.intro_top .bd a,.happy_where_bottom a', function(e){
 		stophref(e);
 		$('#ty_iframe').attr('src',$(this).attr('href'));
 		$('body').addClass('oh');

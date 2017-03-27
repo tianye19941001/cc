@@ -63,8 +63,12 @@ body{ font-family: "黑体"; }
 }
 .wx_con{
 	.con_all{ width: 100%; min-width: 1280px; 
-		.wx_lunbo{ width: 100%; height: 100%;
+		.wx_lunbo{ width: 100%; height: 100%; position: relative;
 			img{ width: 100%; height: 100%; display: block; }
+		}
+		.hd{ position: absolute; z-index: 2; text-align: center; bottom: 20px; left: 0; width: 100%; 
+			li{ display: inline-block; width: 8px; height: 8px; border-radius: 8px; border:2px solid #fff; margin: 0 8px; cursor: pointer; }
+			.on{ background-color: #fff; }
 		}
 	}
 	.btn{ display: inline-block; width: pxt2(230); height: pxt2(56); line-height: pxt2(58); color: #1994e1; border: 2px solid #1994e1; font-size: pxt2(25); text-align: center; font-size: pxt2(30); 
@@ -145,8 +149,8 @@ body{ font-family: "黑体"; }
 	}
 }
 .video_con .slideBox{ position: relative; 
-	.prev{ width: 83px; height: 87px; -webkit-transform: translateY(-50%); position: absolute; left: 30px; top: 50%; background-image: url(../images/left.png); }
-	.next{ width: 83px; height: 87px; -webkit-transform: translateY(-50%); position: absolute; right: 30px; top: 50%; background-image: url(../images/right.png); }
+	.prev{ width: 83px; height: 87px; -webkit-transform: translateY(-50%); position: absolute; left: 30px; top: 50%; background-image: url(../images/left.png); z-index: 7; }
+	.next{ width: 83px; height: 87px; -webkit-transform: translateY(-50%); position: absolute; right: 30px; top: 50%; background-image: url(../images/right.png); z-index: 7; }
 }
 .wx_list_f{ width: 100%; height: 100%; @extend .clearfix; 
 	li{ float: left; width: 25%; height: 100%; display: block; position: relative; 
@@ -164,9 +168,15 @@ body{ font-family: "黑体"; }
 		}
 		p{ font-size: pxt2(26); line-height: pxt2(40); padding: 15px 0 0 50px; }
 	}
+	.more_icon{ position: absolute; right: 20px; bottom: 20px; width: 32px; height: 32px; background-image: url(../images/more_icon.png); cursor: pointer; }
 }
 .workleft{ float: left; width: 25%; height: 100%; background-color: #000; position: relative; 
-	.rightbar{ position: absolute; right: -30px; top: 20px; width: 30px; height: 254px; background-image: url(../images/blackbar.png); z-index: 3; }
+	.rightbar{ position: absolute; right: -30px; top: 20px; width: 30px; height: 254px; background-image: url(../images/blackbar.png); z-index: 3;
+		.back_icon,.t_icon,.b_icon{ width: 24px; height: 24px; display: block; position: absolute; left: 0 	px; cursor: pointer; }
+		.back_icon{ top: 55px; background-image: url(../images/back_icon.png); }
+		.t_icon{  top: 109px; background-image: url(../images/up_icon.png);  }
+		.b_icon{ top: 163px; background-image: url(../images/down_icon.png); }
+	}
 	.wlIn{ width: 100%; height: 100%; 
 		li{ width: 33%; float: left; position: relative; overflow: hidden; 
 			a{ display: block; width: 90%; height: 90%; margin: 5%; position: relative; z-index: 3; overflow: hidden; }
@@ -185,4 +195,11 @@ body{ font-family: "黑体"; }
 .workright{ float: left; width: 75%; height: 100%; 
 	img{ display: block; width: 100%; height: 100% }
 	.hd{ display: none; }
+	.slideBox{ height: 100%;
+		.bd{ height: 100%; 
+			ul{ height: 100%; 
+				li{ height: 100%; }
+			}
+		}
+	}
 }
