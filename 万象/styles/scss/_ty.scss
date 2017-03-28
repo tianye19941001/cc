@@ -60,8 +60,8 @@ body{ font-family: "黑体"; }
 		}
 	}
 }
-.contact_bar{ position: absolute; right: 20px; top: 186px; z-index: 5; background-image: url(../images/blue80bac.png); color: #fff; width: pxt(700); height: pxt(915); box-shadow: 0 0 4px rgba(0,0,0,.5); overflow: hidden; text-align: left; display: none;
-	.tit{ font-size: pxt2(38); height: pxt2(70); line-height: pxt2(70); padding-left: pxt2(50); position: relative; background-color: #72c2ff; }
+.contact_bar{ position: absolute; right: 20px; top: 186px; z-index: 9; background-image: url(../images/blue80bac.png); color: #fff; width: pxt(800); height: pxt(915); box-shadow: 0 0 4px rgba(0,0,0,.5); overflow: hidden; text-align: left; display: none;
+	.tit{ font-size: pxt2(38); height: pxt2(70); line-height: pxt2(70); padding-left: pxt2(50); position: relative; background-color: #1994e1; }
 	.icon_close{ display: inline-block; width: 60px; height: 60px; text-align: center; right: 10px; top: 0; font-size: pxt2(62); position: absolute; font-style: normal; cursor: pointer; }
 	.con{ padding: pxt2(20) pxt2(86) pxt2(80) pxt2(55); height: 430px;
 		img{ width: 100%; margin-bottom: 12px; }
@@ -83,31 +83,44 @@ body{ font-family: "黑体"; }
 		&:hover{ color: #fff; border: 2px solid #72c2ff; background-color: #72c2ff; }
 	}
 }
-.wx_footer{ width: 100%; min-width: 1280px; height: pxt2(360); background-color: #fff; }
-.wx_footerIn{ width: 1280px; margin: 0 auto; @extend .clearfix; font-size: pxt2(25);
+.wx_footer{ width: 100%; min-width: 1280px; height: pxt2(360); background-color: #fff; overflow: hidden; }
+.wx_footerIn{ width: 1280px; margin: 0 auto; @extend .clearfix; font-size: pxt2(25); position: relative;
 	.ewm{ float: left; width: pxt2(164); margin-right: pxt2(60); padding-top: pxt2(70);  text-align: center;
 		img{ width: 100%; } 
 		p{ width: 100%; padding-top: 12px; } 
 	}
-	.detial{ float: left; line-height: pxt2(38); padding: pxt2(70) 0 0 pxt2(90); }
+	.logo{ padding: 50px 0 0 20px; float: left;
+		img{ width: 200px; }
+	}
+	.icons{ position: absolute; top: 60px; right: 52%;
+		a{ display: inline-block; margin-left: 30px; }
+		img{ width: 30px; }
+		.qq{
+			img{ width: 27px;}
+		}
+	}
+	.detial{ float: right; line-height: pxt2(38); padding: pxt2(70) 0 0 pxt2(90); 
+		h3{ font-size: 28px; color: #90caee; height: 40px; line-height: 40px; border-bottom: 4px solid #419fe1; margin-bottom: 20px; }
+		p{ line-height: 40px; font-size: 18px; color: #606060;  }
+	}
 	.connect{ float: right; padding-top: pxt2(70); line-height: pxt2(38);
 		.p2{ font-size: pxt2(38); }
 	}
 }
 //  
-.wx_about{ background-color: #e7e7e7; height: pxt2(456); @extend .clearfix; width: 100%; min-width: 1280px;
+.wx_about{ background-color: #e7e7e7; height: pxt2(456*1.33); @extend .clearfix; width: 100%; min-width: 1280px;
 	.wx_aboutIn{ width: 1280px; margin: 0 auto; position: relative; }
-	.limg{ width: pxt2(430-44); height: pxt2(514-44); padding: pxt2(15); position: absolute; top: pxt2(-133); left: 10px;
+	.limg{ width: pxt2(430-44); height: pxt2(514-44); padding: pxt2(14); position: absolute; top: pxt2(-133); left: 12px;
 		img{ width: 100%; height: 100%; position: relative;z-index: 3; }
 		.bar1{ height: pxt2(133); width: 100%; position: absolute; top: 0; left: 0; display: block; background-color: #000; z-index: 2; }
 		.bar2{ height: 100%; width: 100%; position: absolute; top: 0; left: 0; display: block; background-color: #72c2ff; z-index: 1; }
 	}
 	.rightde{ float: right; @extend .clearfix;
 		.l{ width: pxt2(700); font-size: pxt2(25); line-height: 32px; color: #000; float: left; padding-top: pxt2(40); 
-			p{ margin-bottom: pxt2(20); height: 32*7px; overflow: hidden; width: 100%; }
+			p{ height: 32*13px; overflow: hidden; width: 100%; padding-top: 25px;}
 		}
-		.r{ width: pxt2(300); float: left; @extend .clearfix; padding-top: pxt2(90);
-			.btn{ float: right; margin-bottom: pxt2(42); font-size: pxt2(25); }
+		.r{ width: pxt2(300); float: left; @extend .clearfix; padding-top: pxt2(120);
+			.btn{ float: right; margin-bottom: 75px; font-size: pxt2(25); }
 		}
 	}
 }
@@ -125,7 +138,7 @@ body{ font-family: "黑体"; }
 	}
 	.contact_bar{  left: 100px; z-index: 7; display: none; }
 	.contact_bar2{ left: auto; right: 100px; }
-	.btn{ margin-top: pxt2(50); }
+	.btn{ margin-top: pxt2(50); width: pxt2(150); height: pxt2(40); line-height: pxt2(42);  font-size: 18px; }
 }
 .wx_studio{ background-color: #e7e7e7; height: pxt2(915); width: 100%; min-width: 1280px; }
 .wx_studioIn{ width: 1280px; margin: 0 auto; position: relative; @extend .clearfix;
@@ -133,14 +146,13 @@ body{ font-family: "黑体"; }
 		h3{ font-size: pxt2(38); padding-top: pxt2(120); }
 		.de{ font-size: pxt2(25); padding-top: pxt2(26); line-height: 40px; }
 	}
-	.deimg{ padding-top: pxt2(70);
-		img{ width: pxt2(362); height: pxt2(350); float: left; }
-		p{ float: right; width: pxt2(480); font-size: pxt2(25); line-height: 38px; }
-		.btn{ float: left; margin-left: 68px; margin-top: 50px; }
+	.deimg{ padding-top: pxt2(70); text-align: center;
+		p{ float: right; width: 100%; font-size: pxt2(25); line-height: 38px; height: 38*6px; overflow: hidden; text-align: left; }
+		.btn{ margin-top: 60px; }
 	}
-	.rightdiv{ float: right; width: pxt2(530); padding-top: pxt2(120); 
+	.rightdiv{ float: right; width: pxt2(530); padding-top: 66px; 
 		h4{ color: #72c2ff; font-size: pxt2(63); line-height: pxt2(70); position: absolute; right: 0; bottom: 0; }
-		img{ width: 100% }
+		img{ width: 100%; margin-bottom: 66px; }
 	}
 }
 // 视频内容页面
@@ -172,11 +184,12 @@ body{ font-family: "黑体"; }
 	.bar{ width: 100%; height: pxt2(180); position: absolute; background-image: url(../images/white70bac.png); left: 0; bottom: 0; color: #2294eb; opacity: 0; filter: alpha(opacity=0); transition: all .4s ease; -webkit-transition: all .4s ease;
 		h3{ font-size: pxt2(35); color: #2294eb; padding:15px 0 0 50px;
 			a{ color: #2294eb;  }
-			&:hover{ text-decoration: underline; }
 		}
 		p{ font-size: pxt2(26); line-height: pxt2(40); padding: 15px 0 0 50px; }
+		em{ font-size: pxt2(24) }
 	}
 	.more_icon{ position: absolute; right: 20px; bottom: 20px; width: 32px; height: 32px; background-image: url(../images/more_icon.png); cursor: pointer; }
+	.in{ display: block; }
 }
 .workleft{ float: left; width: 25%; height: 100%; background-color: #000; position: relative; 
 	.rightbar{ position: absolute; right: -30px; top: 20px; width: 30px; height: 254px; background-image: url(../images/blackbar.png); z-index: 3;
@@ -195,7 +208,7 @@ body{ font-family: "黑体"; }
 		}
         .bar{ width: 100%; height: 50%; position: absolute; background-color: #72c2ff; left: 0; bottom: 0; z-index: 2; display: none; }
         .on{
-          .bar{ display: block; }
+          .bar{ display: none; }
         }
 	}
 }
