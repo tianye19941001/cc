@@ -5,12 +5,20 @@
 %ty_where_bac { background: url('../images/where_bac.png'); }
 %ty_black_bac { background: url('../images/ty_black_bac.png'); }
 %ty_black_bac15 { background: url('../images/blackbac15.png'); }
-@media screen and (min-width:0px) and (max-width:1459px){
-	
+@media screen and (min-width:0px) and (max-width:1500px){
+	body{
+		.wx_header{
+			.navlist{ 
+				li{ float: left; 
+					a{ font-size: pxt(22); color: #000; display: block; text-align:justify; text-justify:inter-word; min-width: pxt(60); padding: 6px 15px; line-height: 20px; height: 42px; word-break: break-all; width: auto; min-width: 50px;
+						span{ display: inline-block; text-align: center; width: 100%; font-size: pxt(22) }
+					}
+				}
+			}
+		}
+	}
 }
-@media screen and (min-width:1460px) and (max-width:1540px){
-	
-}
+
 @function pxt($px){
 	@return $px/1.5*1px;
 }
@@ -19,7 +27,7 @@
 }
 // 公共部分
 body{ font-family: "黑体"; }
-.wx_header{ width: 100%; min-width: 1280px; background-color: #fff;
+.wx_header{ width: 100%; min-width: 1280px; max-width: 1540px; background-color: #fff; margin: 0 auto; 
 	.logo{ width: pxt(191); float: left; padding: pxt(25) pxt(35) pxt(60) pxt(50);
 		img{ display: block; width: 100%; height: auto; }
 	}
@@ -32,8 +40,8 @@ body{ font-family: "黑体"; }
 	.navlist{ @extend .clearfix;
 		ul{ @extend .clearfix; }
 		li{ float: left; 
-			a{ font-size: pxt(22); color: #000; display: block; text-align:justify; text-justify:inter-word; min-width: pxt(60); margin-right: 10px; padding: 6px 15px; line-height: 20px; height: 42px;
-				span{ display: inline-block; text-align: center; width: 100%; }
+			a{ font-size: pxt(22); color: #000; display: block; text-align:justify; text-justify:inter-word; min-width: pxt(60); padding: 6px 15px; line-height: 20px; height: 42px; word-break: break-all; width: 100px;
+				span{ display: inline-block; text-align: center; width: 100%; font-size: pxt(24) }
 				&:after{ display:inline-block; overflow:hidden; width:100%; height:0; content:''; vertical-align:top; }
 			}
 		}
@@ -42,18 +50,18 @@ body{ font-family: "黑体"; }
 				&:hover{ color: #c1c1c1; }
 			}
 			.on{
-				a{ color: #fff; background-color: #1994e1; border-radius: 3px; }
+				a{ color: #fff; background-color: #72c2ff; border-radius: 3px; }
 			}
 		}
 		.list2{
 			a{
-				&:hover{ color: #1994e1; }
+				&:hover{ color: #72c2ff; }
 			}
 		}
 	}
 }
 .contact_bar{ position: absolute; right: 20px; top: 186px; z-index: 5; background-image: url(../images/blue80bac.png); color: #fff; width: pxt(700); height: pxt(915); box-shadow: 0 0 4px rgba(0,0,0,.5); overflow: hidden; text-align: left; display: none;
-	.tit{ font-size: pxt2(38); height: pxt2(70); line-height: pxt2(70); padding-left: pxt2(50); position: relative; background-color: #1994e1; }
+	.tit{ font-size: pxt2(38); height: pxt2(70); line-height: pxt2(70); padding-left: pxt2(50); position: relative; background-color: #72c2ff; }
 	.icon_close{ display: inline-block; width: 60px; height: 60px; text-align: center; right: 10px; top: 0; font-size: pxt2(62); position: absolute; font-style: normal; cursor: pointer; }
 	.con{ padding: pxt2(20) pxt2(86) pxt2(80) pxt2(55); height: 430px;
 		img{ width: 100%; margin-bottom: 12px; }
@@ -71,8 +79,8 @@ body{ font-family: "黑体"; }
 			.on{ background-color: #fff; }
 		}
 	}
-	.btn{ display: inline-block; width: pxt2(230); height: pxt2(56); line-height: pxt2(58); color: #1994e1; border: 2px solid #1994e1; font-size: pxt2(25); text-align: center; font-size: pxt2(30); 
-		&:hover{ color: #fff; border: 2px solid #1994e1; background-color: #1994e1; }
+	.btn{ display: inline-block; width: pxt2(230); height: pxt2(56); line-height: pxt2(58); color: #72c2ff; border: 2px solid #72c2ff; font-size: pxt2(25); text-align: center; font-size: pxt2(30); 
+		&:hover{ color: #fff; border: 2px solid #72c2ff; background-color: #72c2ff; }
 	}
 }
 .wx_footer{ width: 100%; min-width: 1280px; height: pxt2(360); background-color: #fff; }
@@ -92,7 +100,7 @@ body{ font-family: "黑体"; }
 	.limg{ width: pxt2(430-44); height: pxt2(514-44); padding: pxt2(22); position: absolute; top: pxt2(-133); left: 10px;
 		img{ width: 100%; height: 100%; position: relative;z-index: 3; }
 		.bar1{ height: pxt2(133); width: 100%; position: absolute; top: 0; left: 0; display: block; background-color: #000; z-index: 2; }
-		.bar2{ height: 100%; width: 100%; position: absolute; top: 0; left: 0; display: block; background-color: #1994e1; z-index: 1; }
+		.bar2{ height: 100%; width: 100%; position: absolute; top: 0; left: 0; display: block; background-color: #72c2ff; z-index: 1; }
 	}
 	.rightde{ float: right; @extend .clearfix;
 		.l{ width: pxt2(700); font-size: pxt2(25); line-height: 32px; color: #000; float: left; padding-top: pxt2(40); 
@@ -131,7 +139,7 @@ body{ font-family: "黑体"; }
 		.btn{ float: left; margin-left: 68px; margin-top: 50px; }
 	}
 	.rightdiv{ float: right; width: pxt2(530); padding-top: pxt2(120); 
-		h4{ color: #1994e1; font-size: pxt2(63); line-height: pxt2(70); position: absolute; right: 0; bottom: 0; }
+		h4{ color: #72c2ff; font-size: pxt2(63); line-height: pxt2(70); position: absolute; right: 0; bottom: 0; }
 		img{ width: 100% }
 	}
 }
@@ -185,7 +193,7 @@ body{ font-family: "黑体"; }
 				img{ transform: scale(1.1); -webkit-transform: scale(1.1); }
 			}
 		}
-        .bar{ width: 100%; height: 50%; position: absolute; background-color: #1994e1; left: 0; bottom: 0; z-index: 2; display: none; }
+        .bar{ width: 100%; height: 50%; position: absolute; background-color: #72c2ff; left: 0; bottom: 0; z-index: 2; display: none; }
         .on{
           .bar{ display: block; }
         }
