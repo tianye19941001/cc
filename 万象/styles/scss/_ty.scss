@@ -86,7 +86,7 @@ body{ font-family: "黑体"; }
 .wx_footer{ width: 100%; min-width: 1280px; height: pxt2(360); background-color: #fff; }
 .wx_footerIn{ width: 1280px; margin: 0 auto; @extend .clearfix; font-size: pxt2(25);
 	.ewm{ float: left; width: pxt2(164); margin-right: pxt2(60); padding-top: pxt2(70);  text-align: center;
-		img{ width: 100%; }
+		img{ width: 100%; } 
 		p{ width: 100%; padding-top: 12px; } 
 	}
 	.detial{ float: left; line-height: pxt2(38); padding: pxt2(70) 0 0 pxt2(90); }
@@ -97,7 +97,7 @@ body{ font-family: "黑体"; }
 //  
 .wx_about{ background-color: #e7e7e7; height: pxt2(456); @extend .clearfix; width: 100%; min-width: 1280px;
 	.wx_aboutIn{ width: 1280px; margin: 0 auto; position: relative; }
-	.limg{ width: pxt2(430-44); height: pxt2(514-44); padding: pxt2(22); position: absolute; top: pxt2(-133); left: 10px;
+	.limg{ width: pxt2(430-44); height: pxt2(514-44); padding: pxt2(15); position: absolute; top: pxt2(-133); left: 10px;
 		img{ width: 100%; height: 100%; position: relative;z-index: 3; }
 		.bar1{ height: pxt2(133); width: 100%; position: absolute; top: 0; left: 0; display: block; background-color: #000; z-index: 2; }
 		.bar2{ height: 100%; width: 100%; position: absolute; top: 0; left: 0; display: block; background-color: #72c2ff; z-index: 1; }
