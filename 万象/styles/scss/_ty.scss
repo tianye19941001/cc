@@ -19,7 +19,7 @@
 }
 // 公共部分
 body{ font-family: "黑体"; }
-.wx_header{ width: 100%; min-width: 1280px; background-color: #fff;
+.wx_header{ width: 100%; min-width: 1280px; max-width: 1540px; background-color: #fff; margin: 0 auto; 
 	.logo{ width: pxt(191); float: left; padding: pxt(25) pxt(35) pxt(60) pxt(50);
 		img{ display: block; width: 100%; height: auto; }
 	}

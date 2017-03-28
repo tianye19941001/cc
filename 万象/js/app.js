@@ -17,6 +17,10 @@ $(document).ready(function(){
 	$(window).resize(function() {
  		autoheight();
 	});
+	function stop(){
+		return false;
+	}
+	document.oncontextmenu=stop;
 	function myBrowser(){
 		var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
 	    var isOpera = userAgent.indexOf("Opera") > -1;
