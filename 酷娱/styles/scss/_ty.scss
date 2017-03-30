@@ -106,8 +106,10 @@
 	100%{ left: 0; opacity: 1;
 	filter: alpha(opacity=100); }
 }
+.flipster{ overflow: hidden; }
 .happy_body2{ background-color: #efeff2; }
-.happy_header{ position: fixed; top: 0; width: 1280px; height: 58px; background-color: #fff; @extend .clearfix; left: 50%; margin-left: -640px; z-index: 5; border-bottom:  1px solid #c2c3c3; animation: header 1.2s ease-in-out; -webkit-animation: header 1.2s ease-in-out;
+.happy_header{ position: fixed; top: 0; width: 1280px; height: 58px; background-color: #fff; @extend .clearfix; left: 50%; margin-left: -640px; z-index: 5; border-bottom:  1px solid #c2c3c3; 
+	// animation: header 1.2s ease-in-out; -webkit-animation: header 1.2s ease-in-out;
 	.logo{ float: left; margin: 12px 0 0 74px; @extend .clearfix; padding-right: 50px; border-right: 2px solid #e1e1e1;
 		img{ display: block; float: left; }
 	}

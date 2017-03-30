@@ -20,6 +20,9 @@ $(document).ready(function(){
 	function stop(){
 		return false;
 	}
+	$(document).not($(".contact_bar")).click(function(){
+        $(".contact_bar").hide(300);
+    });
 	document.oncontextmenu=stop;
 	function myBrowser(){
 		var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
@@ -167,6 +170,7 @@ $(document).ready(function(){
 	$('#contact a').click(function(e){
 		stophref(e);
 		$('.header_contact').show(200);
+		stopbubble(e) 
 	})
 	$('.wx_business .btn').click(function(e){
 		stophref(e);
@@ -174,6 +178,8 @@ $(document).ready(function(){
 		$(this).parent().addClass('on');
 		$('.wx_business .contact_bar').hide(200);
 		$(this).siblings('.contact_bar').show(200);
+		stopbubble(e) 
+		
 	})
 	$('.wx_business .icon_close').click(function(e){
 		stophref(e);

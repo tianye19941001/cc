@@ -19,6 +19,7 @@
 	}
 }
 
+
 @function pxt($px){
 	@return $px/1.5*1px;
 }
@@ -62,7 +63,7 @@ body{ font-family: "黑体"; }
 }
 .contact_bar{ position: absolute; right: 20px; top: 186px; z-index: 9; background-image: url(../images/blue80bac.png); color: #fff; width: pxt(800); height: pxt(915); box-shadow: 0 0 4px rgba(0,0,0,.5); overflow: hidden; text-align: left; display: none;
 	.tit{ font-size: pxt2(38); height: pxt2(70); line-height: pxt2(70); padding-left: pxt2(50); position: relative; background-color: #1994e1; }
-	.icon_close{ display: inline-block; width: 60px; height: 60px; text-align: center; right: 10px; top: 0; font-size: pxt2(62); position: absolute; font-style: normal; cursor: pointer; }
+	.icon_close{ display: inline-block; width: 32px; height: 32px; text-align: center; right: 10px; top: 0; font-size: pxt2(62); position: absolute; font-style: normal; cursor: pointer; background-image: url(../images/ty_close.png); background-repeat: no-repeat; margin-top: 14px; margin-right: 4px; }
 	.con{ padding: pxt2(20) pxt2(86) pxt2(80) pxt2(55); height: 430px;
 		img{ width: 100%; margin-bottom: 12px; }
 		.p1{ font-size: pxt2(38); line-height: pxt2(40); padding: pxt2(38) 6px 0 6px; }
@@ -93,14 +94,19 @@ body{ font-family: "黑体"; }
 		img{ width: 200px; }
 	}
 	.icons{ position: absolute; top: 60px; right: 52%;
-		a{ display: inline-block; margin-left: 30px; }
-		img{ width: 30px; }
+		a{ display: inline-block; margin-left: 30px; position: relative; 
+			&:hover{ 
+				.hicon{display: block;} 
+			}
+		}
+		.sicon{ width: 30px; }
+		.hicon{ width: 164px; position: absolute; top: 40px; left: -70px; display: none; }
 		.qq{
-			img{ width: 27px;}
+			.sicon{ width: 27px;}
 		}
 	}
 	.detial{ float: right; line-height: pxt2(38); padding: pxt2(70) 0 0 pxt2(90); 
-		h3{ font-size: 28px; color: #90caee; height: 40px; line-height: 40px; border-bottom: 4px solid #419fe1; margin-bottom: 20px; }
+		h3{ font-size: 28px; color: #90caee; height: 40px; line-height: 40px; border-bottom: 3px solid #419fe1; margin-bottom: 20px; }
 		p{ line-height: 40px; font-size: 18px; color: #606060;  }
 	}
 	.connect{ float: right; padding-top: pxt2(70); line-height: pxt2(38);
@@ -169,8 +175,8 @@ body{ font-family: "黑体"; }
 	}
 }
 .video_con .slideBox{ position: relative; 
-	.prev{ width: 83px; height: 87px; -webkit-transform: translateY(-50%); position: absolute; left: 30px; top: 50%; background-image: url(../images/left.png); z-index: 7; }
-	.next{ width: 83px; height: 87px; -webkit-transform: translateY(-50%); position: absolute; right: 30px; top: 50%; background-image: url(../images/right.png); z-index: 7; }
+	.prev{ width: 72px; height: 72px; -webkit-transform: translateY(-50%); position: absolute; left: 30px; top: 50%; background-image: url(../images/ty_left.png); z-index: 7; }
+	.next{ width: 72px; height: 72px; -webkit-transform: translateY(-50%); position: absolute; right: 30px; top: 50%; background-image: url(../images/ty_right.png); z-index: 7; }
 }
 .wx_list_f{ width: 100%; height: 100%; @extend .clearfix; 
 	>div{ float: left; width: 25%; height: 100%; display: block; position: relative; 
@@ -191,12 +197,12 @@ body{ font-family: "黑体"; }
 	.more_icon{ position: absolute; right: 20px; bottom: 20px; width: 32px; height: 32px; background-image: url(../images/more_icon.png); cursor: pointer; }
 	.in{ display: block; }
 }
-.workleft{ float: left; width: 25%; height: 100%; background-color: #000; position: relative; 
+.workleft{ float: left; width: 25%; height: 100%; background-color: #777; position: relative; 
 	.rightbar{ position: absolute; right: -30px; top: 20px; width: 30px; height: 254px; background-image: url(../images/blackbar.png); z-index: 3;
-		.back_icon,.t_icon,.b_icon{ width: 24px; height: 24px; display: block; position: absolute; left: 0 	px; cursor: pointer; }
-		.back_icon{ top: 55px; background-image: url(../images/back_icon.png); }
-		.t_icon{  top: 109px; background-image: url(../images/up_icon.png);  }
-		.b_icon{ top: 163px; background-image: url(../images/down_icon.png); }
+		.back_icon,.t_icon,.b_icon{ display: block; position: absolute; left: 2px; cursor: pointer; }
+		.back_icon{ width: 24px; height: 20px; top: 55px; background-image: url(../images/ty_return.png); left: -1px; }
+		.t_icon{ width: 16px; height: 23px; top: 112px; background-image: url(../images/ty_up.png);  }
+		.b_icon{ width: 16px; height: 23px; top: 168px; background-image: url(../images/ty_down.png); }
 	}
 	.wlIn{ width: 100%; height: 100%; 
 		li{ width: 33%; float: left; position: relative; overflow: hidden; 
@@ -212,6 +218,7 @@ body{ font-family: "黑体"; }
         }
 	}
 }
+
 .video_oh{ overflow: hidden; }
 .workright{ float: left; width: 75%; height: 100%; 
 	img{ display: block; width: 100%; height: 100% }
