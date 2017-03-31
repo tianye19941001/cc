@@ -6,10 +6,10 @@ $(document).ready(function(){
 			Nheighti = Nwidth/1920*680;
 		if (Nwidth > 1280) {
 			$('.video_con,.wx_list_f').height(Nheight);
-			$('.wx_lunbo .bd li img').height(Nheighti);
+			$('.wx_lunbo .bd li').height(Nheighti);
 		}else{
 			$('.video_con,.wx_list_f').height(1280/1920*800);
-			$('.wx_lunbo .bd li img').height(1280/1920*680);
+			$('.wx_lunbo .bd li').height(1280/1920*680);
 		}
 	}
 	$('.wlIn li').height($('.wlIn li').width());
@@ -184,5 +184,10 @@ $(document).ready(function(){
 	$('.wx_business .icon_close').click(function(e){
 		stophref(e);
 		$(this).parents('.contact_bar').hide(200);
+	})
+	$('.wx_aboutIn .rightde .r a').click(function(e){
+		stophref(e);
+		var index = $('.wx_aboutIn .rightde .r a').index($(this));
+		$('.wx_aboutIn .rightde .l p').removeClass('on').eq(index).addClass('on');
 	})
 });
