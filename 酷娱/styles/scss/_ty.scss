@@ -114,7 +114,7 @@
 		img{ display: block; float: left; }
 	}
 	.nav{ float: right; height: 58px; line-height: 58px; margin-right: 100px;
-		.list1{ @extend .clearfix; font-size: 12px;
+		.list1{ @extend .clearfix; font-size: 14px;
 			>li{ width: 80px; float: left; text-align: center; 
 				&:hover{
 					.list2{ display: block; }
@@ -221,10 +221,9 @@
 .intro_con{ width: 1280px; height: auto; margin: 84px auto 0; }
 .intro_con_t{ width: 100%; height: 420px; position: relative; margin-bottom: 72px;
 	.left{ width: 590-2px; height: 420-2px; border: 1px solid #c8c8c8; float: left; position: relative; z-index: 3;
-		.bar{ position: absolute; width: 590px; height: 306px; z-index: 2; left: -1px; bottom: -1px; background-color: #d8074b; animation: bar_leader2 1.5s ease-in-out; -webkit-animation: bar_leader2 1.5s ease-in-out; opacity: 1;
+		.bar{ position: absolute; width: 590px; height: 306px; z-index: 2; left: -1px; bottom: -1px; background-color: #d8074b; opacity: 1;
 		filter: alpha(opacity=100); }
-		img{ position: absolute; display: block; width: 600px; height: 385px; top: 18px; left: 18px; box-shadow: 2px -2px 2px rgba(0,0,0,.3); z-index: 3; animation: img_p1 1.5s ease-in-out; -webkit-animation: img_p1 1.5s ease-in-out; transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; z-index: 9;
-			&:hover{ transform: scale(1.1); -webkit-transform: scale(1.1); }
+		img{ position: absolute; display: block; width: 600px; height: 385px; top: 18px; left: 18px; box-shadow: 2px -2px 2px rgba(0,0,0,.3); z-index: 3; z-index: 9;
 		}
 	}
 	.right{ float: right; width: 620px; height: 410px; padding-top: 10px; text-align: left; position: relative; z-index: 2; overflow: hidden;
@@ -285,12 +284,12 @@
 }
 // 动态
 .happy_dy_con{ width: 1280px; margin: 0 auto; 
-	.type2{ animation: dy2 1.3s ease-in-out; -webkit-animation: dy2 1.3s ease-in-out;
+	.type2{ 
 		.img{ float: right; }
 		.detial{ float: right; }
 	}
 }
-.happy_big_dy{ width: 640px; height: 640px; float: left;  overflow: hidden; position: relative; top: 0; animation: dy 1s ease-in-out; -webkit-animation: dy 1s ease-in-out;
+.happy_big_dy{ width: 640px; height: 640px; float: left;  overflow: hidden; position: relative; top: 0;
 	.img{ display: block; position: relative; overflow: hidden;
 		a{ display: block; }
 		img{ display: block; width: 640px; height: 640px; }
@@ -310,7 +309,7 @@
 	}
 
 }
-.happy_small_dy{ width: 640px; height: 320px; float: left; overflow: hidden; overflow: hidden; @extend .clearfix; background-color: #fff; position: relative;  top: 0; left: 0; animation: dy 1.3s ease-in-out; -webkit-animation: dy 1.3s ease-in-out;
+.happy_small_dy{ width: 640px; height: 320px; float: left; overflow: hidden; overflow: hidden; @extend .clearfix; background-color: #fff; position: relative;  top: 0; left: 0; 
 	.img{ float: left; width: 320px; height: 320px; position: relative; overflow: hidden;
 		a{ display: block; }
 		img{ display: block; width: 320px; height: 320px; }
@@ -386,13 +385,18 @@
 	
 }
 .happy_we_leader{ width: 1280-30px; height: 440-36px; padding: 18px 16px; margin: 0 auto; background-color: #fff; background-color: #fff; position: relative; 
-	.bar{ width: 318px; height: 266px; position: absolute; display: block; background-color: #d8074b; left: -1px; bottom: -1px; z-index: 1; animation: bar_leader .8s ease-in-out; -webkit-animation: bar_leader .8s ease-in-out; opacity: 1; filter: alpha(opacity=100); }
+	.bar{ width: 318px; height: 266px; position: absolute; display: block; background-color: #d8074b; left: -1px; bottom: -1px; z-index: 1; 
+		// animation: bar_leader .8s ease-in-out; -webkit-animation: bar_leader .8s ease-in-out; opacity: 1; filter: alpha(opacity=100); 
+	}
 }
 .happy_we_leaderIn{ @extend .clearfix; width: 1280-30-2-24px; height: 440-36-2-24px; border: 1px solid #c7c7c7; padding: 12px; position: relative;
 	.left{ float: left; width: 320px; height: 100%; 
-		img{ display: block; width: 320px; height: 100%; position: relative; z-index: 2; top: 0; animation: img_leader 1.3s ease-in-out; -webkit-animation: img_leader 1.3s ease-in-out; }
+		img{ display: block; width: 320px; height: 100%; position: relative; z-index: 2; top: 0; 
+			// animation: img_leader 1.3s ease-in-out; -webkit-animation: img_leader 1.3s ease-in-out; 
+		}
 	}
-	.right{ float: right; width: 766+80px; height: 100%; text-align: left; position: relative; right: 0; animation: right_leader .8s linear; -webkit-animation: right_leader .8s linease-in-outear;
+	.right{ float: right; width: 766+80px; height: 100%; text-align: left; position: relative; right: 0; 
+		// animation: right_leader .8s linear; -webkit-animation: right_leader .8s linease-in-outear;
 		.name{ font-size: 30px; color: #d7074b; padding-top: 70px;
 			span{ font-size: 16px; color: #727171; }
 		}
@@ -406,12 +410,12 @@
 .happy_middle_bar{ width: 100%; min-width: 1280px; height: 21px; @extend %ty_where_bac; margin: 60px 0; }
 .happy_we_all{ text-align: center; width: 1280px; margin: 0 auto; 
 	.happy_titbar{
-		.t1,.t2{ background-color: #efeff2; }
+		.t1,.t2{ background-color: #fff; }
 	}
 }
 .happy_we_people{ padding-bottom: 80px;
 	ul{ @extend .clearfix; width: 1280+49px; margin-left: -49px; }
-	li{ float: left; width: 394-30px; height: 486-17-22px; padding: 17px 15px 22px 15px; background: #fff; position: relative; top: 0; margin-bottom: 30px; margin-left: 49px; z-index: 2; transition: all .2s linear; -webkit-transition: all .2s linear; overflow: hidden; top: 0; animation: dy 1s ease-in-out; -webkit-animation: dy 1s ease-in-out;
+	li{ float: left; width: 394-30px; height: 486-17-22px; padding: 17px 15px 22px 15px; background: #fff; position: relative; top: 0; margin-bottom: 30px; margin-left: 49px; z-index: 2; transition: all .2s linear; -webkit-transition: all .2s linear; overflow: hidden; top: 0; 
 		.top{ width: 318px; height: 223px; border: 1px solid #c8c8c8; position: relative; margin-left: 364-2-318px; text-align: left;
 			img{ width: 354px; height: 204px; position: absolute; top: 10px; left: -46px; }
 		}
@@ -434,7 +438,7 @@
 	}
 }
 // 联系
-.happy_where_content{ width: 1200px; padding-top: 85px; margin: 0 auto; }
+.happy_where_content{ width: 1200px; margin: 0 auto; }
 .connect_type{ width: 100%; @extend .clearfix;
 	.list{ width: 33%; float: left; height: 34px; line-height: 17px; text-align: left; font-size: 13px; color: #727171; @extend .clearfix; }
 	.r,.l{ float: left; }
@@ -455,7 +459,7 @@
 	}
 	.submit{ float: left; padding: 56px 0 88px; width: 100%; }
 }
-.happy_where_bottom{ padding: 80px 0 145px; text-align: left;
+.happy_where_bottom{ padding: 80px 0 ; text-align: left;
 	li{ float: left; width: 275-2px; height: 80-2px; border:1px solid #d7d7d7; overflow: hidden; position: relative; margin-left: 24px; transition: all .4s linear; -webkit-transition: all .4s linear;
 		&:first-child{ margin-left: 12px; }
 		a{ display: block; }
@@ -473,14 +477,14 @@
 // 招聘
 .happy_all_width{ width: 1280px; margin: 0 auto; padding: 50px 0;
 	.img_room{ width: 100%; display: block; position: relative; z-index: 3; }
-	img{ animation: all_width_img 1.2s ease-in-out; -webkit-animation: all_width_img 1.2s ease-in-out; }
+	img{  }
 }
 .happy_ZP_content{ width: 810px; margin: 0 auto; text-align: left; 
 	.tit{ padding-top: 18px; height: 60px; line-height: 60px; font-size: 19px; color: #3e3a39; }
 	.detial{ color: #727171; font-size: 15px; height: 74px; line-height: 74px; }
 }
-.happy_ZP_all{ padding-top: 42px; padding-bottom: 50px; width: 810+240px; margin-left: -240px; @extend .clearfix; }
-.happy_ZP_allP{ float: left; width: 285px; margin-left: 240px; 
+.happy_ZP_all{ padding-top: 42px; padding-bottom: 50px; width: 810px; @extend .clearfix; }
+.happy_ZP_allP{ width: 285+285+240+240px; margin-left: -240px; @extend .clearfix; margin-bottom: 50px; padding-top: 20px;
 	.on{
 		.titIt{ color: #d7074b; 
 			.icon_down{  background-position: -99px -142px; margin-top: 11px; }
@@ -488,7 +492,7 @@
 		.allit{ display: block; height: auto; padding: 10px 25px 20px 25px; opacity: 1; filter: alpha(opacity=100); }
 	}
 }
-.happy_ZP_thing{ width: 285px; 
+.happy_ZP_thing{ width: 285px; margin-left: 240px; display: inline-block; float: left;
 	.titIt{ height: 40px; line-height: 40px; font-size: 15px; color: #727171; transition: all .2s linear; -webkit-transition: all .2s linear;
 		.icon_down{  width: 19px; height: 18px;float: right; @extend %ty_icon; background-position: -99px -124px; margin-top: 11px; cursor: pointer; }
 	}

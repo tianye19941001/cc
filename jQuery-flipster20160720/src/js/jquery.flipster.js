@@ -14,7 +14,7 @@ $.fn.flipster = function(options) {
             start:            'center', // Starting item. Set to 0 to start at the first, 'center' to start in the middle or the index of the item you want to start with.
             
             enableKeyboard:   true, // Enable left/right arrow navigation
-            enableMousewheel: true, // Enable scrollwheel navigation (up = left, down = right)
+            enableMousewheel: false, // Enable scrollwheel navigation (up = left, down = right)
             enableTouch:      true, // Enable swipe navigation for touch devices
             
             onItemSwitch:     $.noop, // Callback function when items are switched
