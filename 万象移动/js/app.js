@@ -56,159 +56,38 @@ $(document).ready(function(){
 			throw new Error('setIframeHeight Error');
 		}
 	}
-	$('#ty_iframe').load(
-        function(){
-        	if ($(this).contents().find("body").find('.newframe_about').length > 0) {
-	            $(this).height($(this).contents().find("body").find(".news-article").height() + 15);  
-        	}else{
-	            $(this).height($(this).contents().find("body").find(".news-article").height() + 55);  
-        	}
-			var minH = $(window).height();
-			$(".ty_wrapbac").css('min-height',minH+'px');
-			$(".ty_wrapbac").height($('#ty_iframe').height() + 70);
-        }
-    );
-    var iframeit  = setInterval(function(){
-    	if ($('#ty_iframe').length>0 && $('#ty_iframe').attr('src')!='#') {
-    		if ($('#ty_iframe').contents().find("body").find('.newframe_about').length > 0) {
-    			if ($('#ty_iframe').height()==($('#ty_iframe').contents().find("body").find(".news-article").height() + 15)) {
-    				return false;
-    			}else{
-    				$('#ty_iframe').height($('#ty_iframe').contents().find("body").find(".news-article").height() + 15); 
-    			}
-	    	}else{
-	            if ($('#ty_iframe').height()==($('#ty_iframe').contents().find("body").find(".news-article").height() + 55)) {
-    				return false;
-    			}else{
-    				$('#ty_iframe').height($('#ty_iframe').contents().find("body").find(".news-article").height() + 55); 
-	    		}
-	    	}
-    	}else if($('#ty_iframe').attr('src')=='#'){
-    		return false;
-    	}else if($('#ty_iframe').length=0){
-    		clearInterval(iframeit);
-    	}
-    	var minH = $(window).height();
-		$(".ty_wrapbac").css('min-height',minH+'px');
-		$(".ty_wrapbac").height($('#ty_iframe').height() + 70);
-	},200);
-	$('.ty_more').on("click", function(e){
-		stophref(e);
-		var stepMore = 6;
-		var nums = parseInt($(".ty_small_con_hide").length);
-		if (nums >= stepMore) {
-			for (var i = 0; i < stepMore; i++) {
-				$(".ty_small_con_hide").eq(0).removeClass('ty_small_con_hide');
-			}
-		}else if(nums == 0){
-			alert("没有更多啦！")
+	$(".tt_header .menu,.ty_dialog .menu").click(function(){
+		if ($('.ty_dialog').hasClass('ty_show')) {
+			$('.ty_dialog').slideUp(300).removeClass('ty_show');
 		}else{
-			for (var i = 0; i < nums; i++) {
-				$(".ty_small_con_hide").eq(0).removeClass('ty_small_con_hide');
-			}
+			$('.ty_dialog').slideDown(300).addClass('ty_show');
 		}
 	});
-	if ( myBrowser() == 8 ) {
-		var clentWidth = document.body.clientWidth;
-		$(".ty_all").css("min-width","1270px");
-		if (clentWidth >= 1880) {
-			$(".ty_all,.ty_content,.ty_footerIn").css("width","1800px");
-			$(".ty_footer").css("min-width","1800px");
-		}else if( 1880 > clentWidth >= 1500 ){
-			$(".ty_all,.ty_content,.ty_footerIn").css("width","1500px");
-			$(".ty_footer").css("min-width","1500px");
-		}else if( 1500 > clentWidth >= 0 ){
-			$(".ty_all,.ty_content,.ty_footerIn").css("width","1200px");
-			$(".ty_footer").css("min-width","1200px");
-		}
-	}
-	if (document.body.clientWidth>=768) {
-		var itsimg = setInterval(function(){
-			if ($('#ty_iframe').length>0 && $('#ty_iframe').attr('src')!='#') {
-	    		if ($('#ty_iframe').contents().find("body").find('.newframe_about').length > 0) {
-					$('#ty_iframe').contents().find("body").find(".news-inner .news-ct img").css({"width":"auto","height":"auto","max-width":"660px"});
-		    	}else{
-					$('#ty_iframe').contents().find("body").find(".news-inner .news-ct img").css({"width":"auto","height":"auto","max-width":"800px"});
-
-		    	}
-	    	}else if($('#ty_iframe').attr('src')=='#'){
-	    		return false;
-	    	}else if($('#ty_iframe').length=0){
-	    		clearInterval(itsimg);
-	    	}
-		},300);
-		$('#ty_tb').click(function(e){
-			stophref(e);
-			$('html,body').animate({scrollTop: $('.ty_footer').offset().top},600);
-		});
-		$(window).scroll(function() {
-	  		var listTop = 240;
-	  		var listNT = parseInt(document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop);
-	  		(listNT>listTop)? $(".ty_about_con .menu").css({"position":"fixed","top":"0"}) : $(".ty_about_con .menu").css("position","relative");
-		});
-		$(".ty_service_list li").on("hover mousemove", function(){
-			if($(".ty_service_list .arrow").is(":animated")){
-				return false;
-			} else{
-				var step = 132;
-				var index = $(".ty_service_list li").index($(this));
-				$(".ty_service_list .arrow").animate({top:index*step+"px"});
-				$(".ty_service_list .arrow .arrow-t").eq(0).animate({ 'margin-top' : -index*step+"px"});
-			}
-		});
-		$(document).on("click",'.ty_big_con .imgs,.ty_small_con .imgs,.ty_small_con h3 a,.ty_detial2 .person li a', function(e){
-			stophref(e);
-			$('#ty_iframe').attr('src',$(this).attr('href'));
-			$('#ty_iframe').height(1000);
-			$('body').addClass('oh');
-			$('.newframe').height("100%").addClass("show");
-			
-		});
-		
-		$('.newframe').on("click",'.ty_wrapbac,.close', function(e){
-			stophref(e);
-			if ($(this).hasClass('ty_wrapbac')) {
-				$(this).parent().removeClass("show");
-			}else{
-				$(this).parents('.newframe').removeClass("show");
-			}
-			$('body').removeClass('oh');
-		});
-		
-	}else{
-		$('#ty_tb').click(function(e){
-			stophref(e);
-			$('html,body').animate({scrollTop: $('.ty_footer').offset().top},600);
-			$(".ty_listbar .list1").removeClass("showlist");
-			$(".ty_phone_bac").hide();
-		});
-		$(document).on("click",'.phone_menu', function(e){
-			stophref(e);
-			$(".ty_listbar .list1").addClass("showlist");
-			$(".ty_phone_bac").show();
-		});
-		$(document).on("click",'.ty_phone_bac', function(e){
-			stophref(e);
-			$(".ty_listbar .list1").removeClass("showlist");
-			$(".ty_phone_bac").hide();
-		});
-		$(document).on("click",'.ty_phone_title', function(e){
-			if ($(this).hasClass("up")) {
-				$(this).removeClass("up");
-				$(".ty_content .menu").slideUp();
-			}else{
-				$(this).addClass("up");
-				$(".ty_content .menu").slideDown();
-			}
-		});
-		$(".ty_small_con img").height($(".ty_small_con img").width());
-		$(".ty_big_con img").height($(".ty_big_con img").width()/290*176);
-		$(document).on("click",'.ty_big_con .imgs,.ty_small_con .imgs,.ty_small_con h3 a,.ty_detial2 .person li a', function(e){
-			stophref(e);
-			$('#ty_iframe').attr('src',$(this).attr('href'));
-			$('.newframe').addClass("show");
-			$(".ty_detial2,.ty_footer,.ty_small_con,.ty_big_con").hide();
-		});
-	}
-
+	$(".works a").click(function(e){
+		stophref(e);
+		var imgw = $(this).attr('href');
+		$('.ty_dialog2 img').attr("src",imgw);
+		$('.ty_dialog2').fadeIn(500);
+	});
+	$(".ty_dialog2 .close").click(function(e){
+		$('.ty_dialog2').fadeOut(500);
+	});
+	$(window).scroll(function() {
+  		var listNT = parseInt(document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop),
+  			NH = parseInt(document.body.offsetHeight),
+  			WH = parseInt(document.documentElement.clientHeight);
+  		if((NH-listNT-WH)<200){
+  			$('.tt_down').hide(100);
+  		}else{
+  			$('.tt_down').show(100);
+  		}
+	});
+	$('.tt_down').click(function(e){
+		stophref(e);
+		var listNT = parseInt(document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop);
+		$('html,body').animate({scrollTop: listNT+300},600);
+	})
+	$('.ty_dialog .listB a').click(function(){
+		$('.ty_dialog').slideUp(300).removeClass('ty_show');
+	})
 });
