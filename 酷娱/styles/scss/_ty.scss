@@ -6,7 +6,7 @@
 %ty_black_bac { background: url('../images/ty_black_bac.png'); }
 %ty_black_bac15 { background: url('../images/blackbac15.png'); }
 %ty_black_bac30 { background: url('../images/blackbac30.png'); }
-
+ 
 // 公共部分
 @keyframes header{
 	0%{ left: 120%; }
@@ -106,6 +106,59 @@
 	100%{ left: 0; opacity: 1;
 	filter: alpha(opacity=100); }
 }
+
+@media screen and (min-width:1020px) and (max-width:1500px){
+	
+}
+@media screen and (min-width:1500px) and (max-width:1880px){
+	
+}
+@media screen and (min-width: 1880px) {
+    body{
+    	.happy_header{ width: 1800px; margin-left: -900px; }
+    	.happy_content,.index_con,.happy_dy_con,.happy_footer{ width: 1800px; }
+    	.happy_big_dy{ width: 600px; height: 600px; 
+			.kuang{ width: 540px; height: 310px; }
+    	}
+    	.happy_small_dy{ width: 600px; height: 300px; 
+			.kuang{ width: 265px; height: 265px; top: 16px; left: 16px; }
+			.img{ width: 300px; height: 300px; }
+			.detial{ width: 300px; height: 300px; }
+    	}
+    	.happy_ZP_content{ width: 1280px; }
+    	.happy_ZP_all{ width: 1280px; }
+    	.happy_ZP_allP{ width: 1280+200px; margin-left: -190px; }
+    	.happy_ZP_thing{ margin-left: 200px; }
+    	.happy_product{ width: 1580px; margin: 0 auto; padding-top: 100px;
+			.happy_con_in{ margin-bottom: 20px; }
+			.happy_we_leader{ width: 1580-30px; height: 500-36-100-70px; padding: 18px 16px; margin: 0 auto; background-color: #fff; background-color: #fff; position: relative; 
+				.bar{ width: 388px; height: 296-100px; position: absolute; display: block; background-color: #d8074b; left: -1px; bottom: -1px; z-index: 1; }
+			}
+			.happy_we_leaderIn{ width: 1580-30-2-24px; height: 500-36-2-24-100-70px; border: 1px solid #c7c7c7; padding: 12px; position: relative;
+				.left{ float: left; width: 390px; height: 100%; 
+					img{ display: block; width: 390px; height: 100%; position: relative; z-index: 2; top: 0; }
+				}
+				.right{ float: right; width: 1070px; height: 100%; text-align: left; position: relative; right: 0; 
+					.name{ font-size: 28px; color: #d7074b; padding-top: 6px;
+						a{ color: #3e3a39; }
+					}
+					.about{ padding-top: 15px; height: 120px; font-size: 16px; line-height: 28px; height: 28*6px; }
+					.ty_more{ float: right; margin-top: 10px; }
+				}
+			}
+		}
+		.happy_cooper{ width: 1480px; margin: 0 auto; padding-bottom: 60px; }
+		.happy_cooper_con{ padding-top: 60px; text-align: center; }
+		.happy_cooplist{ width: 1405px; overflow: hidden; padding-top: 40px; margin: 0 auto; 
+			ul{ margin-left: -1px; overflow: hidden; width: 1407px; }
+			li{ float: left; width: 200px; height: 80px; border-left: 1px solid #d7d7d7; margin-bottom: 74px; }
+		}
+		.index_con .zzsc-container{ height: 450*1.4px; }
+		.index_con .zzsc-container .Button.Block,.index_con .zzsc-container .Button.Block img{ width: 680*1.4px; height: 430*1.4px; }
+		.ty_flipster .lbtn, .ty_flipster .rbtn{ top: 300-17px; }
+    }
+}
+
 .flipster{ overflow: hidden; }
 .happy_body2{ background-color: #efeff2; }
 .happy_header{ position: fixed; top: 0; width: 1280px; height: 58px; background-color: #fff; @extend .clearfix; left: 50%; margin-left: -640px; z-index: 5; border-bottom:  1px solid #c2c3c3; 
@@ -215,7 +268,7 @@
 }
 
 // 关于
-.intro_top{ width: 100%; overflow: hidden; 
+.intro_top{ width: 1280px; overflow: hidden; margin: 0 auto; padding-top: 50px;
 	.img{ height: 485px; }
 }
 .intro_con{ width: 1280px; height: auto; margin: 84px auto 0; }
@@ -339,17 +392,21 @@
 // 合作
 .happy_cooper{ width: 1280px; margin: 0 auto; padding-bottom: 60px; }
 .happy_cooper_con{ padding-top: 60px; text-align: center; }
+.happy_cooplist{ width: 1204px; overflow: hidden; padding-top: 40px; margin: 0 auto; 
+	ul{ @extend .clearfix; margin-left: -1px; overflow: hidden; width: 1206px; }
+	li{ float: left; width: 200px; height: 80px; border-left: 1px solid #d7d7d7; margin-bottom: 74px; }
+}
 // 出品
-.happy_product{ width: 1100px; margin: 0 auto; padding-top: 100px;
+.happy_product{ width: 1280px; margin: 0 auto; padding-top: 100px;
 	.happy_con_in{ margin-bottom: 20px; }
-	.happy_we_leader{ width: 1100-30px; height: 440-36-100-70px; padding: 18px 16px; margin: 0 auto; background-color: #fff; background-color: #fff; position: relative; 
-		.bar{ width: 318px; height: 266-100px; position: absolute; display: block; background-color: #d8074b; left: -1px; bottom: -1px; z-index: 1; animation: bar_leader .8s ease-in-out; -webkit-animation: bar_leader .8s ease-in-out; opacity: 1; filter: alpha(opacity=100); }
+	.happy_we_leader{ width: 1280-30px; height: 440-36-100-70px; padding: 18px 16px; margin: 0 auto; background-color: #fff; background-color: #fff; position: relative; 
+		.bar{ width: 318px; height: 266-100px; position: absolute; display: block; background-color: #d8074b; left: -1px; bottom: -1px; z-index: 1; }
 	}
-	.happy_we_leaderIn{ @extend .clearfix; width: 1100-30-2-24px; height: 440-36-2-24-100-70px; border: 1px solid #c7c7c7; padding: 12px; position: relative;
+	.happy_we_leaderIn{ @extend .clearfix; width: 1280-30-2-24px; height: 440-36-2-24-100-70px; border: 1px solid #c7c7c7; padding: 12px; position: relative;
 		.left{ float: left; width: 320px; height: 100%; 
-			img{ display: block; width: 320px; height: 100%; position: relative; z-index: 2; top: 0; animation: img_leader 1.3s ease-in-out; -webkit-animation: img_leader 1.3s ease-in-out; }
+			img{ display: block; width: 320px; height: 100%; position: relative; z-index: 2; top: 0; }
 		}
-		.right{ float: right; width: 766+80-150px; height: 100%; text-align: left; position: relative; right: 0; animation: right_leader .8s linear; -webkit-animation: right_leader .8s linease-in-outear;
+		.right{ float: right; width: 870px; height: 100%; text-align: left; position: relative; right: 0; 
 			.name{ font-size: 24px; color: #d7074b; padding-top: 6px;
 				a{ color: #3e3a39; }
 			}

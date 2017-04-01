@@ -190,4 +190,33 @@ $(document).ready(function(){
 		var index = $('.wx_aboutIn .rightde .r a').index($(this));
 		$('.wx_aboutIn .rightde .l p').removeClass('on').eq(index).addClass('on');
 	})
+	function headerword(){
+		var all =  $('.navlist .list1 span,.navlist .list2 span');
+		all.each(function(){
+			var length = $(this).text().length;
+			switch (length){
+				case 3:
+					$(this).addClass('ltsp3');
+					break;
+				case 4:
+					$(this).addClass('ltsp4');
+					break;
+				case 5:
+					$(this).addClass('ltsp5');
+					break;
+				case 6:
+					$(this).addClass('ltsp6');
+					break;
+				case 7:
+					$(this).addClass('ltsp7');
+					break;
+				case 8:
+					$(this).addClass('ltsp8');
+					break;
+				default:
+					break;
+			}
+		})
+	}
+	headerword();
 });

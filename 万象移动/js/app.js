@@ -20,7 +20,6 @@ $(document).ready(function(){
 	        return IEMethod;
 	    };
 	}
-	
 	function stophref(e) {
 		if ( e && e.preventDefault ){
 			e.preventDefault(); 
@@ -90,4 +89,9 @@ $(document).ready(function(){
 	$('.ty_dialog .listB a').click(function(){
 		$('.ty_dialog').slideUp(300).removeClass('ty_show');
 	})
+	$('#about .leftbar li').click(function(){
+		var indexit = $('#about .leftbar li').index($(this));
+		$('#about .leftbar li').removeClass('on').eq(indexit).addClass('on');
+		$('#about .rightbar li').removeClass('on').eq(indexit).addClass('on');
+	});
 });
