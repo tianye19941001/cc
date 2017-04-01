@@ -337,65 +337,65 @@ $.fn.flipster = function(options) {
                 jump(_flipItems.index(this));
             });
 
-            // Keyboard Navigation
-            if (settings.enableKeyboard && _flipItems.length > 1) {
-                win.on("keydown.flipster", function(e) {
-                    _actionThrottle++;
-                    if (_actionThrottle % 7 !== 0 && _actionThrottle !== 1) return; //if holding the key down, ignore most events
+            // // Keyboard Navigation
+            // if (settings.enableKeyboard && _flipItems.length > 1) {
+            //     win.on("keydown.flipster", function(e) {
+            //         _actionThrottle++;
+            //         if (_actionThrottle % 7 !== 0 && _actionThrottle !== 1) return; //if holding the key down, ignore most events
                     
-                    var code = e.which;
-                    if (code === 37 ) {
-                        e.preventDefault();
-                        jump('left');
-                    } else if (code === 39 ) {
-                        e.preventDefault();
-                        jump('right');
-                    }
-                });
+            //         var code = e.which;
+            //         if (code === 37 ) {
+            //             e.preventDefault();
+            //             jump('left');
+            //         } else if (code === 39 ) {
+            //             e.preventDefault();
+            //             jump('right');
+            //         }
+            //     });
         
-                win.on("keyup.flipster", function(e){
-                    _actionThrottle = 0; //reset action throttle on key lift to avoid throttling new interactions
-                });
-            }
+            //     win.on("keyup.flipster", function(e){
+            //         _actionThrottle = 0; //reset action throttle on key lift to avoid throttling new interactions
+            //     });
+            // }
 
-            // Mousewheel Navigation
-            if (settings.enableMousewheel && _flipItems.length > 1) { // TODO: Fix scrollwheel on Firefox
-                _flipster.on("mousewheel.flipster", function(e){
-                    _throttleTimeout = window.setTimeout(removeThrottle, 500); //throttling should expire if scrolling pauses for a moment.
-                    _actionThrottle++;
-                    if (_actionThrottle % 4 !==0 && _actionThrottle !== 1) return; //throttling like with held-down keys
-                    window.clearTimeout(_throttleTimeout);
+            // // Mousewheel Navigation
+            // if (settings.enableMousewheel && _flipItems.length > 1) { // TODO: Fix scrollwheel on Firefox
+            //     _flipster.on("mousewheel.flipster", function(e){
+            //         _throttleTimeout = window.setTimeout(removeThrottle, 500); //throttling should expire if scrolling pauses for a moment.
+            //         _actionThrottle++;
+            //         if (_actionThrottle % 4 !==0 && _actionThrottle !== 1) return; //throttling like with held-down keys
+            //         window.clearTimeout(_throttleTimeout);
                     
-                    if ( e.originalEvent.wheelDelta /120 > 0 ) { jump("left"); }
-                    else { jump("right"); }
+            //         if ( e.originalEvent.wheelDelta /120 > 0 ) { jump("left"); }
+            //         else { jump("right"); }
                     
-                    e.preventDefault();
-                });
-            }
+            //         e.preventDefault();
+            //     });
+            // }
 
-            // Touch Navigation
-            if ( settings.enableTouch && _flipItems.length > 1 ) {
-                _flipster.on("touchstart.flipster", function(e) {
-                    _startTouchX = e.originalEvent.targetTouches[0].screenX;
-                });
+            // // Touch Navigation
+            // if ( settings.enableTouch && _flipItems.length > 1 ) {
+            //     _flipster.on("touchstart.flipster", function(e) {
+            //         _startTouchX = e.originalEvent.targetTouches[0].screenX;
+            //     });
 
-                _flipster.on("touchmove.flipster", function(e) {
-                    e.preventDefault();
-                    var nowX = e.originalEvent.targetTouches[0].screenX;
-                    var touchDiff = nowX-_startTouchX;
-                    if (touchDiff > _flipItems[0].clientWidth/1.75){
-                        jump("left");
-                        _startTouchX = nowX;
-                    }else if (touchDiff < -1*(_flipItems[0].clientWidth/1.75)){
-                        jump("right");
-                        _startTouchX = nowX;
-                    }
-                });
+            //     _flipster.on("touchmove.flipster", function(e) {
+            //         e.preventDefault();
+            //         var nowX = e.originalEvent.targetTouches[0].screenX;
+            //         var touchDiff = nowX-_startTouchX;
+            //         if (touchDiff > _flipItems[0].clientWidth/1.75){
+            //             jump("left");
+            //             _startTouchX = nowX;
+            //         }else if (touchDiff < -1*(_flipItems[0].clientWidth/1.75)){
+            //             jump("right");
+            //             _startTouchX = nowX;
+            //         }
+            //     });
 
-                _flipster.on("touchend.flipster", function(e) {
-                    _startTouchX = 0;
-                });
-            }
+            //     _flipster.on("touchend.flipster", function(e) {
+            //         _startTouchX = 0;
+            //     });
+            // }
         }
 
         // Initialize if flipster is not already active.
