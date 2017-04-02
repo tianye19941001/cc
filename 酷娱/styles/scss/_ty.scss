@@ -164,12 +164,12 @@ body{
 }
 .flipster{ overflow: hidden; }
 .happy_body2{ background-color: #efeff2; }
-.happy_header{ position: fixed; top: 0; width: 1280px; height: 58px; background-color: #fff; @extend .clearfix; left: 50%; margin-left: -640px; z-index: 5; border-bottom:  1px solid #c2c3c3; 
+.happy_header{ position: fixed; top: 0; width: 1280px; height: 68px; background-color: #fff; @extend .clearfix; left: 50%; margin-left: -640px; z-index: 5; border-bottom:  1px solid #c2c3c3; 
 	// animation: header 1.2s ease-in-out; -webkit-animation: header 1.2s ease-in-out;
 	.logo{ float: left; margin: 12px 0 0 74px; @extend .clearfix; padding-right: 50px; border-right: 2px solid #e1e1e1;
-		img{ display: block; float: left; width: 108px; height: 36px; }
+		img{ display: block; float: left; width: 138px; height: 46px; }
 	}
-	.nav{ float: right; height: 58px; line-height: 58px; margin-right: 100px;
+	.nav{ float: right; height: 68px; line-height: 68px; margin-right: 100px;
 		.list1{ @extend .clearfix; font-size: 14px;
 			>li{ width: 80px; float: left; text-align: center; 
 				&:hover{
@@ -260,14 +260,14 @@ body{
 		em{ font-size: 20px; color: #3f3939; height: 20px; line-height: 20px; padding-right: 6px; border-right: 1px solid #898989; float: left; position: relative;
 			span{ display: block; position: absolute; font-size: 10px; color: #3f3939; top: 22px; left: 0; }
 		}
-		p{ width: 275px; padding-left: 10px; display: inline-block; font-size: 13px; color: #727171; display: inline-block; float: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; transition: all .2s linear; -webkit-transition: all .2s linear; }
+		p{ width: 275px; padding-left: 10px; display: inline-block; font-size: 13px; color: #727171; display: inline-block; float: left; height: 38px; overflow: hidden;  transition: all .2s linear; -webkit-transition: all .2s linear; }
 		&:hover{ top: -15px;
 			.r_icon{ left: 75px; }
 			p{ color: #231815; }
 		}
 	}
 	.ty_more{ float: right; width: 72px; height: 18px; border: 1px solid #999; line-height: 18px;  text-align: center; color: #3e3a39; font-size: 7px; position: absolute; top: 25px; right: 6px; z-index: 2; }
-	.r_icon{ width: 262px; height: 3px; display: block; @extend %ty_icon2; background-position: -170px -463px; position: absolute; left: -300px; top: 30px; transition: all .2s linear; -webkit-transition: all .2s linear; }
+	.r_icon{ width: 262px; height: 3px; display: block; @extend %ty_icon2; background-position: -170px -463px; position: absolute; left: -300px; top: 40px; transition: all .2s linear; -webkit-transition: all .2s linear; }
 }
 
 // 关于
@@ -371,7 +371,7 @@ body{
 		img{ display: block; width: 320px; height: 320px; }
 	}
 	.detial{ float: left; width: 320px; height: 320px; text-align: left; position: relative; 
-		h3{ border-bottom: 1px solid #d7d7d7; height: 115-40px; padding: 40px 0 0 40px; font-size: 18px; color: #3e3a39; line-height: 20px;
+		h3{ border-bottom: 1px solid #d7d7d7; height: 115-40px; padding: 30px 30px 0 40px; font-size: 16px; color: #3e3a39; line-height: 20px;
 			span{ font-size: 10px; color: #727171; position: relative; top: -4px; }
 		}
 		p{ padding: 35px 40px; color: #727171; line-height: 20px; font-size: 12px; height: 120px; overflow: hidden; }
@@ -499,7 +499,7 @@ body{
 }
 // 联系
 .happy_where_content{ width: 1200px; margin: 0 auto; }
-.connect_type{ width: 100%; @extend .clearfix;
+.connect_type{ width: 100%; @extend .clearfix; padding: 50px 0;
 	.list{ width: 33%; float: left; height: 34px; line-height: 17px; text-align: left; font-size: 13px; color: #727171; @extend .clearfix; }
 	.r,.l{ float: left; }
 	.icon_phone,.icon_email,.icon_location{ width: 35px; height: 34px; display: block;  @extend %ty_icon; margin-right: 46px; }
@@ -519,7 +519,7 @@ body{
 	}
 	.submit{ float: left; padding: 56px 0 88px; width: 100%; }
 }
-.happy_where_bottom{ padding: 80px 0 ; text-align: left;
+.happy_where_bottom{ padding: 60px 0 10px; text-align: left;
 	li{ float: left; width: 275-2px; height: 80-2px; border:1px solid #d7d7d7; overflow: hidden; position: relative; margin-left: 24px; transition: all .4s linear; -webkit-transition: all .4s linear;
 		&:first-child{ margin-left: 12px; }
 		a{ display: block; }
@@ -563,7 +563,7 @@ body{
 }
 
 .oh{ overflow: hidden; }
-.newframe{ position:fixed; top:58px; left:0; width:100%; height:100%; overflow-x:hidden; overflow-y:auto; display: none; z-index: 6;
+.newframe{ position:fixed; top:68px; left:0; width:100%; height:100%; overflow-x:hidden; overflow-y:auto; display: none; z-index: 6;
     -webkit-transition: all .3s ease-out;
     -moz-transition: all .3s ease-out;
     transition: all .3s ease-out;
@@ -611,7 +611,9 @@ body{
 		img{ width: 100%; display: block; margin: 0 auto; }
 		.aboutpic{ padding-top: 10px; text-align: center; }
 	}
-	.text{ margin-top: 20px; text-indent: 24px; }
+	.text{ margin-top: 20px; text-indent: 24px; text-align: center;
+		img{ text-align: center; }
+	}
 	.btns{ margin-top: 50px; text-align: center;
 		a{ display: inline-block; height: 25px; line-height: 25px;width: 92px; background-color: #c4c6d2; color: #fff; text-align: center; }
 	}
