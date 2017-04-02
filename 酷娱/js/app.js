@@ -65,10 +65,18 @@ $(document).ready(function(){
 		$('.slideBox .next').trigger('click');
 	});
 	if ($('.ty_flipster').length > 0) {
-		var flipIn = setInterval(function(argument) {
+		flipIn = setInterval(function(argument) {
 			$('.flip-next').trigger('click');
-		},3000)
+		},4000);
 	}
+	$('.flipster').hover(function(){
+		clearInterval(flipIn);
+	})
+	$('.flipster').mouseleave(function(){
+		flipIn = setInterval(function(argument) {
+			$('.flip-next').trigger('click');
+		},4000);
+	})
 	$('.happy_ZP_thing .icon_down').click(function(){
 		if ($(this).parent().parent().hasClass('on')) {
 			$(this).parent().parent().removeClass('on');

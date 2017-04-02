@@ -130,4 +130,16 @@ $(document).ready(function(){
 			}
 		}
 	})
+	$('.cops img').hover(function(){
+		if ($(this).attr('src').indexOf('_hover')<=0) {
+			var nSrc = $(this).attr('src');
+			$(this).attr('alt',nSrc);
+			var mSrcArr =  nSrc.split('.');
+			var newSrc = mSrcArr[0]+"_hover."+mSrcArr[1];
+			$(this).attr('src',newSrc);
+		}
+	})
+	$('.cops img').mouseleave(function(){
+		$(this).attr('src',$(this).attr('alt'));
+	})
 });

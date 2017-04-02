@@ -198,8 +198,13 @@ body{ background-color: #f3f5f6; width: 100%; min-width: 1280px; }
 	.main{ width: 1280px; position: relative; margin: 0 auto; }
 	.main>.p1{ width: 1000px; margin: 0 auto; padding-top: 85px; line-height: 28px; font-size: 15px; color: #fff; height: 140px; overflow: hidden; }
 	.lake_con3_icons{ @extend .clearfix; 
-		li{ float: left; width: 320px; height: 340-85px; text-align: center; position: relative; padding-top: 60px; -webkit-transition: all .5s ease-out; -moz-transition: all .5s ease-out; transition: all .5s ease-out; top: 0;	&:hover{ top: -40px; 
+		li{ float: left; width: 320px; height: 340-85px; text-align: center; position: relative; padding-top: 60px; -webkit-transition: all .5s ease-out; -moz-transition: all .5s ease-out; transition: all .5s ease-out; top: 0;	
+			&:hover{ top: -40px; 
 				.icon_add{ display: inline-block; }
+				.lake_con3_i1{ background: url(../images/lake_list1_2.png); }
+				.lake_con3_i2{ background: url(../images/lake_list2_2.png); }
+				.lake_con3_i3{ background: url(../images/lake_list3_2.png); }
+				.lake_con3_i4{ background: url(../images/lake_list4_2.png); }
 			} 
 		}
 		.lake_icon{ width: 110px; height: 111px; display: block; margin: 0 auto; margin-bottom: 20px; }
@@ -221,6 +226,8 @@ body{ background-color: #f3f5f6; width: 100%; min-width: 1280px; }
 		li{ float: left; margin: 0 0 75px 75px; width: 196px; height: 132px; 
 			&:hover{ background-color: #fff; box-shadow: 3px 3px 3px rgba(0,0,0,.3) }
 		}
+		a{ display: block; height: 100%; width: 100%; } 
+		img{ display: block; width: 100%; height: 100%; }
 	}
 	.show{ display: block; }
 	.btns{ text-align: center; 

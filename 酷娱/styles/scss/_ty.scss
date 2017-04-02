@@ -158,13 +158,16 @@
 		.ty_flipster .lbtn, .ty_flipster .rbtn{ top: 300-17px; }
     }
 }
-
+body{ 
+	.flipster-carousel .flip-next, .flipster-carousel .flip-prev{ -webkit-opacity: .7; -moz-opacity: .7; opacity: 0.7; }
+	.flipster-carousel .flip-future, .flipster-carousel .flip-past{ -webkit-opacity: .4; -moz-opacity: .4; opacity: 0.4; }
+}
 .flipster{ overflow: hidden; }
 .happy_body2{ background-color: #efeff2; }
 .happy_header{ position: fixed; top: 0; width: 1280px; height: 58px; background-color: #fff; @extend .clearfix; left: 50%; margin-left: -640px; z-index: 5; border-bottom:  1px solid #c2c3c3; 
 	// animation: header 1.2s ease-in-out; -webkit-animation: header 1.2s ease-in-out;
 	.logo{ float: left; margin: 12px 0 0 74px; @extend .clearfix; padding-right: 50px; border-right: 2px solid #e1e1e1;
-		img{ display: block; float: left; }
+		img{ display: block; float: left; width: 108px; height: 36px; }
 	}
 	.nav{ float: right; height: 58px; line-height: 58px; margin-right: 100px;
 		.list1{ @extend .clearfix; font-size: 14px;
