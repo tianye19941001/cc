@@ -26,7 +26,14 @@ body{ width: rem(1080); -webkit-overflow-scrolling : touch; }
 	}
 	.selef{ margin-top: rem(50); width: 100%; background-color: #4783c1; height: rem(504); box-shadow: 0 rem(-15) rem(15) rgba(0,0,0,.1);
 		.leftbar{ float: left; width: rem(272); 
-			li{ height: rem(168); line-height: rem(168); text-align: center; background-color: #c9c9c9; font-size: rem(36); color: #549be5; }
+			li{ height: rem(168); line-height: rem(168); text-align: center; background-color: #c9c9c9; font-size: rem(36); color: #549be5; 
+				&:nth-child(1){ background-image: url(../images/index_tab1.png); background-size: 100% 100%; }
+				&:nth-child(1).on{ background-image: url(../images/index_tab1_on.png); background-size: 100% 100%; }
+				&:nth-child(2){ background-image: url(../images/index_tab2.png); background-size: 100% 100%; }
+				&:nth-child(2).on{ background-image: url(../images/index_tab2_on.png); background-size: 100% 100%; }
+				&:nth-child(3){ background-image: url(../images/index_tab3.png); background-size: 100% 100%; }
+				&:nth-child(3).on{ background-image: url(../images/index_tab3_on.png); background-size: 100% 100%; }
+			}
 			.on{ color: #b8c0c8; background-color: #4783c1; }
 		}
 		.rightbar{ float: left; width: rem(1080-272); height: 100%; box-sizing: border-box; padding: rem(54) rem(60) rem(54) rem(90); color: #b8c0c8; font-size: rem(26); line-height: rem(40); 
