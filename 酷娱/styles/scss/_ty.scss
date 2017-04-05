@@ -575,7 +575,7 @@ body{
 	.inner-right a b{ visibility:visible; }
 }
 .open-news { width: 940px; margin: 0px auto 0 auto; position: relative; background: #fff; }
-.inner-right{ position:absolute; top:0; right:-60px; width:60px; }
+.inner-right{ position:fixed; top:68px; left:50%; margin-left: 462px; width:60px; }
 .inner-right a{ width:60px; height:60px; display:block; position:relative;
     -webkit-transition: all .3s ease-out;
     -moz-transition: all .3s ease-out;
@@ -611,7 +611,7 @@ body{
 		img{ width: 100%; display: block; margin: 0 auto; }
 		.aboutpic{ padding-top: 10px; text-align: center; }
 	}
-	.text{ margin-top: 20px; text-indent: 24px; text-align: center;
+	.text{ margin-top: 20px; text-indent: 24px; 
 		img{ text-align: center; }
 	}
 	.btns{ margin-top: 50px; text-align: center;
