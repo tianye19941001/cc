@@ -563,7 +563,7 @@ body{
 }
 
 .oh{ overflow: hidden; }
-.newframe{ position:fixed; top:68px; left:0; width:100%; height:100%; overflow-x:hidden; overflow-y:auto; display: none; z-index: 6;
+.newframe{ position:fixed; top:0; left:0; width:100%; height:100%; overflow-x:hidden; overflow-y:auto; display: none; z-index: 6;
     -webkit-transition: all .3s ease-out;
     -moz-transition: all .3s ease-out;
     transition: all .3s ease-out;
@@ -575,7 +575,7 @@ body{
 	.inner-right a b{ visibility:visible; }
 }
 .open-news { width: 940px; margin: 0px auto 0 auto; position: relative; background: #fff; }
-.inner-right{ position:fixed; top:68px; left:50%; margin-left: 462px; width:60px; }
+.inner-right{ position:fixed; top:0; left:50%; margin-left: 462px; width:60px; }
 .inner-right a{ width:60px; height:60px; display:block; position:relative;
     -webkit-transition: all .3s ease-out;
     -moz-transition: all .3s ease-out;
