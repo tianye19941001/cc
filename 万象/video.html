@@ -7,6 +7,7 @@
 	<meta name="format-detection" content="address=no">
 	<title>Document</title>
 	<link rel="stylesheet" href="styles/styles.css">
+	<link rel="stylesheet" href="styles/plyr.css">
 	<script src="js/jquery.min.js"></script>
 </head>
 <body>
@@ -71,7 +72,11 @@
 <div class="wx_con wx_con2">
 	<div class="video_con ">
 		<div class="rightbar">
-			<img src="images/temp/temp13.png" alt="">
+			<video poster="vs.png" controls>
+			 	<source src="http://www.jplayer.org/video/m4v/Incredibles_Teaser.m4v" type="video/mp4">
+			 	<!-- <source src="/path/to/video.webm" type="video/webm">-->
+			 	<!-- Captions are optional -->
+			</video>
 		</div>
 		<div class="leftbar">
 			<div class="leftbarIn">
@@ -112,11 +117,13 @@
 <script src="js/app.js"></script>
 <script src="js/jquery.SuperSlide.2.1.1.js"></script>
 <script src="js/divscroll.js"></script>
+<script src="js/plyr.js"></script>
 <script>
 	$(function() {
 		$('.contact_bar .con,.video_con .leftbar').perfectScrollbar();
 	});
 	jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true,delayTime:1000,mouseOverStop:false,interTime:5000});
+	plyr.setup();
 </script>
 </body>
 </html>

@@ -156,8 +156,10 @@
 		}
 		.video_con{ min-width: auto; 
 			.leftbarIn{padding :0; }
+			.plyr{ height: 100%; }
 			.rightbar{ float: left; margin: rem(108) auto 0; width: rem(1020); height: rem(566); margin-left: rem(30);
-				img{ width: 100%; } 
+				img{ width: 100%; }
+				video{ width: 100%; height: 100%; }
 			}
 			.leftbar{ background-color: #5e5e5e; text-align: center; padding: rem(50) rem(100); box-sizing: border-box; margin-top: rem(86); color: #fff; width: 100%; height: auto;
 				h2{ display: none; }
