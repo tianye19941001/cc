@@ -6,14 +6,14 @@ $(document).ready(function(){
 			Nheighti = Nwidth/1920*680,
 			allpoint = Nwidth/1680;
 		if (Nwidth > 1280) {
-			$('.video_con,.wx_list_f').height(Nheight);
-			$('.wx_lunbo .bd li').height(Nheighti);
+			// $('.video_con,.wx_list_f').height(Nheight);
+			// $('.wx_lunbo .bd li').height(Nheighti);
 			$('html').css('zoom',allpoint)
 		}else{
-			$('.video_con,.wx_list_f').height(1280/1920*800);
-			$('.wx_lunbo .bd li').height(1280/1920*680);
+			// $('.video_con,.wx_list_f').height(1280/1920*800);
+			// $('.wx_lunbo .bd li').height(1280/1920*680);
 			if (Nwidth>768) {
-				$('html').css('zoom',1280/1680)
+				$('html').css('zoom',1480/1680)
 			}
 		}
 	}

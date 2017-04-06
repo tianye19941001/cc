@@ -55,6 +55,7 @@
 				.wx_lunbo{ width: 100%; height: 100%; position: relative; overflow: hidden;  height: rem(574);
 					img{ width: 100%; min-height: auto; display: block;  height: rem(574); }
 				}
+				.bd li{ height: 680px; }
 				.hd{ position: absolute; z-index: 2; text-align: center; bottom: 10px; left: 0; width: 100%;
 					li{ display: inline-block; width: 8px; height: 8px; border-radius: 8px; border:0; margin: 0 8px; cursor: pointer;  background: #dddddd; opacity: .8; }
 					.on{ background: #fef287; opacity: .8; }
@@ -155,7 +156,7 @@
 		.wx_con2{ padding-top: rem(88+90); 
 			.slideBox{ display: none; }
 		}
-		.video_con{ min-width: auto; 
+		.video_con{ min-width: auto; height: 800px;
 			.leftbarIn{padding :0; }
 			.rightbar{ float: left; margin: rem(108) auto 0; width: rem(1020); height: rem(566); margin-left: rem(30);
 				img{ width: 100%; }
@@ -269,7 +270,7 @@ body{ font-family: "黑体"; }
 				.ltsp7{ text-align: center; letter-spacing: 5px; white-space: nowrap; }
 				.ltsp8{ text-align: center; letter-spacing: 3px; white-space: nowrap; }
 			}
-			i{ display: block; margin: 0 auto; height: 34px; background-image: url(../images/nav.png); margin-bottom: 100px; 
+			i{ display: block; margin: 0 auto; height: 34px; background-image: url(../images/nav.png); margin-bottom: 100px; background-size: 1256px 34px;
 				&:hover{ background-image: url(../images/nav_on.png); }
 			}
 			.car{ width: 70px; height: 34px; background-position: -49px 0; }
@@ -420,7 +421,7 @@ body{ font-family: "黑体"; }
 	.prev{ width: 72px; height: 72px; -webkit-transform: translateY(-50%); position: absolute; left: 30px; top: 50%; background-image: url(../images/ty_left.png); z-index: 7; }
 	.next{ width: 72px; height: 72px; -webkit-transform: translateY(-50%); position: absolute; right: 30px; top: 50%; background-image: url(../images/ty_right.png); z-index: 7; }
 }
-.wx_list_f{ width: 100%; height: 100%; @extend .clearfix; 
+.wx_list_f{ width: 100%; height: 100%; @extend .clearfix; height: 800px;
 	>div{ float: left; width: 25%; height: 100%; display: block; position: relative; 
 		.in{ display: block; height: 100%; display: block; transition: all .4s ease; -webkit-transition: all .4s ease; box-shadow: 0 0 6px rgba(0,0,0,.8); position: relative;
 			&:hover{ transform: scale(1.05); -webkit-transform: scale(1.05); z-index: 3; 
@@ -473,5 +474,5 @@ body{ font-family: "黑体"; }
 		}
 	}
 }
-.ty_dialog,.wx_header .hb,.tt_listbar,.phonelogo4{ display: none; }
+.ty_dialog,.wx_header .hb,.tt_listbar,.phonelogo{ display: none; }
 .ty_dialog{ @extend .clearfix; }
