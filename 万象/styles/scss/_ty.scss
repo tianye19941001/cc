@@ -29,26 +29,26 @@
 @media screen and (min-width:0px) and (max-width:768px){
 	body{ font-family: "微软雅黑" !important;
 		.wx_header{ height: rem(88); text-align: center; width: 100%; position: fixed; top: 0; left: 0; background-color: #fff; z-index: 10; min-width: auto;
-			.logo{ width: auto; float: none; display: inline; padding: 0;
-				img{ height: rem(78); width: auto; margin: 0 auto; }
+			.logo{ width: auto; float: none; padding: 0;
+				img{ height: rem(78); width: auto; display: inline-block; }
 			} 
 			i{ width:  rem(87/3*2); height:  rem(61/3*2); display: block; position: absolute; top: rem(35/3*2); right: rem(38/3*2); background: url("../images/right_menu.png") no-repeat 0 0; background-size: rem(87/3*2) rem(61/3*2); }
 			.header_contact{ display: none; }
 			.leftlist{ display: none; }
 		}
 		.ty_dialog{ display: none;
-			position: fixed; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,.8); text-align: center; z-index: 99;
-			img{ height: rem(122); padding-top: rem(5); }
-			.menu{ width:  rem(87); height:  rem(61); display: block; position: absolute; top: rem(35); right: rem(38); background: url("../images/right_menu.png") no-repeat 0 0; background-size: rem(87) rem(61); }
-			.lists{ position: absolute; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); padding: 0 rem(150);
-				a{ color: #fff; font-size: rem(48); }
-				.list{ margin-top: rem(120); 
+			position: fixed; top: rem(88); bottom: 0; left: 0; right: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,.8); text-align: center; z-index: 99;
+			img{ height: rem(122); padding-top: rem(5); display: none; }
+			.menu{ display: none; width:  rem(87); height:  rem(61); display: block; position: absolute; top: rem(35); right: rem(38); background: url("../images/right_menu.png") no-repeat 0 0; background-size: rem(87) rem(61); }
+			.lists{ position: absolute; top: 0; right: 0; width:  rem(455); padding: rem(35) 0; background-color: #fff;
+				a{ color: #fff; font-size: rem(32);  height: rem(140); color: #454545; display: block; }
+				li{ height: rem(150); }
+				.list{ margin-top: rem(120); line-height: rem(140);
 					&:first-child{ margin-top: 0; }
-					li{ float: left; width: 33.3%; margin-bottom: rem(20); text-align: center; 
-						
-					}
+					li{  text-align: center; }
 				}
 			}
+			.logo_show{ position: absolute; right: rem(5); bottom: rem(10); width: rem(140); height: rem(120); background: url("../images/phoneslider_logo.png") no-repeat 0 0; background-size: 100% 100%; }
 		}
 		.wx_con{ padding-top: rem(88);
 			.con_all{ width: 100%; min-width: auto; 
@@ -122,7 +122,8 @@
 				p{ width: 100%; padding-top: 12px; } 
 			}
 			.logo{ padding: rem(35) 0 ; float: left; height: rem(120); width: 100%; text-align: center;
-				img{ width: auto; height: rem(120); }
+				img{ width: auto; height: rem(120); display: none; }
+				.phonelogo{ display: inline-block; }
 			}
 			.icons{ position: static; top:auto; right: auto; padding-top: rem(30);
 				a{ display: inline-block; margin-left: 0; width: 50%; position: relative; float: left; }
@@ -207,27 +208,27 @@
 		}
 	}
 }
-@media screen and (min-width:769px) and (max-width:1400px){
-	body{
-		.wx_header{
-			.navlist{	
-				li{ float: left; 
-					a{ font-size: pxt(22); color: #000; display: block; text-align:justify; text-justify:inter-word; min-width: pxt(60); padding: 6px 15px 8px; line-height: 20px; height: 42px; word-break: break-all; width: 78px;
-						span{ display: inline-block; text-align: justify; width: 100%; font-size: 13px; height: 20px; overflow: hidden; }
-						&:after{ display:inline-block; overflow:hidden; width:100%; height:0; content:''; vertical-align:top; }
-						i{ display: inline-block; padding-left: 100%; }
-						.ltsp3{ text-align: center; letter-spacing: 29px; white-space: nowrap; }
-						.ltsp4{ text-align: center; letter-spacing: 17px; white-space: nowrap; }
-						.ltsp5{ text-align: center; letter-spacing: 11px; white-space: nowrap; }
-						.ltsp6{ text-align: center; letter-spacing: 8px; white-space: nowrap; }
-						.ltsp7{ text-align: center; letter-spacing: 5px; white-space: nowrap; }
-						.ltsp8{ text-align: center; letter-spacing: 3px; white-space: nowrap; }
-					}
-				}
-			}
-		}
-	}	
-}
+// @media screen and (min-width:769px) and (max-width:1400px){
+// 	body{
+// 		.wx_header{
+// 			.navlist{	
+// 				li{ float: left; 
+// 					a{ font-size: pxt(22); color: #000; display: block; text-align:justify; text-justify:inter-word; min-width: pxt(60); padding: 6px 15px 8px; line-height: 20px; height: 42px; word-break: break-all; width: 78px;
+// 						span{ display: inline-block; text-align: justify; width: 100%; font-size: 13px; height: 20px; overflow: hidden; }
+// 						&:after{ display:inline-block; overflow:hidden; width:100%; height:0; content:''; vertical-align:top; }
+// 						i{ display: inline-block; padding-left: 100%; }
+// 						.ltsp3{ text-align: center; letter-spacing: 29px; white-space: nowrap; }
+// 						.ltsp4{ text-align: center; letter-spacing: 17px; white-space: nowrap; }
+// 						.ltsp5{ text-align: center; letter-spacing: 11px; white-space: nowrap; }
+// 						.ltsp6{ text-align: center; letter-spacing: 8px; white-space: nowrap; }
+// 						.ltsp7{ text-align: center; letter-spacing: 5px; white-space: nowrap; }
+// 						.ltsp8{ text-align: center; letter-spacing: 3px; white-space: nowrap; }
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}	
+// }
 
 
 @function pxt($px){
@@ -258,10 +259,9 @@ body{ font-family: "黑体"; }
 	.navlist{ @extend .clearfix;
 		ul{ @extend .clearfix; }
 		li{ float: left; 
-			a{ font-size: pxt(22); color: #000; display: block; text-align:justify; text-justify:inter-word; min-width: pxt(60); padding: 6px 15px 8px; line-height: 20px; height: 42px; word-break: break-all; width: 90px;
+			a{ font-size: pxt(22); color: #000; display: block; text-align:justify; text-justify:inter-word; min-width: pxt(60); padding: 6px 15px 8px; line-height: 20px; height: 34px; word-break: break-all; width: 90px; overflow: hidden;
 				span{ display: inline-block; text-align: justify; width: 100%; font-size: pxt(24); height: 20px; overflow: hidden; }
 				&:after{ display:inline-block; overflow:hidden; width:100%; height:0; content:''; vertical-align:top; }
-				i{ display: inline-block; padding-left: 100%; }
 				.ltsp3{ text-align: center; letter-spacing: 33px; white-space: nowrap; }
 				.ltsp4{ text-align: center; letter-spacing: 20px; white-space: nowrap; }
 				.ltsp5{ text-align: center; letter-spacing: 12px; white-space: nowrap; }
@@ -269,16 +269,30 @@ body{ font-family: "黑体"; }
 				.ltsp7{ text-align: center; letter-spacing: 5px; white-space: nowrap; }
 				.ltsp8{ text-align: center; letter-spacing: 3px; white-space: nowrap; }
 			}
+			i{ display: block; margin: 0 auto; height: 34px; background-image: url(../images/nav.png); margin-bottom: 100px; 
+				&:hover{ background-image: url(../images/nav_on.png); }
+			}
+			.car{ width: 70px; height: 34px; background-position: -49px 0; }
+			.ad{ width: 74px; height: 34px; background-position: -166px 0; }
+			.rb{ width: 65px; height: 34px; background-position: -278px 0; }
+			.video{ width: 69px; height: 34px; background-position: -382px 0; }
+			.cgi{ width: 43px; height: 34px; background-position: -495px 0; }
+			.tid{ width: 43px; height: 34px; background-position: -586px 0; }
+			.about{ width: 61px; height: 34px; background-position: -872px 0; }
+			.busn{ width: 63px; height: 34px; background-position: -971px 0; }
+			.studio{ width: 46px; height: 34px; background-position: -1077px 0; }
+			.contact{ width: 62px; height: 34px; background-position: -1164px 0; }
+		}
+		.on{
+			i{ background-image: url(../images/nav_on2.png) !important; }
+			a{ color: #fff; background-color: #42a5ea; border-radius: 3px; }
 		}
 		.list1{
 			a{
 				&:hover{ color: #c1c1c1; }
 			}
-			.on{
-				a{ color: #fff; background-color: #42a5ea; border-radius: 3px; }
-			}
 		}
-		.list2{
+		.list2{ float: right;
 			a{
 				&:hover{ color: #42a5ea; }
 			}
@@ -459,4 +473,5 @@ body{ font-family: "黑体"; }
 		}
 	}
 }
-.ty_dialog,.wx_header .hb,.tt_listbar{ display: none; }
+.ty_dialog,.wx_header .hb,.tt_listbar,.phonelogo4{ display: none; }
+.ty_dialog{ @extend .clearfix; }
