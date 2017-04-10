@@ -7,6 +7,7 @@
 	<meta name="format-detection" content="address=no">
 	<title>Document</title>
 	<link rel="stylesheet" href="styles/styles.css">
+	<link rel="stylesheet" href="styles/jquery.mCustomScrollbar.css">
 	<script src="js/jquery.min.js"></script>
 </head>
 <body>
@@ -35,7 +36,7 @@
 		</div>
 	</div>
 	<div class="contact_bar header_contact">
-		<div class="tit">联系我们<i class="icon_close">x</i></div>
+		<div class="tit">联系我们<i class="icon_close"></i></div>
 		<div class="con">
 			<img src="images/temp/temp2.png" />
 			<p class="p1">010-67788829 <br>010-67788839</p>
@@ -92,14 +93,7 @@
 		</div>
 		<div class="workright">
 			<div id="slideBox" class="slideBox">
-				<div class="hd">
-					<ul>
-						<li>1</li>
-						<li>2</li>
-						<li>3</li>
-						<li>4</li>
-					</ul>
-				</div>
+				<div class="hd"><ul><li></li><li></li><li></li><li></li></ul></div>
 				<div class="bd">
 					<ul>
 						<li>
@@ -156,13 +150,11 @@
 	</div>
 </div>
 
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 <script src="js/app.js"></script>
 <script src="js/jquery.SuperSlide.2.1.1.js"></script>
 <script src="js/divscroll.js"></script>
 <script>
-	$(function() {
-		$('.contact_bar .con').perfectScrollbar();
-	});
 	jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true,delayTime:500,mouseOverStop:true,interTime:5000,trigger:"click",
         endFun: function () {
             var infoTmp = $(".workright .bd li").filter(function(){return $(this).css('display')!='none';});

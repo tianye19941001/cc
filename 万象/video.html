@@ -8,6 +8,7 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="styles/styles.css">
 	<link rel="stylesheet" href="styles/plyr.css">
+	<link rel="stylesheet" href="styles/jquery.mCustomScrollbar.css">
 	<script src="js/jquery.min.js"></script>
 </head>
 <body>
@@ -36,7 +37,7 @@
 		</div>
 	</div>
 	<div class="contact_bar header_contact">
-		<div class="tit">联系我们<i class="icon_close">x</i></div>
+		<div class="tit">联系我们<i class="icon_close"></i></div>
 		<div class="con">
 			<img src="images/temp/temp2.png" />
 			<p class="p1">010-67788829 <br>010-67788839</p>
@@ -107,14 +108,15 @@
 		<img class="location" src="images/location.png" alt="">
 	</div>
 </div>
-
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 <script src="js/app.js"></script>
 <script src="js/jquery.SuperSlide.2.1.1.js"></script>
 <script src="js/divscroll.js"></script>
 <script src="js/plyr.js"></script>
+
 <script>
 	$(function() {
-		$('.contact_bar .con,.video_con .leftbar').perfectScrollbar();
+		$('.video_con .leftbar').perfectScrollbar();
 	});
 	jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true,delayTime:1000,mouseOverStop:false,interTime:5000});
 	plyr.setup();

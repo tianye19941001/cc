@@ -142,8 +142,47 @@ $(document).ready(function(){
 			}
 		})
 	}
-	
 	if (document.body.clientWidth>=768) {
+		var alltylen = $('.wx_list_f>div').length;
+		$('.video_con .ty_next').click(function(){
+			if (alltylen<4) {
+				return false;
+			}else{
+				var indexL = $('.wx_list_f>div').index($('.wx_list_f>.on').last());
+				$('.wx_list_f>.on').removeClass('on');
+				if( indexL == (alltylen-1)){
+					$('.wx_list_f>div').slice(0,4).addClass('on');
+				}else{
+					$('.wx_list_f>div').slice(indexL+1,indexL+5).addClass('on');
+				}
+			}
+		})
+		$('.video_con .ty_prev').click(function(){
+			if (alltylen<4) {
+				return false;
+			}else{
+				var indexL = $('.wx_list_f>div').index($('.wx_list_f>.on').last());
+				console.log(indexL)
+				$('.wx_list_f>.on').removeClass('on');
+				if( indexL == 3){
+					var lastnum = alltylen % 4;
+					$('.wx_list_f>div').slice(alltylen-lastnum,alltylen).addClass('on');
+				}else{
+					$('.wx_list_f>div').slice(indexL-5,indexL-1).addClass('on');
+				}
+			}
+		})
+		tyLLL = setInterval(function(){
+			$('.video_con .ty_next').trigger('click');
+		},5000)
+		$('.wx_list_f').hover(function(){
+			clearInterval(tyLLL);
+		})
+		$('.wx_list_f').mouseleave(function(){
+			tyLLL = setInterval(function(){
+				$('.video_con .ty_next').trigger('click');
+			},5000)
+		})
 		$('.wlIn li').height($('.wlIn li').width());
 		autoheight();
 		$(window).resize(function() {
@@ -251,7 +290,19 @@ $(document).ready(function(){
 		$('#contact a').click(function(e){
 			stophref(e);
 			$('.header_contact').show(200);
-			stopbubble(e) 
+			if ($(".wx_header .contact_bar .con").hasClass('mCustomScrollbar')) {
+				return false;
+			}else{
+				setTimeout(function(){
+					$(".wx_header .contact_bar .con").mCustomScrollbar({
+						scrollButtons:{
+							enable:true
+						}
+					});
+				},100)
+				
+			}
+			stopbubble(e);
 		})
 		$('.wx_business .btn').click(function(e){
 			stophref(e);
@@ -259,6 +310,20 @@ $(document).ready(function(){
 			$(this).parent().addClass('on');
 			$('.wx_business .contact_bar').hide(200);
 			$(this).siblings('.contact_bar').show(200);
+			if ($(this).siblings('.contact_bar').children(".con").hasClass('mCustomScrollbar')) {
+				return false;
+			}else{
+				var index1 = $('.wx_business .btn').index($(this));
+				setTimeout(function(){
+					$('.wx_business .btn').eq(index1).siblings('.contact_bar').children(".con").mCustomScrollbar({
+						scrollButtons:{
+							enable:true
+						}
+					});
+				},100)
+				
+			}
+			
 			stopbubble(e) 
 		})
 	}else{
