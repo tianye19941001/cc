@@ -2,21 +2,18 @@
 $(document).ready(function(){
 	function autoheight(){
 		var Nwidth = $(window).width(),
-			Nheight = Nwidth/1920*800,
+			Nheight = Nwidth/1680*700,
 			Nheighti = Nwidth/1920*680,
 			allpoint = Nwidth/1680;
 		if (Nwidth > 1480) {
-			$('.video_con,.wx_list_f').height(Nheight);
 			$('.wx_lunbo .bd li').height(Nheighti);
 			$('html').css('zoom',allpoint)
 		}else{
 			if (Nwidth>768) {
 				if (Nwidth<=1280) {
-					$('.video_con,.wx_list_f').height(1280/1920*800);
 					$('.wx_lunbo .bd li').height(1280/1920*680);
 					$('html').css('zoom',1480/1680);
 				}else{
-					$('.video_con,.wx_list_f').height(Nheight);
 					$('.wx_lunbo .bd li').height(Nheighti);
 					$('html').css('zoom',1480/1680);
 				}
