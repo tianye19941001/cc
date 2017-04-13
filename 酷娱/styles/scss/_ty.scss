@@ -352,9 +352,12 @@ body{
 	}
 	.detial{ width: 100%; height: 240px; position: absolute; bottom: 0; left: -640px; background-color: #fff; text-align: left; transition: all .8s ease; -webkit-transition: all .8s ease; 
 		h3{ height: 92-40px; border-bottom: 1px solid #d7d7d7; color: #d7074b; font-size: 18px; padding: 40px 0 0 70px; 
+			a{ color: #d7074b; }
 			span{ font-size: 10px; color: #727171; position: relative; top: -12px; }
 		}
-		p{ padding: 16px 40px 0 75px; color: #727171; line-height: 20px; font-size: 12px; height: 100px; overflow: hidden; }
+		p{ padding: 16px 40px 0 75px; color: #727171; line-height: 20px; font-size: 12px; height: 100px; overflow: hidden; 
+			a{ color: #727171; }
+		}
 	}
 	.kuang{ width: 580px; height: 350px; border: 4px solid #fff; position: absolute; z-index: 3; left: 28px; top: -500px; transition: all .8s ease; -webkit-transition: all .8s ease;  }
 	img{ transition: all .8s ease; -webkit-transition: all .8s ease; }
@@ -373,8 +376,11 @@ body{
 	.detial{ float: left; width: 320px; height: 320px; text-align: left; position: relative; 
 		h3{ border-bottom: 1px solid #d7d7d7; height: 115-40px; padding: 30px 30px 0 40px; font-size: 16px; color: #3e3a39; line-height: 20px;
 			span{ font-size: 10px; color: #727171; position: relative; top: -4px; }
+			a{ color: #3e3a39; }
 		}
-		p{ padding: 35px 40px; color: #727171; line-height: 20px; font-size: 12px; height: 120px; overflow: hidden; }
+		p{ padding: 35px 40px; color: #727171; line-height: 20px; font-size: 12px; height: 120px; overflow: hidden; 
+			a{ color: #727171; }
+		}
 	}
 	.ty_more{ width: 90px; height: 25px; display: block; line-height: 25px; text-align: center; color: #fff; font-size: 10px; background-color: #c4c6d2; position: absolute; bottom: 0; left: 0px; transition: all .6s ease-in-out; -webkit-transition: all .6s ease-in-out; }
 	.kuang{ width: 275px; height: 275px; border: 3px solid transparent; position: absolute; z-index: 3; left: 21px; top: 21px; transition: all .6s ease-in-out; -webkit-transition: all .6s ease-in-out;  }
@@ -384,7 +390,9 @@ body{
 	&:hover{
 		.ty_more{ background-color: #d8074b; }
 		.detial{
-			h3{ color: #d8074b; }
+			h3{ 
+				a{ color: #d8074b;  }
+			}
 		}
 		.kuang{ border: 3px solid #fff; }
 		.icon_add{ left: 118px; top: 118px; }
@@ -475,7 +483,7 @@ body{
 }
 .happy_we_people{ padding-bottom: 80px;
 	ul{ @extend .clearfix; width: 1280+49px; margin-left: -49px; }
-	li{ float: left; width: 394-30px; height: 486-17-22px; padding: 17px 15px 22px 15px; background: #fff; position: relative; top: 0; margin-bottom: 30px; margin-left: 49px; z-index: 2; transition: all .2s linear; -webkit-transition: all .2s linear; overflow: hidden; top: 0; 
+	li{ float: left; width: 394-30px; height: 400px; padding: 17px 15px 22px 15px; background: #fff; position: relative; top: 0; margin-bottom: 30px; margin-left: 49px; z-index: 2; transition: all .2s linear; -webkit-transition: all .2s linear; overflow: hidden; top: 0; 
 		.top{ width: 318px; height: 223px; border: 1px solid #c8c8c8; position: relative; margin-left: 364-2-318px; text-align: left;
 			img{ width: 354px; height: 204px; position: absolute; top: 10px; left: -46px; }
 		}
@@ -507,7 +515,7 @@ body{
 	.icon_email{ background-position: -35px -189px; }
 	.icon_location{ background-position: -70px -189px; }
 }
-.form_where{ padding-top: 66px;
+.form_where{ 
 	.inps{ float: left; width: 370px; height: auto; margin: 0 30px 0 10px; }
 	.inp{ float: left; width: 368px; height: 43px; line-height: 43px; border: 1px solid #f5f5f5; margin-bottom: 12px; background-color: #f5f5f5; text-indent: 12px; outline: none;
 		&:focus{ border: 1px solid #d8074b; }
@@ -520,7 +528,7 @@ body{
 	.submit{ float: left; padding: 56px 0 88px; width: 100%; }
 }
 .happy_where_bottom{ padding: 60px 0 10px; text-align: left;
-	li{ float: left; width: 275-2px; height: 80-2px; border:1px solid #d7d7d7; overflow: hidden; position: relative; margin-left: 24px; transition: all .4s linear; -webkit-transition: all .4s linear;
+	li{ float: left; width: 275-2px; height: 80-2+28px; border:1px solid #d7d7d7; overflow: hidden; position: relative; margin-left: 24px; transition: all .4s linear; -webkit-transition: all .4s linear;
 		&:first-child{ margin-left: 12px; }
 		a{ display: block; }
 		&:hover{ border: 1px solid #d8074b; 
@@ -532,7 +540,7 @@ body{
 	.p1{ height: 32px; line-height: 32px; color: #3e3a39; font-size: 15px; padding: 0 10px;
 		span{ font-size: 10px; color: #a2a2a2; }
 	}
-	.p2{ height: 28px; line-height: 28px; font-size: 10px; color: #727171; padding: 0 10px; }
+	.p2{ height: 28*2px; line-height: 20px; font-size: 10px; color: #727171; padding: 8px 10px; }
 }
 // 招聘
 .happy_all_width{ width: 1280px; margin: 0 auto; padding: 50px 0;
@@ -584,7 +592,9 @@ body{
 
 .inner-right{ 
 	.share{ width:60px; height:60px; display:block; position:relative; background:#e0244d url('../images/shareh.png') no-repeat 50% 50%; }
-	.close{ background:#242424 url('../images/close.png') no-repeat 50% 50%; }
+	.close{ background:#e0244d url('../images/closeh.png') no-repeat 50% 50%; 
+		b{ display: none; }
+	}
 	.close:hover{ background:#e0244d url('../images/closeh.png') no-repeat 50% 50%; }
 	.weibo{ background:#242424 url('../images/weibo.png') no-repeat 50% 50%; }
 	.weibo:hover{ background:#e0244d url('../images/weiboh.png') no-repeat 50% 50%; }
@@ -670,3 +680,5 @@ body{
 .ty_small_con_hide{ display: none; }
 .ty_iframe{ width: 940-60-60px; padding: 0 60px; overflow: hidden; height: 400px; }
 .newframe_aboutO .open-news{ top: 15px; }
+.happy_ZP_all .detial,.happy_where_bottom .p1{ font-weight: bold; color: #d8074b }
+.ty_addL{ font-size: 16px; padding: 12px 0; text-align: left; padding-top: 66px; text-indent: 15px; }

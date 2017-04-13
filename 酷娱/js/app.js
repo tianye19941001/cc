@@ -20,7 +20,13 @@ $(document).ready(function(){
 	        return IEMethod;
 	    };
 	}
-	
+	if ($('.happy_we_people .name .p2')) {
+		$('.happy_we_people .name .p2').each(function(){
+			if($(this).text().length>4){
+				$(this).width(40)
+			}
+		})
+	}
 	function stophref(e) {
 		if ( e && e.preventDefault ){
 			e.preventDefault(); 
@@ -140,7 +146,7 @@ $(document).ready(function(){
 		$('.newframe').height("100%").addClass("show");
 	});
 	
-	$('.newframe').on("click",'.ty_wrapbac,.close', function(e){
+	$('.newframe').on("click",'.close', function(e){
 		stophref(e);
 		if ($(this).hasClass('ty_wrapbac')) {
 			$(this).parent().removeClass("show");

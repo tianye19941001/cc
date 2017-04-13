@@ -19,8 +19,16 @@ $(document).ready(function(){
 				}
 			}
 		}
+		// if(myBrowser() == 'FF'){
+		// 	console.log(Nwidth);
+		// 	$('html').css({
+		// 		'-moz-transform':'scale(' + allpoint +')',
+		// 		'-moz-transform-origin':'top left'
+		// 	})
+		// 	$('body').css('min-width',1680+'px')
+		// };
 	}
-	
+
 	function stop(){
 		return false;
 	}
