@@ -70,7 +70,7 @@
 			.limg{ display: none;}
 			.rightde{ float: right; padding-right:0; background-color: #4783c1; 
 				.l{ float: right; width: rem(1080-272); height: 100%; box-sizing: border-box; padding: rem(54) rem(60) rem(54) rem(90); color: #b8c0c8; font-size: rem(26); 
-					p{ height: rem(40*10);line-height: rem(40);  overflow: hidden; padding-top: 0;}
+					p{ height: rem(40*10);line-height: rem(40);  overflow: hidden; padding-top: 0; text-indent: 0; }
 					.on{ display: block; }
 				}
 				.r{ width: rem(272);  float: left; padding-top: 0;
@@ -91,7 +91,7 @@
 				>li{ text-align: left; width: 100%; height: rem(280); margin-top: rem(77); box-shadow: 0 0 rem(20) rgba(0,0,0,.3); transition: no; -webkit-transition: no;
 					>img{ display: none; }
 					>h3{ display: none; }
-					>p{ padding-left: rem(100); width: rem(600); line-height: rem(50); padding-top: rem(40); color: #000; font-size: rem(30); height: rem(200); overflow: hidden; }
+					>p{ text-indent: 0; padding-left: rem(100); width: rem(600); line-height: rem(50); padding-top: rem(40); color: #000; font-size: rem(30); height: rem(200); overflow: hidden; }
 					&:nth-child(1){ background: url("../images/bannar1.png") no-repeat 0 0; background-size: rem(1080) rem(280); }
 					&:nth-child(2){ background: url("../images/bannar2.png") no-repeat 0 0; background-size: rem(1080) rem(280); }
 					&:nth-child(3){ background: url("../images/bannar3.png") no-repeat 0 0; background-size: rem(1080) rem(280); }
@@ -285,10 +285,10 @@ body{ font-family: "黑体"; }
 .contact_bar{ position: absolute; right: 20px; top: 186px; z-index: 9; background-image: url(../images/blue80bac.png); color: #fff; width: pxt(800); height: pxt(915); box-shadow: 0 0 4px rgba(0,0,0,.5); overflow: hidden; text-align: left; display: none;
 	.tit{ font-size: pxt2(26); height: pxt2(70); line-height: pxt2(70); padding-left: pxt2(50); position: relative; background-color: #1994e1; }
 	.icon_close{ display: inline-block; width: 32px; height: 32px; text-align: center; right: 10px; top: 0; font-size: pxt2(62); position: absolute; font-style: normal; cursor: pointer; background-image: url(../images/ty_close.png); background-repeat: no-repeat; margin-top: 14px; margin-right: 4px; }
-	.con{ padding: pxt2(20) pxt2(30) pxt2(80) pxt2(55); height: 480px; position: relative; text-align: center;
-		img{ width: 70%; margin-bottom: 12px; }
+	.con{ padding: pxt2(25); height: 480px; position: relative; text-align: center;
+		img{ width: 97%; margin-bottom: 12px; }
 		.p1{ font-size: pxt2(20); line-height: pxt2(30); padding: pxt2(38) 6px 0 6px; text-align: left; }
-		.p2{ font-size: pxt2(16); line-height: pxt2(30); padding: 20px 6px 0; text-align: left; }
+		.p2{ font-size: pxt2(20); line-height: pxt2(30); padding: 20px 6px 0; text-align: left; }
 	}
 }
 .wx_con{
@@ -345,8 +345,8 @@ body{ font-family: "黑体"; }
 		.bar2{ height: 100%; width: 100%; position: absolute; top: 0; left: 0; display: block; background-color: #42a5ea; z-index: 1; }
 	}
 	.rightde{ float: right; @extend .clearfix; padding-right: pxt2(20);
-		.l{ width: pxt2(700); font-size: pxt2(25); line-height: 32px; color: #000; float: left; padding-top: pxt2(40); 
-			p{ height: 32*12px; overflow: hidden; width: 100%; padding-top: 25px; display: none;}
+		.l{ width: pxt2(700); font-size: 18px; line-height: 40px; color: #000; float: left; padding-top: pxt2(40); 
+			p{ height: 40*10px; overflow: hidden; width: 100%; padding-top: 25px; display: none; text-indent: pxt2(50); }
 			.on{ display: block; }
 		}
 		.r{ width: pxt2(300); float: left; @extend .clearfix; padding-top: pxt2(120);
@@ -359,7 +359,7 @@ body{ font-family: "黑体"; }
 		>li{ width: 25%; text-align: center; float: left; height: 100%; transition: all .8s ease; -webkit-transition: all .8s ease; position: relative; z-index: 3;
 			>img{ width: pxt2(190); height: pxt2(190); padding-top: pxt2(125); }
 			>h3{ font-size: pxt2(38); padding-top: pxt2(70); }
-			>p{ font-size: pxt2(25); line-height: 40px; padding-top: 20px; height: 40*8px; }
+			>p{ font-size: 17px; line-height: 40px; padding: 20px 20px 0; height: 40*8px; text-indent: 36px; }
 			&:hover{ transform: scale(1.05); -webkit-transform: scale(1.05); background-color: #efeeee; box-shadow: 0 0 5px rgba(0,0,0,.5) }
 		}
 	}
