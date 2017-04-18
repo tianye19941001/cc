@@ -76,9 +76,6 @@ $(document).ready(function(){
 				movescroll($(this),'.lake_con3');
 				break;
 			case 2:
-				movescroll($(this),'.lake_con4');
-				break;
-			case 3:
 				movescroll($(this),'.lake_con5');
 				break;
 			default:
@@ -89,17 +86,14 @@ $(document).ready(function(){
   		var listNT = parseInt(document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop);
   		var t1 = parseInt($('.lake_con2').offset().top-200),
   			t2 = parseInt($('.lake_con3').offset().top-200),
-  			t3 = parseInt($('.lake_con4').offset().top-200),
   			t4 = parseInt($('.lake_con5').offset().top-200);
   		if ( t2 > listNT  && listNT > t1 ) {
   			$('.lake_header_list li').eq(0).addClass('on').siblings().removeClass('on');
-  		}else if( t3 > listNT  && listNT > t2 ){
+  		}else if( t4 > listNT  && listNT > t2 ){
   			$('.lake_header_list li').eq(1).addClass('on').siblings().removeClass('on');
-  		}else if( t4 > listNT  && listNT > t3 ){
-  			$('.lake_header_list li').eq(2).addClass('on').siblings().removeClass('on');
   		}
-  		if( listNT >= 2773 ){
-  			$('.lake_header_list li').eq(3).addClass('on').siblings().removeClass('on');
+  		if( listNT >= 1773 ){
+  			$('.lake_header_list li').eq(2).addClass('on').siblings().removeClass('on');
   		}
 	});
 	$('.lake_con4 .rbtn').click(function(){

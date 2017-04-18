@@ -254,7 +254,7 @@ body{
 }
 .flipster__button{ display: none !important; }
 .happy_index_bottoms{ position: relative; padding-top: 20px; width: 1280px; margin: 0 auto;
-	ul{ @extend .clearfix; }
+	ul{ @extend .clearfix; padding-top: 30px; }
 	li{ float: left; margin-right: 60px; position: relative; transition: all .2s linear; -webkit-transition: all .2s linear; overflow: hidden; padding-bottom: 40px; top: 0;
 		a{ display: block; @extend .clearfix; }
 		em{ font-size: 20px; color: #3f3939; height: 20px; line-height: 20px; padding-right: 6px; border-right: 1px solid #898989; float: left; position: relative;
@@ -298,7 +298,7 @@ body{
 		}
 	}
 }
-.intro_con_m{ padding: 60px 0 70px; text-align: left;
+.intro_con_m{ padding: 60px 0 50px; text-align: left;
 	.happy_titbar{ margin-left: 20px; }
 	.ad{ @extend .clearfix; width: 1280+33px; margin-left: -33px; 
 		li{ width: 360px; height: 260px; float: left; overflow: hidden; margin-left: 66px; position: relative; z-index: 2;
@@ -433,7 +433,7 @@ body{
 	.happy_con_in_hide{ display: none; }
 }
 // 团队
-.happy_we{ width: 100%; padding-top: 108px;}
+.happy_we{ width: 100%; padding-top: 60px;}
 .happy_we2{ width: 100%; padding-top: 59px; width: 1280px; margin:  0 auto; position: relative;
 	.slideBox{ display: block; 
 		img{ display: block; width: 1280px; height: 324px; }

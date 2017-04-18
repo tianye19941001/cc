@@ -148,6 +148,9 @@ $(document).ready(function(){
 		})
 	}
 	if (document.body.clientWidth>=768) {
+		//初始化
+		$('.wx_list_f>div').slice(0,4).addClass('on');
+
 		var alltylen = $('.wx_list_f>div').length;
 		$('.video_con .ty_next').click(function(){
 			if (alltylen<4) {

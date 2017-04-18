@@ -143,7 +143,7 @@ body{ background-color: #f3f5f6; width: 100%; min-width: 1280px; }
 .lake_lunbo_control{ text-align: center; 
 	padding-top: 65px;
 	.lbtn,.rbtn{ width: 17px; height: 9px; display: inline-block; @extend %ty_icon; cursor: pointer; }
-	.mbtn{ width: 63px; height: 41px; display: inline-block; margin: 0 42px; background-image: url(../images/lake_logo.png); vertical-align: middle; }
+	.mbtn{ width: 63px; height: 41px; display: inline-block; margin: 0 42px; background-image: url(../images/lake_logo.png); vertical-align: middle; background-size: 63px 41px; }
 	.lbtn{ background-position: -82px -48px; 
 		&:hover{ background-position: -99px -57px; }
 	}
