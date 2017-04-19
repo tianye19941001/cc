@@ -254,6 +254,7 @@ body{
 }
 .flipster__button{ display: none !important; }
 .happy_index_bottoms{ position: relative; padding-top: 20px; width: 1280px; margin: 0 auto;
+	.happy_titbar{ margin-left: 0; }
 	ul{ @extend .clearfix; padding-top: 30px; }
 	li{ float: left; margin-right: 60px; position: relative; transition: all .2s linear; -webkit-transition: all .2s linear; overflow: hidden; padding-bottom: 40px; top: 0;
 		a{ display: block; @extend .clearfix; }
@@ -266,7 +267,7 @@ body{
 			p{ color: #231815; }
 		}
 	}
-	.ty_more{ float: right; width: 72px; height: 18px; border: 1px solid #999; line-height: 18px;  text-align: center; color: #3e3a39; font-size: 7px; position: absolute; top: 25px; right: 6px; z-index: 2; }
+	.ty_more{ float: right; width: 72px; height: 18px; border: 1px solid #999; line-height: 18px;  text-align: center; color: #3e3a39; font-size: 7px; position: absolute; top: 25px; right: 6px; z-index: 2; margin-top: 80px; }
 	.r_icon{ width: 262px; height: 3px; display: block; @extend %ty_icon2; background-position: -170px -463px; position: absolute; left: -300px; top: 40px; transition: all .2s linear; -webkit-transition: all .2s linear; }
 }
 
@@ -298,10 +299,10 @@ body{
 		}
 	}
 }
-.intro_con_m{ padding: 60px 0 50px; text-align: left;
-	.happy_titbar{ margin-left: 20px; }
-	.ad{ @extend .clearfix; width: 1280+33px; margin-left: -33px; 
-		li{ width: 360px; height: 260px; float: left; overflow: hidden; margin-left: 66px; position: relative; z-index: 2;
+.intro_con_m{ padding: 60px 0 50px; text-align: left; margin: 0 auto; width: 1280px;
+	.happy_titbar{ margin-left: 0; }
+	.ad{ @extend .clearfix; width: 1280+100px; margin-left: -100px; 
+		li{ width: 360px; height: 260px; float: left; overflow: hidden; margin-left: 100px; position: relative; z-index: 2;
 			.time1{ width: 360-35px; padding-left: 35px; height: 70px; border-bottom: 1px solid #c4c4c4; color: #3f3939; transition: all .2s linear; -webkit-transition: all .2s linear;
 				.p1{ font-size: 28px; line-height: 30px; padding-top: 10px; }
 				.p2{ font-size: 15px; }

@@ -204,15 +204,23 @@ $(document).ready(function(){
 	});
 	cuoluo();
 	$('.happy_cooplist img').hover(function(){
-		if ($(this).attr('src').indexOf('_hover')<=0) {
-			var nSrc = $(this).attr('src');
-			$(this).attr('alt',nSrc);
-			var mSrcArr =  nSrc.split('.');
-			var newSrc = mSrcArr[0]+"_hover."+mSrcArr[1];
-			$(this).attr('src',newSrc);
-		}
+		var img1 = $(this).attr('src');
+		var img2 = $(this).attr('alt');
+		$(this).attr('src',img2);
+		$(this).attr('alt',img1);
+		// if ($(this).attr('src').indexOf('_hover')<=0) {
+		// 	var nSrc = $(this).attr('src');
+		// 	$(this).attr('alt',nSrc);
+		// 	var mSrcArr =  nSrc.split('.');
+		// 	var newSrc = mSrcArr[0]+"_hover."+mSrcArr[1];
+		// 	$(this).attr('src',newSrc);
+		// }
 	})
 	$('.happy_cooplist img').mouseleave(function(){
-		$(this).attr('src',$(this).attr('alt'));
+		var img3 = $(this).attr('src');
+		var img4 = $(this).attr('alt');
+		$(this).attr('src',img3);
+		$(this).attr('alt',img4);
+		// $(this).attr('src',$(this).attr('alt'));
 	})
 });

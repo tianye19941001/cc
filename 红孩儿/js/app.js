@@ -55,4 +55,14 @@ $(document).ready(function(){
 			return ""
 		}
 	}
+	// 初始化
+	// $('.red_lun').height($(window).height());
+	function setall(){
+		var mainW = $('.red_main').width();
+		$('.red_lun').height(mainW/1676*890);
+	}
+	$(window).resize(function() {
+ 		setall();
+	});
+	setall();
 });
