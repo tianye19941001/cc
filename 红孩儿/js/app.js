@@ -60,6 +60,9 @@ $(document).ready(function(){
 	function setall(){
 		var mainW = $('.red_main').width();
 		$('.red_lun').height(mainW/1676*890);
+
+		var main3 = $('.red_index_main3IN .pic').width();
+		$('.red_index_main3IN .picword').height(main3/396*425)
 	}
 	$(window).resize(function() {
  		setall();
