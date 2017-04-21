@@ -1,16 +1,18 @@
 @charset "utf-8";
-
+%ty_black_bac { background: url('../images/ty_black_bac.png'); }
 @function percent($px){
 	@return $px/1676*100%;
 }
+.oh{ overflow: hidden; }
+%red{ color: #d61518; }
 body{ background-color: #fff; }
 .red_con{
 	.red_nav{ width: 244px; height: 100%; position: fixed; background-color: #fff; text-align: center; z-index: 8;
 		.logo{ margin: 44px 0 30px; }
-		li{ height: 58px; line-height: 1; 
-			a{ font-size: 14px; color: #aaabab; }
+		li{ height: 56px; line-height: 56px; 
+			a{ font-size: 16px; color: #aaabab; }
 		}
-		.connect{ color: #000; font-size: 17px; }
+		.connect{ color: #000; font-size: 17px; margin-top: 10px; }
 	}
 }
 .red_main{ margin-left: 244px; min-width: 1200-244px; }
@@ -111,3 +113,152 @@ body{ background-color: #fff; }
 .red_footer{ height: 45px; width: 100%; line-height: 45px; font-size: 12px; background-color: #f5f6f6; position: relative; z-index: 9;
 	.t1{ padding-right: 75px; text-align: right; color: #777; }
 }
+// 新闻等列表页面
+.red_news{ padding-top: 44px;
+	.red_new_hide{ display: none; }
+	.red_new{ height: 246px; margin-bottom: 28px; background-color: #f5f6f6; position: relative;
+		.right{ padding-left: 330px; }
+		img{ position: absolute; left: 32px; width: 246px; height: 246px; display: block; top: 0; }
+		h3{ color: #d61518; font-size: 22px; padding: 65px 0 10px; }
+		p{ color: #727171; font-size: 17px; padding-right: 10%; }
+		&:hover{ background-color: #d61518;
+			h3{ color: #fff; }
+			p{ color: #fff; }
+		}
+	}
+}
+.red_add_more{ width: 95px; height: 24px; display: block; margin: 0 auto; line-height: 24px; border: 1px solid #dedfe6; font-size: 12px; color: #4b4746; text-align: center; }
+
+// 牡丹文化
+.red_cul{ width: 100%; 
+	.rIn{
+		.text{ left: 5% }
+	}
+}
+.red_culIN{ width: 100%; margin-bottom: 80px; position: relative;
+	img{ display: block; width: 100%; height: 100%; }
+	.text{ position: absolute; right: 5%; bottom: 50px; width: 60%;  
+		h3{ padding: 40px 0 0 6px; margin: 0 44px 10px; position: relative; z-index: 3; color: #d61518; font-size: 26px; line-height: 30px; position: relative; border-bottom: 1px solid #000;
+			span{ color: #929292; font-size: 13px; display: inline-block; line-height: 20px; }
+		}
+		p{ padding: 0 50px 60px; position: relative; z-index: 3; line-height: 26px; color: #727171; font-size: 13px; }
+		&:hover{
+			.bac1{ opacity: 1; filter: alpha(opacity=100); }
+			.bac2{ display: block; }
+		}
+	}
+	.bac1{ position: absolute; width: 100%; height: 100%; background-color: #fff; opacity: .3; filter: alpha(opacity=30); z-index: 2; }
+	.bac2{  position: absolute; width: 100%; height: 100%; background-color: #d61518; z-index: 1; left: 10px; top: 10px; display: none; }
+	
+}
+
+
+// 来自异世界的弹窗
+.newframe{ position:fixed; top:0; left:0; width:100%; height:100%; overflow-x:hidden; overflow-y:auto; display: none; z-index: 6; z-index: 10;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+ }
+.newframe-wrap { width: 100%; height: 100%; display: table; position: relative; z-index: 2; }
+.ty_wrapbac{ position: absolute; left: 0;top: 0; z-index: 1; width: 100%; height: 100%; display: table; @extend %ty_black_bac; }
+.newframe-inner { display: table-cell; vertical-align: middle; }
+.newframe.show{ display: block;
+	.inner-right a b{ visibility:visible; }
+}
+.open-news { width: 940px; margin: 0px auto 0 auto; position: relative; background: #fff; }
+.inner-right{ position:fixed; top:0; left:50%; margin-left: 462px; width:60px; }
+.inner-right a{ width:60px; height:60px; display:block; position:relative;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+ }
+
+.inner-right{ 
+	.share{ width:60px; height:60px; display:block; position:relative; background:#e0244d url('../images/shareh.png') no-repeat 50% 50%; }
+	.close{ background:#e0244d url('../images/closeh.png') no-repeat 50% 50%; 
+		b{ display: none; }
+	}
+	.close:hover{ background:#e0244d url('../images/closeh.png') no-repeat 50% 50%; }
+	.weibo{ background:#242424 url('../images/weibo.png') no-repeat 50% 50%; }
+	.weibo:hover{ background:#e0244d url('../images/weiboh.png') no-repeat 50% 50%; }
+	.tt{ background:#242424 url('../images/tt.png') no-repeat 50% 50%; }
+	.tt:hover{ background:#e0244d url('../images/tth.png') no-repeat 50% 50%; }
+	.douban{ background:#242424 url('../images/douban.png') no-repeat 50% 50%; }
+	.douban:hover{ background:#e0244d url('../images/doubanh.png') no-repeat 50% 50%; }
+ 	.renren{ background:#242424 url('../images/renren.png') no-repeat 50% 50%; }
+	.renren:hover{ background:#e0244d url('../images/renrenh.png') no-repeat 50% 50%; }
+	.weixin{ background:#242424 url('../images/weixin.png') no-repeat 50% 50%; }
+	.weixin:hover{ background:#e0244d url('../images/weixinh.png') no-repeat 50% 50%; }
+	a:hover b{ visibility:hidden; opacity:0; }
+	a b{ display:block; height:1px; width:24px; position:absolute; bottom:0; left:18px; background:#2a2a2a;  opacity:1; visibility:hidden;
+	    -webkit-transition: all .3s ease-out;
+	    -moz-transition: all .3s ease-out;
+	    transition: all .3s ease-out;
+	 }
+}
+.crumbs li{ display:block; float:left; margin:0 2px; font-size:13px; color:#666; line-height:25px; }
+.crumbs li a{ display:block; font-size:13px; color:#666; line-height:25px; }
+.news-inner{ padding:40px 60px 60px; 
+	.news-ct{ line-height: 18/9.6*14.4px; color: #727171; font-size: 12px }
+	.pic{ margin-top: 20px;
+		img{ width: 100%; display: block; margin: 0 auto; width: auto; max-width: 100%; height: auto; }
+		.aboutpic{ padding-top: 10px; text-align: center; }
+	}
+	.text{ margin-top: 20px; 
+		img{ text-align: center; }
+	}
+	.btns{ margin-top: 50px; text-align: center;
+		a{ display: inline-block; height: 25px; line-height: 25px;width: 92px; background-color: #c4c6d2; color: #fff; text-align: center; }
+	}
+	.happy_titbar{ width: auto; padding: 0 20px; 
+		.t1{ color: #d7074b; }
+	}
+}
+.open-news{ width:940px; margin:0px auto 0 auto; position:relative; z-index: 2; background:#fff; }
+
+.news-article h4.maintitle{ color:#000; height:48px; line-height:50px; display:block; font-weight:500; font-size:20px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; padding-bottom: 20px; }
+.news-article h5.subtitle{ color: #3e3a39; font-size: 16px; line-height: 25px; margin: 10px 0 30px; }
+.ty_phone_bac{ position: fixed; top: 0; left: 0; width: 100%; height: 100%; display: block; z-index: 5; background: rgba(0,0,0,0.2); display: none; }
+.ty_phone_title{ display: none; cursor: pointer; }
+.newframe_about{ 
+	.open-news{ margin-top: 0; width: 680px; }
+	.ty_iframe{ width: 680px; padding: 0; }
+	.news-inner{ padding: 10px; }
+	.news-inner .pic{ margin-top: 0; }
+	.news-inner .pic img{ width: 660px; margin: 0; }
+	.news-inner .text{ padding: 25px 25px 0px 25px; margin-top: 0 ; line-height: 24px; margin-bottom: 10px; font-size: 13px; }
+	.name{ font-size: 24px; height: 40px; line-height: 40px; font-weight: 500; color: #434343; margin-bottom: 10px; 
+		em{ font-size: 18px; color: #999; margin-left: 10px; }
+	}
+}
+.ty_iframe{ width: 940-60-60px; padding: 0 60px; overflow: hidden; height: 400px; }
+.newframe_aboutO .open-news{ top: 10px; }
+@media screen and (min-width:1px) and (max-width:1019px){
+	.open-news{ width: 100%; margin-bottom: 0; }
+	.news-article h4.maintitle{ text-align: center; padding-bottom: 0; height: 53px; line-height: 53px; color: #d61518; border-bottom: 1px solid #333; }
+	.news-article h5.subtitle{ padding: 10px 0; }
+	.news-inner .pic img{ width: 80%; }
+	.news-inner .text{ margin-top: 10px; padding: 0 12px; }
+	.newframe{ -webkit-overflow-scrolling : touch; top: 0; left: 0; bottom: 0; right: 0; z-index: 5; display: none; }
+	.newframe.show{ display: block; }
+	.news-inner{ padding: 53px 10px 10px; }
+	.ty_wrapbac{ display: none; }
+	.news-inner .news-ct{ font-size: 12px; 
+		img{ width: auto; max-width: 100%; height: auto; }
+	}
+	body .newframe_about{ 
+		.open-news{ margin-top: 0; width: 100%; }
+		.news-inner{ padding: 10px; }
+		.news-inner .pic{ margin-top: 0; }
+		.news-inner .pic img{ width: 100%; margin: 0; }
+		.news-inner .text{ padding: 15px; margin-top: 0 ; line-height: 24px; margin-bottom: 10px; font-size: 13px; }
+		.name{ font-size: 24px; height: 40px; line-height: 40px; font-weight: 500; color: #434343; margin-bottom: 10px; 
+			em{ font-size: 18px; color: #999; margin-left: 10px; }
+		}
+	}
+	body .ty_iframe{ width: 100%; box-sizing:border-box; padding: 0 10px; }
+	body .newframe_about .ty_iframe{ width: 100%; box-sizing:border-box; padding: 0; padding-top: 50px; }
+	body .newframe_aboutO .open-news{ top: 0px; }
+}
+
+// 来自异世界的弹窗end
