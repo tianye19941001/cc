@@ -282,13 +282,13 @@ body{ font-family: "黑体"; }
 	}
 	
 }
-.contact_bar{ position: absolute; right: 20px; top: 186px; z-index: 9; background-image: url(../images/blue80bac.png); color: #fff; width: pxt(800); height: pxt(915); box-shadow: 0 0 4px rgba(0,0,0,.5); overflow: hidden; text-align: left; display: none;
+.contact_bar{ position: absolute; right: 20px; top: 186px; z-index: 9; background-image: url(../images/blue80bac.png); color: #fff; width: 540px; height: pxt(915); box-shadow: 0 0 4px rgba(0,0,0,.5); overflow: hidden; text-align: left; display: none; background-color: rgba(0,0,0,.8);
 	.tit{ font-size: pxt2(26); height: pxt2(70); line-height: pxt2(70); padding-left: pxt2(50); position: relative; background-color: #1994e1; }
 	.icon_close{ display: inline-block; width: 32px; height: 32px; text-align: center; right: 10px; top: 0; font-size: pxt2(62); position: absolute; font-style: normal; cursor: pointer; background-image: url(../images/ty_close.png); background-repeat: no-repeat; margin-top: 14px; margin-right: 4px; }
 	.con{ padding: pxt2(25); height: 480px; position: relative; text-align: center;
 		img{ width: 97%; margin-bottom: 12px; }
-		.p1{ font-size: pxt2(20); line-height: pxt2(30); padding: pxt2(38) 6px 0 6px; text-align: left; }
-		.p2{ font-size: pxt2(20); line-height: pxt2(30); padding: 20px 6px 0; text-align: left; }
+		.p1{ font-size: pxt2(20); line-height: 30px; padding: pxt2(38) 6px 0 6px; text-align: left; }
+		.p2{ font-size: pxt2(20); line-height: 30px; padding: 20px 6px 0; text-align: left; }
 	}
 }
 .wx_con{
@@ -370,7 +370,7 @@ body{ font-family: "黑体"; }
 	.on{ z-index: 4; 
 		.contact_bar{  }
 	}
-	.contact_bar{  left: 100px; z-index: 7; display: none; }
+	.contact_bar{  left: 100px; z-index: 7; display: none;  width: 480px; top: auto; bottom: 100px; }
 	.contact_bar2{ left: auto; right: 100px; }
 	.btn{ margin-top: pxt2(50); width: pxt2(150); height: pxt2(40); line-height: pxt2(42);  font-size: 18px; }
 }

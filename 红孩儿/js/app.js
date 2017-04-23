@@ -1,4 +1,14 @@
 $(document).ready(function(){
+	// setTimeout(function(){
+	// 	$(".red_index_main1 .text").mCustomScrollbar({
+	// 		scrollButtons:{
+	// 			enable:true
+	// 		}
+	// 	});
+	// },1000)
+	// $(window).load(function(){
+		
+	// });
 	var ty_public = { 
 		brower: function(){
 			var userAgent = navigator.userAgent; 
@@ -63,6 +73,15 @@ $(document).ready(function(){
 
 		var main3 = $('.red_index_main3IN .pic').width();
 		$('.red_index_main3IN .picword').height(main3/396*425)
+
+		var about1 = $('.product .proIN').width();
+		$('.product .proIN img').height(about1/345*358)
+
+		var about2 = $('.gov .l').width();
+		$('.gov,.jidiIn .outer').height(about2)
+
+		var intro2 = $('.wayin').width();
+		$('.wayin .img').height(intro2/324*254)
 	}
 	$(window).resize(function() {
  		setall();
@@ -146,4 +165,57 @@ $(document).ready(function(){
 			}
 		}
 	});
+
+	$('#contact a').click(function(e){
+		stophref(e);
+		$('.header_contact').show(200);
+		if ($(".wx_header .contact_bar .con").hasClass('mCustomScrollbar')) {
+			return false;
+		}else{
+			setTimeout(function(){
+				$(".wx_header .contact_bar .con").mCustomScrollbar({
+					scrollButtons:{
+						enable:true
+					}
+				});
+			},100)
+			
+		}
+		stopbubble(e);
+	})
+	$('.lbtn').click(function(){
+		$('.hd .prev').trigger('click')
+	})
+	$('.rbtn').click(function(){
+		$('.hd .next').trigger('click')
+	})
+	$('.picList img').hover(function(){
+		var img1 = $(this).attr('src');
+		var img2 = $(this).attr('alt');
+		$(this).attr('src',img2);
+		$(this).attr('alt',img1);
+		// if ($(this).attr('src').indexOf('_hover')<=0) {
+		// 	var nSrc = $(this).attr('src');
+		// 	$(this).attr('alt',nSrc);
+		// 	var mSrcArr =  nSrc.split('.');
+		// 	var newSrc = mSrcArr[0]+"_hover."+mSrcArr[1];
+		// 	$(this).attr('src',newSrc);
+		// }
+	})
+	$('.picList img').mouseleave(function(){
+		var img3 = $(this).attr('src');
+		var img4 = $(this).attr('alt');
+		$(this).attr('src',img3);
+		$(this).attr('alt',img4);
+		// $(this).attr('src',$(this).attr('alt'));
+	})
+	$('.red_index_main2T .tit').click(function(){
+		$('.red_index_main2T .tit').removeClass('on');
+		$(this).addClass('on')
+	})
+	$('.detialselect').click(function(){
+		var index = $('.detialselect').index($(this));
+		$('.detialselect').removeClass('on').eq(index).addClass('on');
+		$('.detialmain').removeClass('on').eq(index).addClass('on');
+	})
 });
