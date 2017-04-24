@@ -1,14 +1,5 @@
 $(document).ready(function(){
-	// setTimeout(function(){
-	// 	$(".red_index_main1 .text").mCustomScrollbar({
-	// 		scrollButtons:{
-	// 			enable:true
-	// 		}
-	// 	});
-	// },1000)
-	// $(window).load(function(){
-		
-	// });
+	
 	var ty_public = { 
 		brower: function(){
 			var userAgent = navigator.userAgent; 
@@ -65,7 +56,15 @@ $(document).ready(function(){
 			return ""
 		}
 	}
+	function customs(){
+		$(".detialmains .on .text p").mCustomScrollbar({
+			scrollButtons:{
+				enable:true
+			}
+		});
+	}
 	// 初始化
+	customs();
 	// $('.red_lun').height($(window).height());
 	function setall(){
 		var mainW = $('.red_main').width();
@@ -83,9 +82,6 @@ $(document).ready(function(){
 		var intro2 = $('.wayin').width();
 		$('.wayin .img').height(intro2/324*254)
 	}
-	$(window).resize(function() {
- 		setall();
-	});
 	setall();
 
 	// iframe
@@ -166,23 +162,6 @@ $(document).ready(function(){
 		}
 	});
 
-	$('#contact a').click(function(e){
-		stophref(e);
-		$('.header_contact').show(200);
-		if ($(".wx_header .contact_bar .con").hasClass('mCustomScrollbar')) {
-			return false;
-		}else{
-			setTimeout(function(){
-				$(".wx_header .contact_bar .con").mCustomScrollbar({
-					scrollButtons:{
-						enable:true
-					}
-				});
-			},100)
-			
-		}
-		stopbubble(e);
-	})
 	$('.lbtn').click(function(){
 		$('.hd .prev').trigger('click')
 	})
@@ -217,5 +196,17 @@ $(document).ready(function(){
 		var index = $('.detialselect').index($(this));
 		$('.detialselect').removeClass('on').eq(index).addClass('on');
 		$('.detialmain').removeClass('on').eq(index).addClass('on');
+		if ($('.detialmain').eq(index).find('.text p').hasClass('mCustomScrollbar')) {
+				return false;
+			}else{
+				
+					$('.detialmain').eq(index).find('.text p').mCustomScrollbar({
+						scrollButtons:{
+							enable:true
+						}
+					});
+				
+				
+			}
 	})
 });
