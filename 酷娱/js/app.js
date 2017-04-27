@@ -125,9 +125,16 @@ $(document).ready(function(){
 		var minH = $(window).height();
 		$(".ty_wrapbac").css('min-height',minH+'px');
 		$(".ty_wrapbac").height($('#ty_iframe').height() + 70);
+
 		var openH = $('.open-news').height();
 		if (openH<minH) {
-			$('.inner-right').css('margin-left',"470px");
+			var ttnn = $(".ty_wrapbac").height();
+			if (ttnn>minH) {
+				$('.inner-right').css('margin-left',"462px");
+			}else{
+				$('.inner-right').css('margin-left',"470px");
+			}
+			
 		}else{
 			$('.inner-right').css('margin-left',"462px");
 		}

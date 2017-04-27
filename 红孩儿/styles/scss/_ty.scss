@@ -493,6 +493,10 @@ body{ background-color: #fff; min-width: 1300px; font-family: "黑体" }
 	body .ty_iframe{ width: 100%; box-sizing:border-box; padding: 0 10px; }
 	body .newframe_about .ty_iframe{ width: 100%; box-sizing:border-box; padding: 0; padding-top: 50px; }
 	body .newframe_aboutO .open-news{ top: 0px; }
+
+	body{ width: rem(640);
+
+	}
 }
 
 // 来自异世界的弹窗end

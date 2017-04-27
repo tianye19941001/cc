@@ -64,7 +64,11 @@ $(document).ready(function(){
 		});
 	}
 	// 初始化
-	customs();
+	if ($(".detialmains .on .text p").length>0) {
+
+		customs();
+	}
+	
 	// $('.red_lun').height($(window).height());
 	function setall(){
 		var mainW = $('.red_main').width();
@@ -209,4 +213,17 @@ $(document).ready(function(){
 				
 			}
 	})
+	if (document.body.clientWidth>=768) {
+
+	}else{
+		fnResize();
+		window.addEventListener("resize", function() {
+		    fnResize()
+		}, false);
+		function fnResize(){
+		    var docWidth = document.documentElement.clientWidth,
+		            body = document.getElementsByTagName('html')[0];
+		    body.style.fontSize = docWidth / 32 + 'px';
+		}
+	}
 });
