@@ -64,10 +64,7 @@ $(document).ready(function(){
 		});
 	}
 	// 初始化
-	if ($(".detialmains .on .text p").length>0) {
-
-		customs();
-	}
+	
 	
 	// $('.red_lun').height($(window).height());
 	function setall(){
@@ -131,7 +128,7 @@ $(document).ready(function(){
 			$('.inner-right').css('margin-left',"462px");
 		}
 	},200);
-	$(document).on("click",'.red_new a', function(e){
+	$(document).on("click",'.red_new a,.red_new_top a', function(e){
 		ty_public.stopDefault(e);
 		$('#ty_iframe').attr('src',$(this).attr('href'));
 		$('body').addClass('oh');
@@ -201,20 +198,21 @@ $(document).ready(function(){
 		$('.detialselect').removeClass('on').eq(index).addClass('on');
 		$('.detialmain').removeClass('on').eq(index).addClass('on');
 		if ($('.detialmain').eq(index).find('.text p').hasClass('mCustomScrollbar')) {
-				return false;
-			}else{
-				
-					$('.detialmain').eq(index).find('.text p').mCustomScrollbar({
-						scrollButtons:{
-							enable:true
-						}
-					});
-				
-				
-			}
+			return false;
+		}else{
+			$('.detialmain').eq(index).find('.text p').mCustomScrollbar({
+				scrollButtons:{
+					enable:true
+				}
+			});
+		}
 	})
 	if (document.body.clientWidth>=768) {
-
+		if ($(".detialmains .on .text p").length>0) {
+			customs();
+		}
+		jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:5,trigger:"click"});
+	
 	}else{
 		fnResize();
 		window.addEventListener("resize", function() {
@@ -225,5 +223,19 @@ $(document).ready(function(){
 		            body = document.getElementsByTagName('html')[0];
 		    body.style.fontSize = docWidth / 32 + 'px';
 		}
+		if ($('.picScroll-left').length>0) {
+			jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:3,trigger:"click"});
+		}
+
+		$('.logo .phone_menu').click(function(){
+			$('.red_nav .nav,.red_nav .connect').fadeIn();
+			$('.phone_top .close').css('display','inline-block');
+			$('.red_nav .nav').addClass('now')
+		})
+		$('.phone_top .close').click(function(){
+			$('.red_nav .nav,.red_nav .connect').fadeOut();
+			$('.red_nav .nav').removeClass('now');
+			$('.phone_top .close').css('display','none');
+		})
 	}
 });
