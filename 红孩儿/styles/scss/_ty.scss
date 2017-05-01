@@ -327,7 +327,7 @@ body{ background-color: #fff; min-width: 1300px; font-family: "黑体" }
 		}
 		.r{ float: left; width: 62%; height: 100%;
 			.t,.b{ width: 100%; height: 50%; @extend .clearfix; 
-				.pac{ width: 50%; height: 100%; float: left;
+				.pac{ width: 50%; height: 100%; float: left; overflow: hidden;
 					img{ display: block; width: 100%; min-height: 100%; height: auto;  }
 				}
 				.word{ width: 50%; height: 100%; float: left; border: 1px solid #dedfe5; box-sizing: border-box; position: relative; 
@@ -509,7 +509,7 @@ body{ background-color: #fff; min-width: 1300px; font-family: "黑体" }
 					li{ border-top: rem(2) solid #64646c; height: rem(80); line-height: rem(80); text-align: left;
 						&:first-child{ border-top: 0; }
 						&:last-child{ border-bottom: rem(2) solid #64646c; }
-						a{ font-size: rem(22); padding-left: rem(95); margin-right: rem(190); width: rem(120) }
+						a{ font-size: rem(22); padding-left: rem(95); width: rem(320) }
 					}
 					.on{ background-color: #64646c; 
 						a{ }
@@ -594,8 +594,8 @@ body{ background-color: #fff; min-width: 1300px; font-family: "黑体" }
 			.lunbobar{ height: auto; box-sizing: border-box; padding: 0 rem(60); }
 			.tempWrap{ padding: 0; padding-top: 10px; }
 			.btns{ display: none; }
-			.bd { width: 100%;
-				li{ width: rem(173.3333) !important; height: auto; margin-bottom: 0; padding-bottom: 10px; }
+			.bd { width: 100%; height: rem(79*2); overflow: hidden;
+				li{ width: rem(173.3333) !important; height: auto; margin-bottom: 0; padding-bottom: 10px; margin-right: 0; padding-right: rem(10); }
 			}
 		}
 		.red_index_main5{ margin-right: 0; 

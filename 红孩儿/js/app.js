@@ -211,8 +211,16 @@ $(document).ready(function(){
 		if ($(".detialmains .on .text p").length>0) {
 			customs();
 		}
-		jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:5,trigger:"click"});
-	
+		if ($(window).height()<710) {
+			$('.red_nav .nav li').css({
+				'line-height': '46px',
+				'height': '46px'
+			})
+			$('.red_nav .logo').css('margin','34px 0 20px')
+		}
+		if ($('.picScroll-left').length>0) {
+			jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:5,trigger:"click"});
+		}
 	}else{
 		fnResize();
 		window.addEventListener("resize", function() {
