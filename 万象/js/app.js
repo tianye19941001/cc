@@ -150,6 +150,25 @@ $(document).ready(function(){
 	if (document.body.clientWidth>=768) {
 		//初始化
 		$('.wx_list_f>div').slice(0,4).addClass('on');
+		if ($('.workright').length>0) {
+			setInterval(function(){
+				var bili = 1260/700;
+				$('.workright .bd img').each(function(){
+					var bili2 = $(this).width()/$(this).height();
+					if (bili2 > bili) {
+						$(this).css({
+							'width':'100%',
+							'height':'auto'
+						})
+					}else if(bili2 < bili){
+						$(this).css({
+							'width':'auto',
+							'height':'100%'
+						})
+					}
+				})
+			},100)
+		}
 
 		var alltylen = $('.wx_list_f>div').length;
 		$('.video_con .ty_next').click(function(){
@@ -339,6 +358,8 @@ $(document).ready(function(){
 		window.addEventListener("resize", function() {
 		    fnResize()
 		}, false);
+		$('.wlIn li').height($('.wlIn li').width());
+
 		function fnResize(){
 		    var docWidth = document.documentElement.clientWidth,
 		            body = document.getElementsByTagName('html')[0];
