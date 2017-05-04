@@ -149,7 +149,10 @@ $(document).ready(function(){
 	}
 	if (document.body.clientWidth>=768) {
 		//初始化
-		$('.wx_list_f>div').slice(0,4).addClass('on');
+		if ($('.wx_list_f>div').length>0) {
+			$('.wx_list_f>div').slice(0,4).addClass('on');
+		}
+
 		if ($('.workright').length>0) {
 			setInterval(function(){
 				var bili = 1260/700;
