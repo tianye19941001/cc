@@ -99,6 +99,7 @@ $(document).ready(function(){
         }
     );
     var iframeit  = setInterval(function(){
+        $('#ty_iframe').contents().find(".inner-right").hide();
 		if ($('#ty_iframe').length>0 && $('#ty_iframe').attr('src')!='#') {
 			if ($('#ty_iframe').contents().find("body").find('.newframe_about').length > 0) {
 				if ($('#ty_iframe').height()==($('#ty_iframe').contents().find("body").find(".news-article").height() + 15)) {
@@ -122,17 +123,34 @@ $(document).ready(function(){
 		$(".ty_wrapbac").css('min-height',minH+'px');
 		$(".ty_wrapbac").height($('#ty_iframe').height() + 70);
 		var openH = $('.open-news').height();
-		if (openH<minH) {
-			$('.inner-right').css('margin-left',"470px");
-		}else{
-			$('.inner-right').css('margin-left',"462px");
-		}
-	},200);
-	$(document).on("click",'.red_new a,.red_new_top a', function(e){
+		var wwww = document.body.clientWidth;
+		var swww = $(window).width();
+        if (openH<minH) {
+            var ttnn = $(".ty_wrapbac").height();
+            if (ttnn>minH) {
+                if(wwww ==swww) {
+                    $('.inner-right').css('margin-left',"470px");
+                }else {
+                    $('.inner-right').css('margin-left', "462px");
+                }
+            }else{
+                $('.inner-right').css('margin-left',"470px");
+            }
+
+        }else{
+        	if(wwww ==swww) {
+                $('.inner-right').css('margin-left',"470px");
+            }else {
+                $('.inner-right').css('margin-left', "462px");
+            }
+        }
+	},100);
+	$(document).on("click",'.red_new a,.red_new_top a,.red_index_main3IN .picword', function(e){
 		ty_public.stopDefault(e);
 		$('#ty_iframe').attr('src',$(this).attr('href'));
 		$('body').addClass('oh');
 		$('.newframe').height("100%").addClass("show");
+
 	});
 	
 	$('.newframe').on("click",'.close', function(e){
@@ -245,5 +263,28 @@ $(document).ready(function(){
 			$('.red_nav .nav').removeClass('now');
 			$('.phone_top .close').css('display','none');
 		})
+		$('.phone_lun_control i').click(function() {
+            var indexit = $('.detialselect').index($('.detialselects .on'));
+            $('.detialselect').removeClass("on");
+            $('.detialmain').removeClass("on");
+			if($(this).hasClass('left')){
+				if(indexit<=0){
+                    $('.detialselect').eq(3).addClass("on");
+                    $('.detialmain').eq(3).addClass("on");
+				}else{
+                    $('.detialselect').eq(indexit-1).addClass("on");
+                    $('.detialmain').eq(indexit-1).addClass("on");
+                }
+			}else if($(this).hasClass('right')){
+                if(indexit>=3){
+                    $('.detialselect').eq(0).addClass("on");
+                    $('.detialmain').eq(0).addClass("on");
+                }else{
+                    $('.detialselect').eq(indexit+1).addClass("on");
+                    $('.detialmain').eq(indexit+1).addClass("on");
+
+                }
+			}
+        })
 	}
 });
