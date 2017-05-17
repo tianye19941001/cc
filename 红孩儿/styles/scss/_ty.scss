@@ -478,10 +478,12 @@ body{ background-color: #fff; min-width: 1300px; font-family: "黑体" }
 .phone{ display: none; }
 @media screen and (min-width:1px) and (max-width:1019px){
 	.open-news{ width: 100%; margin-bottom: 0; }
-	.news-article h4.maintitle{ text-align: center; padding-bottom: 0; height: 53px; line-height: 53px; color: #d61518; border-bottom: 1px solid #333; }
+	.news-article h4.maintitle{ text-align: center; padding-bottom: 0; height: auto; line-height:rem(50); color: #d61518; border-bottom: 1px solid #333; white-space: normal; padding: rem(20); }
 	.news-article h5.subtitle{ padding: 10px 0; }
 	.news-inner .pic img{ width: 80%; }
-	.news-inner .text{ margin-top: 10px; padding: 0 12px; }
+	.news-inner .text{ margin-top: 10px; padding: 0 12px; 
+		span{ font-size: 12px !important; }
+	}
 	.newframe{ -webkit-overflow-scrolling : touch; top: 0; left: 0; bottom: 0; right: 0; z-index: 5; display: none; }
 	.newframe.show{ display: block; }
 	.news-inner{ padding: 13px 10px 10px; }
@@ -505,7 +507,7 @@ body{ background-color: #fff; min-width: 1300px; font-family: "黑体" }
 
 	body{ width: rem(640); min-width: auto; -webkit-overflow-scrolling : touch;
 		.inner-right{ margin-left:0 !important; width: 2.5rem;  right: 0; left: auto;
-			a,.share{ width: 2.5rem; height: 2.5rem; background-size: 2rem auto !important;
+			a,.share{ width: 2.5rem; height: 2.5rem; background-size: 1.5rem auto !important;
 				b{ display: none; }
 			}
 		}
@@ -613,7 +615,7 @@ body{ background-color: #fff; min-width: 1300px; font-family: "黑体" }
 				p{ display: none; }
 				img{ width: rem(150); height: rem(150); }
 			}
-			.rightbar{ width: rem(350); float: right; padding-top: rem(10);
+			.rightbar{ width: rem(400); float: right; padding-top: rem(10);
 				span{height: auto; margin-bottom: rem(25); line-height: rem(30); text-align: left; font-size: rem(20); 
 					i{ width: rem(30); height: rem(30);  }
 					.phone,.call,.location{ background-size: rem(30) rem(30); }
@@ -679,7 +681,7 @@ body{ background-color: #fff; min-width: 1300px; font-family: "黑体" }
 			.govIn{ padding: 1.5rem 0 0; margin-bottom: rem(10);
 				.gov{ padding-left: 0; height: auto !important;
 					.l{ width: 100%; height: auto;
-						img{ height: rem(360); }
+						img{ height: rem(640); }
 						.bar{ position: static; padding: 0; padding-bottom: rem(20); background-color: #fff;
 							h4{ color: #3e3a39; font-size: rem(26); text-align: center; padding: rem(20) 0 rem(10); }
 							p{ font-size: rem(18); color: #3e3a39; padding: 0 0.75rem }
@@ -688,22 +690,22 @@ body{ background-color: #fff; min-width: 1300px; font-family: "黑体" }
 					.r{ width: 100%; background-color: #fff; box-sizing: border-box; padding: 0 0.75rem ;
 						.t,.b{ width: 50%; float: left; 
 							.word,.pac{ width: 98.5%; 
-								h4{ font-size: rem(20); line-height: rem(22); color: #3e3a39; }
+								h4{ font-size: rem(20); line-height: rem(22); color: #3e3a39; width: rem(220); height: rem(44); overflow: hidden; }
 								p{ display: none; }
-								.flower{ width: rem(24); height: rem(47); background-size: rem(24) rem(47); margin-top: 0; margin-left: rem(80);  }
+								.flower{ width: rem(24); height: rem(47); background-size: rem(24) rem(47); margin-top: 0; margin-left: rem(10);  }
 								.red_abouttit2{ border-bottom: 0; margin-top: 7%;
 								}
 							}
 									&:after{ border-bottom: 0; }
 							.word{ height: rem(92); border:0; background-color: #f8f8f8; }
-							.pac{ height: rem(312); overflow: hidden; 
-								img{ width: 100%; }
+							.pac{ height: rem(190); overflow: hidden; 
+								img{ width: 100%;  }
 							}
 							.to{ display: none; }
 						}
 						.b{ position: relative;
 							.pac{ float: left; }
-							.word{ float: right; position: absolute; top: rem(312); }
+							.word{ float: right; position: absolute; top: rem(190); }
 						}
 					}
 				}
