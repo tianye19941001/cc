@@ -99,6 +99,7 @@ $(document).ready(function(){
         }
     );
     var iframeit  = setInterval(function(){
+    	
         $('#ty_iframe').contents().find(".inner-right").hide();
 		if ($('#ty_iframe').length>0 && $('#ty_iframe').attr('src')!='#') {
 			if ($('#ty_iframe').contents().find("body").find('.newframe_about').length > 0) {
