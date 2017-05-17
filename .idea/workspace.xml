@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4dccc77c-5c9d-4e37-8890-c8283cc1138f" name="默认的" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/红孩儿/index.html" afterPath="$PROJECT_DIR$/红孩儿/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/红孩儿/js/app.js" afterPath="$PROJECT_DIR$/红孩儿/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/红孩儿/styles/scss/_ty.scss" afterPath="$PROJECT_DIR$/红孩儿/styles/scss/_ty.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/红孩儿/styles/styles.css" afterPath="$PROJECT_DIR$/红孩儿/styles/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/红孩儿/styles/styles.css.map" afterPath="$PROJECT_DIR$/红孩儿/styles/styles.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/酷娱/js/app.js" afterPath="$PROJECT_DIR$/酷娱/js/app.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,11 +23,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/红孩儿/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="96" column="33" lean-forward="true" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
+            <state relative-caret-position="192">
+              <caret line="120" column="153" lean-forward="true" selection-start-line="120" selection-start-column="153" selection-end-line="120" selection-end-column="153" />
               <folding />
             </state>
           </provider>
@@ -39,8 +36,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/红孩儿/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3990">
-              <caret line="266" column="42" lean-forward="false" selection-start-line="266" selection-start-column="42" selection-end-line="266" selection-end-column="42" />
+            <state relative-caret-position="514">
+              <caret line="232" column="22" lean-forward="false" selection-start-line="232" selection-start-column="22" selection-end-line="232" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -51,16 +48,45 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="615">
               <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
-              <folding />
+              <folding>
+                <marker date="1495023716000" expanded="true" signature="1472:1515" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="1540:4103" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="1565:1863" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="1597:1853" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="1668:1844" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="1904:2160" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="1975:2151" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="2211:2467" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="2282:2458" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="2518:2774" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="2589:2765" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="2825:3081" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="2896:3072" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="3149:3431" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="3165:3421" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="3236:3412" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="3485:3741" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="3556:3732" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="3805:4061" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="3876:4052" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="4192:4718" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="4285:4709" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="4311:4489" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="4516:4699" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="4767:5366" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="4822:5359" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="4851:5351" ph="..." />
+                <marker date="1495023716000" expanded="true" signature="4880:5265" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_ty.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_ty.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/红孩儿/styles/scss/_ty.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11940">
-              <caret line="796" column="77" lean-forward="false" selection-start-line="796" selection-start-column="77" selection-end-line="796" selection-end-column="77" />
+            <state relative-caret-position="-4187">
+              <caret line="501" column="9" lean-forward="true" selection-start-line="501" selection-start-column="9" selection-end-line="501" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -85,8 +111,8 @@
         <option value="$PROJECT_DIR$/万象/styles/scss/_ty.scss" />
         <option value="$PROJECT_DIR$/酷娱/js/app.js" />
         <option value="$PROJECT_DIR$/红孩儿/index.html" />
-        <option value="$PROJECT_DIR$/红孩儿/styles/scss/_ty.scss" />
         <option value="$PROJECT_DIR$/红孩儿/js/app.js" />
+        <option value="$PROJECT_DIR$/红孩儿/styles/scss/_ty.scss" />
       </list>
     </option>
   </component>
@@ -116,6 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -243,7 +270,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -359,14 +385,17 @@
       <workItem from="1494042184002" duration="3000" />
       <workItem from="1494045592554" duration="5729000" />
       <workItem from="1494153295156" duration="416000" />
+      <workItem from="1494198660442" duration="287000" />
+      <workItem from="1494506921726" duration="241000" />
+      <workItem from="1495023682909" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12861000" />
+    <option name="totallyTimeSpent" value="13988000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="809" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="809" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13611111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -420,7 +449,211 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+          <folding>
+            <marker date="1495023716000" expanded="true" signature="1472:1515" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1540:4103" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1565:1863" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1597:1853" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1668:1844" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1904:2160" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1975:2151" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2211:2467" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2282:2458" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2518:2774" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2589:2765" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2825:3081" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2896:3072" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3149:3431" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3165:3421" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3236:3412" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3485:3741" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3556:3732" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3805:4061" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3876:4052" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4192:4718" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4285:4709" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4311:4489" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4516:4699" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4767:5366" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4822:5359" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4851:5351" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4880:5265" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/红孩儿/styles/scss/_ty.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11940">
+          <caret line="796" column="77" lean-forward="false" selection-start-line="796" selection-start-column="77" selection-end-line="796" selection-end-column="77" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/红孩儿/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/红孩儿/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3990">
+          <caret line="266" column="42" lean-forward="false" selection-start-line="266" selection-start-column="42" selection-end-line="266" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/红孩儿/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+          <folding>
+            <marker date="1495023716000" expanded="true" signature="1472:1515" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1540:4103" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1565:1863" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1597:1853" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1668:1844" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1904:2160" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1975:2151" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2211:2467" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2282:2458" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2518:2774" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2589:2765" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2825:3081" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2896:3072" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3149:3431" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3165:3421" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3236:3412" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3485:3741" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3556:3732" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3805:4061" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3876:4052" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4192:4718" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4285:4709" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4311:4489" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4516:4699" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4767:5366" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4822:5359" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4851:5351" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4880:5265" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/红孩儿/styles/scss/_ty.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11940">
+          <caret line="796" column="77" lean-forward="false" selection-start-line="796" selection-start-column="77" selection-end-line="796" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/红孩儿/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/红孩儿/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3990">
+          <caret line="266" column="42" lean-forward="false" selection-start-line="266" selection-start-column="42" selection-end-line="266" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/红孩儿/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+          <folding>
+            <marker date="1495023716000" expanded="true" signature="1472:1515" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1540:4103" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1565:1863" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1597:1853" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1668:1844" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1904:2160" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1975:2151" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2211:2467" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2282:2458" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2518:2774" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2589:2765" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2825:3081" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2896:3072" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3149:3431" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3165:3421" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3236:3412" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3485:3741" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3556:3732" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3805:4061" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3876:4052" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4192:4718" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4285:4709" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4311:4489" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4516:4699" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4767:5366" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4822:5359" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4851:5351" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4880:5265" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/红孩儿/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/红孩儿/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3990">
+          <caret line="266" column="42" lean-forward="false" selection-start-line="266" selection-start-column="42" selection-end-line="266" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/红孩儿/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+          <folding>
+            <marker date="1495023716000" expanded="true" signature="1472:1515" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1540:4103" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1565:1863" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1597:1853" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1668:1844" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1904:2160" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1975:2151" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2211:2467" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2282:2458" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2518:2774" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2589:2765" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2825:3081" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2896:3072" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3149:3431" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3165:3421" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3236:3412" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3485:3741" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3556:3732" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3805:4061" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3876:4052" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4192:4718" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4285:4709" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4311:4489" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4516:4699" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4767:5366" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4822:5359" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4851:5351" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4880:5265" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -589,30 +822,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
-          <folding />
+          <folding>
+            <marker date="1495023716000" expanded="true" signature="1472:1515" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1540:4103" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1565:1863" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1597:1853" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1668:1844" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1904:2160" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="1975:2151" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2211:2467" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2282:2458" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2518:2774" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2589:2765" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2825:3081" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="2896:3072" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3149:3431" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3165:3421" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3236:3412" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3485:3741" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3556:3732" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3805:4061" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="3876:4052" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4192:4718" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4285:4709" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4311:4489" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4516:4699" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4767:5366" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4822:5359" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4851:5351" ph="..." />
+            <marker date="1495023716000" expanded="true" signature="4880:5265" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/红孩儿/styles/scss/_ty.scss">
+    <entry file="file://$PROJECT_DIR$/红孩儿/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11940">
-          <caret line="796" column="77" lean-forward="false" selection-start-line="796" selection-start-column="77" selection-end-line="796" selection-end-column="77" />
+        <state relative-caret-position="192">
+          <caret line="120" column="153" lean-forward="true" selection-start-line="120" selection-start-column="153" selection-end-line="120" selection-end-column="153" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/红孩儿/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3990">
-          <caret line="266" column="42" lean-forward="false" selection-start-line="266" selection-start-column="42" selection-end-line="266" selection-end-column="42" />
+        <state relative-caret-position="514">
+          <caret line="232" column="22" lean-forward="false" selection-start-line="232" selection-start-column="22" selection-end-line="232" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/红孩儿/index.html">
+    <entry file="file://$PROJECT_DIR$/红孩儿/styles/scss/_ty.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="96" column="33" lean-forward="true" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
+        <state relative-caret-position="-4187">
+          <caret line="501" column="9" lean-forward="true" selection-start-line="501" selection-start-column="9" selection-end-line="501" selection-end-column="9" />
           <folding />
         </state>
       </provider>
