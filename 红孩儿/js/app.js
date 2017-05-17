@@ -226,6 +226,11 @@ $(document).ready(function(){
 		}
 	})
 	if (document.body.clientWidth>=768) {
+		$('.about1In .m .mIN').click(function(){
+			$(this).addClass('on').siblings().removeClass('on');
+			$('.about1In .l h4').html($(this).find('h4').html())
+			$('.about1In .l p').text($(this).find('p').text())
+		});
 		if ($(".detialmains .on .text p").length>0) {
 			customs();
 		}
