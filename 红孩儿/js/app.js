@@ -63,6 +63,8 @@ $(document).ready(function(){
 			}
 		});
 	}
+	// 内部数据
+	var jidiArr = ['http://honghaier.huilang365.com/images/guanyu/jidi2.jpg','http://honghaier.huilang365.com/images/guanyu/jidi3.jpg','http://honghaier.huilang365.com/images/guanyu/jidi4.jpg','http://honghaier.huilang365.com/images/guanyu/jidi5.jpg']
 	// 初始化
 	
 	
@@ -126,25 +128,26 @@ $(document).ready(function(){
 		var openH = $('.open-news').height();
 		var wwww = document.body.clientWidth;
 		var swww = $(window).width();
-        if (openH<minH) {
-            var ttnn = $(".ty_wrapbac").height();
-            if (ttnn>minH) {
-                if(wwww ==swww) {
-                    $('.inner-right').css('margin-left',"470px");
-                }else {
-                    $('.inner-right').css('margin-left', "462px");
-                }
-            }else{
-                $('.inner-right').css('margin-left',"470px");
-            }
-
-        }else{
-        	if(wwww ==swww) {
-                $('.inner-right').css('margin-left',"470px");
-            }else {
-                $('.inner-right').css('margin-left', "462px");
-            }
-        }
+        $('.inner-right').css({'margin-left': "470px",'left': wwww/2 +'px'});
+        // if (openH<minH) {
+        //     var ttnn = $(".ty_wrapbac").height();
+        //     if (ttnn>minH) {
+        //         if(wwww ==swww) {
+        //             $('.inner-right').css('margin-left',"470px");
+        //         }else {
+        //             $('.inner-right').css('margin-left', "462px");
+        //         }
+        //     }else{
+        //         $('.inner-right').css('margin-left',"470px");
+        //     }
+        //
+        // }else{
+        // 	if(wwww ==swww) {
+        //         $('.inner-right').css('margin-left',"470px");
+        //     }else {
+        //         $('.inner-right').css('margin-left', "462px");
+        //     }
+        // }
 	},100);
 	$(document).on("click",'.red_new a,.red_new_top a,.red_index_main3IN .picword', function(e){
 		ty_public.stopDefault(e);
@@ -226,12 +229,20 @@ $(document).ready(function(){
 			});
 		}
 	})
+	if(window.parent.document){
+		if(window.parent.document.body.clientWidth<1019) {
+			$('.news-inner .text span').attr('style','font-size:12px !important')
+        }
+	}
 	if (document.body.clientWidth>=768) {
 		$('.jidiIn .m .mIN').click(function(){
 			$(this).addClass('on').siblings().removeClass('on');
-			$('.jidiIn .l h4').html($(this).find('h4').html())
-			$('.jidiIn .l p').text($(this).find('p').text())
+			$('.jidiIn .l h4').html($(this).find('h4').html());
+			$('.jidiIn .l p').text($(this).find('p').text());
+			var indexJidi = $('.jidiIn .m .mIN').index($(this));
+            $('.jidiIn .l img').attr('src',jidiArr[indexJidi]);
 		});
+        $('.jidiIn .m .mIN').eq(0).trigger('click');
 		if ($(".detialmains .on .text p").length>0) {
 			customs();
 		}

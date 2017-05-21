@@ -365,7 +365,7 @@ body{ background-color: #fff; min-width: 1300px; font-family: "黑体" }
 		.outer{ padding-left: 100px; @extend .clearfix; }
 		img{ width: 100%; height: 100%; display: block; }
 		.l{ float: left; width: 38%; position: relative; height: 100%;
-			.bar{ position: absolute; padding: 3% 5% 5%; left: 0; bottom: 0; background-color: #d61518; }
+			.bar{ position: absolute; padding: 3% 5% 5%; left: 0; bottom: 0; background-color: #d61518; width: 90%; }
 			h4{ font-size: 22px; color: #fff; 
 				span{ display: none; }
 			}
@@ -439,7 +439,7 @@ body{ background-color: #fff; min-width: 1300px; font-family: "黑体" }
 .crumbs li{ display:block; float:left; margin:0 2px; font-size:13px; color:#666; line-height:25px; }
 .crumbs li a{ display:block; font-size:13px; color:#666; line-height:25px; }
 .news-inner{ padding:40px 60px 60px; 
-	.news-ct{ line-height: 18/9.6*14.4px; color: #727171; font-size: 12px }
+	.news-ct{ line-height: 18/9.6*14.4px; color: #727171; font-size: 14px }
 	.pic{ margin-top: 20px;
 		img{ width: 100%; display: block; margin: 0 auto; width: auto; max-width: 100%; height: auto; }
 		.aboutpic{ padding-top: 10px; text-align: center; }
@@ -466,7 +466,9 @@ body{ background-color: #fff; min-width: 1300px; font-family: "黑体" }
 	.news-inner{ padding: 10px; }
 	.news-inner .pic{ margin-top: 0; }
 	.news-inner .pic img{ width: 660px; margin: 0; }
-	.news-inner .text{ padding: 25px 25px 0px 25px; margin-top: 0 ; line-height: 24px; margin-bottom: 10px; font-size: 13px; }
+	.news-inner .text{ padding: 25px 25px 0px 25px; margin-top: 0 ; line-height: 24px; margin-bottom: 10px; font-size: 13px;
+		strong{ font-weight: bold; }
+	}
 	.name{ font-size: 24px; height: 40px; line-height: 40px; font-weight: 500; color: #434343; margin-bottom: 10px; 
 		em{ font-size: 18px; color: #999; margin-left: 10px; }
 	}
@@ -481,14 +483,12 @@ body{ background-color: #fff; min-width: 1300px; font-family: "黑体" }
 	.news-article h4.maintitle{ text-align: center; padding-bottom: 0; height: auto; line-height:rem(50); color: #d61518; border-bottom: 1px solid #333; white-space: normal; padding: rem(20); }
 	.news-article h5.subtitle{ padding: 10px 0; }
 	.news-inner .pic img{ width: 80%; }
-	.news-inner .text{ margin-top: 10px; padding: 0 12px; 
-		span{ font-size: 12px !important; }
-	}
+	.news-inner .text{ margin-top: 10px; padding: 0 12px; }
 	.newframe{ -webkit-overflow-scrolling : touch; top: 0; left: 0; bottom: 0; right: 0; z-index: 10; display: none; }
 	.newframe.show{ display: block; }
 	.news-inner{ padding: 13px 10px 10px; }
 	.ty_wrapbac{ display: none; }
-	.news-inner .news-ct{ font-size: 12px; 
+	.news-inner .news-ct{ font-size: 14px;
 		img{ width: auto; max-width: 100%; height: auto; }
 	}
 	body .newframe_about{ 
