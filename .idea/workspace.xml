@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4dccc77c-5c9d-4e37-8890-c8283cc1138f" name="默认的" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/红孩儿/styles/scss/_ty.scss" afterPath="$PROJECT_DIR$/红孩儿/styles/scss/_ty.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/红孩儿/styles/styles.css" afterPath="$PROJECT_DIR$/红孩儿/styles/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/红孩儿/styles/styles.css.map" afterPath="$PROJECT_DIR$/红孩儿/styles/styles.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/index.html" afterPath="$PROJECT_DIR$/万象/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/js/app.js" afterPath="$PROJECT_DIR$/万象/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/红孩儿/.idea/workspace.xml" afterPath="$PROJECT_DIR$/红孩儿/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,11 +53,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_ty.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_ty.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/红孩儿/styles/scss/_ty.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9777">
-              <caret line="784" column="85" lean-forward="true" selection-start-line="784" selection-start-column="85" selection-end-line="784" selection-end-column="85" />
+            <state relative-caret-position="658">
+              <caret line="784" column="85" lean-forward="false" selection-start-line="784" selection-start-column="85" selection-end-line="784" selection-end-column="85" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/万象/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="380" column="90" lean-forward="false" selection-start-line="380" selection-start-column="90" selection-end-line="380" selection-end-column="90" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/万象/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="161" column="92" lean-forward="false" selection-start-line="161" selection-start-column="92" selection-end-line="161" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -67,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/红孩儿/about.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -87,13 +107,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/酷娱/styles/scss/_ty.scss" />
-        <option value="$PROJECT_DIR$/万象/js/app.js" />
         <option value="$PROJECT_DIR$/万象/works.html" />
         <option value="$PROJECT_DIR$/万象/styles/scss/_ty.scss" />
         <option value="$PROJECT_DIR$/酷娱/js/app.js" />
         <option value="$PROJECT_DIR$/红孩儿/index.html" />
         <option value="$PROJECT_DIR$/红孩儿/js/app.js" />
         <option value="$PROJECT_DIR$/红孩儿/styles/scss/_ty.scss" />
+        <option value="$PROJECT_DIR$/万象/index.html" />
+        <option value="$PROJECT_DIR$/万象/js/app.js" />
       </list>
     </option>
   </component>
@@ -106,7 +127,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="810" />
+    <option name="height" value="809" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -123,8 +144,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -151,8 +170,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="项目文件" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="项目文件" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="万象" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="项目文件" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="项目文件" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="万象" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,14 +325,15 @@
       <workItem from="1494506921726" duration="241000" />
       <workItem from="1495023682909" duration="1817000" />
       <workItem from="1495105139318" duration="1118000" />
+      <workItem from="1495809291732" duration="836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16324000" />
+    <option name="totallyTimeSpent" value="17160000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="810" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="809" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13611111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -313,6 +367,46 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/红孩儿/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="120" column="153" lean-forward="false" selection-start-line="120" selection-start-column="153" selection-end-line="120" selection-end-column="153" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/红孩儿/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3480">
+          <caret line="232" column="22" lean-forward="false" selection-start-line="232" selection-start-column="22" selection-end-line="232" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/红孩儿/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/红孩儿/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/红孩儿/styles/scss/_ty.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11760">
+          <caret line="784" column="85" lean-forward="true" selection-start-line="784" selection-start-column="85" selection-end-line="784" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/红孩儿/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -580,13 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/万象/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="622">
@@ -629,15 +716,31 @@
     <entry file="file://$PROJECT_DIR$/红孩儿/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/红孩儿/styles/scss/_ty.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9777">
-          <caret line="784" column="85" lean-forward="true" selection-start-line="784" selection-start-column="85" selection-end-line="784" selection-end-column="85" />
+        <state relative-caret-position="658">
+          <caret line="784" column="85" lean-forward="false" selection-start-line="784" selection-start-column="85" selection-end-line="784" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/万象/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="161" column="92" lean-forward="false" selection-start-line="161" selection-start-column="92" selection-end-line="161" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/万象/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="380" column="90" lean-forward="false" selection-start-line="380" selection-start-column="90" selection-end-line="380" selection-end-column="90" />
           <folding />
         </state>
       </provider>

@@ -368,6 +368,19 @@ $(document).ready(function(){
 		            body = document.getElementsByTagName('html')[0];
 		    body.style.fontSize = docWidth / 40 + 'px';
 		}
+
+		//js截取
+		$(".wx_business li p").each(function () {
+			var num = 74;
+			if($(this).text().length>num){
+                $(this).text($(this).text().slice(0,num)+"...")
+			}
+        })
+
+        if($('.wx_aboutIn .l>p').eq(0).text().length>250){
+            $('.wx_aboutIn .l>p').eq(0).text($('.wx_aboutIn .l>p').eq(0).text().slice(0,250)+"...")
+        }
+
 		$(".wx_header .menu,.ty_dialog .menu").click(function(){
 			if ($('.ty_dialog').hasClass('ty_show')) {
 				$('.ty_dialog').slideUp(300).removeClass('ty_show');
