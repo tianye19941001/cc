@@ -369,19 +369,27 @@ $(document).ready(function(){
 		    body.style.fontSize = docWidth / 40 + 'px';
 		}
 
-		//js截取
-		$(".wx_business li p").each(function () {
-			var num = 74;
-			if($(this).text().length>num){
-                $(this).text($(this).text().slice(0,num)+"...")
-			}
-        })
 
-        if($('.wx_aboutIn .l>p').eq(0).text().length>250){
-            $('.wx_aboutIn .l>p').eq(0).text($('.wx_aboutIn .l>p').eq(0).text().slice(0,250)+"...")
-        }
+        var wxindex = $('.wx_studioIn .deimg p').html().indexOf("<br>");
+        $('.wx_studioIn .deimg p').html($('.wx_studioIn .deimg p').html().slice(0,wxindex))
 
-		$(".wx_header .menu,.ty_dialog .menu").click(function(){
+        var wxindex2 = $('.wx_aboutIn .l>p').text().indexOf(",引领");
+        $('.wx_aboutIn .l>p').eq(0).text($('.wx_aboutIn .l>p').eq(0).text().slice(0,wxindex2)+'。')
+
+        var wxindex3 = $('.wx_business li:eq(0)>p').text().indexOf(",广告摄影");
+        $('.wx_business li:eq(0)>p').text($('.wx_business li:eq(0)>p').text().slice(0,wxindex3)+'。')
+
+        var wxindex4 = $('.wx_business li:eq(1)>p').text().indexOf("在内的");
+        $('.wx_business li:eq(1)>p').text($('.wx_business li:eq(1)>p').text().slice(0,wxindex4)+'。')
+
+        var wxindex5 = $('.wx_business li:eq(2)>p').text().indexOf(",视频三维");
+        $('.wx_business li:eq(2)>p').text($('.wx_business li:eq(2)>p').text().slice(0,wxindex5)+'。')
+
+        var wxindex6 = $('.wx_business li:eq(3)>p').text().indexOf("均由");
+        $('.wx_business li:eq(3)>p').text($('.wx_business li:eq(3)>p').text().slice(0,wxindex6)+'。')
+
+
+        $(".wx_header .menu,.ty_dialog .menu").click(function(){
 			if ($('.ty_dialog').hasClass('ty_show')) {
 				$('.ty_dialog').slideUp(300).removeClass('ty_show');
 			}else{

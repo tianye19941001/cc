@@ -5,7 +5,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/index.html" afterPath="$PROJECT_DIR$/万象/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/js/app.js" afterPath="$PROJECT_DIR$/万象/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/红孩儿/.idea/workspace.xml" afterPath="$PROJECT_DIR$/红孩儿/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/styles/scss/_ty.scss" afterPath="$PROJECT_DIR$/万象/styles/scss/_ty.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/styles/styles.css" afterPath="$PROJECT_DIR$/万象/styles/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/红孩儿/intro.html" afterPath="$PROJECT_DIR$/红孩儿/intro.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/红孩儿/js/app.js" afterPath="$PROJECT_DIR$/红孩儿/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/红孩儿/styles/scss/_ty.scss" afterPath="$PROJECT_DIR$/红孩儿/styles/scss/_ty.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/红孩儿/styles/styles.css" afterPath="$PROJECT_DIR$/红孩儿/styles/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/红孩儿/styles/styles.css.map" afterPath="$PROJECT_DIR$/红孩儿/styles/styles.css.map" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/红孩儿/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3480">
-              <caret line="232" column="22" lean-forward="false" selection-start-line="232" selection-start-column="22" selection-end-line="232" selection-end-column="22" />
+            <state relative-caret-position="-1503">
+              <caret line="134" column="36" lean-forward="true" selection-start-line="134" selection-start-column="36" selection-end-line="134" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -56,28 +62,8 @@
       <file leaf-file-name="_ty.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/红孩儿/styles/scss/_ty.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="784" column="85" lean-forward="false" selection-start-line="784" selection-start-column="85" selection-end-line="784" selection-end-column="85" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/万象/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="380" column="90" lean-forward="false" selection-start-line="380" selection-start-column="90" selection-end-line="380" selection-end-column="90" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/万象/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="161" column="92" lean-forward="false" selection-start-line="161" selection-start-column="92" selection-end-line="161" selection-end-column="92" />
+            <state relative-caret-position="233">
+              <caret line="737" column="60" lean-forward="false" selection-start-line="737" selection-start-column="60" selection-end-line="737" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -86,9 +72,79 @@
       <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/红孩儿/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="195">
+              <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="intro.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/红孩儿/intro.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+              <folding>
+                <element signature="e#1813#1819#0" expanded="true" />
+                <element signature="e#1819#1825#0" expanded="true" />
+                <element signature="e#1825#1831#0" expanded="true" />
+                <element signature="e#1831#1837#0" expanded="true" />
+                <element signature="e#1837#1843#0" expanded="true" />
+                <element signature="e#1843#1849#0" expanded="true" />
+                <element signature="e#1849#1855#0" expanded="true" />
+                <element signature="e#1855#1861#0" expanded="true" />
+                <element signature="e#1861#1867#0" expanded="true" />
+                <element signature="e#1867#1873#0" expanded="true" />
+                <element signature="e#1873#1879#0" expanded="true" />
+                <element signature="e#1905#1911#0" expanded="true" />
+                <element signature="e#1911#1917#0" expanded="true" />
+                <element signature="e#1917#1923#0" expanded="true" />
+                <element signature="e#1923#1929#0" expanded="true" />
+                <element signature="e#1929#1935#0" expanded="true" />
+                <element signature="e#1935#1941#0" expanded="true" />
+                <element signature="e#1941#1947#0" expanded="true" />
+                <element signature="e#1947#1953#0" expanded="true" />
+                <element signature="e#1953#1959#0" expanded="true" />
+                <element signature="e#1959#1965#0" expanded="true" />
+                <element signature="e#1965#1971#0" expanded="true" />
+                <element signature="e#1971#1977#0" expanded="true" />
+                <element signature="e#1977#1983#0" expanded="true" />
+                <element signature="e#1983#1989#0" expanded="true" />
+                <element signature="e#1989#1995#0" expanded="true" />
+                <element signature="e#1995#2001#0" expanded="true" />
+                <element signature="e#2001#2007#0" expanded="true" />
+                <element signature="e#2007#2013#0" expanded="true" />
+                <element signature="e#2013#2019#0" expanded="true" />
+                <element signature="e#2019#2025#0" expanded="true" />
+                <element signature="e#2025#2031#0" expanded="true" />
+                <element signature="e#2031#2037#0" expanded="true" />
+                <element signature="e#2037#2043#0" expanded="true" />
+                <element signature="e#2043#2049#0" expanded="true" />
+                <element signature="e#2049#2055#0" expanded="true" />
+                <element signature="e#2055#2061#0" expanded="true" />
+                <element signature="e#2061#2067#0" expanded="true" />
+                <element signature="e#2106#2112#0" expanded="true" />
+                <element signature="e#2112#2118#0" expanded="true" />
+                <element signature="e#2118#2124#0" expanded="true" />
+                <element signature="e#2124#2130#0" expanded="true" />
+                <element signature="e#2130#2136#0" expanded="true" />
+                <element signature="e#2136#2142#0" expanded="true" />
+                <element signature="e#2142#2148#0" expanded="true" />
+                <element signature="e#2148#2154#0" expanded="true" />
+                <element signature="e#2154#2160#0" expanded="true" />
+                <element signature="e#2160#2166#0" expanded="true" />
+                <element signature="e#2166#2172#0" expanded="true" />
+                <element signature="e#2172#2178#0" expanded="true" />
+                <element signature="e#2178#2184#0" expanded="true" />
+                <element signature="e#2184#2190#0" expanded="true" />
+                <element signature="e#2190#2196#0" expanded="true" />
+                <element signature="e#2196#2202#0" expanded="true" />
+                <element signature="e#2202#2208#0" expanded="true" />
+                <element signature="e#2208#2214#0" expanded="true" />
+                <element signature="e#2214#2220#0" expanded="true" />
+                <element signature="e#2220#2226#0" expanded="true" />
+                <element signature="e#2226#2232#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,6 +154,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>down</find>
+      <find>intro1In</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -108,13 +165,14 @@
       <list>
         <option value="$PROJECT_DIR$/酷娱/styles/scss/_ty.scss" />
         <option value="$PROJECT_DIR$/万象/works.html" />
-        <option value="$PROJECT_DIR$/万象/styles/scss/_ty.scss" />
         <option value="$PROJECT_DIR$/酷娱/js/app.js" />
         <option value="$PROJECT_DIR$/红孩儿/index.html" />
-        <option value="$PROJECT_DIR$/红孩儿/js/app.js" />
-        <option value="$PROJECT_DIR$/红孩儿/styles/scss/_ty.scss" />
         <option value="$PROJECT_DIR$/万象/index.html" />
+        <option value="$PROJECT_DIR$/万象/styles/scss/_ty.scss" />
         <option value="$PROJECT_DIR$/万象/js/app.js" />
+        <option value="$PROJECT_DIR$/红孩儿/styles/scss/_ty.scss" />
+        <option value="$PROJECT_DIR$/红孩儿/intro.html" />
+        <option value="$PROJECT_DIR$/红孩儿/js/app.js" />
       </list>
     </option>
   </component>
@@ -144,6 +202,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -180,7 +239,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="万象" />
+              <option name="myItemId" value="红孩儿" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -194,7 +257,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="万象" />
+              <option name="myItemId" value="红孩儿" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="项目文件" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="项目文件" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="红孩儿" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -204,7 +289,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -325,12 +409,13 @@
       <workItem from="1494506921726" duration="241000" />
       <workItem from="1495023682909" duration="1817000" />
       <workItem from="1495105139318" duration="1118000" />
-      <workItem from="1495809291732" duration="836000" />
+      <workItem from="1495809291732" duration="3078000" />
+      <workItem from="1496587185556" duration="2252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17160000" />
+    <option name="totallyTimeSpent" value="21654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="809" extended-state="6" />
@@ -367,6 +452,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/红孩儿/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/红孩儿/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1800">
@@ -660,13 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/万象/styles/scss/_ty.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="474" column="1" lean-forward="false" selection-start-line="474" selection-start-column="1" selection-end-line="474" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/万象/works.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -697,14 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/红孩儿/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3480">
-          <caret line="232" column="22" lean-forward="false" selection-start-line="232" selection-start-column="22" selection-end-line="232" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/红孩儿/news.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -713,34 +791,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/红孩儿/about.html">
+    <entry file="file://$PROJECT_DIR$/万象/styles/scss/_ty.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/红孩儿/styles/scss/_ty.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="784" column="85" lean-forward="false" selection-start-line="784" selection-start-column="85" selection-end-line="784" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/万象/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="161" column="92" lean-forward="false" selection-start-line="161" selection-start-column="92" selection-end-line="161" selection-end-column="92" />
+        <state relative-caret-position="1455">
+          <caret line="97" column="33" lean-forward="false" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/万象/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="380" column="90" lean-forward="false" selection-start-line="380" selection-start-column="90" selection-end-line="380" selection-end-column="90" />
+        <state relative-caret-position="282">
+          <caret line="384" column="44" lean-forward="false" selection-start-line="384" selection-start-column="44" selection-end-line="384" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/万象/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="175" column="129" lean-forward="false" selection-start-line="175" selection-start-column="129" selection-end-line="175" selection-end-column="129" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/红孩儿/styles/scss/_ty.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="737" column="60" lean-forward="false" selection-start-line="737" selection-start-column="60" selection-end-line="737" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/红孩儿/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/红孩儿/intro.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+          <folding>
+            <element signature="e#1813#1819#0" expanded="true" />
+            <element signature="e#1819#1825#0" expanded="true" />
+            <element signature="e#1825#1831#0" expanded="true" />
+            <element signature="e#1831#1837#0" expanded="true" />
+            <element signature="e#1837#1843#0" expanded="true" />
+            <element signature="e#1843#1849#0" expanded="true" />
+            <element signature="e#1849#1855#0" expanded="true" />
+            <element signature="e#1855#1861#0" expanded="true" />
+            <element signature="e#1861#1867#0" expanded="true" />
+            <element signature="e#1867#1873#0" expanded="true" />
+            <element signature="e#1873#1879#0" expanded="true" />
+            <element signature="e#1905#1911#0" expanded="true" />
+            <element signature="e#1911#1917#0" expanded="true" />
+            <element signature="e#1917#1923#0" expanded="true" />
+            <element signature="e#1923#1929#0" expanded="true" />
+            <element signature="e#1929#1935#0" expanded="true" />
+            <element signature="e#1935#1941#0" expanded="true" />
+            <element signature="e#1941#1947#0" expanded="true" />
+            <element signature="e#1947#1953#0" expanded="true" />
+            <element signature="e#1953#1959#0" expanded="true" />
+            <element signature="e#1959#1965#0" expanded="true" />
+            <element signature="e#1965#1971#0" expanded="true" />
+            <element signature="e#1971#1977#0" expanded="true" />
+            <element signature="e#1977#1983#0" expanded="true" />
+            <element signature="e#1983#1989#0" expanded="true" />
+            <element signature="e#1989#1995#0" expanded="true" />
+            <element signature="e#1995#2001#0" expanded="true" />
+            <element signature="e#2001#2007#0" expanded="true" />
+            <element signature="e#2007#2013#0" expanded="true" />
+            <element signature="e#2013#2019#0" expanded="true" />
+            <element signature="e#2019#2025#0" expanded="true" />
+            <element signature="e#2025#2031#0" expanded="true" />
+            <element signature="e#2031#2037#0" expanded="true" />
+            <element signature="e#2037#2043#0" expanded="true" />
+            <element signature="e#2043#2049#0" expanded="true" />
+            <element signature="e#2049#2055#0" expanded="true" />
+            <element signature="e#2055#2061#0" expanded="true" />
+            <element signature="e#2061#2067#0" expanded="true" />
+            <element signature="e#2106#2112#0" expanded="true" />
+            <element signature="e#2112#2118#0" expanded="true" />
+            <element signature="e#2118#2124#0" expanded="true" />
+            <element signature="e#2124#2130#0" expanded="true" />
+            <element signature="e#2130#2136#0" expanded="true" />
+            <element signature="e#2136#2142#0" expanded="true" />
+            <element signature="e#2142#2148#0" expanded="true" />
+            <element signature="e#2148#2154#0" expanded="true" />
+            <element signature="e#2154#2160#0" expanded="true" />
+            <element signature="e#2160#2166#0" expanded="true" />
+            <element signature="e#2166#2172#0" expanded="true" />
+            <element signature="e#2172#2178#0" expanded="true" />
+            <element signature="e#2178#2184#0" expanded="true" />
+            <element signature="e#2184#2190#0" expanded="true" />
+            <element signature="e#2190#2196#0" expanded="true" />
+            <element signature="e#2196#2202#0" expanded="true" />
+            <element signature="e#2202#2208#0" expanded="true" />
+            <element signature="e#2208#2214#0" expanded="true" />
+            <element signature="e#2214#2220#0" expanded="true" />
+            <element signature="e#2220#2226#0" expanded="true" />
+            <element signature="e#2226#2232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/红孩儿/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1503">
+          <caret line="134" column="36" lean-forward="true" selection-start-line="134" selection-start-column="36" selection-end-line="134" selection-end-column="36" />
           <folding />
         </state>
       </provider>

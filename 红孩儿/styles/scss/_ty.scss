@@ -506,7 +506,7 @@ body{ background-color: #fff; min-width: 1300px; font-family: "黑体" }
 	body .newframe_aboutO .open-news{ top: 0px; }
 
 	body{ width: rem(640); min-width: auto; -webkit-overflow-scrolling : touch;
-		.inner-right{ margin-left:0 !important; width: 2.5rem;  right: 0; left: auto;
+		.inner-right{ margin-left:0 !important; width: 2.5rem;  right: 0; left: auto !important;
 			a,.share{ width: 2.5rem; height: 2.5rem; background-size: 1.5rem auto !important;
 				b{ display: none; }
 			}
@@ -731,11 +731,11 @@ body{ background-color: #fff; min-width: 1300px; font-family: "黑体" }
 			.red_new{ height: rem(326); padding-left: rem(15); margin-bottom: rem(16);
 				img{ width: rem(305); height: 100%; display: block; position: static; float: left; }
 				.right{ padding-left: rem(4); float: left; width: rem(302); height: 100%; background-color: #fff; position: relative;
-					h3{ font-size: rem(23); padding-top: rem(30); height: rem(60); line-height: rem(60); width: rem(268); margin: 0 auto; padding-bottom: 0; border-bottom:  1px solid #000; 
+					h3{ font-size: rem(23); padding-top: rem(40); line-height: rem(30); width: rem(268); margin: 0 auto; margin-bottom: rem(20);  max-height: rem(60); overflow: hidden; padding-bottom: 0;
 						span{ font-size: rem(16); }
 					}
 					&:after{ display: block; content: ''; width: rem(278);height: rem(300); position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); border: 1px solid #000; }
-					p{ font-size: rem(16);  width: rem(268); margin: 0 auto; padding-right: 0; padding-top: rem(14); line-height: rem(24); height: rem(24*8) }
+					p{ font-size: rem(16);  width: rem(268); margin: 0 auto; padding-right: 0; padding-top: rem(14); line-height: rem(24); height: rem(24*7); overflow: hidden; border-top:  1px solid #000; }
 				}
 				&:hover{ background-color: #fff;
 					h3{ color: #d61518; }

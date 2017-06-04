@@ -303,5 +303,6 @@ $(document).ready(function(){
                 }
 			}
         })
+		$('.red_intro1 .intro1In:eq(1) .p1').html($.trim($('.red_intro1 .intro1In:eq(1) .p1').text()))
 	}
 });
