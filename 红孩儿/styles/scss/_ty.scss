@@ -5,7 +5,7 @@
 }
 .oh{ overflow: hidden; }
 %red{ color: #d61518; }
-body{ background-color: #fff; min-width: 1300px; font-family: "黑体" }
+body{ background-color: #fff; font-family: "黑体"; min-width: 1300px; }
 .red_con{
 	.red_nav{ width: 244px; height: 100%; position: fixed; background-color: #fff; text-align: center; z-index: 8;
 		.logo{ margin: 44px 0 30px; }
@@ -234,7 +234,9 @@ body{ background-color: #fff; min-width: 1300px; font-family: "黑体" }
 			.flower{ width: 24px; height: 47px; float: left; background: url(../images/flower2.png); background-size: 24px 47px; margin-left: 70px; }
 
 		}
-		.p1{ font-size: 17px; color: #727171; line-height: 30px; height: 120px; width: 85%;  overflow: hidden;}
+		.p1{ font-size: 17px; color: #727171; line-height: 30px; height: 120px; width: 85%;  overflow: hidden; 
+			span{ min-width: 320px; display: inline-block; }
+		}
 		&:hover{ background-color: #d61518;
 			.red_introtit{
 				em{ color: #fff; 
@@ -505,7 +507,7 @@ body{ background-color: #fff; min-width: 1300px; font-family: "黑体" }
 	body .newframe_about .ty_iframe{ width: 100%; box-sizing:border-box; padding: 0; padding-top: 50px; }
 	body .newframe_aboutO .open-news{ top: 0px; }
 
-	body{ width: rem(640); min-width: auto; -webkit-overflow-scrolling : touch;
+	body{ width: rem(640); min-width: 0; -webkit-overflow-scrolling : touch;  -webkit-text-size-adjust: 100% !important;
 		.inner-right{ margin-left:0 !important; width: 2.5rem;  right: 0; left: auto !important;
 			a,.share{ width: 2.5rem; height: 2.5rem; background-size: 1.5rem auto !important;
 				b{ display: none; }
@@ -533,7 +535,7 @@ body{ background-color: #fff; min-width: 1300px; font-family: "黑体" }
 					img{ width: rem(100); display: block; margin: 0 auto; }
 				}
 			}
-			.red_main{ margin-left: 0; width: 100%; min-width: auto;
+			.red_main{ margin-left: 0; width: 100%; min-width: rem(640);
 				.red_lun{ height: rem(400) !important; 
 					img{ width: rem(640); height: rem(400) }
 				}
@@ -638,14 +640,14 @@ body{ background-color: #fff; min-width: 1300px; font-family: "黑体" }
 				.outer{ padding-left: 0; height: auto !important;
 					.l{ display: none; }
 					.m{ width: 100%; 
-						.mIN{ width: 100%; height: rem(330); background-color: #fff; border:0; margin-bottom: rem(18);
+						.mIN{ width: 100%; height: rem(300); background-color: #fff; border:0; margin-bottom: rem(18);
 							img{ width: rem(300) }
 							&:nth-child(even){
 								img{ float: right; }
 								.bar{ left: rem(10) }
 							}
 						}
-						.bar{ width: rem(278); height: rem(300); left: auto; right: rem(10); top: rem(10); border: 1px solid #000; 
+						.bar{ width: rem(278); height: rem(300-25); left: auto; right: rem(10); top: rem(10); border: 1px solid #000; 
 							h4{ font-size: rem(24); padding-top: rem(20); line-height: rem(30); 
 								span{ font-size: rem(16); }
 							}
@@ -751,7 +753,9 @@ body{ background-color: #fff; min-width: 1300px; font-family: "黑体" }
 					span{ width: 100%; font-size: rem(16); top: rem(36) }
 				}
 				.flower{ display: none; }
-				.p1{ width: 100%; box-sizing: border-box; padding: 0 rem(15) rem(36); line-height: rem(24); font-size: rem(18); text-indent: rem(36); height: auto; text-align: justify; }
+				.p1{ width: 100%; box-sizing: border-box; padding: 0 rem(15) rem(36); line-height: rem(24); font-size: rem(18); text-indent: rem(36); height: auto; text-align: justify; 
+					span{ display: block !important; width: 100% !important; min-width: rem(640) !important; }
+				}
 			}
 		}
 		.red_intro2{ margin-right: 0; padding-top: 0;

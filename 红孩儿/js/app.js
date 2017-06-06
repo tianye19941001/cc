@@ -1,5 +1,4 @@
-$(document).ready(function(){
-	
+ $(document).ready(function(){
 	var ty_public = { 
 		brower: function(){
 			var userAgent = navigator.userAgent; 
@@ -65,8 +64,35 @@ $(document).ready(function(){
 	}
 	// 内部数据
 	var jidiArr = ['http://honghaier.huilang365.com/images/guanyu/jidi2.jpg','http://honghaier.huilang365.com/images/guanyu/jidi3.jpg','http://honghaier.huilang365.com/images/guanyu/jidi4.jpg','http://honghaier.huilang365.com/images/guanyu/jidi5.jpg']
+	
 	// 初始化
 	
+	var hrefLoc = window.location.href;
+	var allHref = $('.red_new a,.red_new_top a,.red_index_main3IN .picword');
+	if (hrefLoc.indexOf('www.')>0) {
+		allHref.each(function(){
+			var inhr = $(this).attr('href');
+			if(typeof inhr == 'string'){
+				var indexhr = inhr.indexOf('http://');
+				if ($(this).attr('href').indexOf('www.')<0) {
+					var ed = inhr.slice(indexhr+7);
+					$(this).attr('href','http://www.'+ed)
+				}
+			}
+		})
+	}else{
+		allHref.each(function(){
+			var inhr = $(this).attr('href');
+			if(typeof inhr == 'string'){
+				var indexhr = inhr.indexOf('http://');
+				if ($(this).attr('href').indexOf('www.')>0) {
+					var ed = inhr.slice(indexhr+11);
+					$(this).attr('href','http://'+ed)
+				}
+			}
+		})
+	}
+
 	
 	// $('.red_lun').height($(window).height());
 	function setall(){
@@ -105,10 +131,10 @@ $(document).ready(function(){
         $('#ty_iframe').contents().find(".inner-right").hide();
 		if ($('#ty_iframe').length>0 && $('#ty_iframe').attr('src')!='#') {
 			if ($('#ty_iframe').contents().find("body").find('.newframe_about').length > 0) {
-				if ($('#ty_iframe').height()==($('#ty_iframe').contents().find("body").find(".news-article").height() + 15)) {
+				if ($('#ty_iframe').height()==($('#ty_iframe').contents().find("body").find(".news-article").height() + 55)) {
 					return false;
 				}else{
-					$('#ty_iframe').height($('#ty_iframe').contents().find("body").find(".news-article").height() + 15); 
+					$('#ty_iframe').height($('#ty_iframe').contents().find("body").find(".news-article").height() + 55); 
 				}
 	    	}else{
 	            if ($('#ty_iframe').height()==($('#ty_iframe').contents().find("body").find(".news-article").height() + 55)) {
@@ -126,7 +152,8 @@ $(document).ready(function(){
 		$(".ty_wrapbac").css('min-height',minH+'px');
 		$(".ty_wrapbac").height($('#ty_iframe').height() + 70);
 		var openH = $('.open-news').height();
-		var wwww = document.body.clientWidth;
+		// var wwww = document.body.clientWidth;
+		var wwww = $('.ty_wrapbac').width();
 		var swww = $(window).width();
         $('.inner-right').css({'margin-left': "470px",'left': wwww/2 +'px'});
         // if (openH<minH) {
@@ -266,6 +293,13 @@ $(document).ready(function(){
 		            body = document.getElementsByTagName('html')[0];
 		    body.style.fontSize = docWidth / 32 + 'px';
 		}
+
+		if ($('.jidiIn').length>0) {
+			$('.jidiIn .m .mIN').each(function(){
+				var indexdd = $('.jidiIn .m .mIN').index($(this));
+				$(this).find('img').attr('src',jidiArr[indexdd]);
+			})
+		}
 		if ($('.picScroll-left').length>0) {
 			jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:3,trigger:"click"});
 		}
@@ -303,6 +337,5 @@ $(document).ready(function(){
                 }
 			}
         })
-		$('.red_intro1 .intro1In:eq(1) .p1').html($.trim($('.red_intro1 .intro1In:eq(1) .p1').text()))
 	}
 });

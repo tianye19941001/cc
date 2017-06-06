@@ -202,9 +202,9 @@ $(document).ready(function(){
 				}
 			}
 		})
-		tyLLL = setInterval(function(){
-			$('.video_con .ty_next').trigger('click');
-		},5000)
+		// tyLLL = setInterval(function(){
+		// 	$('.video_con .ty_next').trigger('click');
+		// },5000)
 		$('.wx_list_f').hover(function(){
 			clearInterval(tyLLL);
 		})
@@ -361,7 +361,6 @@ $(document).ready(function(){
 		window.addEventListener("resize", function() {
 		    fnResize()
 		}, false);
-		$('.wlIn li').height($('.wlIn li').width());
 
 		function fnResize(){
 		    var docWidth = document.documentElement.clientWidth,
@@ -369,6 +368,7 @@ $(document).ready(function(){
 		    body.style.fontSize = docWidth / 40 + 'px';
 		}
 
+		$('.wlIn li').height($('.wlIn li').width());
 
         var wxindex = $('.wx_studioIn .deimg p').html().indexOf("<br>");
         $('.wx_studioIn .deimg p').html($('.wx_studioIn .deimg p').html().slice(0,wxindex))
