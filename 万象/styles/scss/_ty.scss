@@ -53,7 +53,7 @@
 		.wx_con{ padding-top: rem(88);
 			.con_all{ width: 100%; min-width: auto; 
 				.wx_lunbo{ width: 100%; height: 100%; position: relative; overflow: hidden;  height: rem(574);
-					img{ width: 100%; min-height: auto; display: block;  height: rem(574); }
+					img{ width: auto; min-height: rem(574); display: block;  height: rem(574); position: absolute; left: 50%; transform: translateX(-50%); }
 				}
 				.bd li{ height: 680px; }
 				.hd{ position: absolute; z-index: 2; text-align: center; bottom: 10px; left: 0; width: 100%;
@@ -70,7 +70,7 @@
 			.limg{ display: none;}
 			.rightde{ float: right; padding-right:0; background-color: #4783c1; 
 				.l{ float: right; width: rem(1080-272); height: 100%; box-sizing: border-box; padding: rem(54) rem(60) rem(54) rem(90); color: #b8c0c8; font-size: rem(26); 
-					p{ height: rem(40*10);line-height: rem(40);  overflow: hidden; padding-top: 0; text-indent: 0; }
+					p{ height: rem(40*11);line-height: rem(40);  overflow: hidden; padding-top: 0; text-indent: 0; }
 					.on{ display: block; }
 				}
 				.r{ width: rem(272);  float: left; padding-top: 0;
