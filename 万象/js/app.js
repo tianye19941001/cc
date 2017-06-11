@@ -399,10 +399,33 @@ $(document).ready(function(){
 		});
 		$(".wlIn a").click(function(e){
 			stophref(e);
-			var imgw = $(this).attr('href');
+            imgwindex = $(".wlIn li").index($(this).parent());
+            var imgw = $('.workright .bd li').eq(imgwindex).find('img').attr('src');
 			$('.ty_dialog2 img').attr("src",imgw);
 			$('.ty_dialog2').fadeIn(500);
 		});
+		$('body').on('swipeleft','.ty_dialog2',function (event) {
+			if(imgwindex == $('.workright .bd li').length-1){
+                var imgw = $('.workright .bd li').eq(0).find('img').attr('src');
+                $('.ty_dialog2 img').attr("src",imgw);
+                imgwindex=0;
+			}else{
+                var imgw = $('.workright .bd li').eq(++imgwindex).find('img').attr('src');
+                $('.ty_dialog2 img').attr("src",imgw);
+			}
+			console.log(imgwindex)
+        })
+        $('body').on('swiperight','.ty_dialog2',function (event) {
+        	if(imgwindex == 0){
+                var imgw = $('.workright .bd li').eq($('.workright .bd li').length-1).find('img').attr('src');
+                $('.ty_dialog2 img').attr("src",imgw);
+                imgwindex = $('.workright .bd li').length-1;
+			}else{
+                var imgw = $('.workright .bd li').eq(imgwindex--).find('img').attr('src');
+                $('.ty_dialog2 img').attr("src",imgw);
+            }
+            console.log(imgwindex)
+        })
 		$(".ty_dialog2 .close").click(function(e){
 			$('.ty_dialog2').fadeOut(500);
 		});
