@@ -496,3 +496,7 @@ body{ font-family: "黑体"; }
 }
 .ty_dialog,.ty_dialog2,.wx_header .hb,.tt_listbar,.phonelogo{ display: none; }
 .ty_dialog{ @extend .clearfix; }
+
+.ui-loader-default{ display:none}
+.ui-mobile-viewport{ border:none;}
+.ui-page {padding: 0; margin: 0; outline: 0}

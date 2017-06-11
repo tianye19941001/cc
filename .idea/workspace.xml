@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dccc77c-5c9d-4e37-8890-c8283cc1138f" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/images/bannar1.png" afterPath="$PROJECT_DIR$/万象/images/bannar1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/images/bannar2.png" afterPath="$PROJECT_DIR$/万象/images/bannar2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/images/bannar3.png" afterPath="$PROJECT_DIR$/万象/images/bannar3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/images/bannar4.png" afterPath="$PROJECT_DIR$/万象/images/bannar4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/images/index_tab1_on.png" afterPath="$PROJECT_DIR$/万象/images/index_tab1_on.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/images/index_tab2_on.png" afterPath="$PROJECT_DIR$/万象/images/index_tab2_on.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/images/index_tab3_on.png" afterPath="$PROJECT_DIR$/万象/images/index_tab3_on.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/styles/mCSB_buttons.png" afterPath="$PROJECT_DIR$/万象/styles/mCSB_buttons.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/index.html" afterPath="$PROJECT_DIR$/万象/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/js/app.js" afterPath="$PROJECT_DIR$/万象/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/js/divscroll.js" afterPath="$PROJECT_DIR$/万象/js/divscroll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/js/jquery.SuperSlide.2.1.1.js" afterPath="$PROJECT_DIR$/万象/js/jquery.SuperSlide.2.1.1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/js/jquery.mCustomScrollbar.concat.min.js" afterPath="$PROJECT_DIR$/万象/js/jquery.mCustomScrollbar.concat.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/js/jquery.min.js" afterPath="$PROJECT_DIR$/万象/js/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/js/jquery.mousewheel.min.js" afterPath="$PROJECT_DIR$/万象/js/jquery.mousewheel.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/js/plyr.js" afterPath="$PROJECT_DIR$/万象/js/plyr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/styles/jquery.mCustomScrollbar.css" afterPath="$PROJECT_DIR$/万象/styles/jquery.mCustomScrollbar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/styles/plyr.css" afterPath="$PROJECT_DIR$/万象/styles/plyr.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/styles/scss/_animate.scss" afterPath="$PROJECT_DIR$/万象/styles/scss/_animate.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/styles/scss/_ty.scss" afterPath="$PROJECT_DIR$/万象/styles/scss/_ty.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/styles/styles.css" afterPath="$PROJECT_DIR$/万象/styles/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/styles/styles.css.map" afterPath="$PROJECT_DIR$/万象/styles/styles.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/styles/说明.txt" afterPath="$PROJECT_DIR$/万象/styles/说明.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/works.html" afterPath="$PROJECT_DIR$/万象/works.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,21 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_ty.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/万象/styles/scss/_ty.scss">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/万象/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="159" column="37" lean-forward="false" selection-start-line="159" selection-start-column="37" selection-end-line="159" selection-end-column="37" />
+            <state relative-caret-position="261">
+              <caret line="407" column="36" lean-forward="true" selection-start-line="407" selection-start-column="36" selection-end-line="407" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/万象/js/app.js">
+      <file leaf-file-name="_ty.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/万象/styles/scss/_ty.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="421" column="60" lean-forward="false" selection-start-line="421" selection-start-column="60" selection-end-line="421" selection-end-column="60" />
+            <state relative-caret-position="410">
+              <caret line="489" column="18" lean-forward="true" selection-start-line="489" selection-start-column="18" selection-end-line="489" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -94,17 +73,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="works.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="works.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/万象/works.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="151" column="86" lean-forward="false" selection-start-line="151" selection-start-column="86" selection-end-line="151" selection-end-column="86" />
+            <state relative-caret-position="388">
+              <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="86" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -126,9 +112,11 @@
         <option value="$PROJECT_DIR$/红孩儿/intro.html" />
         <option value="$PROJECT_DIR$/红孩儿/js/app.js" />
         <option value="$PROJECT_DIR$/万象/index.html" />
-        <option value="$PROJECT_DIR$/万象/styles/scss/_ty.scss" />
-        <option value="$PROJECT_DIR$/万象/works.html" />
         <option value="$PROJECT_DIR$/万象/js/app.js" />
+        <option value="$PROJECT_DIR$/万象/styles/scss/111.css" />
+        <option value="$PROJECT_DIR$/万象/styles/scss/tt.scss" />
+        <option value="$PROJECT_DIR$/万象/works.html" />
+        <option value="$PROJECT_DIR$/万象/styles/scss/_ty.scss" />
       </list>
     </option>
   </component>
@@ -256,6 +244,7 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -368,12 +357,12 @@
       <workItem from="1495809291732" duration="3078000" />
       <workItem from="1496587185556" duration="2476000" />
       <workItem from="1496894703739" duration="4082000" />
-      <workItem from="1496976516863" duration="3927000" />
+      <workItem from="1496976516863" duration="5194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29887000" />
+    <option name="totallyTimeSpent" value="31154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1440" height="809" extended-state="6" />
@@ -410,20 +399,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/红孩儿/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3480">
-          <caret line="232" column="22" lean-forward="false" selection-start-line="232" selection-start-column="22" selection-end-line="232" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/红孩儿/news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/红孩儿/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -491,6 +466,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -539,6 +515,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -587,6 +564,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -609,6 +587,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -814,6 +793,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="42" column="37" lean-forward="false" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -840,26 +820,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/万象/styles/scss/_ty.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="159" column="37" lean-forward="false" selection-start-line="159" selection-start-column="37" selection-end-line="159" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/万象/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="99" column="59" lean-forward="false" selection-start-line="99" selection-start-column="59" selection-end-line="99" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/万象/works.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="151" column="86" lean-forward="false" selection-start-line="151" selection-start-column="86" selection-end-line="151" selection-end-column="86" />
           <folding />
         </state>
       </provider>
@@ -874,8 +838,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/万象/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="421" column="60" lean-forward="false" selection-start-line="421" selection-start-column="60" selection-end-line="421" selection-end-column="60" />
+        <state relative-caret-position="261">
+          <caret line="407" column="36" lean-forward="true" selection-start-line="407" selection-start-column="36" selection-end-line="407" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/万象/styles/scss/111.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="123" column="19" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="498" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/万象/styles/scss/tt.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4614">
+          <caret line="498" column="0" lean-forward="false" selection-start-line="498" selection-start-column="0" selection-end-line="498" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/万象/styles/scss/_ty.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="489" column="18" lean-forward="true" selection-start-line="489" selection-start-column="18" selection-end-line="489" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/万象/works.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="86" />
           <folding />
         </state>
       </provider>
