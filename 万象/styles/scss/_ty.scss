@@ -30,7 +30,7 @@
 	body{ font-family: "微软雅黑" !important;
 		.wx_header{ height: rem(118); text-align: center; width: 100%; position: fixed; top: 0; left: 0; background-color: #fff; z-index: 10; min-width: auto;
 			.logo{ width: auto; float: none; padding: 0;
-				img{ height: rem(98); width: auto; display: inline-block; margin-top: rem(5); }
+				img{ height: rem(118); width: auto; display: inline-block; }
 			} 
 			i{ width:  rem(87/3*2); height:  rem(61/3*2); display: block; position: absolute; top: rem(48/3*2); right: rem(38/3*2); background: url("../images/right_menu.png") no-repeat 0 0; background-size: rem(87/3*2) rem(61/3*2); }
 			.header_contact{ display: none; }
@@ -70,7 +70,7 @@
 			.limg{ display: none;}
 			.rightde{ float: right; padding-right:0; background-color: #428fcc; 
 				.l{ float: right; width: rem(1080-272); height: 100%; box-sizing: border-box; padding: rem(34) rem(60) rem(34) rem(90); color: #b8c0c8; font-size: rem(26);
-					p{ height: rem(40*11);line-height: rem(40);  overflow: hidden; padding-top: 0; text-indent: 0; }
+					p{ height: rem(40*11);line-height: rem(40);  overflow: hidden; padding-top: 0; text-indent: rem(52); }
 					.on{ display: block; }
 				}
 				.r{ width: rem(272);  float: left; padding-top: 0;
@@ -91,7 +91,7 @@
 				>li{ text-align: left; width: 100%; height: rem(280); margin-top: rem(77); box-shadow: 0 0 rem(20) rgba(0,0,0,.3); transition: no; -webkit-transition: no;
 					>img{ display: none; }
 					>h3{ display: none; }
-					>p{ text-indent: 0; padding-left: rem(100); width: rem(600); line-height: rem(50); padding-top: rem(40); color: #000; font-size: rem(30); height: rem(200); overflow: hidden; }
+					>p{ text-indent: rem(60); padding-left: rem(100); width: rem(600); line-height: rem(50); padding-top: rem(40); color: #000; font-size: rem(30); height: rem(200); overflow: hidden; }
 					&:nth-child(1){ background: url("../images/bannar1.png") no-repeat 0 0; background-size: rem(1080) rem(280); }
 					&:nth-child(2){ background: url("../images/bannar2.png") no-repeat 0 0; background-size: rem(1080) rem(280); }
 					&:nth-child(4){ background: url("../images/bannar3.png") no-repeat 0 0; background-size: rem(1080) rem(280); }
@@ -125,7 +125,7 @@
 				p{ width: 100%; padding-top: 12px; } 
 			}
 			.logo{ padding: rem(35) 0 ; float: left; height: rem(120); width: 100%; text-align: center;
-				img{ width: auto; height: rem(120); display: none; }
+				img{ width: auto; height: rem(98); display: none; }
 				.phonelogo{ display: inline-block; }
 			}
 			.icons{ position: static; top:auto; right: auto; padding-top: rem(30);
@@ -146,7 +146,7 @@
 			}
 			.location{ display: block; width: 100%; margin-top: rem(30); }
 		}
-		.tt_down{ position: fixed; display: block; width: rem(100); height: rem(100); background: url("../images/wxy_down.png") no-repeat 0 0; background-size: rem(100) rem(100); bottom: rem(100); left: 50%; transform: translateX(-50%); -webkit-transform: translateX(-50%); animation: downup 1.2s linear infinite; -webkit-animation: downup 1.2s linear infinite; }
+		// .tt_down{ position: fixed; display: none; width: rem(100); height: rem(100); background: url("../images/wxy_down.png") no-repeat 0 0; background-size: rem(100) rem(100); bottom: rem(100); left: 50%; transform: translateX(-50%); -webkit-transform: translateX(-50%); animation: downup 1.2s linear infinite; -webkit-animation: downup 1.2s linear infinite; }
 		.ty_dialog2{ position: fixed; top: 0; bottom: 0; left: 0; right: 0; background-color: rgba(0,0,0,.8); width: 100%; height: 100%;z-index: 49; display: none;
 			img{ width: auto; height: auto; max-width: 100%; max-height: 90%; position: absolute; left: 50%; top: 50%; transform: translate3d(-50%,-50%,0); -webkit-transform: translate3d(-50%,-50%,0); }
 			.close{ width: rem(100); height: rem(100); position: absolute; top: rem(30); right: rem(30); background: url("../images/ty_close.png") no-repeat 0 0; background-size: rem(100) rem(100); }
@@ -176,10 +176,11 @@
 				
 			}
 		}
-		.tt_listbar{ margin-top: rem(108); display: block;
-			li{ display: block; margin-bottom: rem(70); box-shadow: 0 0 rem(30) rgba(0,0,0,.5); position: relative;
-				img{ display: block; width: 100%; height: rem(170); }
+		.tt_listbar{ margin-top: rem(12); display: block;
+			li{ display: block; margin-bottom: rem(12); position: relative;
+				img{ display: block; width: 100%; height: rem(403); }
 				i{ display: block;position: absolute; width: 45%; height: 100%; z-index: 3; top: 0; }
+				h3{ position: absolute;  line-height: rem(76); font-size: rem(40); left: 0; bottom: 0; letter-spacing: rem(12); color: #585858; text-align: center; width: rem(483) }
 				&:nth-child(odd){ 
 					i{ right: 0; background: -webkit-linear-gradient(right, rgba(255,255,255,1), rgba(255,255,255,0));
 					  background: linear-gradient(to left, rgba(255,255,255,1), rgba(255,255,255,0)) }
