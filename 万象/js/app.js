@@ -320,18 +320,18 @@ $(document).ready(function(){
 		$('#contact a').click(function(e){
 			stophref(e);
 			$('.header_contact').show(200);
-			if ($(".wx_header .contact_bar .con").hasClass('mCustomScrollbar')) {
-				return false;
-			}else{
-				setTimeout(function(){
-					$(".wx_header .contact_bar .con").mCustomScrollbar({
-						scrollButtons:{
-							enable:true
-						}
-					});
-				},100)
+			// if ($(".wx_header .contact_bar .con").hasClass('mCustomScrollbar')) {
+			// 	return false;
+			// }else{
+			// 	setTimeout(function(){
+			// 		$(".wx_header .contact_bar .con").mCustomScrollbar({
+			// 			scrollButtons:{
+			// 				enable:true
+			// 			}
+			// 		});
+			// 	},100)
 				
-			}
+			// }
 			stopbubble(e);
 		})
 		$('.wx_business .btn').click(function(e){
@@ -344,13 +344,17 @@ $(document).ready(function(){
 				return false;
 			}else{
 				var index1 = $('.wx_business .btn').index($(this));
-				setTimeout(function(){
-					$('.wx_business .btn').eq(index1).siblings('.contact_bar').children(".con").mCustomScrollbar({
-						scrollButtons:{
-							enable:true
-						}
-					});
-				},100)
+				if (index1 == 0 || index1 == 2) {
+					setTimeout(function(){
+						$('.wx_business .btn').eq(index1).siblings('.contact_bar').children(".con").mCustomScrollbar({
+							scrollButtons:{
+								enable:true,
+							},
+							autoDraggerLength:true,
+							advanced:{ updateOnContentResize:true },
+						});
+					},100)
+				}
 				
 			}
 			
