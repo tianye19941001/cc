@@ -220,7 +220,7 @@ $(document).ready(function(){
 	 		$('.wlIn li').height($('.wlIn li').width());
 		});
 		headerword();
-		$('.workleft .t_icon,.workleft .b_icon').click(function(){
+		$('.workleft .t_icon').click(function(){
 			var taht = parseInt($('.workleft .wlIn ul').css('top'));
 			var hW = $('.wlin').height();
 			var hU = $('.workleft .wlIn ul').height();
@@ -242,7 +242,11 @@ $(document).ready(function(){
 			if (hW > hU) {
 				return false;
 			}else{
-				$('.workleft .wlIn ul').css('top',taht-$('.workleft .wlIn ul li').width());
+				if ( (hW-taht) > hU) {
+					return false;
+				}else{
+					$('.workleft .wlIn ul').css('top',taht-$('.workleft .wlIn ul li').width());
+				}
 			}
 		})
 		$('.wx_business .icon_close').click(function(e){
@@ -386,10 +390,10 @@ $(document).ready(function(){
 	        var wxindex4 = $('.wx_business li:eq(1)>p').text().indexOf("在内的");
 	        $('.wx_business li:eq(1)>p').text($('.wx_business li:eq(1)>p').text().slice(0,wxindex4)+'.')
 
-	        var wxindex5 = $('.wx_business li:eq(2)>p').text().indexOf(",视频三维");
+	        var wxindex5 = $('.wx_business li:eq(2)>p').text().indexOf("均由");
 	        $('.wx_business li:eq(2)>p').text($('.wx_business li:eq(2)>p').text().slice(0,wxindex5)+'.')
 
-	        var wxindex6 = $('.wx_business li:eq(3)>p').text().indexOf("均由");
+	        var wxindex6 = $('.wx_business li:eq(3)>p').text().indexOf(",视频三维");
 	        $('.wx_business li:eq(3)>p').text($('.wx_business li:eq(3)>p').text().slice(0,wxindex6)+'.')
 		}
 
