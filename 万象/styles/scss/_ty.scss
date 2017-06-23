@@ -242,9 +242,15 @@ body{ font-family: "黑体"; }
 	.list1{ float: left; margin-left: -35px; }
 	.list2{ float: right; }
 	.navlist{ @extend .clearfix;
+		.listIn{ position: absolute; width: 100%; z-index: 99; background-color: #fff; text-align: center; display: none;
+			a{ padding: 10px; height: 30px; line-height: 30px; }
+		}
 		ul{ @extend .clearfix; }
-		li{ float: left; margin-left: 20px;
-			a{ font-size: pxt(22); color: #000; display: block; padding: 0 15px 15px; line-height: 28px; height: 42px; word-break: break-all; overflow: hidden;
+		>ul>li{ float: left; margin-left: 20px; position: relative;
+			&:hover{
+				.listIn{ display: block; }
+			}
+			a{ font-size: pxt(22); color: #000; display: block; padding: 0 15px 15px; line-height: 28px; height: 42px; word-break: break-all; overflow: hidden; font-family: "微软雅黑";
 				span{ display: inline-block; text-align: justify; width: 100%; font-size: pxt(24); height: 20px; overflow: hidden; }
 				&:after{ display:inline-block; overflow:hidden; width:100%; height:0; content:''; vertical-align:top; }
 				.ltsp3{ text-align: center; letter-spacing: 33px; white-space: nowrap; }
