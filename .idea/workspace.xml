@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dccc77c-5c9d-4e37-8890-c8283cc1138f" name="默认的" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/牡丹汇/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/牡丹汇/area.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/牡丹汇/company.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/牡丹汇/connect.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/牡丹汇/detial.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/牡丹汇/tour.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/styles/scss/_ty.scss" afterPath="$PROJECT_DIR$/万象/styles/scss/_ty.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/styles/styles.css" afterPath="$PROJECT_DIR$/万象/styles/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/万象/styles/styles.css.map" afterPath="$PROJECT_DIR$/万象/styles/styles.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/牡丹汇/index.html" afterPath="$PROJECT_DIR$/牡丹汇/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/牡丹汇/product.html" afterPath="$PROJECT_DIR$/牡丹汇/product.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,61 +28,41 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/万象/index.html">
+      <file leaf-file-name="product.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/牡丹汇/product.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="99" column="59" lean-forward="false" selection-start-line="99" selection-start-column="59" selection-end-line="99" selection-end-column="59" />
+            <state relative-caret-position="363">
+              <caret line="57" column="14" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="57" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/万象/video.html">
+      <file leaf-file-name="tour.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/牡丹汇/tour.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+            <state relative-caret-position="378">
+              <caret line="44" column="24" lean-forward="false" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/万象/js/app.js">
+      <file leaf-file-name="connect_join.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/酷娱/connect_join.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="407" column="36" lean-forward="true" selection-start-line="407" selection-start-column="36" selection-end-line="407" selection-end-column="36" />
+            <state relative-caret-position="-149">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_ty.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/万象/styles/scss/_ty.scss">
+      <file leaf-file-name="connect_where.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/酷娱/connect_where.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="489" column="18" lean-forward="true" selection-start-line="489" selection-start-column="18" selection-end-line="489" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/万象/list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="58" lean-forward="false" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="works.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/万象/works.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="86" />
+            <state relative-caret-position="359">
+              <caret line="58" column="18" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="58" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -117,6 +102,15 @@
         <option value="$PROJECT_DIR$/万象/styles/scss/tt.scss" />
         <option value="$PROJECT_DIR$/万象/works.html" />
         <option value="$PROJECT_DIR$/万象/styles/scss/_ty.scss" />
+        <option value="$PROJECT_DIR$/牡丹汇/index.html" />
+        <option value="$PROJECT_DIR$/牡丹汇/product.html" />
+        <option value="$PROJECT_DIR$/牡丹汇/product_detial.html" />
+        <option value="$PROJECT_DIR$/牡丹汇/company.html" />
+        <option value="$PROJECT_DIR$/牡丹汇/about.html" />
+        <option value="$PROJECT_DIR$/牡丹汇/connect.html" />
+        <option value="$PROJECT_DIR$/牡丹汇/area.html" />
+        <option value="$PROJECT_DIR$/牡丹汇/detial.html" />
+        <option value="$PROJECT_DIR$/牡丹汇/tour.html" />
       </list>
     </option>
   </component>
@@ -170,65 +164,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="万象" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="项目文件" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="项目文件" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="万象" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="项目文件" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="项目文件" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="万象" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="项目文件" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="项目文件" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="万象" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="牡丹汇" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -245,6 +181,12 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="SearchEverywhereHistoryKey" value="p&#9;FILE&#9;file:///Users/paul/Desktop/项目文件/牡丹汇/product_detial.html" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/牡丹汇" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -357,12 +299,12 @@
       <workItem from="1495809291732" duration="3078000" />
       <workItem from="1496587185556" duration="2476000" />
       <workItem from="1496894703739" duration="4082000" />
-      <workItem from="1496976516863" duration="5194000" />
+      <workItem from="1496976516863" duration="11463000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31154000" />
+    <option name="totallyTimeSpent" value="37423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1440" height="809" extended-state="6" />
@@ -370,19 +312,19 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13611111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -399,103 +341,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/红孩儿/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/红孩儿/styles/scss/_ty.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11760">
-          <caret line="784" column="85" lean-forward="true" selection-start-line="784" selection-start-column="85" selection-end-line="784" selection-end-column="85" />
-          <folding>
-            <marker date="1496906072000" expanded="true" signature="38529:38535" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38529:38539" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38553:39424" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38604:38794" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38806:39279" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38893:39274" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38987:39113" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39120:39262" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39320:39420" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39438:39766" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39544:39684" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39783:39847" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39864:40071" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="40091:40458" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="40107:40342" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="40351:40455" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="40492:40534" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/红孩儿/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/红孩儿/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3480">
-          <caret line="232" column="22" lean-forward="false" selection-start-line="232" selection-start-column="22" selection-end-line="232" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/红孩儿/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/红孩儿/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3990">
-          <caret line="266" column="42" lean-forward="false" selection-start-line="266" selection-start-column="42" selection-end-line="266" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/红孩儿/news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/红孩儿/styles/scss/_ty.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11940">
-          <caret line="796" column="77" lean-forward="false" selection-start-line="796" selection-start-column="77" selection-end-line="796" selection-end-column="77" />
-          <folding>
-            <marker date="1496906072000" expanded="true" signature="38529:38535" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38529:38539" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38553:39424" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38604:38794" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38806:39279" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38893:39274" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38987:39113" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39120:39262" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39320:39420" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39438:39766" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39544:39684" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39783:39847" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39864:40071" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="40091:40458" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="40107:40342" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="40351:40455" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="40492:40534" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/红孩儿/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -720,20 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/酷娱/connect_where.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="63" column="35" lean-forward="false" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/酷娱/connect_join.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="622">
@@ -782,13 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/红孩儿/intro.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/红孩儿/news.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -804,27 +628,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/红孩儿/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="121" column="153" lean-forward="false" selection-start-line="121" selection-start-column="153" selection-end-line="121" selection-end-column="153" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/万象/video.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+          <caret line="6" column="55" lean-forward="false" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/万象/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="99" column="59" lean-forward="false" selection-start-line="99" selection-start-column="59" selection-end-line="99" selection-end-column="59" />
-          <folding />
+        <state relative-caret-position="266">
+          <caret line="104" column="59" lean-forward="false" selection-start-line="104" selection-start-column="59" selection-end-line="104" selection-end-column="59" />
+          <folding>
+            <marker date="1498359865000" expanded="true" signature="9723:10287" ph="..." />
+            <marker date="1498359865000" expanded="true" signature="9723:10294" ph="..." />
+            <marker date="1498359865000" expanded="true" signature="9748:10041" ph="..." />
+            <marker date="1498359865000" expanded="true" signature="9778:9892" ph="..." />
+            <marker date="1498359865000" expanded="true" signature="9918:10032" ph="..." />
+            <marker date="1498359865000" expanded="true" signature="10064:10221" ph="..." />
+            <marker date="1498359865000" expanded="false" signature="10113:10119" ph=" " />
+            <marker date="1498359865000" expanded="false" signature="10119:10125" ph=" " />
+            <marker date="1498359865000" expanded="false" signature="10125:10131" ph=" " />
+            <marker date="1498359865000" expanded="true" signature="10424:10547" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -832,15 +659,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="58" lean-forward="false" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
-          <folding />
+          <folding>
+            <marker date="1498359865000" expanded="true" signature="5765:6651" ph="..." />
+            <marker date="1498359865000" expanded="true" signature="5792:6644" ph="..." />
+            <marker date="1498359865000" expanded="true" signature="5813:5927" ph="..." />
+            <marker date="1498359865000" expanded="false" signature="6004:6010" ph=" " />
+            <marker date="1498359865000" expanded="false" signature="6010:6016" ph=" " />
+            <marker date="1498359865000" expanded="false" signature="6016:6022" ph=" " />
+            <marker date="1498359865000" expanded="true" signature="6105:6398" ph="..." />
+            <marker date="1498359865000" expanded="true" signature="6135:6249" ph="..." />
+            <marker date="1498359865000" expanded="true" signature="6275:6389" ph="..." />
+            <marker date="1498359865000" expanded="true" signature="6421:6578" ph="..." />
+            <marker date="1498359865000" expanded="false" signature="6470:6476" ph=" " />
+            <marker date="1498359865000" expanded="false" signature="6476:6482" ph=" " />
+            <marker date="1498359865000" expanded="false" signature="6482:6488" ph=" " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/万象/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
-          <caret line="407" column="36" lean-forward="true" selection-start-line="407" selection-start-column="36" selection-end-line="407" selection-end-column="36" />
-          <folding />
+          <caret line="415" column="36" lean-forward="false" selection-start-line="415" selection-start-column="36" selection-end-line="415" selection-end-column="36" />
+          <folding>
+            <marker date="1498359865000" expanded="true" signature="3721:5636" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="11221:11227" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="11221:13809" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="11293:11472" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="11339:11402" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="11406:11468" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="11507:11751" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="11812:12228" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="11865:12036" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="12040:12192" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="12295:12767" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="12324:12557" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="12561:12722" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="12812:12851" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="12884:13221" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="13135:13174" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="13178:13217" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="13257:13445" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -863,8 +723,44 @@
     <entry file="file://$PROJECT_DIR$/万象/styles/scss/_ty.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
-          <caret line="489" column="18" lean-forward="true" selection-start-line="489" selection-start-column="18" selection-end-line="489" selection-end-column="18" />
-          <folding />
+          <caret line="496" column="18" lean-forward="false" selection-start-line="496" selection-start-column="18" selection-end-line="496" selection-end-column="18" />
+          <folding>
+            <marker date="1498359865000" expanded="true" signature="1712:1975" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="1719:1975" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="1765:1975" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="1914:1975" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="23007:23167" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="23272:24012" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="23353:23538" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="23546:23791" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="23594:23760" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="23802:24010" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="24033:24599" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="24218:24368" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="24380:24597" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="24616:24681" ph="..." />
+            <marker date="1498359865000" expanded="true" signature="24706:24771" ph="..." />
+            <marker date="1498359865000" expanded="true" signature="24787:24849" ph="..." />
+            <marker date="1498359865000" expanded="true" signature="24873:24935" ph="..." />
+            <marker date="1498359865000" expanded="true" signature="24949:25045" ph="..." />
+            <marker date="1498359865000" expanded="true" signature="25067:25163" ph="..." />
+            <marker date="1498359865000" expanded="true" signature="25184:25776" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="25787:27005" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="25855:26259" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="25952:26256" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="26126:26252" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="26400:26825" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="26641:26727" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="27015:28706" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="27114:27787" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="27794:28704" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="27961:28509" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="28434:28505" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="28657:28701" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="28956:29122" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="28977:29119" ph="{...}" />
+            <marker date="1498359865000" expanded="true" signature="28999:29115" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -872,6 +768,104 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
           <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/红孩儿/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="282" column="0" lean-forward="false" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/牡丹汇/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="177" column="86" lean-forward="false" selection-start-line="177" selection-start-column="86" selection-end-line="177" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/牡丹汇/company.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="105" column="25" lean-forward="false" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/红孩儿/intro.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-673">
+          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+          <folding>
+            <marker date="1496906072000" expanded="true" signature="1985:1993" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/酷娱/connect_where.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="58" column="18" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="58" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/牡丹汇/connect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/牡丹汇/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="43" column="18" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="43" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/酷娱/connect_join.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-149">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/牡丹汇/area.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="37" column="8" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/牡丹汇/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="57" column="14" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="57" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/牡丹汇/detial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="43" column="18" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="43" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/牡丹汇/tour.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="44" column="24" lean-forward="false" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
           <folding />
         </state>
       </provider>
