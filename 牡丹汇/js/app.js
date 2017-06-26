@@ -66,7 +66,9 @@
 	var jidiArr = ['http://honghaier.huilang365.com/images/guanyu/jidi2.jpg','http://honghaier.huilang365.com/images/guanyu/jidi3.jpg','http://honghaier.huilang365.com/images/guanyu/jidi4.jpg','http://honghaier.huilang365.com/images/guanyu/jidi5.jpg']
 	
 	// 初始化
-	
+	$('.md_swiper img').height($(window).width()/1920*650);
+
+
 	var hrefLoc = window.location.href;
 	var allHref = $('.red_new a,.red_new_top a,.red_index_main3IN .picword');
 	if (hrefLoc.indexOf('www.')>0) {
@@ -156,25 +158,6 @@
 		var wwww = $('.ty_wrapbac').width();
 		var swww = $(window).width();
         $('.inner-right').css({'margin-left': "470px",'left': wwww/2 +'px'});
-        // if (openH<minH) {
-        //     var ttnn = $(".ty_wrapbac").height();
-        //     if (ttnn>minH) {
-        //         if(wwww ==swww) {
-        //             $('.inner-right').css('margin-left',"470px");
-        //         }else {
-        //             $('.inner-right').css('margin-left', "462px");
-        //         }
-        //     }else{
-        //         $('.inner-right').css('margin-left',"470px");
-        //     }
-        //
-        // }else{
-        // 	if(wwww ==swww) {
-        //         $('.inner-right').css('margin-left',"470px");
-        //     }else {
-        //         $('.inner-right').css('margin-left', "462px");
-        //     }
-        // }
 	},100);
 	$(document).on("click",'.red_new a,.red_new_top a,.red_index_main3IN .picword', function(e){
 		ty_public.stopDefault(e);
@@ -223,13 +206,6 @@
 		var img2 = $(this).attr('alt');
 		$(this).attr('src',img2);
 		$(this).attr('alt',img1);
-		// if ($(this).attr('src').indexOf('_hover')<=0) {
-		// 	var nSrc = $(this).attr('src');
-		// 	$(this).attr('alt',nSrc);
-		// 	var mSrcArr =  nSrc.split('.');
-		// 	var newSrc = mSrcArr[0]+"_hover."+mSrcArr[1];
-		// 	$(this).attr('src',newSrc);
-		// }
 	})
 	$('.picList img').mouseleave(function(){
 		var img3 = $(this).attr('src');
