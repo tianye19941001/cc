@@ -364,6 +364,7 @@ body{ font-family: "黑体"; }
 		}
 		.r{ width: pxt2(300); float: left; @extend .clearfix; padding-top: pxt2(120);
 			.btn{ float: right; margin-bottom: 75px; font-size: pxt2(25); }
+			.on{ color: #fff; border: 2px solid #42a5ea; background-color: #42a5ea; }
 		}
 	}
 }
@@ -389,7 +390,7 @@ body{ font-family: "黑体"; }
 		h3{ font-size: pxt2(38); padding-top: pxt2(120); }
 		.de{ font-size: pxt2(25); padding-top: pxt2(26); line-height: 40px; }
 	}
-	.deimg{ padding-top: pxt2(70); text-align: center;
+	.deimg{ padding-top: pxt2(70); text-align: left;
 		p{ float: right; width: 100%; font-size: 18px; line-height: 40px; height: 240px; overflow: hidden; text-align: left; 
 			span{ display: block; text-indent: 36px; }
 		}
