@@ -3,6 +3,9 @@
 .oh{ overflow: hidden; }
 
 body{ background-color: #fff; font-family: "微软雅黑"; min-width: 1300px; }
+
+// 最小宽度
+body,.md_PR,.md_DK{ min-width: 1300px; }
 // 首页
 .md_head{ height: 114px; line-height: 114px; background-color: #fff;
 	.logo{ width: 194px; height: 32px; @extend  %ty_sp; background-position: 0 -230px; position: absolute; left: 72px; top: 40px; }
@@ -31,8 +34,45 @@ body{ background-color: #fff; font-family: "微软雅黑"; min-width: 1300px; }
 .md_swiper{ width: 100%;
 	img{ display: block; width: 100%; height: 100%; }
 }
-.md_CP{ 
-	.lunbobar{ background-color: #f5f6f6; height: 270px; }
+
+.md_title{ display: block; text-align: center;
+	.down{ width: 29px; height: 15px; display: inline-block; @extend  %ty_sp; background-position: -30px -79px; margin-bottom: 30px; }
+	h2{ height: 36px; line-height: 36px; width: 100%; text-align: center; font-size: 25px; color: #4c4948; }
+	span{ display: block; width: 100%; font-size: 12px; color: #c7c8c8; }
+}
+// 首页产品
+.md_PR{ padding: 80px 0 210px; background-color: #f6f6f6; overflow: hidden;
+	.md_PR_list{ @extend .clearfix; margin: 0 auto; display: block; width: 380*4+45*3px; padding-top: 95px;
+		li{ float: left; width: 380px; height: 520px;  background-color: #fff; position: relative; margin-left: 45px; 
+			&:first-child{ margin-left: 0; }
+		}
+		a{ display: block; }
+		img{ width: 380px; height: 400px; }
+		.bar{ display: block; width: 100%; height: 120px; position: absolute; bottom: 0; left: 0; 
+			span{ display: block; padding: 40px 0 0 30px; font-size: 14px; color:  #4c4948; width: 290px; }
+			em{ font-size: 12px;color: #999999; padding-left: 30px; width: 290px; }
+			.to{ width: 14px; height: 5px; display: block; @extend  %ty_sp; background-position: -85px -102px; position: absolute; top: 60px; right: 40px; }
+		}
+	}
+}
+// 首页深入
+.md_DK{ padding: 74px 0 150px;
+	.md_DK_list{ padding-top: 90px; width: 385*3px; margin: 0 auto; @extend .clearfix; 
+		li{ float: left; height: 580-15px; width: 384px; border-left: 1px solid #d4d4d4; padding-top: 15px; text-align: center;
+			&:first-child{ border-left: 0; }
+			hr{ width: 72px; display: block; margin: 0 auto; margin-top: 25px; border-bottom: 0; }
+			h3{ font-size: 18px; color: #4c4948; text-align: center; padding: 26px 0 30px; }
+			p{ line-height: 22px; padding: 0 30px; font-size: 13px; color: #999; height: 110px; margin-bottom: 20px; text-align: left; }
+			img{ display: block; margin: 0 auto; }
+		}
+		.icon1{ width: 74px; height: 79px; display: block; margin: 0 auto; @extend  %ty_sp; background-position: 0 0; }
+		.icon2{ width: 98px; height: 79px; display: block; margin: 0 auto; @extend  %ty_sp; background-position: -85px 0; position: relative; left: 8px; }
+		.icon3{ width: 74px; height: 79px; display: block; margin: 0 auto; @extend  %ty_sp; background-position: -204px 0; }
+	}
+}
+// 首页合作
+.md_CP{ background-color: #f6f6f6; padding: 60px 0 230px;
+	.lunbobar{ background-color: #fff; height: 270px; margin-top: 80px; }
 	.hd{ display: none; }
 	.bd{ width: 950px; margin: 0 auto; position: relative; margin: 0 auto; padding-top: 75px; padding-bottom: 20px;
 		ul{ overflow: auto;  }
@@ -47,16 +87,6 @@ body{ background-color: #fff; font-family: "微软雅黑"; min-width: 1300px; }
 		.rbtn{ background-image: url(../images/l_right.png); right: -34px; }
 	}
 }
-.md_title{ display: block; text-align: center;
-	.down{ width: 29px; height: 15px; display: inline-block; @extend  %ty_sp; background-position: -30px -79px; margin-bottom: 30px; }
-	h2{ height: 36px; line-height: 36px; width: 100%; text-align: center; font-size: 25px; color: #4c4948; }
-	span{ display: block; width: 100%; font-size: 12px; color: #c7c8c8; }
-}
-
-.md_PR{ padding: 80px 0 210px; background-color: #f6f6f6;
-
-}
-
 .phone{ display: none; }
 .md_footer{ width: 100%; height: 42px; line-height: 42px; background-color: #dee3e9; color: #717171; 
 	p{ float: right; margin-right: 70px; }

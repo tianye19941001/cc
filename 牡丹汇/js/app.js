@@ -66,7 +66,12 @@
 	var jidiArr = ['http://honghaier.huilang365.com/images/guanyu/jidi2.jpg','http://honghaier.huilang365.com/images/guanyu/jidi3.jpg','http://honghaier.huilang365.com/images/guanyu/jidi4.jpg','http://honghaier.huilang365.com/images/guanyu/jidi5.jpg']
 	
 	// 初始化
-	$('.md_swiper img').height($(window).width()/1920*650);
+	var ScreenWidth =  $(window).width();
+	$('.md_swiper img').height(ScreenWidth/1920*650);
+	if ( ScreenWidth < 1665) {
+		$('.md_PR_list li').eq(3).css('display','none');
+		$('.md_PR_list').width(1665-45-380);
+	}
 
 
 	var hrefLoc = window.location.href;
