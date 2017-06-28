@@ -242,7 +242,7 @@ body{ font-family: "黑体"; }
 	.list1{ float: left; margin-left: -35px; }
 	.list2{ float: right; }
 	.navlist{ @extend .clearfix;
-		.listIn{ position: absolute; width: 100%; z-index: 99; background-color: #fff; text-align: center; display: none;
+		.listIn{ position: absolute; width: 120px; z-index: 99; background-color: #fff; text-align: center; display: none; left: 50%; margin-left: -60px; padding-bottom: 20px; box-shadow: 0 5px 5px rgba(0,0,0,.3);
 			a{ padding: 10px; height: 30px; line-height: 30px; }
 		}
 		ul{ @extend .clearfix; }
@@ -250,7 +250,7 @@ body{ font-family: "黑体"; }
 			&:hover{
 				.listIn{ display: block; }
 			}
-			a{ font-size: pxt(22); color: #000; display: block; padding: 0 15px 15px; line-height: 28px; height: 42px; word-break: break-all; overflow: hidden; font-family: "微软雅黑";
+			a{ font-size: pxt(22); color: #000; display: block; padding: 7.5px 15px; line-height: 28px; height: 42px; word-break: break-all; overflow: hidden; font-family: "微软雅黑";
 				span{ display: inline-block; text-align: justify; width: 100%; font-size: pxt(24); height: 20px; overflow: hidden; }
 				&:after{ display:inline-block; overflow:hidden; width:100%; height:0; content:''; vertical-align:top; }
 				.ltsp3{ text-align: center; letter-spacing: 33px; white-space: nowrap; }
@@ -265,14 +265,14 @@ body{ font-family: "黑体"; }
 			}
 			.car{ width: 70px; height: 34px; background-position: -49px 0; }
 			.ad{ width: 74px; height: 34px; background-position: -166px 0; }
-			.rb{ width: 65px; height: 34px; background-position: -278px 0; }
-			.video{ width: 69px; height: 34px; background-position: -382px 0; }
+			.rb{ width: 80px; height: 34px; background-position: -278px 0; }
+			.video{ width: 74px; height: 34px; background-position: -390px 0; }
 			.cgi{ width: 43px; height: 34px; background-position: -495px 0; }
 			.tid{ width: 43px; height: 34px; background-position: -586px 0; }
-			.about{ width: 61px; height: 34px; background-position: -872px 0; }
-			.busn{ width: 63px; height: 34px; background-position: -971px 0; }
-			.studio{ width: 46px; height: 34px; background-position: -1077px 0; }
-			.contact{ width: 62px; height: 34px; background-position: -1164px 0; }
+			.about{ width: 70px; height: 34px; background-position: -890px 0; }
+			.busn{ width: 74px; height: 34px; background-position: -990px 0; }
+			.studio{ width: 66px; height: 34px; background-position: -1092px 0; }
+			.contact{ width: 72px; height: 34px; background-position: -1189px 0; }
 		}
 		.on{
 			i{ background-image: url(../images/nav_on2.png) !important; }
