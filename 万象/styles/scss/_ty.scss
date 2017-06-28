@@ -41,7 +41,7 @@
 			img{ height: rem(122); padding-top: rem(5); display: none; }
 			.menu{ display: none; width:  rem(87); height:  rem(61); display: block; position: absolute; top: rem(35); right: rem(38); background: url("../images/right_menu.png") no-repeat 0 0; background-size: rem(87) rem(61); }
 			.lists{ position: absolute; top: 0; right: 0; width:  rem(455); padding: rem(35) 0; background-color: #fff;
-				a{ color: #fff; font-size: rem(32);  height: rem(140); color: #454545; display: block; }
+				a{ color: #fff; font-size: rem(35);  height: rem(140); color: #454545; display: block; font-family: "黑体"; }
 				li{ height: rem(150); }
 				.list{ margin-top: rem(120); line-height: rem(140);
 					&:first-child{ margin-top: 0; }
