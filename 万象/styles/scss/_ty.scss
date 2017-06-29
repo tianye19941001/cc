@@ -331,13 +331,13 @@ body{ font-family: "黑体"; }
 			}
 		}
 		.sicon{ width: 30px; }
-		.hicon{ width: 120px; position: absolute; top: 40px; left: -45px; display: none; }
+		.hicon{ width: 120px; position: absolute; top: 40px; left: -45px; }
 		.qq{ margin-left: 180px;
-			.sicon{ width: 27px;}
+			.sicon{ width: 30px;}
 		}
 	}
 	.detial{ float: right; line-height: pxt2(38); padding: pxt2(40) 0 0 pxt2(90); 
-		h3{ font-size: 20px; color: #42a5ea; height: 36px; line-height: 36px; border-bottom: 2px solid #42a5ea; margin-bottom: 20px; }
+		h3{ font-size: 20px; color: #42a5ea; height: 36px; line-height: 36px; border-bottom: 2px solid #42a5ea; margin-bottom: 10px; }
 		p{ line-height: 28px; font-size: 14px; color: #606060;  }
 	}
 	.connect{ float: right; padding-top: pxt2(70); line-height: pxt2(38);
