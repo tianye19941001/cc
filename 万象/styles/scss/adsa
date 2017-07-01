@@ -1,0 +1,10 @@
+.listIn{ position: absolute; width: 120px; z-index: 99; background-color: #fff; text-align: center; display: none; left: 50%; margin-left: -60px; padding-bottom: 20px; box-shadow: 0 5px 5px rgba(0,0,0,.3); padding-top: 5px;
+			a{ padding: 15px 10px; height: 20px; line-height: 300px; background-image: url("../images/nav2.png"); background-repeat: no-repeat; background-size: 77px auto; overflow: hidden; display: block; width: 77px; margin: 0 auto; background-origin:content-box;
+				&:hover{ background-image: url("../images/nav2_on.png"); }
+			}
+			.l1 a{ background-position: 0 0; }
+			.l2 a{ background-position: 0 -53.73px; }
+			.l3 a{ background-position: 0 -53.73*2px; }
+			.l4 a{ background-position: 0 -53.73*3px; }
+
+		}
