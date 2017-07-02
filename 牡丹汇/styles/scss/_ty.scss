@@ -176,10 +176,49 @@ body,.md_PR,.md_DK{ min-width: 1300px; }
 	}
 	.md_area_listIn{ width: 560*2+65*2px; margin: 0 auto; overflow: hidden; }
 }
-//s生态旅游
+//生态旅游
 .md_tour_bottom{ padding: 150px 0 635px; margin-bottom: 155px; width: 100%; overflow: hidden; position: relative;
 	.tit{ display: block; width: 1148px; height: 161px; background-image: url("../images/tour.png"); margin: 0 auto; }
 	.bac{ position: absolute; left: 0; bottom: 0; height: 505px; min-width: 100%; }
+	.text{ position: absolute; width: 942px; padding: 10px; background: #fff; left: 50%;  margin-left:-481px; top: 370px; z-index: 9 }
+	.textIn{ border: 1px solid #000; padding: 45px 0 35px;
+		h4{ text-align: center; font-size: 25px; color: #4c4948; line-height: 36px;
+			span{  display: block; font-size: 12px; color: #c7c8c8; line-height: 14px; }
+		}
+		p{ padding-top: 24px; width: 700px; margin: 0 auto; color: #727171; line-height: 22px; font-size: 12px; }
+		.togo{ width: 133px;  height: 31px; display: block; background-color: #ff0a2b; margin: 0 auto; margin-top: 30px; position: relative;
+			i{ display: block; width: 29px; height: 5px; position: absolute; left: 50%; top: 50%;
+				margin:-4px 0 0 -14.5px; @extend %ty_sp ; background-position: 0 -102px; }
+		}
+	}
+}
+//公司简介
+.md_CMP{
+	.md_CMP_de{ padding: 170px 0;  border-bottom:1px dotted #c5c4c4;
+		.md_CMP_deIn{ @extend .clearfix; width: 705+95+440px; margin: 0 auto; position: relative; }
+		img{ float: left; width: 705px; height: 455px; }
+		.de{ float:left; width: 440px; margin-left: 95px;
+			.md_title{ margin-bottom: 40px; width: 100px; }
+			p{ line-height: 26px; font-size: 13px;color: #999; }
+		}
+		.togo{ width: 133px;  height: 31px; display: block; background-color: #ff0a2b; margin: 0 auto; margin-top: 30px; position: absolute; right: 0; bottom: 0;
+			i{ display: block; width: 29px; height: 5px; position: absolute; left: 50%; top: 50%;
+				margin:-4px 0 0 -14.5px; @extend %ty_sp ; background-position: 0 -102px; }
+		}
+	}
+	.md_CMP_about{ padding: 170px 0 150px;
+		ul{ width: 440*3+3px; height: 430px; @extend .clearfix; margin: 0 auto; display: block; }
+		li{ width: 440px; float: left; height: 430px; border-right: 1px solid #817f7e; position: relative; }
+		.icon1,.icon2,.icon3{ display: block; width: 111px; height: 110px; @extend %ty_sp; margin: 0 auto; margin-bottom: 25px; }
+		.icon1{ background-position: 0 -110px; }
+		.icon2{ background-position: -137px -110px; }
+		.icon3{ background-position: -278px -110px; }
+		h4{ text-align: center; font-size: 25px; line-height: 32px; color: #4c4948; margin-bottom: 45px;
+			span{ font-size: 12px; line-height: 14px; color: #c7c8c8; display: block; }
+		}
+	 	p{ font-size: 13px; line-height: 22px; color: #999; width: 340px; display: block; margin: 0 auto; }
+		.to{ display: block; width: 33px; height: 5px; @extend %ty_sp; background-position: -36px -102px; position: absolute; left: 205px; bottom: 23px; }
+	}
 }
 
 .phone{ display: none; }
