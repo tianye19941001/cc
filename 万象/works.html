@@ -162,7 +162,7 @@
 <script src="js/jquery.SuperSlide.2.1.1.js"></script>
 <script src="js/divscroll.js"></script>
 <script>
-	jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true,delayTime:500,mouseOverStop:true,interTime:5000,trigger:"click",
+	jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:false,delayTime:0,mouseOverStop:true,interTime:5000,trigger:"click",effect:'top',
         endFun: function () {
             var infoTmp = $(".workright .bd li").filter(function(){return $(this).css('display')!='none';});
             var index = $(".workright .bd li").index(infoTmp);
