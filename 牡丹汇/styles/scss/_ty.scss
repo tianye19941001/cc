@@ -72,7 +72,7 @@ body,.md_PR,.md_DK{ min-width: 1300px; }
 	}
 }
 // 首页合作
-.md_CP{ background-color: #f6f6f6; padding: 60px 0 230px;
+.md_CP{ background-color: #f6f6f6; padding: 60px 0 150px;
 	.lunbobar{ background-color: #fff; height: 270px; margin-top: 80px; }
 	.hd{ display: none; }
 	.bd{ width: 950px; margin: 0 auto; position: relative; margin: 0 auto; padding-top: 75px; padding-bottom: 20px;
@@ -256,7 +256,29 @@ body,.md_PR,.md_DK{ min-width: 1300px; }
 		}
 		p{ color: #727171; line-height: 25px; font-size: 14px; display: block; margin: 0 auto; margin-top: 10px; }
 	}
-	.md_process_deep{ background-color: #fff; padding: 105px 0 140px; }
+	.md_process_deep{ background-color: #fff; padding: 105px 0 140px; position: relative; margin-bottom: 150px;
+		.bacT{ position: absolute; right: 0; top: 0; z-index: 1; }
+		.bacB{ position: absolute; left: 0; bottom: 0; z-index: 1; }
+		.md_process_deepIn{ margin: 0 auto; padding-top: 110px; @extend .clearfix; width: 450+550+250px; overflow: hidden; position: relative; z-index: 2;
+			.left{ width: 450px; float: left; padding-top: 50px; padding-bottom: 20000px; margin-bottom: -20000px;
+				img{ display: block; width: 450px; height: auto; margin-bottom: 90px; }
+				h4{ font-size: 25px; color: #4c4948; line-height: 40px; margin-bottom: 20px; }
+				p{ font-size: 13px; color: #999; line-height: 24px; margin-bottom: 50px; }
+			}
+			.right{ padding-left: 250px; float: left; width: 550px; padding-top: 50px; position: relative; padding-bottom: 20000px; margin-bottom: -20000px; cursor: pointer;
+				.line{ position: absolute; height: 100%; width: 1px; background-color: #b8bab9; top: 0; left: 180px; z-index: 2; }
+				li{ min-height: 160px; position: relative; 
+					&:hover{
+						.dian{ width: 16px; height: 16px; border: none; background-color: #ff0b2a; left: -77px; top: 15px; }
+					}
+				}
+				h4{ font-size: 24px; color: #3e3a39; line-height: 40px; margin-bottom: 15px; }
+				p{ font-size: 13px; color: #999; line-height: 20px; }
+				em{ color: #b9baba; font-size: 44px; line-height: 44px; position: absolute; top: 5px; left: -160px; }
+				.dian{ border: 1px solid #423e3b; width: 10px; height: 10px; display: block; position: absolute; top: 18px; left: -75px; border-radius: 16px; background-color: #fff; z-index: 3; }
+			}
+		}
+	}
 }
 
 
