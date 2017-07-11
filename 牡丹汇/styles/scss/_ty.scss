@@ -8,7 +8,7 @@ body{ background-color: #f6f6f6; font-family: "微软雅黑"; min-width: 1300px;
 body,.md_PR,.md_DK{ min-width: 1300px; }
 .md_bannar{ text-align: center; }
 // 首页
-.md_head{ height: 114px; line-height: 114px; background-color: #fff;
+.md_head{ height: 114px; line-height: 114px; background-color: #fff; min-width: 1300px;
 	.logo{ width: 194px; height: 32px; @extend  %ty_sp; background-position: 0 -230px; position: absolute; left: 72px; top: 40px; }
 	.right{ float: right; height: 16px; line-height: 16px; padding: 23px 0; margin-top: 114-16-23-23px;
 		ul{ @extend .clearfix; }
@@ -32,8 +32,8 @@ body,.md_PR,.md_DK{ min-width: 1300px; }
 		}
 	}
 }
-.md_swiper{ width: 100%;
-	img{ display: block; width: 100%; height: 100%; }
+.md_swiper{ width: 100%; min-width: 1300px;
+	img{ display: block; width: 100%; height: 100%; min-width: 1300px; }
 }
 
 .md_title{ display: block; text-align: center;
@@ -139,6 +139,9 @@ body,.md_PR,.md_DK{ min-width: 1300px; }
 		.l{ margin-right: 36px; }
 	}
 }
+.md_bannar_PDD{ min-width: 1300px; @extend .clearfix;
+	img{ float: left; width: 50%; }
+}
 //联系我们
 .md_connect_bannar{ padding-top: 45px;
 	img{ width: 1168px; }
@@ -191,6 +194,21 @@ body,.md_PR,.md_DK{ min-width: 1300px; }
 				margin:-4px 0 0 -14.5px; @extend %ty_sp ; background-position: 0 -102px; }
 		}
 	}
+}
+.md_tour_lunbo{ padding: 90px 0 0;
+	.md_tour_lunboOut{ padding: 145px 0; background-color: #fff; margin-top: 40px; position: relative; }
+	.md_tour_lunboOutIn{ height: 576px; width: 1172px; position: relative; margin: 0 auto; }
+	.md_tour_lunboIn{ height: 576px; width: 1172px; position: relative;
+		ul{ width: 1172px; margin: 0 auto;
+			li{ @extend .clearfix; width: 1172px; overflow: hidden; }
+			img{ float: left; }
+			.big{ width: 576px; height: 576px; }
+			.small{ width: 288px; height: 283px; margin:0 0 10px 10px; }
+		}
+	}
+	.lbtn,.rbtn{ width: 53px; height: 16px; display: block; position: absolute; top: 50%; margin-top: -8px; @extend %ty_sp ; }
+	.lbtn{ background-position: -318px 0; left: -100px; }
+	.rbtn{ background-position: -385px 0; right: -100px; }
 }
 //公司简介
 .md_CMP{

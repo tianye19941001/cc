@@ -55,14 +55,42 @@
 		<div class="pagination"></div>
 	</div>
 	<div class="md_tour">
-		<div class="md_tour_lunbo1">
-
-		</div>
-		<div class="md_tour_lunbo2">
+		<div class="md_tour_lunbo">
 			<div class="md_title">
 				<i class="down"></i>
 				<h2>牡丹花赏</h2>
-				<span>asdaksdjkasdja</span>
+				<span>Peony Tours</span>
+			</div>
+			<div class="md_tour_lunboOut">
+				<div class="md_tour_lunboOutIn">
+					<div class="md_tour_lunboIn swiper-container">
+						<ul class="swiper-wrapper">
+							<li class="swiper-slide">
+								<img src="images/temp/temp18_big.png" alt="" class="big">
+								<img src="images/temp/temp18_big.png" alt="" class="small">
+								<img src="images/temp/temp18_small.png" alt="" class="small">
+								<img src="images/temp/temp18_big.png" alt="" class="small">
+								<img src="images/temp/temp18_big.png" alt="" class="small">
+							</li>
+							<li class="swiper-slide">
+								<img src="images/temp/temp18_big.png" alt="" class="big">
+								<img src="images/temp/temp18_big.png" alt="" class="small">
+								<img src="images/temp/temp18_small.png" alt="" class="small">
+								<img src="images/temp/temp18_big.png" alt="" class="small">
+								<img src="images/temp/temp18_big.png" alt="" class="small">
+							</li>
+							<li class="swiper-slide">
+								<img src="images/temp/temp18_big.png" alt="" class="big">
+								<img src="images/temp/temp18_big.png" alt="" class="small">
+								<img src="images/temp/temp18_small.png" alt="" class="small">
+								<img src="images/temp/temp18_big.png" alt="" class="small">
+								<img src="images/temp/temp18_big.png" alt="" class="small">
+							</li>
+						</ul>
+					</div>
+					<i class="lbtn"></i>
+					<i class="rbtn"></i>
+				</div>
 			</div>
 		</div>
 		<div class="md_tour_bottom">
@@ -91,6 +119,19 @@
 		loop:true,
 		grabCursor: true,
 		paginationClickable: true
+	})
+	var mySwiper2 = new Swiper('.md_tour_lunboIn',{
+		autoplay: 3000,
+		pagination: '.pagination',
+		loop:true,
+		grabCursor: true,
+		paginationClickable: true
+	})
+	$('.lbtn').click(function(){
+		mySwiper2.swipePrev(); 
+	})
+	$('.rbtn').click(function(){
+		mySwiper2.swipeNext(); 
 	})
 </script>
 </body>
