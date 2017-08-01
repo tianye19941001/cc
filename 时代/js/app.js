@@ -38,24 +38,16 @@ $(document).ready(function(){
 		}
 	}
 
-	function setIframeHeight(id){
-		try{
-			var iframe = document.getElementById(id);
-			if(iframe.attachEvent){
-				iframe.attachEvent("onload", function(){
-					iframe.height =  iframe.contentWindow.document.documentElement.scrollHeight;
-				});
-				return;
-			}else{
-				iframe.onload = function(){
-					iframe.height = iframe.contentDocument.body.scrollHeight;
-				};
-				return;				 
-			}	 
-		}catch(e){
-			throw new Error('setIframeHeight Error');
-		}
+	function resize(){
+		var ScreenW = $(window).width();
+		$('.ty_header .logo').css('margin-left',ScreenW/1920*10+'%')
+		$('.ty_header ty_Hlist').css('margin-left',ScreenW/1920*8+'%')
 	}
+	resize()
+	window.onresize = function(){
+		resize();
+	}
+
 	$('.lake_lunbo_control .lbtn').click(function(){
 		$('.lake_con1 .slideBox .prev').trigger('click');
 	});

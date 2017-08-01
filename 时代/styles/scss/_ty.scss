@@ -1,1 +1,10 @@
 @charset "utf-8";
+body{ font-family: '微软雅黑'; min-width: 1366px; }
+.ty_header{ height: 132px; @extend .clearfix;
+	.logo{ margin-left: 10%; float: left; margin-top: 23px; }
+	.ty_Hlist{ margin-left: 8%; width: 330px; float: left; padding-top: 35px;
+		h2{ line-height: 34px; font-size: 18px; color: #009ee7; }
+		li{ float: left; }
+	}
+	.connectBar{ width: 300px; float: right; }
+}
