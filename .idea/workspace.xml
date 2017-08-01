@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dccc77c-5c9d-4e37-8890-c8283cc1138f" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/牡丹汇/company.html" afterPath="$PROJECT_DIR$/牡丹汇/company.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/牡丹汇/styles/scss/_ty.scss" afterPath="$PROJECT_DIR$/牡丹汇/styles/scss/_ty.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/牡丹汇/styles/styles.css" afterPath="$PROJECT_DIR$/牡丹汇/styles/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/牡丹汇/styles/styles.css.map" afterPath="$PROJECT_DIR$/牡丹汇/styles/styles.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/牡丹汇/tour.html" afterPath="$PROJECT_DIR$/牡丹汇/tour.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/index.html" afterPath="$PROJECT_DIR$/时代/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/styles/scss/_ty.scss" afterPath="$PROJECT_DIR$/时代/styles/scss/_ty.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/styles/styles.css" afterPath="$PROJECT_DIR$/时代/styles/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/styles/styles.css.map" afterPath="$PROJECT_DIR$/时代/styles/styles.css.map" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,34 +24,22 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_ty.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/牡丹汇/styles/scss/_ty.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="210" column="87" lean-forward="false" selection-start-line="210" selection-start-column="87" selection-end-line="210" selection-end-column="87" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="company.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/牡丹汇/company.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="60" column="42" lean-forward="false" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/万象/index.html">
+        <entry file="file://$PROJECT_DIR$/时代/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-              <folding>
-                <marker date="1498570528000" expanded="true" signature="9723:10287" ph="..." />
-              </folding>
+            <state relative-caret-position="523">
+              <caret line="68" column="29" lean-forward="false" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_ty.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/时代/styles/scss/_ty.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="571">
+              <caret line="51" column="135" lean-forward="false" selection-start-line="51" selection-start-column="135" selection-end-line="51" selection-end-column="135" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -106,6 +94,8 @@
         <option value="$PROJECT_DIR$/牡丹汇/tour.html" />
         <option value="$PROJECT_DIR$/牡丹汇/company.html" />
         <option value="$PROJECT_DIR$/牡丹汇/styles/scss/_ty.scss" />
+        <option value="$PROJECT_DIR$/时代/index.html" />
+        <option value="$PROJECT_DIR$/时代/styles/scss/_ty.scss" />
       </list>
     </option>
   </component>
@@ -211,7 +201,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="万象" />
+              <option name="myItemId" value="时代" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -225,7 +215,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="万象" />
+              <option name="myItemId" value="时代" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -243,7 +233,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="万象" />
+              <option name="myItemId" value="时代" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -257,8 +247,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -389,12 +379,14 @@
       <workItem from="1496587185556" duration="2476000" />
       <workItem from="1496894703739" duration="4082000" />
       <workItem from="1496976516863" duration="25560000" />
-      <workItem from="1498740683270" duration="7050000" />
+      <workItem from="1498740683270" duration="7343000" />
+      <workItem from="1499487653145" duration="253000" />
+      <workItem from="1501600671145" duration="2868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58570000" />
+    <option name="totallyTimeSpent" value="61984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="809" extended-state="6" />
@@ -431,46 +423,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/红孩儿/news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/红孩儿/styles/scss/_ty.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11940">
-          <caret line="796" column="77" lean-forward="false" selection-start-line="796" selection-start-column="77" selection-end-line="796" selection-end-column="77" />
-          <folding>
-            <marker date="1496906072000" expanded="true" signature="38529:38535" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38529:38539" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38553:39424" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38604:38794" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38806:39279" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38893:39274" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38987:39113" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39120:39262" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39320:39420" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39438:39766" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39544:39684" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39783:39847" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39864:40071" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="40091:40458" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="40107:40342" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="40351:40455" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="40492:40534" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/红孩儿/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/红孩儿/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3990">
@@ -510,25 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11940">
           <caret line="796" column="77" lean-forward="false" selection-start-line="796" selection-start-column="77" selection-end-line="796" selection-end-column="77" />
-          <folding>
-            <marker date="1496906072000" expanded="true" signature="38529:38535" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38529:38539" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38553:39424" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38604:38794" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38806:39279" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38893:39274" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38987:39113" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39120:39262" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39320:39420" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39438:39766" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39544:39684" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39783:39847" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39864:40071" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="40091:40458" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="40107:40342" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="40351:40455" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="40492:40534" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -627,7 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="622">
           <caret line="247" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="247" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,25 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11085">
           <caret line="739" column="60" lean-forward="false" selection-start-line="739" selection-start-column="60" selection-end-line="739" selection-end-column="60" />
-          <folding>
-            <marker date="1496906072000" expanded="true" signature="38529:38535" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38529:38539" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38553:39424" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38604:38794" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38806:39279" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38893:39274" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="38987:39113" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39120:39262" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39320:39420" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39438:39766" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39544:39684" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39783:39847" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="39864:40071" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="40091:40458" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="40107:40342" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="40351:40455" ph="{...}" />
-            <marker date="1496906072000" expanded="true" signature="40492:40534" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -743,13 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/牡丹汇/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2745">
-          <caret line="183" column="0" lean-forward="false" selection-start-line="183" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/万象/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -775,10 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3259">
           <caret line="206" column="17" lean-forward="false" selection-start-line="206" selection-start-column="13" selection-end-line="206" selection-end-column="17" />
-          <folding>
-            <marker date="1498359865000" expanded="true" signature="3721:5636" ph="{...}" />
-            <marker date="1498359865000" expanded="true" signature="11221:11227" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -786,7 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -794,7 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
           <caret line="253" column="9" lean-forward="false" selection-start-line="253" selection-start-column="9" selection-end-line="253" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -802,7 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -810,7 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
           <caret line="29" column="25" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="29" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -818,7 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
           <caret line="54" column="47" lean-forward="false" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -827,23 +724,55 @@
         <state relative-caret-position="255">
           <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding>
-            <marker date="1498570528000" expanded="true" signature="9723:10287" ph="..." />
+            <marker date="1501598701000" expanded="true" signature="10528:10543" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/牡丹汇/company.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="60" column="42" lean-forward="false" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/牡丹汇/styles/scss/_ty.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="210" column="87" lean-forward="false" selection-start-line="210" selection-start-column="87" selection-end-line="210" selection-end-column="87" />
+        <state relative-caret-position="3420">
+          <caret line="228" column="87" lean-forward="false" selection-start-line="228" selection-start-column="87" selection-end-line="228" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/万象/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/牡丹汇/company.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="79" column="42" lean-forward="false" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/牡丹汇/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="175" column="44" lean-forward="true" selection-start-line="175" selection-start-column="44" selection-end-line="175" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/时代/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="68" column="29" lean-forward="false" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/时代/styles/scss/_ty.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="51" column="135" lean-forward="false" selection-start-line="51" selection-start-column="135" selection-end-line="51" selection-end-column="135" />
           <folding />
         </state>
       </provider>

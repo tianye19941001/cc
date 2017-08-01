@@ -1,4 +1,5 @@
 @charset "utf-8";
+$minW:1260px;
 body{ font-family: '微软雅黑'; min-width: 1366px; }
 .ty_header{ height: 132px; @extend .clearfix;
 	.logo{ margin-left: 10%; float: left; margin-top: 23px; }
@@ -26,4 +27,27 @@ body{ font-family: '微软雅黑'; min-width: 1366px; }
 		}
 	}
 	.connectBar{ width: 300px; float: right; }
+}
+.ty_index_nums{ text-align: center; margin-bottom: 120px;
+	ul{ width: 1260px; margin: 0 auto; @extend .clearfix;
+		li{ width: 420-37px; height: 400px; border-left: 1px solid #4c4847; float: left; padding: 0 18px;
+			&:first-child{ border-left: 0; }
+		}
+	}
+	.about{ display: inline-block; margin-bottom: 70px;
+		.num{ font-size: 49px; color: #4c4948; display: inline-block; line-height: 50px; }
+		.text{ font-size: 25px; color: #4c4948; display: inline-block; line-height: 28px; margin-left: 10px; }
+		em{ color: #707473; font-size: 12px; line-height: 14px; display: block; text-align: left }
+	}
+	p{ text-align: left; text-align: justify; font-size: 12px; color: #707473; line-height: 22px; }
+}
+.ty_index_about{ height: 510px; width: 100%; background-color: #009ee7;
+	.ty_index_aboutIn{ width: 1260px; height: 100%; margin: 0 auto; position: relative; }
+	img{ float: left; padding: 74px 0; width: 537px; height:363px; }
+	.right{ padding: 74px 0; float: right; width: 630px; color: #fff;
+		h3{ font-size: 22px; display: block; padding-top: 50px; line-height: 26px; }
+		span{ display: block; font-size: 15px; line-height: 18px; }
+		p{ padding-top: 20px; font-size: 12px; }
+	}
+	.more{ position: absolute; width: 60px; height: 17px; right: 0; bottom: 90px; font-size: 11px; border: 1px solid #fff; color: #fff; text-align: center; line-height: 17px; }
 }
