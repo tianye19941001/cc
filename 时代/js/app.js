@@ -66,6 +66,7 @@ $(document).ready(function(){
 	function movescroll(btn,to) {
 		$('html,body').animate({scrollTop: $(to).offset().top-60},600);
 	}
+	
 	$('.lake_header_list li').click(function(){
 		var thisIndex = parseInt($('.lake_header_list li').index($(this)));
 		switch (thisIndex){
