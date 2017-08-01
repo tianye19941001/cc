@@ -3,8 +3,27 @@ body{ font-family: '微软雅黑'; min-width: 1366px; }
 .ty_header{ height: 132px; @extend .clearfix;
 	.logo{ margin-left: 10%; float: left; margin-top: 23px; }
 	.ty_Hlist{ margin-left: 8%; width: 330px; float: left; padding-top: 35px;
-		h2{ line-height: 34px; font-size: 18px; color: #009ee7; }
-		li{ float: left; }
+		ul{ display: none; padding-bottom: 15px; @extend .clearfix; }
+		h2{ line-height: 34px; font-size: 18px; color: #595757; }
+		li{ float: left; font-size: 11px; padding: 0 10px; border-left: 1px solid #aaa8a8; height: 12px; line-height: 12px; margin-top: 32px; position: relative;
+			a{ color: #3e3a39; }
+			&:first-child{ padding-left: 0; border-left: 0; 
+				i{ margin-left: -13px; }
+			}
+			i{ position: absolute; top: -30px; left: 50%; width: 16px; height: 11px; @extend %ty_sp; background-position: -168px 0; margin-left: -8px; display: none; }
+			&:hover{
+				i{ display: block; }
+			}
+		}
+		&:hover{ cursor: pointer;
+			h2{ color: #009ee7; }
+			ul{ display: block; }
+		}
+	}
+	.t1{
+		h2{
+			i{  }
+		}
 	}
 	.connectBar{ width: 300px; float: right; }
 }
