@@ -193,6 +193,32 @@ input{ outline: none; }
 	// img{ position: absolute; top: 0; left: 50%; ransform: translateX(-50%); -webkit-transform: translateX(-50%); height: 100%; }
 	img{ width: 100%; display: block; }
 }
+.ty_news_list{ text-align: center; padding-bottom: 55px;
+	.titles{ padding: 72px 0; margin-left: 8%; @extend .clearfix;
+		li{ float: left; height: 40px; line-height: 40px; font-size: 16px; position: relative;
+			&:first-child{
+				a{ border-left: 0; }
+			}
+		}
+		.on{ i{ width: 60px; height: 1px; position: absolute; bottom: 0; left: 50%; margin-left: -30px; background-color: #009ee7 } }
+		a{ display: inline-block; height: 18px; line-height: 18px; padding: 0 26px; border-left: 1px solid #3e393b; }
+	}
+	.lists{ width: 1260px; margin: 0 auto; padding-top: 40px; text-align: left;
+		li{ margin-bottom: 66px; height: 148px;
+			&:hover{ box-shadow: 8px 8px 8px rgba(0,0,0,.18);
+				.left{ background-color: #009ee7; color: #fff; }
+			}
+		}
+		.left{ width: 182px; padding-left: 18px; height: 148px; float: left; font-size: 56px; color: #3e3a39;
+			em{ display: block; font-size: 30px; }
+		}
+		.right{ width: 1000-20px; float: right; color: #3e3a39; padding: 20px 20px 0 0;
+			h4{ font-size: 24px; }
+			p{ font-size: 13px; color: #707473; line-height: 22px; }
+		}
+	}
+	.more{ display: inline-block; width: 62px; height: 18px; text-align: center; line-height: 18px; background-color: #009ee7; font-size: 12px; color: #ffffff; }
+}
 
 // 动画
 .ty_index_nums li,.ty_index_aboutIn img,.ty_index_aboutIn .right,.ty_index_aboutIn .more{
