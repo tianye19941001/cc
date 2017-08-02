@@ -106,8 +106,26 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
 	}
 	.more{ display: inline-block; font-size: 12px; bottom: 28px; width: 60px; height: 20px; line-height: 20px; color: #009ee7; background-color: #fff; text-align: center; }
 }
-.ty_connect{ width: 100%; min-width: 1366px; background-color: #eef1f6;
-	
+.ty_connect{ width: 100%; min-width: 1366px; background-color: #eef1f6; height: 635px;
+	.ty_connectIn{ width: 1260px; margin: 0 auto; padding-top: 90px; }
+	.top{ font-size: 22px; color: #3e3a39; height: 45px; line-height: 45px; width: 100%; float: left; margin-bottom: 100px;
+		i{ display: inline-block; vertical-align: middle; width: 62px; height: 45px; @extend %ty_sp; background-position: 0 -135px; margin-left: 46px; }
+	}
+	.left{ float: left; width: 750-18px; padding-left: 18px;
+		img{ float: left; }
+	}
+	.detial{ float: left; font-size: 16px; line-height: 30px; color: #3e3a39; margin-left: 28px; }
+	.right{ float: right; width: 480px; 
+		.text{ width: 428-30px; height: 29px; line-height: 29px; border:1px solid #3d3936; padding: 0 15px; margin-bottom: 20px; font-size: 13px; font-family: '微软雅黑' }
+		textarea{ width: 428-30px; height: 69px; line-height: 29px; border:1px solid #3d3936; padding: 0 15px; margin-bottom: 20px; font-size: 13px; font-family: '微软雅黑' }
+		.submit{ width: 56px; height: 22px; color: #fff; background-color: #0091d2; border: 0; text-align: center; line-height: 23px; font-size: 13px; cursor: pointer; }
+		::-webkit-input-placeholder { color: #3e3a39; } 
+		::-webkit-textarea-placeholder { color: #3e3a39; } 
+		:-moz-placeholder { color: #3e3a39; } 
+		::-moz-placeholder { color: #3e3a39; }
+		:-ms-input-placeholder { color: #3e3a39; } 
+		:-ms-textarea-placeholder { color: #3e3a39; } 
+	}
 }
 .ty_footer{ height: 44px; line-height: 44px;
 	p{ padding-right: 116px; text-align: right; font-size: 12px; color: #555; }
