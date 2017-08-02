@@ -26,7 +26,23 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
 			i{  }
 		}
 	}
-	.connectBar{ width: 300px; float: right; }
+	.connectBar{ width: 300px; float: right; padding-top: 45px;
+		.p1{ height: 12px; line-height: 12px; font-size: 12px; color: #3e3a39; margin-bottom: 14px; 
+			a{ padding: 0 14px; 
+				&:first-child{ border-right: 1px solid #6e7273; }
+			}
+			span{ margin-left: 18px; }
+		}
+		.p2{
+			.search{ width: 120px; height: 20px; display: inline-block; position: relative;
+				input{ padding-right: 30px; width: 88px; border-radius: 20px; border: 1px solid #6e7273; height: 18px; line-height: 18px; }
+				.ss{ width: 17px; height: 16px; position: absolute; @extend %ty_sp; background-position: -100px 0; right: 12px; top: 2px; }
+			}
+			.phone{ margin-left: 18px; font-size: 15px; color: #3e3a39;
+				i{ width: 29px; height: 21px; @extend %ty_sp; background-position: -117px 0; display: inline-block; vertical-align: -4px; margin-right: 8px; }
+			}
+		}
+	}
 }
 .ty_index_nums{ text-align: center; margin-bottom: 120px; padding-top: 92px;
 	ul{ width: 1260px; margin: 0 auto; @extend .clearfix;
@@ -88,7 +104,7 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
 		}
 	}
 }
-.ty_index_good{ height: 530px; width: 100%; min-width: 1366px; background-color: #05060b; position: relative; margin-top: 260px;
+.ty_index_good{ height: 530px; width: 100%; min-width: 1366px; background-color: #05060b; position: relative; margin-top: 260px; overflow: hidden;
 	.ty_index_goodIn{ width: 1260px; margin: 0 auto; position: relative; z-index: 3; }
 	img{ position: absolute; left: 50%; top: 0; transform: translateX(-50%); -webkit-transform: translateX(-50%); height: 100%; z-index: 2; }
 	.adv{ width: 345px; position: absolute; background-color: #009ee7; padding: 0 10px 50px; left: 0; top: -100px; text-align: center; }
@@ -129,4 +145,15 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
 }
 .ty_footer{ height: 44px; line-height: 44px;
 	p{ padding-right: 116px; text-align: right; font-size: 12px; color: #555; }
+}
+.ty_lunbo{ height: 570px; width: 100%; min-width: 1366px; overflow: hidden; padding-bottom: 100px;
+	.swiper-slide{ height: 570px; overflow: hidden; position: relative;
+		img{ position: absolute; top: 0; left: 50%; ransform: translateX(-50%); -webkit-transform: translateX(-50%); height: 100%; }
+	}
+	.pagination{ text-align: center; height: 1px; line-height: 1px;
+		.swiper-pagination-switch{ width: 40px; height: 1px; background-color: #b3b3b4; display: inline-block; margin-left: 8px; margin: 40px 0;
+			&:first-child{ margin-left: 0;  }
+		}
+		.swiper-active-switch{ background-color: #009ee7; }
+	}
 }
