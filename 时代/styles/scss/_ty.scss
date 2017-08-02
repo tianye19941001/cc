@@ -188,6 +188,12 @@ input{ outline: none; }
 	.ty_index_good{ height: 585px; margin-top: 330px; }
 }
 .ty_bac_w{ position: absolute; height: 170px; width: 100%; left: 0; top: -170px; background-color: #fff; }
+// 新闻
+.ty_bannar{ width: 100%; min-width: 1366px; position: relative;
+	// img{ position: absolute; top: 0; left: 50%; ransform: translateX(-50%); -webkit-transform: translateX(-50%); height: 100%; }
+	img{ width: 100%; display: block; }
+}
+
 // 动画
 .ty_index_nums li,.ty_index_aboutIn img,.ty_index_aboutIn .right,.ty_index_aboutIn .more{
 	opacity: 0;
