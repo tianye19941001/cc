@@ -53,22 +53,42 @@ $(document).ready(function(){
 		},300)
 	}
 
-	function addClass(elem,Class){
+	// 初始化翻牌数字
+	// if ($('.ty_index_nums li').length>0) {
+	// 	var tyNum1 = parseInt($('.ty_index_nums li').eq(0).text());
+	// 	var tyNum2 = parseInt($('.ty_index_nums li').eq(1).text());
+	// 	var tyNum3 = parseInt($('.ty_index_nums li').eq(2).text());
+	// }
+
+	function addAnimate(elem,Class,count,nums){
 		if(elem.length > 0){
 			var offsetT = elem.offset().top;
 			var overHeight = $(document).scrollTop() + $(window).height() -80;
 			if ( overHeight > offsetT ) {
-				elem.addClass(Class);
+				if (!elem.hasClass(Class)) {
+					elem.addClass(Class);
+					if (count) {
+						var options = {
+						  useEasing : true, 
+						  useGrouping : true, 
+						  separator : ',', 
+						  decimal : '.', 
+						};
+						var number = parseInt($('#'+count).text());
+						var numCount = new CountUp(count, 0, number, 0, 2.5, options);
+						numCount.start()
+					}
+				}
 			}
 		}
 	}
 	function init(){
-		addClass($('.ty_index_nums li').eq(0),'an_toTop');
-		addClass($('.ty_index_nums li').eq(1),'an_delay4 an_toTop');
-		addClass($('.ty_index_nums li').eq(2),'an_delay8 an_toTop');
-		addClass($('.ty_index_aboutIn img'),'an_toTop');
-		addClass($('.ty_index_aboutIn .right'),'an_delay5 an_toTop');
-		addClass($('.ty_index_aboutIn .more'),'an_delay6 an_toTop');
+		addAnimate($('.ty_index_nums li').eq(0),'an_toTop','ty_num1',1);
+		addAnimate($('.ty_index_nums li').eq(1),'an_delay4 an_toTop','ty_num2',2);
+		addAnimate($('.ty_index_nums li').eq(2),'an_delay8 an_toTop','ty_num3',3);
+		addAnimate($('.ty_index_aboutIn img'),'an_toTop');
+		addAnimate($('.ty_index_aboutIn .right'),'an_delay5 an_toTop');
+		addAnimate($('.ty_index_aboutIn .more'),'an_delay6 an_toTop');
 	}
 
 	function resize(){

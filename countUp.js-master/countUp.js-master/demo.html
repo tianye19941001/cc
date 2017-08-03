@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="dist/countUp.min.js"></script>
+</head>
+<p id="p">1234</p>
+<body>
+	<script>
+		var options = {
+		  useEasing : true, 
+		  useGrouping : true, 
+		  separator : ',', 
+		  decimal : '.', 
+		};
+		var demo = new CountUp('p', 0, 3864, 0, 2.5, options);
+		demo.start();
+	</script>
+</body>
+</html>
