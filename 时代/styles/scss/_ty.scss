@@ -73,7 +73,7 @@ input{ outline: none; }
 		li{ width: 420-37px; height: 400px; border-left: 1px solid #4c4847; float: left; padding: 0 18px; @extend %ty_tr; position: relative; top: 0; transition-duration: 1.2s;
 			&:first-child{ border-left: 0; }
 			&:hover{ position: relative; top: -50px; 
-				.num{ font-size: 56px; }
+				.num{ font-size: 66px; }
 			}
 		}
 	}
