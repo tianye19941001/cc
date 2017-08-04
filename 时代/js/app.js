@@ -99,6 +99,10 @@ $(document).ready(function(){
 		addAnimate($('.ty_index_goodIn .advs'),'an_delay5 an_toTop');
 		addAnimate($('.ty_index_goodIn .more'),'an_delay5 an_toTop');
 		addAnimate($('.ty_index_good img'),'an_delay2 an_show');
+		addAnimate($('.ty_connectIn .left'),'an_delay2 an_toRight');
+		addAnimate($('.ty_connectIn .right'),'an_delay2 an_toLeft');
+		addAnimate($('.ty_about_text .ty_top'),'an_delay2 an_toRight');
+		addAnimate($('.ty_about_text p').eq(0),'an_delay2 an_toTop');
 	}
 
 	function resize(){
