@@ -63,22 +63,34 @@ $(document).ready(function(){
 	function addAnimate(elem,Class,count,nums){
 		if(elem.length > 0){
 			var offsetT = elem.offset().top;
-			var overHeight = $(document).scrollTop() + $(window).height() -80;
-			if ( overHeight > offsetT ) {
-				if (!elem.hasClass(Class)) {
-					elem.addClass(Class);
-					if (count) {
-						var options = {
-						  useEasing : true, 
-						  useGrouping : true, 
-						  separator : ',', 
-						  decimal : '.', 
-						};
-						var number = parseInt($('#'+count).text());
-						var numCount = new CountUp(count, 0, number, 0, 2.5, options);
-						numCount.start()
+			var overHeight = $(document).scrollTop() + $(window).height() - 80;
+			if (elem.length>1){
+				for( var i = 0; i < elem.length; i++ ){
+					if (overHeight> elem.eq(i).offset().top){
+                        if (!elem.eq(i).hasClass(Class)) {
+							elem.eq(i).addClass(Class);
+                        }
 					}
 				}
+			}else{
+				if ( overHeight > offsetT ) {
+                    if (!elem.hasClass(Class)) {
+                        elem.addClass(Class);
+                        if (count) {
+                            var options = {
+                                useEasing : true,
+                                useGrouping : true,
+                                separator : ',',
+                                decimal : '.',
+                            };
+                            var number = parseInt($('#'+count).text());
+                            var numCount = new CountUp(count, 0, number, 0, 2.5, options);
+                            numCount.start()
+                        }
+                    }
+
+                }
+
 			}
 		}
 	}
@@ -102,7 +114,11 @@ $(document).ready(function(){
 		addAnimate($('.ty_connectIn .left'),'an_delay2 an_toRight');
 		addAnimate($('.ty_connectIn .right'),'an_delay2 an_toLeft');
 		addAnimate($('.ty_about_text .ty_top'),'an_delay2 an_toRight');
-		addAnimate($('.ty_about_text p').eq(0),'an_delay2 an_toTop');
+        addAnimate($('.ty_about_text p').eq(0),'an_delay2 an_toTop');
+        addAnimate($('.ty_news_list .lists li'),'an_delay2 an_toTop');
+        addAnimate($('.ty_news_list h4'),'an_delay2 an_toRight');
+        addAnimate($('.ty_news_list p'),'an_delay2 an_toLeft');
+        addAnimate($('.ty_news_list img'),'an_delay2 an_toTop');
 	}
 
 	function resize(){
