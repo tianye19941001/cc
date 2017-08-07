@@ -236,10 +236,13 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
 	}
 }
 .ty_top{ font-size: 22px; color: #3e3a39; height: 45px; line-height: 45px; width: 100%; float: left; margin-bottom: 100px; position: relative; z-index: 2; cursor: pointer;
-	i{ display: inline-block; vertical-align: middle; width: 62px; height: 45px; @extend %ty_sp; background-position: 0 -135px; margin-left: 46px; @extend %ty_tr; }
+	i{ display: inline-block; vertical-align: top; width: 62px; height: 45px; @extend %ty_sp; background-position: 0 -135px; margin-left: 46px; @extend %ty_tr;  }
 	&:hover{ color: #0091d2;
 		i{ margin-left: 76px; }
+		span{ color: #0091d2; }
 	}
+	span{ color: #3e3a39; font-size: 22px; line-height: 22px; display: inline-block; }
+	em{ display: inline-block; font-size: 12px; color: #707473; line-height: 12px; }
 }
 .ty_footer{ height: 44px; line-height: 44px;
 	p{ padding-right: 116px; text-align: right; font-size: 12px; color: #555; }
@@ -470,8 +473,70 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
 		.to{ width: 36px; height: 9px; position: absolute; right: 32px; bottom: 12px; @extend %ty_sp; background-position: -211px 0; @extend %ty_tr; }
 	}
 }
+.bccolor{ background-color: #eef1f6; }
+.ty_solution_detial{ width: 1220px; margin: 0 auto;
+	.ty_top{ text-align: left; }
+	.tit_de{ @extend .clearfix; text-align: left; padding-bottom: 74px; border-bottom: 1px dashed #6e7273;
+		img{ float: left; width: 250px; }
+		.right{ width: 915px; float: right; }
+		.p1{ font-size: 15px; color: #3e3a39; padding-top: 6px; }
+		.p2{ font-size: 50px; color: #000; line-height: 70px; }
+		.p3{ font-size: 50px; color: #009ee7; line-height: 70px; }
+	}
+	.detext{ @extend .clearfix; text-align: left; padding: 70px 0 110px;
+		p{ float: left; width: 50%; color: #707473; font-size: 13px; line-height: 22px;
+			.tit{ width: 100%; margin-bottom: 22px; }
+			strong{ display: inline-block; width: 215px; }
+			span{ display: inline-block; width: 380px; }
+		}
+	}
+}
+.ty_solution_detial_video{ background-color: #fff; width: 100%; min-width: 1366px; 
+	.ty_sdv_In{ @extend .clearfix; width: 1220px; margin: 0 auto; padding: 55px 0 50px; }
+}
+.ty_sdv_In_list{ width: 308*4-30px; clear: both;
+	ul{ @extend .clearfix; width: 308*4px; margin-left: -30px; }
+	li{ float: left; width: 278px; height: 280px; margin-left: 30px; overflow: hidden; @extend %ty_tr;
+		&:hover{ box-shadow: 0 0 20px rgba(0,0,0,.5); border-radius: 10px; }
+	}
+	p{ padding: 0 6px; color: #707473; font-size: 12px; line-height: 20px; }
+	img{ margin-bottom: 35px; width: 278px; height: 167px; }
+	.more { margin: 100px auto 0;
+		font-size: 12px;
+		width: 70px;
+		height: 25px;
+		line-height: 24px;
+		color: #fff;
+		display: block;
+		background-color: #009ee7;
+		text-align: center;
+		border: 1px solid #009ee7;
+		@extend %ty_tr;
+		cursor: pointer;
+		position: relative;
+		&:after {
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			height: 100%;
+			width: 0;
+			background-color: #fff;
+			@extend %ty_tr;
+		}
+		&:hover {
+			border: 1px solid #009ee7;
+			color: #009ee7;
+			background-color: transparent;
+			&:after {
+				width: 100%;
+				z-index: -1;
+			}
+		}
+	}
+}
 // 动画
-.ty_index_nums li,.ty_index_aboutIn img,.ty_index_aboutIn .right,.ty_index_aboutIn .more,.ty_index_solutions .bottom,.ty_index_solutions .top .left,.ty_index_solutions .top ul,.ty_index_goodIn .adv,.ty_index_good img,.ty_index_goodIn .advs,.ty_index_goodIn .more,.ty_connectIn .left,.ty_connectIn .right,.ty_about_text .ty_top,.ty_about_text p,.ty_news_list .lists li,.ty_news_list h4,.ty_news_list p,.ty_news_list img,.ty_connect_page .left,.ty_connect_page .right{
+.ty_index_nums li,.ty_index_aboutIn img,.ty_index_aboutIn .right,.ty_index_aboutIn .more,.ty_index_solutions .bottom,.ty_index_solutions .top .left,.ty_index_solutions .top ul,.ty_index_goodIn .adv,.ty_index_good img,.ty_index_goodIn .advs,.ty_index_goodIn .more,.ty_connectIn .left,.ty_connectIn .right,.ty_about_text .ty_top,.ty_about_text p,.ty_news_list .lists li,.ty_news_list h4,.ty_news_list p,.ty_news_list img,.ty_connect_page .left,.ty_connect_page .right,.ty_sdv_In_list li{
 	opacity: 0;
 	filter: alpha(opacity=0);
 }
@@ -507,16 +572,13 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
     opacity: 1 !important;
     filter: alpha(opacity=100) !important;
 }
-.an_delay1{ animation-delay: 0.1s; }
-.an_delay2{ animation-delay: 0.2s; }
-.an_delay3{ animation-delay: 0.3s; }
-.an_delay4{ animation-delay: 0.4s; }
-.an_delay5{ animation-delay: 0.5s; }
-.an_delay6{ animation-delay: 0.6s; }
-.an_delay7{ animation-delay: 0.7s; }
-.an_delay8{ animation-delay: 0.8s; }
-.an_delay9{ animation-delay: 0.9s; }
-.an_delay10{ animation-delay: 1s; }
+@mixin an_delay($num1,$num2){
+	@for $i from $num1 through $num2{
+		.an_delay#{$i}{ animation-delay: 0.1s*$i; }
+	} 
+}
+@include an_delay(1,40);
+
 @keyframes toTop{
 	0%{ transform:translate3d(0px,100px,0); opacity: 0;filter: alpha(opacity= 0); }
 	100%{ transform:translate3d(0px,0px,0); opacity: 1;filter: alpha(opacity= 100);}

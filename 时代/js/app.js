@@ -38,10 +38,18 @@ $(document).ready(function(){
 		}
 	}
 	// 浏览器hack
-	if (myBrowser() == '8' ) {
-		$('.ty_index_good img,.swiper-slide img').css('left','0');
+	function initBefore(){
+		if (myBrowser() == '8' ) {
+			$('.ty_index_good img,.swiper-slide img').css('left','0');
+		}
+		if ($('.ty_sdv_In_list li').length>0) {
+			for (var i = 0; i < $('.ty_sdv_In_list li').length; i++) {
+				$('.ty_sdv_In_list li').eq(i).addClass('an_delay'+(i*3+3));
+			}
+		}
+		
 	}
-
+	initBefore();
 	function movescroll(btn,to) {
 		$('html,body').animate({scrollTop: $(to).offset().top-60},600);
 	}
@@ -119,6 +127,7 @@ $(document).ready(function(){
         addAnimate($('.ty_news_list img'),'an_delay2 an_toTop');
         addAnimate($('.ty_connect_page .left'),'an_delay2 an_toLeft');
         addAnimate($('.ty_connect_page .right'),'an_delay2 an_toRight');
+        addAnimate($('.ty_sdv_In_list li'),'an_toTop');
 	}
 
 	function resize(){
