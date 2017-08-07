@@ -37,6 +37,10 @@ $(document).ready(function(){
 			return false;
 		}
 	}
+	// 浏览器hack
+	if (myBrowser() == '8' ) {
+		$('.ty_index_good img,.swiper-slide img').css('left','0');
+	}
 
 	function movescroll(btn,to) {
 		$('html,body').animate({scrollTop: $(to).offset().top-60},600);
@@ -53,12 +57,6 @@ $(document).ready(function(){
 		},300)
 	}
 
-	// 初始化翻牌数字
-	// if ($('.ty_index_nums li').length>0) {
-	// 	var tyNum1 = parseInt($('.ty_index_nums li').eq(0).text());
-	// 	var tyNum2 = parseInt($('.ty_index_nums li').eq(1).text());
-	// 	var tyNum3 = parseInt($('.ty_index_nums li').eq(2).text());
-	// }
 
 	function addAnimate(elem,Class,count,nums){
 		if(elem.length > 0){
@@ -119,6 +117,8 @@ $(document).ready(function(){
         addAnimate($('.ty_news_list h4'),'an_delay2 an_toRight');
         addAnimate($('.ty_news_list p'),'an_delay2 an_toLeft');
         addAnimate($('.ty_news_list img'),'an_delay2 an_toTop');
+        addAnimate($('.ty_connect_page .left'),'an_delay2 an_toLeft');
+        addAnimate($('.ty_connect_page .right'),'an_delay2 an_toRight');
 	}
 
 	function resize(){
