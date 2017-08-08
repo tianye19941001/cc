@@ -128,6 +128,8 @@ $(document).ready(function(){
         addAnimate($('.ty_connect_page .left'),'an_delay2 an_toLeft');
         addAnimate($('.ty_connect_page .right'),'an_delay2 an_toRight');
         addAnimate($('.ty_sdv_In_list li'),'an_toTop');
+        addAnimate($('.ty_cases .type1 .left'),'an_toTop');
+        addAnimate($('.ty_cases .type1 .right'),'an_toTop');
 	}
 
 	function resize(){
