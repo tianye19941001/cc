@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dccc77c-5c9d-4e37-8890-c8283cc1138f" name="默认的" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/时代/import.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/js/app.js" afterPath="$PROJECT_DIR$/时代/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/styles/_img.scss" afterPath="$PROJECT_DIR$/时代/styles/_img.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/styles/scss/_ty.scss" afterPath="$PROJECT_DIR$/时代/styles/scss/_ty.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/styles/styles.css" afterPath="$PROJECT_DIR$/时代/styles/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/styles/styles.css.map" afterPath="$PROJECT_DIR$/时代/styles/styles.css.map" />
@@ -24,51 +25,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="news.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/时代/news.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/时代/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="54" column="10" lean-forward="true" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_ty.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_ty.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/时代/styles/scss/_ty.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="187" column="74" lean-forward="false" selection-start-line="187" selection-start-column="74" selection-end-line="187" selection-end-column="74" />
+            <state relative-caret-position="154">
+              <caret line="877" column="12" lean-forward="false" selection-start-line="877" selection-start-column="12" selection-end-line="877" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connect.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/时代/connect.html">
+      <file leaf-file-name="_img.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/时代/styles/_img.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="62" column="59" lean-forward="true" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
+            <state relative-caret-position="75">
+              <caret line="5" column="51" lean-forward="false" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news_detial.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/时代/news_detial.html">
+      <file leaf-file-name="import.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/时代/import.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="496">
+              <caret line="208" column="20" lean-forward="true" selection-start-line="208" selection-start-column="20" selection-end-line="208" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -77,9 +58,14 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/时代/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1143">
-              <caret line="120" column="35" lean-forward="false" selection-start-line="120" selection-start-column="35" selection-end-line="120" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="1368">
+              <caret line="135" column="35" lean-forward="false" selection-start-line="135" selection-start-column="35" selection-end-line="135" selection-end-column="35" />
+              <folding>
+                <marker date="1502282985000" expanded="true" signature="5278:5292" ph="{...}" />
+                <marker date="1502282985000" expanded="true" signature="5312:5485" ph="{...}" />
+                <marker date="1502282985000" expanded="true" signature="5351:5482" ph="//..." />
+                <marker date="1502282985000" expanded="true" signature="5535:5551" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,6 +87,7 @@
       <find>connect_type</find>
       <find>5000</find>
       <find>listIn</find>
+      <find>titles</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -137,8 +124,10 @@
         <option value="$PROJECT_DIR$/时代/index.html" />
         <option value="$PROJECT_DIR$/时代/news.html" />
         <option value="$PROJECT_DIR$/时代/js/app.js" />
-        <option value="$PROJECT_DIR$/时代/styles/scss/_ty.scss" />
         <option value="$PROJECT_DIR$/时代/connect.html" />
+        <option value="$PROJECT_DIR$/时代/styles/_img.scss" />
+        <option value="$PROJECT_DIR$/时代/import.html" />
+        <option value="$PROJECT_DIR$/时代/styles/scss/_ty.scss" />
       </list>
     </option>
   </component>
@@ -149,7 +138,6 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="809" />
@@ -272,6 +260,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/时代" />
       <recent name="$PROJECT_DIR$/牡丹汇" />
     </key>
   </component>
@@ -389,15 +378,15 @@
       <workItem from="1496976516863" duration="25560000" />
       <workItem from="1498740683270" duration="7343000" />
       <workItem from="1499487653145" duration="253000" />
-      <workItem from="1501600671145" duration="11997000" />
+      <workItem from="1501600671145" duration="18301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71113000" />
+    <option name="totallyTimeSpent" value="77417000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1440" height="809" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="809" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13611111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -431,34 +420,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/红孩儿/news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/红孩儿/styles/scss/_ty.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11940">
-          <caret line="796" column="77" lean-forward="false" selection-start-line="796" selection-start-column="77" selection-end-line="796" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/红孩儿/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/红孩儿/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/红孩儿/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -744,7 +705,7 @@
     <entry file="file://$PROJECT_DIR$/时代/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
-          <caret line="54" column="10" lean-forward="true" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+          <caret line="54" column="10" lean-forward="false" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -752,7 +713,7 @@
     <entry file="file://$PROJECT_DIR$/时代/news.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+          <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -760,31 +721,72 @@
     <entry file="file://$PROJECT_DIR$/时代/news_detial.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/时代/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1143">
-          <caret line="120" column="35" lean-forward="false" selection-start-line="120" selection-start-column="35" selection-end-line="120" selection-end-column="35" />
+        <state relative-caret-position="1368">
+          <caret line="135" column="35" lean-forward="false" selection-start-line="135" selection-start-column="35" selection-end-line="135" selection-end-column="35" />
+          <folding>
+            <marker date="1502282985000" expanded="true" signature="5278:5292" ph="{...}" />
+            <marker date="1502282985000" expanded="true" signature="5312:5485" ph="{...}" />
+            <marker date="1502282985000" expanded="true" signature="5351:5482" ph="//..." />
+            <marker date="1502282985000" expanded="true" signature="5535:5551" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/时代/connect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="71" column="18" lean-forward="true" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+          <folding>
+            <marker date="1502282985000" expanded="true" signature="2416:2439" ph="..." />
+            <marker date="1502282985000" expanded="true" signature="2575:2747" ph="..." />
+            <marker date="1502282985000" expanded="true" signature="2624:2737" ph="{&quot;pagination&quot;: '.pagination'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/时代/cases2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="183" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/时代/case2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="147" column="6" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="147" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/时代/styles/_img.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="51" lean-forward="false" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/时代/import.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="208" column="20" lean-forward="true" selection-start-line="208" selection-start-column="20" selection-end-line="208" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/时代/styles/scss/_ty.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="187" column="74" lean-forward="false" selection-start-line="187" selection-start-column="74" selection-end-line="187" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/时代/connect.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="62" column="59" lean-forward="true" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
+        <state relative-caret-position="154">
+          <caret line="877" column="12" lean-forward="false" selection-start-line="877" selection-start-column="12" selection-end-line="877" selection-end-column="12" />
           <folding />
         </state>
       </provider>

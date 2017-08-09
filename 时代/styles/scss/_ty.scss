@@ -276,6 +276,15 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
 	// img{ position: absolute; top: 0; left: 50%; ransform: translateX(-50%); -webkit-transform: translateX(-50%); height: 100%; }
 	img{ width: 100%; display: block; }
 }
+.ty_main_titles{ padding: 72px 0; margin-left: 8%; @extend .clearfix;
+	li{ float: left; height: 40px; line-height: 40px; font-size: 16px; position: relative;
+		&:first-child{
+			a{ border-left: 0; }
+		}
+	}
+	.on{ i{ width: 60px; height: 1px; position: absolute; bottom: 0; left: 50%; margin-left: -30px; background-color: #009ee7 } }
+	a{ display: inline-block; height: 18px; line-height: 18px; padding: 0 26px; border-left: 1px solid #3e393b; }
+}
 .ty_news_list{ text-align: center; padding-bottom: 55px; position: relative;
 	.titles{ padding: 72px 0; margin-left: 8%; @extend .clearfix;
 		li{ float: left; height: 40px; line-height: 40px; font-size: 16px; position: relative;
@@ -809,6 +818,97 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
 	}
 }
 .ty_ot_warp{ padding-bottom: 0; }
+//代理
+.ty_daili_list{
+	.ty_daliimg{ height: 1440px; width: 1228px; margin: 0 auto; position: relative;
+		.img_top{
+			position: absolute;
+			left: 50%;
+			top: 52px;
+			margin-left: -552px;
+		}
+		.img_middle{
+			position: absolute;
+			left: 50%;
+			top: 388px;
+			margin-left: -336px;
+		}
+		.img_left{
+			position: absolute;
+			left: 52px;
+			top: 408px;
+		}
+		.img_right{
+			position: absolute;
+			right: 61px;
+			top: 372px;
+		}
+		.img_bottom{
+			position: absolute;
+			left: 50%;
+			top: 957px;
+			margin-left: -552px;
+		}
+	}
+}
+.ty_import_case{ background-color: #eef1f6;
+	.type2{
+		.mianIn{ padding-top: 0; padding-bottom: 90px;
+			.list{
+				.qiu{ @extend %ty_case2_2;}
+			}
+		}
+	}
+}
+.ty_daili_bottom{ width: 1366px; margin: 0 auto; @extend .clearfix; padding-top: 100px;
+	.ty_top{
+		margin-left: 50px;
+		margin-bottom: 0;
+		width: 1316px;
+		float: none;
+	}
+	h5{ padding: 15px 50px; font-size: 22px; color: #3e3a39 }
+	.main { @extend .clearfix;
+		width: 1228px;
+		margin: 0 auto;
+		padding: 60px 0 118px;
+	}
+	.type1,.type2,.type3,.type4{ position: relative; text-align: center;
+		h6{ font-size: 32px; padding: 0 12px; height: 40px; line-height: 40px; color: #3e3a39; background-color: #fff; display: inline-block; position: relative; top: -20px; }
+		li{ position: relative; }
+	}
+	.type1{
+		float: left;
+		width: 426px;
+		height: 723px;
+		margin-left: 97px;
+		border: 1px solid #605e5f;
+		ul{ padding-top: 40px; }
+		li{
+			width: 350px;
+			height: 152px;
+			display: block;
+			margin: 0 auto 66px;
+			background-image: url("../images/dali_b1.png");
+		}
+	}
+	.type2{
+		float: left;
+		width: 579px;
+		height: 723px;
+		margin-left: 23px;
+		border: 1px solid #605e5f;
+		ul{ @extend .clearfix; padding-top: 40px; }
+		li{
+			width: 251px;
+			height: 140px;
+			float: left;
+			margin:0 0 10px 27px;
+			background-image: url("../images/dali_b2.png");
+		}
+	}
+
+}
 // 动画
 .ty_index_nums li,.ty_index_aboutIn img,.ty_index_aboutIn .right,.ty_index_aboutIn .more,.ty_index_solutions .bottom,.ty_index_solutions .top .left,.ty_index_solutions .top ul,.ty_index_goodIn .adv,.ty_index_good img,.ty_index_goodIn .advs,.ty_index_goodIn .more,.ty_connectIn .left,.ty_connectIn .right,.ty_about_text .ty_top,.ty_about_text p,.ty_news_list .lists li,.ty_news_list h4,.ty_news_list p,.ty_news_list img,.ty_connect_page .left,.ty_connect_page .right,.ty_sdv_In_list li,.ty_cases .type1 .left,.ty_cases .type1 .right,.ty_cases .type2 .list,.ty_cases .type3 li{
 	opacity: 0;
