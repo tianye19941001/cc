@@ -147,6 +147,15 @@ $(document).ready(function(){
 	        addAnimate($('.ty_togo_ani .togo li'),'an_toRight');
 		}
 	}else{
+        fnResize();
+        window.addEventListener("resize", function() {
+            fnResize()
+        }, false);
+        function fnResize(){
+            var docWidth = document.documentElement.clientWidth,
+                body = document.getElementsByTagName('html')[0];
+            body.style.fontSize = docWidth / 32 + 'px';
+        }
 		function addAnimate(elem,Class,count,nums){
 			if(elem.length > 0){
 				var offsetT = elem.offset().top;

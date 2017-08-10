@@ -1106,8 +1106,45 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
 	#r-results{ overflow-y: scroll; height: 230px; display: none; }
 	.close{ position: absolute; right: 0; top: -26px; cursor: pointer; }
 }
+.phone{ display: none; }
 @media screen and (min-width:0px) and (max-width:768px){
-	body{ min-width: 100%; }
+	body{ min-width: 100%;
+		.phone{ display: block; }
+		.ty_header{ width: 100%; height: rem(86); display: none; }
+		.ty_phone_header{ width: 100%; height: rem(86); text-align: center; background-color: #171b1a;
+			.logo{ height: rem(38); margin-top:rem(24); }
+			.menu{ height: rem(86); position: absolute; display: block; left: 0; top:0; }
+		}
+		.ty_lunbo{ min-width: 0; height: rem(570); padding-bottom: rem(100); position: relative;
+			.swiper-slide img{ height: rem(570) }
+			.pagination{ position: absolute; bottom: rem(60); width: 100%; }
+		}
+		.ty_lunbo .pagination .swiper-pagination-switch{ margin: 0 rem(7); width: rem(40); }
+		.ty_index_nums{ margin-bottom: rem(60);
+			ul{ width: 100%; padding-top: 0; }
+			li{ border-left: 0; float: none; width: 100%; box-sizing: border-box; padding: 0 rem(45) rem(40); height: auto; }
+			.partner,.cooperation,.import{ top: 0; width: rem(112); height: rem(111); background-size: rem(400) rem(200); margin-bottom:rem(14); }
+			.partner{ background-position: 0 rem(-24); }
+			.import{ background-position: rem(-112) rem(-24); }
+			.cooperation{ background-position: rem(-224) rem(-24); }
+			.about{ margin-bottom: rem(20);
+				.num{ font-size: rem(49);  line-height: rem(50); }
+				.text{ font-size: rem(25); line-height: rem(28); margin-left: rem(10); }
+				em{ font-size: rem(12); line-height: rem(14); }
+			}
+			p{ font-size: rem(16); line-height: rem(22); }
+		}
+		.ty_index_about{ height: auto; margin-bottom: 55px; padding-bottom: rem(45);
+			.ty_index_aboutIn{ width: auto; }
+			img{ float: none; margin: 0 rem(50); width: rem(538); height:rem(363); top: rem(-40); }
+			.right{ padding: 0; margin: 0 rem(50); float: none; width: auto; color: #fff;
+				h3{ font-size: rem(26); line-height: rem(30); padding-top: 0; text-align: center }
+				span{ font-size: rem(18); line-height: rem(22); }
+				p{ padding-top: rem(20); font-size: rem(16); line-height: rem(26); }
+			}
+			.more{ display: none; }
+		}
+	}
 }
 
 
