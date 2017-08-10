@@ -2,7 +2,7 @@ window.onload = function () {
     // 创建地图实例
     var map = new BMap.Map("container");
     // 洪泽湖坐标
-    var point = new BMap.Point(118.756376, 32.052573);
+    var point = new BMap.Point(116.299818,39.94346);
     map.centerAndZoom(point, 12);
     map.addControl(new BMap.ScaleControl());
     map.addControl(new BMap.OverviewMapControl());
@@ -16,7 +16,7 @@ window.onload = function () {
     var local = new BMap.LocalSearch(map, {
         renderOptions: {map: map}
     });
-    local.search('南京市');
+    local.search('北京时代远望科技有限公司');
 
     //驾车路线
     var driving = new BMap.DrivingRoute(map, {
