@@ -50,18 +50,6 @@ $(document).ready(function(){
 			ChangeE.eq(indexIt).fadeIn(300);
 		},300)
 	}
-	function initBefore(){
-		// 浏览器hack
-		if (myBrowser() == '8' ) {
-			$('.ty_index_good img,.swiper-slide img').css('left','0');
-		}
-		adddelay($('.ty_sdv_In_list li'),2)
-		adddelay($('.ty_cases .type2 .list'),2)
-		adddelay($('.ty_cases .type3 li'),3)
-		adddelay($('.ty_togo_ani .togo_ani1 .togo li'),2);
-		adddelay($('.ty_togo_ani .togo_ani2 .togo li'),2);
-	}
-	initBefore();
 	function adddelay(obj,time){
 		if (obj.length>0) {
 			for (var i = 0; i < obj.length; i++) {
@@ -70,6 +58,18 @@ $(document).ready(function(){
 		}
 	}
 	if (document.body.clientWidth>=768) {
+		function initBefore(){
+			// 浏览器hack
+			if (myBrowser() == '8' ) {
+				$('.ty_index_good img,.swiper-slide img').css('left','0');
+			}
+			adddelay($('.ty_sdv_In_list li'),2)
+			adddelay($('.ty_cases .type2 .list'),2)
+			adddelay($('.ty_cases .type3 li'),3)
+			adddelay($('.ty_togo_ani .togo_ani1 .togo li'),2);
+			adddelay($('.ty_togo_ani .togo_ani2 .togo li'),2);
+		}
+		initBefore();
 		function addAnimate(elem,Class,count,nums){
 			if(elem.length > 0){
 				var offsetT = elem.offset().top;
@@ -182,7 +182,45 @@ $(document).ready(function(){
 			}
 		}
 		function init(){
+			addAnimate($('.ty_index_nums li').eq(0),'an_toTop','ty_num1',1);
+			addAnimate($('.ty_index_nums li').eq(1),'an_toTop','ty_num2',2);
+			addAnimate($('.ty_index_nums li').eq(2),'an_toTop','ty_num3',3);
+			addAnimate($('.ty_index_aboutIn img'),'an_toTop');
+			addAnimate($('.ty_index_aboutIn .right'),'an_toTop');
+			addAnimate($('.ty_index_aboutIn .more'),'an_toTop');
+			addAnimate($('.ty_index_solutions .bottom').eq(0),'an_toTop');
+			addAnimate($('.ty_index_solutions .bottom').eq(1),'an_toTop');
+			addAnimate($('.ty_index_solutions .top .left').eq(0),'an_toTop');
+			addAnimate($('.ty_index_solutions .top .left').eq(1),'an_toTop');
+			addAnimate($('.ty_index_solutions .top ul').eq(0),'an_toTop');
+			addAnimate($('.ty_index_solutions .top ul').eq(1),'an_toTop');
+			addAnimate($('.ty_index_goodIn .adv'),'an_toTop');
+			addAnimate($('.ty_index_goodIn .advs'),'an_toTop');
+			addAnimate($('.ty_index_goodIn .more'),'an_toTop');
+			addAnimate($('.ty_index_good img'),'an_show');
+			addAnimate($('.ty_connectIn .left'),'an_toTop');
+			addAnimate($('.ty_connectIn .right'),'an_toTop');
+			addAnimate($('.ty_about_text .ty_top'),'an_toTop');
+	        addAnimate($('.ty_about_text p').eq(0),'an_toTop');
+	        addAnimate($('.ty_news_list .lists li'),'an_toTop');
+	        addAnimate($('.ty_news_list h4'),'an_toTop');
+	        addAnimate($('.ty_news_list p'),'an_toTop');
+	        addAnimate($('.ty_news_list img'),'an_toTop');
+	        addAnimate($('.ty_connect_page .left'),'an_toTop');
+	        addAnimate($('.ty_connect_page .right'),'an_toTop');
+	        addAnimate($('.ty_sdv_In_list li'),'an_toTop');
+	        addAnimate($('.ty_cases .type1 .left'),'an_toTop');
+	        addAnimate($('.ty_cases .type1 .right'),'an_toTop');
+	        addAnimate($('.ty_cases .type2 .list'),'an_toTop');
+	        addAnimate($('.ty_cases .type3 li'),'an_toTop');
 
+	        addAnimate($('.ty_daliimg .img_top'),'an_toBottom');
+	        addAnimate($('.ty_daliimg .img_left'),'an_toTop');
+	        addAnimate($('.ty_daliimg .img_right'),'an_toTop');
+	        addAnimate($('.ty_daliimg .img_middle'),'an_show');
+	        addAnimate($('.ty_daliimg .img_bottom'),'an_toTop');
+	        addAnimate($('.ty_daili_bottom .main li'),'an_toTop');
+	        addAnimate($('.ty_togo_ani .togo li'),'an_toTop');
 		}
 		
 	}

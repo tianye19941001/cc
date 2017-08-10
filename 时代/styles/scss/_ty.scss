@@ -1106,6 +1106,10 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
 	#r-results{ overflow-y: scroll; height: 230px; display: none; }
 	.close{ position: absolute; right: 0; top: -26px; cursor: pointer; }
 }
+@media screen and (min-width:0px) and (max-width:768px){
+	body{ min-width: 100%; }
+}
+
 
 // 动画
 .ty_index_nums li,.ty_index_aboutIn img,.ty_index_aboutIn .right,.ty_index_aboutIn .more,.ty_index_solutions .bottom,.ty_index_solutions .top .left,.ty_index_solutions .top ul,.ty_index_goodIn .adv,.ty_index_good img,.ty_index_goodIn .advs,.ty_index_goodIn .more,.ty_connectIn .left,.ty_connectIn .right,.ty_about_text .ty_top,.ty_about_text p,.ty_news_list .lists li,.ty_news_list h4,.ty_news_list p,.ty_news_list img,.ty_connect_page .left,.ty_connect_page .right,.ty_sdv_In_list li,.ty_cases .type1 .left,.ty_cases .type1 .right,.ty_cases .type2 .list,.ty_cases .type3 li,.ty_daliimg img,.ty_daili_bottom .main li,.ty_togo_ani .togo li{
