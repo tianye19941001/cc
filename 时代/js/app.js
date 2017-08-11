@@ -231,7 +231,13 @@ $(document).ready(function(){
 	        addAnimate($('.ty_daili_bottom .main li'),'an_toTop');
 	        addAnimate($('.ty_togo_ani .togo li'),'an_toTop');
 		}
-		
+		$('.ty_phone_header .menu').click(function(){
+			if ($('.ty_phone_header ul').hasClass('on')) {
+				$('.ty_phone_header ul').removeClass('on').slideUp();
+			}else{
+				$('.ty_phone_header ul').addClass('on').slideDown();
+			}
+		})
 	}
 
 	function resize(){
@@ -246,6 +252,10 @@ $(document).ready(function(){
 	$(window).scroll(function() {
   		init();
 	});
+	// 事件监听
+	$('.ty_index_solutions li').click(function(){
+		tabsChange($(this),$(this).parents('.top').siblings('.bottom').find('li'));
+	})
 
 	if ($('.ty_dialog').length>0) {
 		var map = new BMap.Map("container");
@@ -314,8 +324,4 @@ $(document).ready(function(){
 	    })
 	}
 
-	// 事件监听
-	$('.ty_index_solutions li').click(function(){
-		tabsChange($(this),$(this).parents('.top').siblings('.bottom').find('li'));
-	})
 });
