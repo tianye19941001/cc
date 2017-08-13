@@ -57,6 +57,19 @@ $(document).ready(function(){
 			}
 		}
 	}
+
+	function addMore(element,step) {
+		var allLength = element.length;
+		var eleHide = element.filter('.none').length;
+		if(eleHide > 0) {
+            for (var i = 0; i < step; i++) {
+                element.eq(allLength - eleHide + i).removeClass('none')
+            }
+        }else {
+			alert('没有可以加载的内容了！')
+		}
+    }
+
 	if (document.body.clientWidth>=768) {
 		function initBefore(){
 			// 浏览器hack
@@ -151,12 +164,15 @@ $(document).ready(function(){
         window.addEventListener("resize", function() {
             fnResize()
         }, false);
+
         function fnResize(){
             var docWidth = document.documentElement.clientWidth,
                 body = document.getElementsByTagName('html')[0];
             body.style.fontSize = docWidth / 32 + 'px';
         }
-		function addAnimate(elem,Class,count,nums){
+        $('.ty_daliimg').css({'transform':'scale(' + $(window).width()/1228 +')','-webkit-transform':'scale(' + $(window).width()/1228 +')'})
+
+        function addAnimate(elem,Class,count,nums){
 			if(elem.length > 0){
 				var offsetT = elem.offset().top;
 				var overHeight = $(document).scrollTop() + $(window).height() - 10;
@@ -256,6 +272,19 @@ $(document).ready(function(){
 	$('.ty_index_solutions li').click(function(){
 		tabsChange($(this),$(this).parents('.top').siblings('.bottom').find('li'));
 	})
+	$('#more_new').click(function (e) {
+		stophref(e);
+		addMore($('.ty_news_list .lists li'),3);
+    })
+    $('#more_sol').click(function (e) {
+        stophref(e);
+        addMore($('.ty_sdv_In_list li'),3);
+    })
+    $('#more_solution').click(function (e) {
+        stophref(e);
+        addMore($('.solutions_lists li'),3);
+    })
+	
 
 	if ($('.ty_dialog').length>0) {
 		var map = new BMap.Map("container");
