@@ -347,6 +347,9 @@ $(document).ready(function(){
 	    $('#close').on('click', function () {
 	    	$('.ty_dialog').hide();
 	    })
+        $('#close').on('click', function () {
+            $('.ty_dialog').hide();
+        })
 	    $('#map').on('click', function () {
 	    	local.search('北京时代远望科技有限公司');
 	    	$('.ty_dialog').show();

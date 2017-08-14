@@ -1089,10 +1089,10 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
 }
 // map
 .ty_dialog{ position: fixed; width: 100%; height: 100%; left: 0; top: 0; background-color: rgba(0,0,0,.5);display: none; }
-.ty_map{ width: 1100px; height: 770px; position: absolute; top: 50%; left: 50%; margin: -385px 0 0 -550px; z-index: 9; background-color: #fff; text-align: right; 
-	#container{ width: 820px; height: 770px; float: left; }
+.ty_map{ width: 1100px; height: 660px; position: absolute; top: 50%; left: 50%; margin: -330px 0 0 -550px; z-index: 9; background-color: #fff; text-align: right;
+	#container{ width: 820px; height: 660px; float: left; }
 	#control{ float: right; width: 1100-820-40px; height: 770-40px; padding: 20px; }
-	h3{ color: #000; font-size: 16px; font-weight: bold; margin-bottom: 12px; text-align: left;	 }
+	h3{ color: #000; font-size: 16px; font-weight: bold; margin-bottom: 6px; text-align: left;	 }
 	input{ 
 		padding: 0 5px;
 	    border-radius: 3px;
@@ -1104,8 +1104,8 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
 	    font-family: "microsoft yahei"; 
 		margin-bottom: 12px;
 	}
-	a{ display: inline-block; color: #c30; margin-bottom: 20px; font-size: 14px; }
-	#r-results{ overflow-y: scroll; height: 230px; display: none; }
+	a{ display: inline-block; color: #c30; margin-bottom: 10px; font-size: 14px; }
+	#r-results{ overflow-y: scroll; height: 190px; display: none; }
 	.close{ position: absolute; right: 0; top: -26px; cursor: pointer; }
 }
 .phone{ display: none; }
@@ -1123,8 +1123,8 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
 				}
 			}
 		}
-		.ty_lunbo{ min-width: 0; height: rem(470); padding-bottom: rem(100); position: relative;
-			.swiper-slide img{ height: rem(470) }
+		.ty_lunbo{ min-width: 0; height: rem(400); padding-bottom: rem(100); position: relative;
+			.swiper-slide img{ height: rem(400) }
 			.pagination{ position: absolute; bottom: rem(60); width: 100%; }
 		}
 		.ty_lunbo .pagination .swiper-pagination-switch{ margin: 0 rem(7); width: rem(40); }
@@ -1241,7 +1241,7 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
 			p{ padding-right: 0; text-align: center; }
 		}
 		// 重点修改
-		.ty_bannar{ width: 100%; min-width: 0; position: relative; height: rem(470); overflow: hidden;
+		.ty_bannar{ width: 100%; min-width: 0; position: relative; height: rem(400); overflow: hidden;
 			img{ width: auto; height: 100%; position: absolute; left: 50%; transform: translateX(-50%); -webkit-transform: translateX(-50%); display: block; }
 		}
 		.ty_main_titles{ padding: rem(60) rem(54-20); margin-left: 0; box-sizing: border-box;
