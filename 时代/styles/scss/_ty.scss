@@ -1,7 +1,7 @@
 @charset "utf-8";
 $minW:1260px;
 %ty_tr{ transition: all 0.3s; -moz-transition: all 0.3s; -webkit-transition: all 0.3s; -o-transition: all 0.3s; }
-body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
+body{ font-family: '微软雅黑'; min-width: 1300px; background-color: #fff; }
 .body_type2{ background-color: #eef1f6; }
 .none{ display: none; }
 // input,textarea{ outline: none; }
@@ -9,7 +9,7 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
 	.logo{ margin-left: 6%; float: left; margin-top: 23px; 
 		img{ width: 79px; }
 	}
-	.ty_Hlist{ margin-left: 6%; width: 330px; float: left; padding-top: 35px; 
+	.ty_Hlist{ margin-left: 5%; width: 350px; float: left; padding-top: 35px; 
 		ul{ opacity: 0; filter: alpha(opacity= 0); padding-bottom: 15px; @extend .clearfix; @extend %ty_tr; }
 		h2{ line-height: 34px; font-size: 18px; color: #595757; @extend %ty_tr; }
 		li{ float: left; font-size: 11px; padding: 0 10px; border-left: 1px solid #aaa8a8; height: 12px; line-height: 12px; margin-top: 32px; position: relative;
@@ -52,16 +52,16 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
 		}
 	}
 
-	.connectBar{ width: 282px; float: right; padding-top: 45px; margin-right: 6%;
+	.connectBar{ width: 242px; float: right; padding-top: 45px; margin-right: 6%;
 		.p1{ height: 12px; line-height: 12px; font-size: 12px; color: #3e3a39; margin-bottom: 14px; 
-			a{ padding: 0 14px; 
-				&:first-child{ border-right: 1px solid #6e7273; }
+			a{ padding: 0 14px;  color: #3e3a39;
+				&:first-child{ border-right: 1px solid #6e7273;  }
 			}
-			span{ margin-left: 18px; }
+			.connect{ margin-left: 18px; }
 		}
 		.p2{
 			.search{ width: 120px; height: 20px; display: inline-block; position: relative;
-				input{ padding-right: 30px; width: 88px; border-radius: 20px; border: 1px solid #6e7273; height: 18px; line-height: 18px; text-indent: 12px; }
+				input{ padding-right: 30px; width: 88px; border-radius: 20px; border: 1px solid #6e7273; height: 18px; line-height: 18px; text-indent: 12px; outline: none; }
 				.ss{ width: 17px; height: 16px; position: absolute; @extend %ty_sp; background-position: -100px 0; right: 12px; top: 2px; }
 			}
 			.phone{ margin-left: 18px; font-size: 15px; color: #3e3a39;
@@ -154,7 +154,7 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
 		}
 	}
 }
-.ty_index_good{ height: 530px; width: 100%; min-width: 1366px; background-color: #05060b; position: relative; margin-top: 260px;
+.ty_index_good{ height: 530px; width: 100%; min-width: 1300px; background-color: #05060b; position: relative; margin-top: 260px;
 	.ty_index_goodIn{ width: 1260px; margin: 0 auto; position: relative; z-index: 3; }
 	.out{ position: absolute; width: 100%; height: 100%; overflow: hidden; }
 	img{ position: absolute; left: 50%; top: 0; transform: translateX(-50%); -webkit-transform: translateX(-50%); height: 100%; z-index: 2; 
@@ -184,7 +184,7 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
 			}
 	}
 }
-.ty_connect{ width: 100%; min-width: 1366px; background-color: #eef1f6; height: 635px; 
+.ty_connect{ width: 100%; min-width: 1300px; background-color: #eef1f6; height: 635px; 
 	.ty_connectIn{ width: 1260px; margin: 0 auto; padding-top: 90px; }
 	.left{ float: left; width: 750-18px; padding-left: 18px; @extend .clearfix;
 		img{ float: left; @extend %ty_tr; cursor: pointer;
@@ -249,7 +249,7 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
 .ty_footer{ height: 44px; line-height: 44px;
 	p{ padding-right: 116px; text-align: right; font-size: 12px; color: #555; }
 }
-.ty_lunbo{ height: 570px; width: 100%; min-width: 1366px; overflow: hidden; padding-bottom: 100px;
+.ty_lunbo{ height: 570px; width: 100%; min-width: 1300px; overflow: hidden; padding-bottom: 100px;
 	.swiper-slide{ height: 570px; overflow: hidden; position: relative;
 		img{ position: absolute; top: 0; left: 50%; transform: translateX(-50%); -webkit-transform: translateX(-50%); height: 100%; }
 	}
@@ -273,7 +273,7 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
 }
 .ty_bac_w{ position: absolute; height: 170px; width: 100%; left: 0; top: -170px; background-color: #fff; }
 // 新闻
-.ty_bannar{ width: 100%; min-width: 1366px; position: relative;
+.ty_bannar{ width: 100%; min-width: 1300px; position: relative;
 	// img{ position: absolute; top: 0; left: 50%; ransform: translateX(-50%); -webkit-transform: translateX(-50%); height: 100%; }
 	img{ width: 100%; display: block; }
 }
@@ -360,7 +360,7 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
 	}
 }
 // 联系我们
-.ty_connect_page{ background-color: #eef1f6; min-width: 1366px; width: 100%;  }
+.ty_connect_page{ background-color: #eef1f6; min-width: 1300px; width: 100%;  }
 .ty_connect_pageIn{ width: 1320px; margin: 0 auto; @extend .clearfix; padding-bottom: 109px; background-color: #eef1f6;
 	.ty_top{ margin-bottom: 15px; 
 		
@@ -503,7 +503,7 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
 		}
 	}
 }
-.ty_solution_detial_video{ background-color: #fff; width: 100%; min-width: 1366px; 
+.ty_solution_detial_video{ background-color: #fff; width: 100%; min-width: 1300px; 
 	.ty_sdv_In{ @extend .clearfix; width: 1220px; margin: 0 auto; padding: 55px 0 50px; }
 }
 .ty_sdv_In_list{ width: 308*4-30px; clear: both;
@@ -583,12 +583,12 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
 // 案例
 .ty_news_list .ty_case_titles{ padding-top: 0; }
 .ty_cases{ text-align: left; 
-	.top{ width: 1366px; margin: 0 auto; @extend .clearfix; padding-top: 70px;
+	.top{ width: 1300px; margin: 0 auto; @extend .clearfix; padding-top: 70px;
 		.ty_top{ float: left; margin-left: 50px; width: 1316px; position: relative; margin-bottom: 75px; }
 		.ty_more_b{ position: absolute; right: 3px; top: 6px; }
 	}
-	.middle{ height: 570-95px; padding-top: 95px; background-color: #eef1f6; width: 100%; min-width: 1366px;
-		.middleIn{ width: 1366px; height: 386px; position: relative; margin: 0 auto; }
+	.middle{ height: 570-95px; padding-top: 95px; background-color: #eef1f6; width: 100%; min-width: 1300px; overflow-y: hidden;
+		.middleIn{ width: 1300px; height: 386px; position: relative; margin: 0 auto; }
 		img{ position: absolute; left: 3px; top: 0; width: 516px; height: 368px; display: block; padding: 9px; border: 1px solid #a0a3a8; z-index: 2; }
 		.mark{ position: absolute; top: 50px; left: -90px; height: 294px; width: 1366+180-700px; padding-left: 700px; background-color: #fff; z-index: 1; }
 		.p1{ padding-top: 25px; line-height: 20px; font-size: 13px; color: #707473; margin-bottom: 10px; width: 740px; }
@@ -597,7 +597,7 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
 			.gou{ width: 35px; height: 25px; position: absolute; left: -36px; top: 0; @extend %ty_sp; background-position: -340px 0; }
 		}
 	}
-	.bottom{ width: 1366px; margin: 0 auto; padding-top: 80px; @extend .clearfix;
+	.bottom{ width: 1300px; margin: 0 auto; padding-top: 80px; @extend .clearfix;
 		.ty_top{ margin-left: 50px; width: 1316px; float: none; }
 	}
 	.type1{
@@ -871,7 +871,7 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
 		}
 	}
 }
-.ty_daili_bottom{ width: 1366px; margin: 0 auto; @extend .clearfix; padding-top: 100px;
+.ty_daili_bottom{ width: 1300px; margin: 0 auto; @extend .clearfix; padding-top: 100px;
 	.ty_top{
 		margin-left: 50px;
 		margin-bottom: 0;
@@ -1120,6 +1120,9 @@ body{ font-family: '微软雅黑'; min-width: 1366px; background-color: #fff; }
 			ul{ display: none; position: absolute; left: 0; top: rem(86); width: rem(220); background-color: rgba(0,0,0,.8); z-index: 9; padding: rem(20) 0; border-bottom-right-radius: 10px;
 				li{ font-size: rem(22); height: rem(48); line-height: rem(48); 
 					a{ color: #fff; }
+				}
+				.on{ background-color: rgba(255,255,255,.8); 
+					a{ color: rgba(0,0,0,.8); }
 				}
 			}
 		}

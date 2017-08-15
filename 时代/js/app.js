@@ -71,6 +71,7 @@ $(document).ready(function(){
     }
 
 	if (document.body.clientWidth>=768) {
+		
 		function initBefore(){
 			// 浏览器hack
 			if (myBrowser() == '8' ) {
@@ -256,8 +257,17 @@ $(document).ready(function(){
 		})
 	}
 
+	// function everyinit(){
+	// 	if (document.body.offsetWidth > 1366) {
+	// 		$('body').css('overflow-x','hidden');
+	// 	}else{
+	// 		$('body').css('overflow-x','auto');
+	// 	}
+	// }
+
 	function resize(){
 		var ScreenW = $(window).width();
+		// everyinit();
 	}
 	resize();
 	init();
