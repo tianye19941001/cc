@@ -267,6 +267,11 @@ $(document).ready(function(){
 
 	function resize(){
 		var ScreenW = $(window).width();
+		if ( 768 < ScreenW &&  ScreenW < 1500) {
+			$('.ty_news_list .titles,.ty_daili_list .ty_case_titles').addClass('titles2');
+		}else{
+			$('.ty_news_list .titles,.ty_daili_list .ty_case_titles').removeClass('titles2');
+		}
 		// everyinit();
 	}
 	resize();
@@ -294,7 +299,12 @@ $(document).ready(function(){
         stophref(e);
         addMore($('.solutions_lists li'),3);
     })
-	
+	$('.ty_main_titles li a').click(function(e){
+		if ($(this).attr('href').indexOf('#') == 0) {
+			stophref(e);
+			movescroll($(this),$(this).attr('href'));
+		}
+	});
 
 	if ($('.ty_dialog').length>0) {
 		var map = new BMap.Map("container");
