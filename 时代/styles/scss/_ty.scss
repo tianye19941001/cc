@@ -277,7 +277,7 @@ body{ font-family: '微软雅黑'; min-width: 1300px; background-color: #fff; }
 	// img{ position: absolute; top: 0; left: 50%; ransform: translateX(-50%); -webkit-transform: translateX(-50%); height: 100%; }
 	img{ width: 100%; display: block; }
 }
-.ty_main_titles{ padding: 72px 0; margin-left: 8%; @extend .clearfix;
+.ty_main_titles{ padding: 40px 0; margin-left: 8%; @extend .clearfix;
 	li{ float: left; height: 40px; line-height: 40px; font-size: 16px; position: relative;
 		&:first-child{
 			a{ border-left: 0; }
@@ -345,7 +345,7 @@ body{ font-family: '微软雅黑'; min-width: 1300px; background-color: #fff; }
 	}
 	.nav{  }
 	.main{ width: 1110px; margin: 0 auto; 
-		h4{ font-size: 34px; color: #3e3a39; padding: 70px 0 25px; line-height: 46px; border-bottom: 2px solid #bac3c8; margin-bottom: 35px; text-align: left;
+		h4{ font-size: 34px; color: #3e3a39; padding: 10px 0 25px; line-height: 46px; border-bottom: 2px solid #bac3c8; margin-bottom: 35px; text-align: left;
 			span{ display: block; font-size: 20px; text-align: left; }
 		}
 		p{ font-size: 13px; color: #707473; line-height: 26px; text-align: left; }
@@ -355,7 +355,7 @@ body{ font-family: '微软雅黑'; min-width: 1300px; background-color: #fff; }
 		a{ color: #3e3a39; }
 		.prev{ margin-right: 20px; }
 	}
-	.nav{ position: absolute; font-size: 15px; right: 8%; top: 80px;
+	.nav{ position: absolute; font-size: 15px; right: 8%; top: 75px;
 		a{ padding: 0 12px; color: #3e3a39; }
 	}
 }
@@ -473,8 +473,8 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 	}
 }
 // 解决方案
-.ty_solutions_lists{ padding: 70px 0 80px;  width: 1200px; margin: 0 auto; 
-	.solutions_lists{ margin-left: -27px; width: 1200+27px; padding-bottom: 120-68px; @extend .clearfix;
+.ty_solutions_lists{ padding: 0 0 30px;  width: 1200px; margin: 0 auto; 
+	.solutions_lists{ margin-left: -27px; width: 1200+27px; padding-bottom: 0px; @extend .clearfix;
 	 }
 	li{ float: left; width: 380px; height: 358px; margin-left: 27px; border: 1px solid #cecece; @extend %ty_tr; position: relative; overflow: hidden; margin-bottom: 68px;
 		h4{ left: 47px; line-height: 47px; background-color: #49afdd; background-color: rgba(0,145,210,.7); width: 256px; font-size: 25px; color: #fff; position: absolute; left: -300px; top: 195px; @extend %ty_tr; z-index: 3;
