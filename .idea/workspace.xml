@@ -1,26 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/时代/styles/scss/_ty.scss" line="1559" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/时代/styles/scss/_ty.scss" line="1560" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dccc77c-5c9d-4e37-8890-c8283cc1138f" name="默认的" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/about.html" afterPath="$PROJECT_DIR$/时代/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/case1.html" afterPath="$PROJECT_DIR$/时代/case1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/case2.html" afterPath="$PROJECT_DIR$/时代/case2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/case3.html" afterPath="$PROJECT_DIR$/时代/case3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/connect.html" afterPath="$PROJECT_DIR$/时代/connect.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/export.html" afterPath="$PROJECT_DIR$/时代/export.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/export_tax.html" afterPath="$PROJECT_DIR$/时代/export_tax.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/import.html" afterPath="$PROJECT_DIR$/时代/import.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/index.html" afterPath="$PROJECT_DIR$/时代/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/js/app.js" afterPath="$PROJECT_DIR$/时代/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/news.html" afterPath="$PROJECT_DIR$/时代/news.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/news_detial.html" afterPath="$PROJECT_DIR$/时代/news_detial.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/product_cases.html" afterPath="$PROJECT_DIR$/时代/product_cases.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/solution_detial.html" afterPath="$PROJECT_DIR$/时代/solution_detial.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/solutions.html" afterPath="$PROJECT_DIR$/时代/solutions.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/styles/scss/_ty.scss" afterPath="$PROJECT_DIR$/时代/styles/scss/_ty.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/styles/styles.css" afterPath="$PROJECT_DIR$/时代/styles/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/styles/styles.css.map" afterPath="$PROJECT_DIR$/时代/styles/styles.css.map" />
@@ -41,18 +28,18 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="connect.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/时代/connect.html">
+      <file leaf-file-name="_ty.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/时代/styles/scss/_ty.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="26" lean-forward="false" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+            <state relative-caret-position="529">
+              <caret line="1130" column="52" lean-forward="false" selection-start-line="1130" selection-start-column="52" selection-end-line="1130" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="export.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/时代/export.html">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/时代/about.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="555">
               <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
@@ -61,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="export_tax.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/时代/export_tax.html">
+      <file leaf-file-name="solutions.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/时代/solutions.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            <state relative-caret-position="240">
+              <caret line="48" column="58" lean-forward="true" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -74,35 +61,25 @@
       <file leaf-file-name="import.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/时代/import.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            <state relative-caret-position="361">
+              <caret line="89" column="8" lean-forward="false" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/时代/index.html">
+      <file leaf-file-name="export_tax.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/时代/export_tax.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            <state relative-caret-position="159">
+              <caret line="23" column="61" lean-forward="false" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/时代/news.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news_detial.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/时代/news_detial.html">
+      <file leaf-file-name="case1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/时代/case1.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="555">
               <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
@@ -111,31 +88,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product_cases.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/时代/product_cases.html">
+      <file leaf-file-name="case2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/时代/case2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            <state relative-caret-position="459">
+              <caret line="90" column="71" lean-forward="false" selection-start-line="90" selection-start-column="71" selection-end-line="90" selection-end-column="71" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="solution_detial.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/时代/solution_detial.html">
+      <file leaf-file-name="export.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/时代/export.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            <state relative-caret-position="415">
+              <caret line="90" column="42" lean-forward="false" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="solutions.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/时代/solutions.html">
+      <file leaf-file-name="connect.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/时代/connect.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+            <state relative-caret-position="-752">
+              <caret line="78" column="27" lean-forward="true" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -201,21 +178,21 @@
         <option value="$PROJECT_DIR$/牡丹汇/styles/scss/_ty.scss" />
         <option value="$PROJECT_DIR$/时代/styles/_img.scss" />
         <option value="$PROJECT_DIR$/时代/solutions.html" />
-        <option value="$PROJECT_DIR$/时代/styles/scss/_ty.scss" />
         <option value="$PROJECT_DIR$/时代/js/app.js" />
         <option value="$PROJECT_DIR$/时代/about.html" />
         <option value="$PROJECT_DIR$/时代/case1.html" />
-        <option value="$PROJECT_DIR$/时代/case2.html" />
         <option value="$PROJECT_DIR$/时代/case3.html" />
         <option value="$PROJECT_DIR$/时代/connect.html" />
-        <option value="$PROJECT_DIR$/时代/export.html" />
-        <option value="$PROJECT_DIR$/时代/export_tax.html" />
         <option value="$PROJECT_DIR$/时代/import.html" />
         <option value="$PROJECT_DIR$/时代/index.html" />
         <option value="$PROJECT_DIR$/时代/news.html" />
         <option value="$PROJECT_DIR$/时代/news_detial.html" />
         <option value="$PROJECT_DIR$/时代/product_cases.html" />
         <option value="$PROJECT_DIR$/时代/solution_detial.html" />
+        <option value="$PROJECT_DIR$/时代/export_tax.html" />
+        <option value="$PROJECT_DIR$/时代/case2.html" />
+        <option value="$PROJECT_DIR$/时代/export.html" />
+        <option value="$PROJECT_DIR$/时代/styles/scss/_ty.scss" />
       </list>
     </option>
   </component>
@@ -466,12 +443,12 @@
       <workItem from="1496976516863" duration="25560000" />
       <workItem from="1498740683270" duration="7343000" />
       <workItem from="1499487653145" duration="253000" />
-      <workItem from="1501600671145" duration="60023000" />
+      <workItem from="1501600671145" duration="61916000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119139000" />
+    <option name="totallyTimeSpent" value="121032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="809" extended-state="6" />
@@ -756,14 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/时代/styles/scss/_ty.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="1149" column="30" lean-forward="false" selection-start-line="1149" selection-start-column="30" selection-end-line="1149" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/时代/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -772,65 +741,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/时代/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/时代/case1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/时代/case2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/时代/case3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
-          <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/时代/connect.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="26" lean-forward="false" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/时代/export.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/时代/export_tax.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/时代/import.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
           <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
           <folding />
         </state>
@@ -876,10 +789,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/时代/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/时代/solutions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        <state relative-caret-position="240">
+          <caret line="48" column="58" lean-forward="true" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/时代/import.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="89" column="8" lean-forward="false" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/时代/case1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/时代/export_tax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="23" column="61" lean-forward="false" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/时代/case2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="90" column="71" lean-forward="false" selection-start-line="90" selection-start-column="71" selection-end-line="90" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/时代/export.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="90" column="42" lean-forward="false" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/时代/connect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-752">
+          <caret line="78" column="27" lean-forward="true" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/时代/styles/scss/_ty.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="1130" column="52" lean-forward="false" selection-start-line="1130" selection-start-column="52" selection-end-line="1130" selection-end-column="52" />
           <folding />
         </state>
       </provider>
