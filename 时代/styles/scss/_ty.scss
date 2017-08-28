@@ -95,8 +95,8 @@ body{ font-family: '微软雅黑'; min-width: 1300px; background-color: #fff; }
 .ty_index_about{ height: 510px; width: 100%; background-color: #009ee7; margin-bottom: 55px;
 	.ty_index_aboutIn{ width: 1260px; height: 100%; margin: 0 auto; position: relative; }
 	img{ float: left; margin: 74px 0; width: 537px; height:363px; @extend %ty_tr; position: relative; top: 0;
-		&:hover{ border-radius: 363px; cursor: pointer; box-shadow: 0 0 20px rgba(0,0,0,.5);
-			top: -30px; }
+		//&:hover{ border-radius: 363px; cursor: pointer; box-shadow: 0 0 20px rgba(0,0,0,.5);
+		//	top: -30px; }
 	}
 	.right{ padding: 74px 0; float: right; width: 630px; color: #fff;
 		h3{ font-size: 22px; display: block; padding-top: 50px; line-height: 26px; }
@@ -843,7 +843,7 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 .ty_ot_warp{ padding-bottom: 0; }
 //代理
 .ty_daili_list{
-	.ty_daliimg{ height: 1440px; width: 1228px; margin: 0 auto; position: relative;
+	.ty_daliimg{ height: 1440px; width: 1228px; margin: 0 auto; position: relative; zoom: 0.8;
 		.img_top{
 			position: absolute;
 			left: 50%;
@@ -904,6 +904,7 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 		width: 1228px;
 		margin: 0 auto;
 		padding: 60px 0 118px;
+		zoom: 0.85;
 	}
 	.type1,.type2,.type3,.type4,.type5,.type6{ position: relative; text-align: center;
 		h6{ font-size: 32px; padding: 0 12px; height: 40px; line-height: 40px; color: #3e3a39; background-color: #fff; display: inline-block; position: relative; top: -20px; }
@@ -1130,6 +1131,8 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 	.close{ position: absolute; right: 0; top: -26px; cursor: pointer; }
 }
 .phone{ display: none !important; }
+.ty_phone_header>ul,body{ @extend %ty_tr; margin-left: 0;}
+.ty_phone_header{ }
 @media screen and (min-width:0px) and (max-width:768px){
 	.body_type2{ background-color: #fff; }
 	body{ min-width: 100%; padding-top: rem(86);
@@ -1138,13 +1141,46 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 		.ty_phone_header{ width: 100%; height: rem(86); text-align: center; background-color: #171b1a; position: fixed; top: 0; left: 0; z-index: 9;
 			.logo{ height: rem(38); margin-top:rem(24); }
 			.menu{ height: rem(86); position: absolute; display: block; left: 0; top:0;}
-			ul{ display: none; position: absolute; left: 0; top: rem(86); width: rem(220); background-color: rgba(0,0,0,.8); z-index: 9; padding: rem(20) 0; border-bottom-right-radius: 10px;
-				li{ font-size: rem(22); height: rem(48); line-height: rem(48); 
-					a{ color: #fff; }
+			.mark{
+				position: absolute;
+				top:rem(86);
+				height: rem(568*2-86);
+				width: rem(640-500);
+				background: rgba(0,0,0,0);
+				display: none;
+				right: 0;
+			}
+			>ul{ display: block; position: fixed; height:100%; left: rem(-500); top: 0; width: rem(500); background: #202020; z-index: 9;
+				li{ display: block; height: auto; line-height: rem(90); border-bottom: 1px solid #2e2e2e; text-align: left;
+					color: #818181;
+					font-size: rem(30);
+					text-indent: rem(50);
+					width: rem(500);
+					cursor: pointer;
+					a{ color: #818181;
+						display: block; }
+					li{ text-indent: rem(70) }
+					.on{
+						>a{ color: #fff; }
+					}
 				}
-				.on{ background-color: rgba(255,255,255,.8); 
-					a{ color: rgba(0,0,0,.8); }
+				>.on{
+					>a{ color: #fff; }
 				}
+				ul{
+					display: none;
+				}
+			}
+			.p1{
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				height: rem(90);
+				line-height:rem(90);
+				font-size: rem(30);
+				a{
+					float: left; color: #818181; width: 50%; text-align: center }
 			}
 		}
 		.ty_lunbo{ min-width: 0; height: rem(400); padding-bottom: rem(100); position: relative;
@@ -1623,7 +1659,7 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 	.ty_ot_warp{ padding-bottom: 0; }
 	.ty_daili_list{
 		.ty_cases{ height: rem(820); }
-		.ty_daliimg{ height: 1440px; width: 1228px; margin: 0 auto; position: relative; transform: scale(.5); transform-origin: 0 0;
+		.ty_daliimg{ height: 1440px; width: 1228px; margin: 0 auto; position: relative; transform: scale(.5); transform-origin: 0 0; zoom: 1;
 			.img_top{
 				position: absolute;
 				left: 50%;

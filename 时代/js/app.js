@@ -249,12 +249,30 @@ $(document).ready(function(){
 	        addAnimate($('.ty_togo_ani .togo li'),'an_toTop');
 		}
 		$('.ty_phone_header .menu').click(function(){
-			if ($('.ty_phone_header ul').hasClass('on')) {
-				$('.ty_phone_header ul').removeClass('on').slideUp();
+			if ($('.ty_phone_header>ul').hasClass('on')) {
+                $('.ty_phone_header>ul').removeClass('on').css({'left':'-25rem'});
+                $('body,.menu').css({'margin-left':'0'})
+                $('.mark').hide(0);
 			}else{
-				$('.ty_phone_header ul').addClass('on').slideDown();
+				$('.ty_phone_header>ul').addClass('on').css({'left':'0'});
+				$('body,.menu').css({'margin-left':'25rem'})
+				$('.mark').show(0);
 			}
-		})
+		});
+		$('.ty_phone_header .mark').click(function () {
+            $('.ty_phone_header .menu').trigger('click')
+        })
+        $('.ty_phone_header>ul>li').click(function (e) {
+			var index = $(this).index();
+			if (index != 0){
+				stophref(e);
+				$(this).siblings().removeClass('on').find('ul').slideUp().removeClass('cur')
+				$(this).addClass('on').find('ul').slideDown().addClass('cur');
+			}
+        })
+        $('.ty_phone_header>ul>li li').click(function (e) {
+			stopbubble(e)
+        })
 	}
 
 	// function everyinit(){
