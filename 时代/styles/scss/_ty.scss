@@ -57,7 +57,7 @@ body{ font-family: '微软雅黑'; min-width: 1300px; background-color: #fff; }
 			a{ padding: 0 14px;  color: #3e3a39;
 				&:first-child{ border-right: 1px solid #6e7273;  }
 			}
-			.connect{ margin-left: 18px; }
+			.connect{ margin-left: 0; }
 		}
 		.p2{
 			.search{ width: 120px; height: 20px; display: inline-block; position: relative;
@@ -1177,7 +1177,7 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 				bottom: 0;
 				left: 0;
 				width: 100%;
-				height: rem(90);
+				
 				line-height:rem(90);
 				font-size: rem(30);
 				a{
