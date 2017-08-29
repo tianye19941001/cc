@@ -6351,3 +6351,7 @@ h2.job-post-success {
 		display: none;
 	}
 }
+.newframe{
+	position: static; }
+.inner-right{
+	position: absolute; }
