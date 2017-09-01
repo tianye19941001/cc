@@ -71,7 +71,7 @@ $(document).ready(function(){
     }
 
 	if (document.body.clientWidth>=768) {
-		
+
 		function initBefore(){
 			// 浏览器hack
 			if (myBrowser() == '8' ) {
@@ -298,8 +298,54 @@ $(document).ready(function(){
 	window.onresize = function(){
 		resize();
 	}
+	if ($('.ty_news_list .titles').length>0) {
+		NoffsetT = $('.ty_news_list .titles').offset().top;
+		moveE = $('.ty_news_list .titles');
+	}else if($('.ty_daili_list .ty_case_titles').length>0){
+		NoffsetT = $('.ty_daili_list .ty_case_titles').offset().top;
+		moveE = $('.ty_daili_list .ty_case_titles');
+	}
 	$(window).scroll(function() {
   		init();
+  		if (document.body.clientWidth>=768) {
+	  		if (moveE.length>0) {
+				var overHeight = $(document).scrollTop();
+				if (NoffsetT<overHeight) {
+					moveE.addClass('nav_fix');
+					$('.ty_news_list .nav').addClass('nav_st');
+				}else{
+					moveE.removeClass('nav_fix');
+					$('.ty_news_list .nav').removeClass('nav_st');
+				}
+			}
+	  		var listNT = parseInt(document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop);
+	  		if ($('#import1').length>0) {
+		  		var t1 = parseInt($('#import1').offset().top-200),
+		  			t2 = parseInt($('#import2').offset().top-200),
+		  			t4 = parseInt($('#import3').offset().top-200);
+			  		if ( t2 > listNT  && listNT > t1 ) {
+			  			$('.ty_case_titles li a').eq(0).addClass('on').parent().siblings().find('a').removeClass('on');
+			  		}else if( t4 > listNT  && listNT > t2 ){
+			  			$('.ty_case_titles li a').eq(1).addClass('on').parent().siblings().find('a').removeClass('on');
+			  		}else if( t4 < listNT ){
+			  			$('.ty_case_titles li a').eq(2).addClass('on').parent().siblings().find('a').removeClass('on');
+			  		}
+			  		
+	  		}else if($('#export1').length>0){
+	  			var t1 = parseInt($('#export1').offset().top-200),
+		  			t2 = parseInt($('#export2').offset().top-200),
+		  			t4 = parseInt($('#export3').offset().top-200);
+		  			if ( t2 > listNT  && listNT > t1 ) {
+			  			$('.ty_case_titles li a').eq(0).addClass('on').parent().siblings().find('a').removeClass('on');
+			  		}else if( t4 > listNT  && listNT > t2 ){
+			  			$('.ty_case_titles li a').eq(1).addClass('on').parent().siblings().find('a').removeClass('on');
+			  		}else if( t4 < listNT ){
+			  			$('.ty_case_titles li a').eq(2).addClass('on').parent().siblings().find('a').removeClass('on');
+			  		}
+			  		
+	  		}
+  		}
+
 	});
 	// 事件监听
 	$('.ty_index_solutions li').click(function(){

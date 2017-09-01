@@ -343,7 +343,6 @@ body{ font-family: '微软雅黑'; min-width: 1300px; background-color: #fff; }
 			}
 		}
 	}
-	.nav{  }
 	.main{ width: 1110px; margin: 0 auto; 
 		h4{ font-size: 34px; color: #3e3a39; padding: 10px 0 25px; line-height: 46px; border-bottom: 2px solid #bac3c8; margin-bottom: 35px; text-align: left;
 			span{ display: block; font-size: 20px; text-align: left; }
@@ -356,7 +355,7 @@ body{ font-family: '微软雅黑'; min-width: 1300px; background-color: #fff; }
 		.prev{ margin-right: 20px; }
 	}
 	.nav{ position: absolute; font-size: 15px; right: 8%; top: 75px;
-		a{ padding: 0 12px; color: #3e3a39; }
+		a{ padding: 0 12px; color: #3e3a39; z-index: 3; }
 	}
 }
 body .ty_news_list .titles2,.ty_daili_list .titles2{
@@ -1344,13 +1343,13 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 					p{ font-size: rem(17); line-height: rem(26); }
 				}
 			}
-			.nav{ font-size: rem(20); right: rem(54-12); top: rem(62);
+			.nav{ font-size: rem(20); right: rem(54-12); top: rem(62); position: static; padding:rem(20) rem(34) rem(20) 0; text-align: right;
 				a{ padding: 0 rem(12); color: #3e3a39; max-width: rem(100); overflow: hidden; text-overflow: ellipsis; display: inline-block; white-space: nowrap; vertical-align: middle;
 					&:last-child{  padding-right: 0; }
 				}
 			}
 			.main{ width: auto; margin: 0 auto; padding: 0 rem(54);
-				h4{ font-size: rem(34); padding: rem(70) 0 rem(25); line-height: rem(46); border-bottom: 2px solid #bac3c8; margin-bottom: rem(35); 
+				h4{ font-size: rem(34); padding: rem(40) 0 rem(25); line-height: rem(46); border-bottom: 2px solid #bac3c8; margin-bottom: rem(35); 
 					span{ font-size: rem(20); text-align: left; }
 				}
 				p{ font-size: rem(20);  line-height: rem(36); }
@@ -1405,6 +1404,8 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 						border-bottom: 0;
 					}
 				}
+				>span{ padding: rem(30) rem(54); display: block; }
+				img{ max-width: 100%; }
 			}
 		}
 		.ty_solution_detial_video{ min-width: 0; 
@@ -1436,7 +1437,7 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 				.middleIn{ width: 100%; height: auto; position: relative;
 					&:after{ content: ""; position: absolute; display: block; width: 100%; height: rem(300); top: rem(50); left: 0; z-index: 1; background-color: #fff; }
 				}
-				img{ position: relative; left: 0; width: rem(516); height: rem(368); padding: rem(10); z-index: 2; margin: 0 auto; }
+				img{ position: relative; left: 0; width: rem(516); height: rem(368); padding: rem(10); z-index: 2; margin: 0 auto; margin-bottom: rem(30); }
 				.mark{ position: static; top: 0; left: 0; height: auto; width: 100%; padding: 0 rem(54) rem(46); background-color: transparent; box-sizing: border-box; }
 				.p1{ padding-top: rem(25); line-height: rem(30); font-size: rem(20); margin-bottom: rem(16); width: 100%; }
 				.p2{ font-size: rem(20); line-height: rem(26);
@@ -1525,7 +1526,7 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 				.mianIn{ padding:0 0 0 rem(42); }
 				.list{ float: none; width: rem(123*2); height: rem(109*2); margin-left: 0; margin-bottom:rem(25);
 					.qiu{ width: rem(109*2); height: rem(109*2); padding-right: rem(123*2-109*2); background-size: rem(123*2) rem(109*2); }
-					i{ width: rem(100); height: rem(100); top: rem(28); left: rem(59); background-size: rem(400) ren(800); }
+					i{ width: rem(100); height: rem(100); top: rem(28); left: rem(59); background-size: rem(400) rem(800); }
 					b{ width: rem(64); top: rem(128); left: rem(75); }
 					h5{ font-size: rem(28); width: rem(109*2); top: rem(66*2); }
 					.wenzi{ position: absolute; width: rem(300); top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); left: rem(280); font-size: rem(22); line-height: rem(30); color: #707473; opacity: 1; filter: alpha(opacity=100); }
@@ -1637,7 +1638,7 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 		.tax_p{ line-height: rem(44); padding: 0 rem(24); font-size: rem(32); margin: rem(70) rem(54) 0; }
 		.tax_p2{ line-height: rem(26); padding: rem(10) rem(16); font-size: rem(20); margin: rem(30) rem(54) 0; }
 	}
-	.ty_out_tax2{ background-color: #eef1f6; padding: rem(70) 0 rem(70);
+	.ty_out_tax2{ background-color: #eef1f6; padding: rem(70) 0 rem(70); overflow: hidden;
 		.type1{
 			h3{ background-color: #00a098; width: 650px; }
 			.num2 .text i{ background-position: 0 -200px; }
@@ -1990,4 +1991,20 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 @-ms-keyframes show{
 	0%{  opacity: 0;filter: alpha(opacity= 0);}
 	100%{ opacity: 1;filter: alpha(opacity= 100);}
+}
+.nav_fix{ position: fixed;
+    top: 0;
+    z-index: 3;
+    background: #fff;
+    width: 100% !important;
+    margin-left: 0 !important;
+    padding-left: 72px !important;
+    padding: 0 72px 0 !important;
+    box-shadow: 0 0 15px rgba(0,0,0,.5); }
+.nav_st{
+	position: static !important;
+	margin-right: 8%;
+	text-align: right;
+	height: 40px;
+	padding: 72px 0;
 }
