@@ -304,11 +304,13 @@ $(document).ready(function(){
 	}else if($('.ty_daili_list .ty_case_titles').length>0){
 		NoffsetT = $('.ty_daili_list .ty_case_titles').offset().top;
 		moveE = $('.ty_daili_list .ty_case_titles');
+	}else{
+		moveE = null;
 	}
 	$(window).scroll(function() {
   		init();
   		if (document.body.clientWidth>=768) {
-	  		if (moveE.length>0) {
+  			if (moveE != undefined) {
 				var overHeight = $(document).scrollTop();
 				if (NoffsetT<overHeight) {
 					moveE.addClass('nav_fix');
@@ -317,7 +319,7 @@ $(document).ready(function(){
 					moveE.removeClass('nav_fix');
 					$('.ty_news_list .nav').removeClass('nav_st');
 				}
-			}
+  			}
 	  		var listNT = parseInt(document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop);
 	  		if ($('#import1').length>0) {
 		  		var t1 = parseInt($('#import1').offset().top-200),
