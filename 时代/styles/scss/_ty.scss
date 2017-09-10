@@ -476,7 +476,7 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 	.solutions_lists{ margin-left: -27px; width: 1200+27px; padding-bottom: 0px; @extend .clearfix;
 	 }
 	li{ float: left; width: 380px; height: 358px; margin-left: 27px; border: 1px solid #cecece; @extend %ty_tr; position: relative; overflow: hidden; margin-bottom: 68px;
-		h4{ left: 47px; line-height: 47px; background-color: #49afdd; background-color: rgba(0,145,210,.7); width: 256px; font-size: 25px; color: #fff; position: absolute; left: -300px; top: 195px; @extend %ty_tr; z-index: 3;
+		h4{ left: 47px; line-height: 47px; background-color: #49afdd; background-color: rgba(0,145,210,.7); width: 256px; font-size: 25px; color: #fff; position: absolute; left: -300px; top: 195px; @extend %ty_tr; z-index: 2;
 			i{ width: 22px; height: 10px; display: inline-block; vertical-align: middle; @extend %ty_sp; background-position: -184px 0; margin-left: 9px; }
 		}
 		a{ display: block; height: 358px; }
