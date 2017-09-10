@@ -264,10 +264,15 @@ $(document).ready(function(){
         })
         $('.ty_phone_header>ul>li').click(function (e) {
 			var index = $(this).index();
-			if (index != 0){
+			if (index == 1 || index == 2){
 				stophref(e);
-				$(this).siblings().removeClass('on').find('ul').slideUp().removeClass('cur')
-				$(this).addClass('on').find('ul').slideDown().addClass('cur');
+				if ($(this).hasClass('on')){
+                    $(this).removeClass('on').find('ul').slideUp().removeClass('cur');
+				}else{
+                    $(this).siblings().removeClass('on').find('ul').slideUp().removeClass('cur')
+                    $(this).addClass('on').find('ul').slideDown().addClass('cur');
+				}
+
 			}
         })
         $('.ty_phone_header>ul>li li').click(function (e) {
