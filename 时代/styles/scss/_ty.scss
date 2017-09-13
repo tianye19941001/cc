@@ -185,7 +185,7 @@ body{ font-family: '微软雅黑'; min-width: 1300px; background-color: #fff; }
 	.out{ position: absolute; width: 100%; height: 100%; overflow: hidden; }
 	img{ position: absolute; left: 50%; top: 0; transform: translateX(-50%); -webkit-transform: translateX(-50%); height: 100%; z-index: 2; 
 	}
-	.adv{ width: 600px; position: absolute; background-color: #009ee7; padding: 0 10px 50px; left: 0; top: -100px; text-align: center; @extend %ty_tr; cursor: pointer;
+	.adv{ width: 600px; position: absolute; background-color: #009ee7; padding: 0 10px 0px; left: 0; top: -100px; text-align: center; @extend %ty_tr; cursor: pointer;
 		&:hover{ top: -120px; box-shadow: 0 0 20px rgba(0,0,0,.5); }
 	}
 	.top{ height: 100px; border-bottom: 1px solid #80cff3; margin-bottom: 44px; text-align: left; position: relative; cursor: pointer;
@@ -402,7 +402,7 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 	.ty_top{ margin-bottom: 15px; 
 		
 	}
-	.more { margin: 70px 0 25px;
+	.more { margin: 20px 0 25px;
 		font-size: 12px;
 		width: 70px;
 		height: 25px;
@@ -1281,7 +1281,7 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 			img{ left: auto; }
 			.ty_top{ position: absolute; top: rem(-150); padding-left: rem(54); }
 			.ty_index_goodIn{ width: 100%; }
-			.adv{ width: rem(370); box-sizing: border-box; padding: rem(48); left: rem(54); top: rem(-68);
+			.adv{ width: rem(370); box-sizing: border-box; padding: rem(48) rem(48) 0; left: rem(54); top: rem(-68);
 				&:hover{ top: rem(-68); }
 			}
 			.top{ display: none; }
@@ -1830,7 +1830,9 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 			.icon5{ background-position: rem(-120) rem(-360); }
 		}
 	}
-	.ty_togo_ani{
+	#import1{ padding-top: rem(30); }
+	#export1{ padding-top: rem(30); }
+	.ty_togo_ani{ 
 		.togo_ani1{ border-bottom: 1px dashed #979799; }
 		.togo_ani2{ padding-top: rem(80);
 			.togo{
@@ -2052,3 +2054,5 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 	height: 40px;
 	padding: 72px 0;
 }
+.ty_text{ font-size: 16px; padding: 10px 6px;
+    color: #3e3a39; line-height: 24px; }
