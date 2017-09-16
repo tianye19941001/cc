@@ -940,6 +940,7 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 	.type1,.type2,.type3,.type4,.type5,.type6{ position: relative; text-align: center;
 		h6{ font-size: 32px; padding: 0 12px; height: 40px; line-height: 40px; color: #3e3a39; background-color: #fff; display: inline-block; position: relative; top: -20px; }
 		li{ position: relative; }
+		.ultwo{ @extend .clearfix; }
 	}
 	.type1{
 		float: left;
@@ -969,13 +970,13 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 		height: 723px;
 		margin-left: 23px;
 		border: 1px solid #605e5f;
-		ul{ @extend .clearfix; padding-top: 40px; }
-		li{
+		ul{ @extend .clearfix; padding-top: 40px; float: left; }
+		li{ float: none;
 			width: 251px;
 			height: 140px;
-			float: left;
 			margin:0 0 10px 27px;
 			background-image: url("../images/dali_b2.png");
+			
 		}
 		i{ width: 60px; height: 60px; position: absolute; top: 8px; left: 24px; @extend %ty_sp5; }
 		strong{ position: absolute; left: 0; bottom: 36px; font-size: 21px; width: 120px; text-align: center; color: #fff; }
@@ -1063,11 +1064,10 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 		height: 473px;
 		margin-left: 23px;
 		border: 1px solid #605e5f;
-		ul{ @extend .clearfix; padding-top: 40px; }
-		li{
+		ul{ @extend .clearfix; padding-top: 40px; float: left; }
+		li{ float: none;
 			width: 249px;
 			height: 112px;
-			float: left;
 			margin:0 0 10px 22px;
 			background-image: url("../images/dali_b6.png");
 		}
@@ -1215,8 +1215,8 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 					float: left; color: #818181; width: 50%; text-align: center }
 			}
 		}
-		.ty_lunbo{ min-width: 0; height: rem(400); padding-bottom: rem(100); position: relative;
-			.swiper-slide img{ height: rem(400) }
+		.ty_lunbo{ min-width: 0; height: rem(240); padding-bottom: rem(100); position: relative;
+			.swiper-slide img{ height: rem(240) }
 			.pagination{ position: absolute; bottom: rem(60); width: 100%; }
 		}
 		.ty_lunbo .pagination .swiper-pagination-switch{ margin: 0 rem(7); width: rem(40); }
@@ -1341,7 +1341,7 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 			p{ padding-right: 0; text-align: center; }
 		}
 		// 重点修改
-		.ty_bannar{ width: 100%; min-width: 0; position: relative; height: rem(400); overflow: hidden;
+		.ty_bannar{ width: 100%; min-width: 0; position: relative; height: rem(240); overflow: hidden;
 			img{ width: auto; height: 100%; position: absolute; left: 50%; transform: translateX(-50%); -webkit-transform: translateX(-50%); display: block; }
 		}
 		.ty_main_titles{ padding: rem(60) rem(54-20); margin-left: 0; box-sizing: border-box;
@@ -1350,7 +1350,7 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 					a{ border-left: 0; }
 				}
 			}
-			.on{ i{ width: rem(40); margin-left: rem(-20); } }
+			// .on{ i{ width: rem(40); margin-left: rem(-20); } }
 			a{ height: rem(20); line-height: rem(20); padding: 0 rem(16); font-size: rem(20); }
 		}
 		.ty_news_list{
@@ -1460,7 +1460,7 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 			.ty_cases{
 				.top{ padding-top: 0; }
 			}
-			.ty_case_titles{ padding-top: 0; }
+			.ty_case_titles{ padding-top: rem(40); }
 		}
 		.ty_cases{
 			.top{ width: auto; padding-top: rem(50);
@@ -1766,7 +1766,7 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 			width: rem(483);
 			height: auto;
 			margin-left: rem(78);
-			ul{ padding: rem(40) 0; }
+			ul{ padding: 0; }
 			h6{ font-size: rem(32); padding: 0 rem(12); height: rem(40); line-height: rem(40); top: rem(-20); }
 		}
 		.type1,.type2,.type3,.type4,.type5,.type6{ margin-bottom: rem(70);
@@ -1786,7 +1786,7 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 			.icon3{ background-position: 0 rem(-120); }
 		}
 		.type2{
-			li{
+			li{ 
 				background-image: url("../images/dali_b2_2.png");
 			}
 			.icon1{ background-position: 0 rem(-60); }
@@ -1797,6 +1797,7 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 			.icon6{ background-position: 0 rem(-420); }
 			.icon7{ background-position: 0 rem(-480); }
 			.icon8{ background-position: 0 rem(-540); }
+			ul{ float: none; }
 		}
 		.type3{
 			.icon1{ background-position: 0 0; }
@@ -1819,6 +1820,7 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 			.icon2{ background-position: 0 rem(-180); }
 		}
 		.type6{
+			ul{ float: none; }
 			li{
 				background-image: url("../images/dali_b6_2.png");
 			}
@@ -1913,6 +1915,7 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 		#r-results{ overflow-y: scroll; height: rem(230); display: none; clear: both; }
 		.close{ position: absolute; right: 0; top: rem(86); cursor: pointer; width: rem(40) }
 	}
+	body .ty_text{ margin-left: 0; }
 }
 
 
@@ -2055,4 +2058,4 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 	padding: 72px 0;
 }
 .ty_text{ font-size: 16px; padding: 35px 6px 25px;
-    color: #3e3a39; line-height: 24px; }
+    color: #3e3a39; line-height: 24px; margin-left: 200px; }
