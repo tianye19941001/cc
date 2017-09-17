@@ -29,8 +29,18 @@
       <file leaf-file-name="_ty.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/时代/styles/scss/_ty.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="876" column="95" lean-forward="false" selection-start-line="876" selection-start-column="95" selection-end-line="876" selection-end-column="95" />
+            <state relative-caret-position="545">
+              <caret line="2060" column="48" lean-forward="false" selection-start-line="2060" selection-start-column="48" selection-end-line="2060" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connect.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/时代/connect.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="81" column="64" lean-forward="false" selection-start-line="81" selection-start-column="64" selection-end-line="81" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -94,9 +104,35 @@
         <entry file="file://$PROJECT_DIR$/时代/import.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="686">
-              <caret line="240" column="20" lean-forward="true" selection-start-line="240" selection-start-column="20" selection-end-line="240" selection-end-column="20" />
+              <caret line="248" column="20" lean-forward="true" selection-start-line="248" selection-start-column="20" selection-end-line="248" selection-end-column="20" />
               <folding>
-                <marker date="1505404274000" expanded="true" signature="2100:2247" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="2100:2247" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="4596:6265" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="4633:6258" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="4662:6250" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="4686:4759" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="4781:6241" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="4806:6231" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="4830:4981" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="5005:5157" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="5181:5333" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="5357:5509" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="5533:5685" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="5709:5861" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="5885:6037" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="6061:6220" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="6294:6842" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="6331:6835" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="6351:6478" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="6375:6469" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="6505:6827" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="6867:7565" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="6895:7558" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="6956:7168" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="7017:7159" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="7191:7550" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="7589:7611" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="7747:7955" ph="..." />
               </folding>
             </state>
           </provider>
@@ -117,21 +153,11 @@
       <file leaf-file-name="export.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/时代/export.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="73" column="18" lean-forward="true" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+            <state relative-caret-position="-4082">
+              <caret line="59" column="137" lean-forward="true" selection-start-line="59" selection-start-column="137" selection-end-line="59" selection-end-column="137" />
               <folding>
-                <marker date="1505404274000" expanded="true" signature="2100:2247" ph="..." />
+                <marker date="1505553554000" expanded="true" signature="2100:2247" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="solution_detial.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/时代/solution_detial.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -423,12 +449,12 @@
       <workItem from="1496976516863" duration="25560000" />
       <workItem from="1498740683270" duration="7343000" />
       <workItem from="1499487653145" duration="253000" />
-      <workItem from="1501600671145" duration="73866000" />
+      <workItem from="1501600671145" duration="74573000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132982000" />
+    <option name="totallyTimeSpent" value="133689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="24" width="1440" height="809" extended-state="6" />
@@ -741,14 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/时代/connect.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-752">
-          <caret line="72" column="27" lean-forward="false" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/酷娱/content_index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -881,9 +899,35 @@
     <entry file="file://$PROJECT_DIR$/时代/import.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="686">
-          <caret line="240" column="20" lean-forward="true" selection-start-line="240" selection-start-column="20" selection-end-line="240" selection-end-column="20" />
+          <caret line="248" column="20" lean-forward="true" selection-start-line="248" selection-start-column="20" selection-end-line="248" selection-end-column="20" />
           <folding>
-            <marker date="1505404274000" expanded="true" signature="2100:2247" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="2100:2247" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="4596:6265" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="4633:6258" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="4662:6250" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="4686:4759" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="4781:6241" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="4806:6231" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="4830:4981" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="5005:5157" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="5181:5333" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="5357:5509" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="5533:5685" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="5709:5861" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="5885:6037" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="6061:6220" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="6294:6842" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="6331:6835" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="6351:6478" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="6375:6469" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="6505:6827" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="6867:7565" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="6895:7558" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="6956:7168" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="7017:7159" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="7191:7550" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="7589:7611" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="7747:7955" ph="..." />
           </folding>
         </state>
       </provider>
@@ -898,20 +942,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/时代/connect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="81" column="64" lean-forward="false" selection-start-line="81" selection-start-column="64" selection-end-line="81" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/时代/export.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="73" column="18" lean-forward="true" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+        <state relative-caret-position="-4082">
+          <caret line="59" column="137" lean-forward="true" selection-start-line="59" selection-start-column="137" selection-end-line="59" selection-end-column="137" />
           <folding>
-            <marker date="1505404274000" expanded="true" signature="2100:2247" ph="..." />
+            <marker date="1505553554000" expanded="true" signature="2100:2247" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/时代/styles/scss/_ty.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="876" column="95" lean-forward="false" selection-start-line="876" selection-start-column="95" selection-end-line="876" selection-end-column="95" />
+        <state relative-caret-position="545">
+          <caret line="2060" column="48" lean-forward="false" selection-start-line="2060" selection-start-column="48" selection-end-line="2060" selection-end-column="48" />
           <folding />
         </state>
       </provider>
