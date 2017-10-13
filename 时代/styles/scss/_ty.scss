@@ -267,7 +267,7 @@ body{ font-family: '微软雅黑'; min-width: 1300px; background-color: #fff; }
 		:-ms-textarea-placeholder { color: #3e3a39; } 
 	}
 }
-.ty_top{ font-size: 22px; color: #3e3a39; height: 45px; line-height: 45px; width: 100%; float: left; margin-bottom: 100px; position: relative; z-index: 2; cursor: pointer;
+.ty_top{ font-size: 22px; color: #3e3a39; height: 45px; line-height: 45px; width: 100%; float: left; margin-bottom: 100px; position: relative; z-index: 2; cursor: pointer; padding-left: 20px;
 	i{ display: inline-block; vertical-align: top; width: 62px; height: 45px; @extend %ty_sp; background-position: 0 -135px; margin-left: 46px; @extend %ty_tr;  }
 	&:hover{ color: #0091d2;
 		i{ margin-left: 76px; }
@@ -545,6 +545,7 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 	.dimg{
 		img{
 			display: block; width: 100%; }
+		p{ font-size: 12px; text-align: left; padding-top: 30px; text-indent: 24px; }
 	}
 }
 .ty_solution_detial_video{ background-color: #fff; width: 100%; min-width: 1300px; 
@@ -1449,6 +1450,12 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 				img{ max-width: 100%; }
 				>div{ width: 50%; font-size: rem(20); padding: 0 rem(10); box-sizing: border-box; height: rem(40); line-height: rem(40); }
 			}
+			.dimg{
+				p{ font-size: rem(20); text-align: left; text-indent: rem(40);
+					padding: rem(30) rem(12); }
+
+			}
+
 		}
 		.ty_solution_detial_video{ min-width: 0; 
 			.ty_sdv_In{ width: auto; padding: rem(90) 0 rem(80); }
