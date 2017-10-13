@@ -531,13 +531,20 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 		.p2{ font-size: 50px; color: #000; line-height: 70px; }
 		.p3{ font-size: 50px; color: #009ee7; line-height: 70px; }
 	}
-	.detext{ @extend .clearfix; text-align: left; padding: 70px 0 110px;
+	.detext{ @extend .clearfix; text-align: left; padding: 70px 0 ;
 		p{ float: left; width: 50%; color: #707473; font-size: 13px; line-height: 22px;
 			.tit{ width: 100%; margin-bottom: 22px; }
 			strong{ display: block; width: 100%; overflow: hidden; }
 			em{ display: block; float: left; width: 215px; }
 			span{ display: inline-block; float: right; width: 380px; }
 		}
+		>div{ float: left; font-size: 12px; color: #666; line-height: 30px; height: 30px; width: 25%;
+			overflow: hidden; white-space: nowrap; text-overflow: ellipsis;
+		}
+	}
+	.dimg{
+		img{
+			display: block; width: 100%; }
 	}
 }
 .ty_solution_detial_video{ background-color: #fff; width: 100%; min-width: 1300px; 
@@ -1428,7 +1435,7 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 				.p2{ font-size: rem(40); line-height: rem(60); }
 				.p3{ font-size: rem(50); line-height: rem(70) }
 			}
-			.detext{ text-align: left; padding: 0 0 rem(50);
+			.detext{ text-align: left; padding: rem(30) 0;
 				p{ float: left; width: 100%; font-size: rem(18); line-height: rem(30); padding: rem(30) rem(54); border-bottom: 1px dashed #6e7273; box-sizing: border-box;
 					.tit{ width: 100%; margin-bottom: rem(30); }
 					strong{ overflow: hidden; }
@@ -1440,6 +1447,7 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 				}
 				>span{ padding: rem(30) rem(54); display: block; }
 				img{ max-width: 100%; }
+				>div{ width: 50%; font-size: rem(20); padding: 0 rem(10); box-sizing: border-box; height: rem(40); line-height: rem(40); }
 			}
 		}
 		.ty_solution_detial_video{ min-width: 0; 

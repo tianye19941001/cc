@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/时代/styles/scss/_ty.scss" line="1475" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/时代/styles/scss/_ty.scss" line="1483" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dccc77c-5c9d-4e37-8890-c8283cc1138f" name="默认的" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/solution_detial.html" afterPath="$PROJECT_DIR$/时代/solution_detial.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/styles/scss/_ty.scss" afterPath="$PROJECT_DIR$/时代/styles/scss/_ty.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/styles/styles.css" afterPath="$PROJECT_DIR$/时代/styles/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/时代/styles/styles.css.map" afterPath="$PROJECT_DIR$/时代/styles/styles.css.map" />
@@ -26,125 +27,57 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_ty.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_ty.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/时代/styles/scss/_ty.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="2060" column="48" lean-forward="false" selection-start-line="2060" selection-start-column="48" selection-end-line="2060" selection-end-column="48" />
+            <state relative-caret-position="236">
+              <caret line="1437" column="56" lean-forward="false" selection-start-line="1437" selection-start-column="56" selection-end-line="1437" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connect.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/时代/connect.html">
+      <file leaf-file-name="solution_detial.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/时代/solution_detial.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="81" column="64" lean-forward="false" selection-start-line="81" selection-start-column="64" selection-end-line="81" selection-end-column="64" />
+            <state relative-caret-position="239">
+              <caret line="100" column="41" lean-forward="true" selection-start-line="100" selection-start-column="41" selection-end-line="100" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/时代/js/app.js">
+      <file leaf-file-name="bootstrap.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/招聘网站/js/bootstrap.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="274" column="0" lean-forward="true" selection-start-line="274" selection-start-column="0" selection-end-line="274" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/时代/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="66" column="47" lean-forward="false" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+            <state relative-caret-position="15">
+              <caret line="5" column="10990" lean-forward="false" selection-start-line="5" selection-start-column="10990" selection-end-line="5" selection-end-column="10990" />
               <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1505404274000" expanded="true" signature="11569:12284" ph="..." />
-                <marker date="1505404274000" expanded="true" signature="11597:12277" ph="..." />
-                <marker date="1505404274000" expanded="true" signature="11658:11870" ph="..." />
-                <marker date="1505404274000" expanded="true" signature="11719:11861" ph="..." />
-                <marker date="1505404274000" expanded="true" signature="11893:12269" ph="..." />
-                <marker date="1505404274000" expanded="true" signature="12308:12331" ph="..." />
-                <marker date="1505404274000" expanded="true" signature="12509:12681" ph="..." />
-                <marker date="1505404274000" expanded="true" signature="12558:12671" ph="{&quot;pagination&quot;: '.pagination'...}" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="case2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/时代/case2.html">
+      <file leaf-file-name="wow.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/招聘网站/js/wow.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="84" column="50" lean-forward="false" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="50" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1503915174000" expanded="true" signature="2100:2247" ph="..." />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="case1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/时代/case1.html">
+      <file leaf-file-name="typehead.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/招聘网站/js/typehead.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="83" column="50" lean-forward="true" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="50" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1503915174000" expanded="true" signature="2100:2247" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="import.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/时代/import.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="686">
-              <caret line="248" column="20" lean-forward="true" selection-start-line="248" selection-start-column="20" selection-end-line="248" selection-end-column="20" />
-              <folding>
-                <marker date="1505553554000" expanded="true" signature="2100:2247" ph="..." />
-                <marker date="1505553554000" expanded="true" signature="4596:6265" ph="..." />
-                <marker date="1505553554000" expanded="true" signature="4633:6258" ph="..." />
-                <marker date="1505553554000" expanded="true" signature="4662:6250" ph="..." />
-                <marker date="1505553554000" expanded="true" signature="4686:4759" ph="..." />
-                <marker date="1505553554000" expanded="true" signature="4781:6241" ph="..." />
-                <marker date="1505553554000" expanded="true" signature="4806:6231" ph="..." />
-                <marker date="1505553554000" expanded="true" signature="4830:4981" ph="..." />
-                <marker date="1505553554000" expanded="true" signature="5005:5157" ph="..." />
-                <marker date="1505553554000" expanded="true" signature="5181:5333" ph="..." />
-                <marker date="1505553554000" expanded="true" signature="5357:5509" ph="..." />
-                <marker date="1505553554000" expanded="true" signature="5533:5685" ph="..." />
-                <marker date="1505553554000" expanded="true" signature="5709:5861" ph="..." />
-                <marker date="1505553554000" expanded="true" signature="5885:6037" ph="..." />
-                <marker date="1505553554000" expanded="true" signature="6061:6220" ph="..." />
-                <marker date="1505553554000" expanded="true" signature="6294:6842" ph="..." />
-                <marker date="1505553554000" expanded="true" signature="6331:6835" ph="..." />
-                <marker date="1505553554000" expanded="true" signature="6351:6478" ph="..." />
-                <marker date="1505553554000" expanded="true" signature="6375:6469" ph="..." />
-                <marker date="1505553554000" expanded="true" signature="6505:6827" ph="..." />
-                <marker date="1505553554000" expanded="true" signature="6867:7565" ph="..." />
-                <marker date="1505553554000" expanded="true" signature="6895:7558" ph="..." />
-                <marker date="1505553554000" expanded="true" signature="6956:7168" ph="..." />
-                <marker date="1505553554000" expanded="true" signature="7017:7159" ph="..." />
-                <marker date="1505553554000" expanded="true" signature="7191:7550" ph="..." />
-                <marker date="1505553554000" expanded="true" signature="7589:7611" ph="..." />
-                <marker date="1505553554000" expanded="true" signature="7747:7955" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="export_tax.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/时代/export_tax.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="22" column="61" lean-forward="false" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
-              <folding>
-                <marker date="1503915174000" expanded="true" signature="2100:2247" ph="..." />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,21 +86,11 @@
       <file leaf-file-name="export.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/时代/export.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4082">
-              <caret line="59" column="137" lean-forward="true" selection-start-line="59" selection-start-column="137" selection-end-line="59" selection-end-column="137" />
+            <state relative-caret-position="885">
+              <caret line="59" column="137" lean-forward="false" selection-start-line="59" selection-start-column="137" selection-end-line="59" selection-end-column="137" />
               <folding>
                 <marker date="1505553554000" expanded="true" signature="2100:2247" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news_detial.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/时代/news_detial.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -200,6 +123,7 @@
       <find>footer-widgets flex no-column space-between</find>
       <find>newframe</find>
       <find>ty_Hlist</find>
+      <find>detext</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -241,7 +165,6 @@
         <option value="$PROJECT_DIR$/时代/news.html" />
         <option value="$PROJECT_DIR$/时代/news_detial.html" />
         <option value="$PROJECT_DIR$/时代/product_cases.html" />
-        <option value="$PROJECT_DIR$/时代/solution_detial.html" />
         <option value="$PROJECT_DIR$/时代/export_tax.html" />
         <option value="$PROJECT_DIR$/时代/case2.html" />
         <option value="$PROJECT_DIR$/时代/export.html" />
@@ -255,6 +178,7 @@
         <option value="$PROJECT_DIR$/时代/js/app.js" />
         <option value="$PROJECT_DIR$/时代/index.html" />
         <option value="$PROJECT_DIR$/时代/import.html" />
+        <option value="$PROJECT_DIR$/时代/solution_detial.html" />
         <option value="$PROJECT_DIR$/时代/styles/scss/_ty.scss" />
       </list>
     </option>
@@ -266,8 +190,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="24" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="809" />
   </component>
@@ -286,6 +209,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -312,10 +237,112 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="项目文件" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="项目文件" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="时代" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="项目文件" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="项目文件" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="时代" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="项目文件" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="项目文件" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="招聘网站" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="项目文件" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="项目文件" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="招聘网站" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="项目文件" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="项目文件" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="招聘网站" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="项目文件" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="项目文件" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="万象" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -449,15 +476,18 @@
       <workItem from="1496976516863" duration="25560000" />
       <workItem from="1498740683270" duration="7343000" />
       <workItem from="1499487653145" duration="253000" />
-      <workItem from="1501600671145" duration="74573000" />
+      <workItem from="1501600671145" duration="74827000" />
+      <workItem from="1506259774249" duration="5000" />
+      <workItem from="1506932106772" duration="453000" />
+      <workItem from="1507861164502" duration="955000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133689000" />
+    <option name="totallyTimeSpent" value="135356000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="24" width="1440" height="809" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="809" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13611111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -491,27 +521,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/红孩儿/intro.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-673">
-          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/牡丹汇/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="43" column="18" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="43" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/酷娱/connect_join.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-149">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/牡丹汇/product.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-79">
@@ -519,13 +528,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/牡丹汇/detial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="59" column="91" lean-forward="false" selection-start-line="59" selection-start-column="91" selection-end-line="59" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/牡丹汇/detial.html" />
     <entry file="file://$PROJECT_DIR$/酷娱/connect_where.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -600,7 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3420">
           <caret line="228" column="87" lean-forward="false" selection-start-line="228" selection-start-column="87" selection-end-line="228" selection-end-column="87" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -608,7 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -616,7 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="658">
           <caret line="79" column="42" lean-forward="false" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -624,7 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
           <caret line="184" column="40" lean-forward="true" selection-start-line="184" selection-start-column="40" selection-end-line="184" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -632,23 +631,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/时代/cases2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/时代/cases2.html" />
     <entry file="file://$PROJECT_DIR$/时代/styles/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,7 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="193" column="51" lean-forward="false" selection-start-line="193" selection-start-column="51" selection-end-line="193" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -664,19 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/万象/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="239" column="64" lean-forward="true" selection-start-line="239" selection-start-column="64" selection-end-line="239" selection-end-column="64" />
-          <folding>
-            <marker date="1501598701000" expanded="true" signature="10528:10543" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -684,7 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -692,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -700,38 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="44" column="58" lean-forward="false" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
-          <folding>
-            <marker date="1503915174000" expanded="true" signature="2100:2247" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="2278:2328" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="2355:4742" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="2376:2589" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="2623:4735" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="2654:4673" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="2662:2881" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="2678:2872" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="2889:3127" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="2905:3118" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="3135:3373" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="3151:3364" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="3381:3619" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="3397:3610" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="3627:3865" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="3643:3856" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="3873:4111" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="3889:4102" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="4148:4386" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="4164:4377" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="4407:4645" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="4423:4636" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="4767:5465" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="4795:5458" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="4856:5068" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="4917:5059" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="5091:5450" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="5489:5512" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="5648:5820" ph="..." />
-            <marker date="1503915174000" expanded="true" signature="5697:5810" ph="{&quot;pagination&quot;: '.pagination'...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -739,15 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="725" column="0" lean-forward="false" selection-start-line="725" selection-start-column="0" selection-end-line="725" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/招聘网站/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="508" column="0" lean-forward="false" selection-start-line="508" selection-start-column="0" selection-end-line="508" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,7 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="234" column="0" lean-forward="false" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,7 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3969">
           <caret line="393" column="0" lean-forward="true" selection-start-line="393" selection-start-column="0" selection-end-line="393" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,7 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,7 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="639" column="50" lean-forward="true" selection-start-line="639" selection-start-column="50" selection-end-line="639" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -787,7 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="631">
           <caret line="6356" column="23" lean-forward="true" selection-start-line="6356" selection-start-column="23" selection-end-line="6356" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,7 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -803,15 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/时代/product_cases.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="67" lean-forward="true" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -819,10 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <marker date="1505404274000" expanded="true" signature="2098:2245" ph="..." />
-            <marker date="1505404274000" expanded="true" signature="3081:3367" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -830,15 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/时代/solution_detial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -846,95 +751,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/时代/case1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="83" column="50" lean-forward="true" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="50" />
-          <folding>
-            <marker date="1503915174000" expanded="true" signature="2100:2247" ph="..." />
-          </folding>
+        <state relative-caret-position="1245">
+          <caret line="83" column="50" lean-forward="false" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/时代/case2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
+        <state relative-caret-position="1260">
           <caret line="84" column="50" lean-forward="false" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="50" />
-          <folding>
-            <marker date="1503915174000" expanded="true" signature="2100:2247" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/时代/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="274" column="0" lean-forward="true" selection-start-line="274" selection-start-column="0" selection-end-line="274" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/时代/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="66" column="47" lean-forward="false" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1505404274000" expanded="true" signature="11569:12284" ph="..." />
-            <marker date="1505404274000" expanded="true" signature="11597:12277" ph="..." />
-            <marker date="1505404274000" expanded="true" signature="11658:11870" ph="..." />
-            <marker date="1505404274000" expanded="true" signature="11719:11861" ph="..." />
-            <marker date="1505404274000" expanded="true" signature="11893:12269" ph="..." />
-            <marker date="1505404274000" expanded="true" signature="12308:12331" ph="..." />
-            <marker date="1505404274000" expanded="true" signature="12509:12681" ph="..." />
-            <marker date="1505404274000" expanded="true" signature="12558:12671" ph="{&quot;pagination&quot;: '.pagination'...}" />
-          </folding>
+        <state relative-caret-position="4110">
+          <caret line="274" column="0" lean-forward="false" selection-start-line="274" selection-start-column="0" selection-end-line="274" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/时代/import.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="248" column="20" lean-forward="true" selection-start-line="248" selection-start-column="20" selection-end-line="248" selection-end-column="20" />
+        <state relative-caret-position="3720">
+          <caret line="248" column="20" lean-forward="false" selection-start-line="248" selection-start-column="20" selection-end-line="248" selection-end-column="20" />
           <folding>
             <marker date="1505553554000" expanded="true" signature="2100:2247" ph="..." />
-            <marker date="1505553554000" expanded="true" signature="4596:6265" ph="..." />
-            <marker date="1505553554000" expanded="true" signature="4633:6258" ph="..." />
-            <marker date="1505553554000" expanded="true" signature="4662:6250" ph="..." />
-            <marker date="1505553554000" expanded="true" signature="4686:4759" ph="..." />
-            <marker date="1505553554000" expanded="true" signature="4781:6241" ph="..." />
-            <marker date="1505553554000" expanded="true" signature="4806:6231" ph="..." />
-            <marker date="1505553554000" expanded="true" signature="4830:4981" ph="..." />
-            <marker date="1505553554000" expanded="true" signature="5005:5157" ph="..." />
-            <marker date="1505553554000" expanded="true" signature="5181:5333" ph="..." />
-            <marker date="1505553554000" expanded="true" signature="5357:5509" ph="..." />
-            <marker date="1505553554000" expanded="true" signature="5533:5685" ph="..." />
-            <marker date="1505553554000" expanded="true" signature="5709:5861" ph="..." />
-            <marker date="1505553554000" expanded="true" signature="5885:6037" ph="..." />
-            <marker date="1505553554000" expanded="true" signature="6061:6220" ph="..." />
-            <marker date="1505553554000" expanded="true" signature="6294:6842" ph="..." />
-            <marker date="1505553554000" expanded="true" signature="6331:6835" ph="..." />
-            <marker date="1505553554000" expanded="true" signature="6351:6478" ph="..." />
-            <marker date="1505553554000" expanded="true" signature="6375:6469" ph="..." />
-            <marker date="1505553554000" expanded="true" signature="6505:6827" ph="..." />
-            <marker date="1505553554000" expanded="true" signature="6867:7565" ph="..." />
-            <marker date="1505553554000" expanded="true" signature="6895:7558" ph="..." />
-            <marker date="1505553554000" expanded="true" signature="6956:7168" ph="..." />
-            <marker date="1505553554000" expanded="true" signature="7017:7159" ph="..." />
-            <marker date="1505553554000" expanded="true" signature="7191:7550" ph="..." />
-            <marker date="1505553554000" expanded="true" signature="7589:7611" ph="..." />
-            <marker date="1505553554000" expanded="true" signature="7747:7955" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/时代/export_tax.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="330">
           <caret line="22" column="61" lean-forward="false" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
           <folding>
             <marker date="1503915174000" expanded="true" signature="2100:2247" ph="..." />
@@ -944,7 +797,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/时代/connect.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="1215">
           <caret line="81" column="64" lean-forward="false" selection-start-line="81" selection-start-column="64" selection-end-line="81" selection-end-column="64" />
           <folding />
         </state>
@@ -952,18 +805,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/时代/export.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4082">
-          <caret line="59" column="137" lean-forward="true" selection-start-line="59" selection-start-column="137" selection-end-line="59" selection-end-column="137" />
+        <state relative-caret-position="885">
+          <caret line="59" column="137" lean-forward="false" selection-start-line="59" selection-start-column="137" selection-end-line="59" selection-end-column="137" />
           <folding>
             <marker date="1505553554000" expanded="true" signature="2100:2247" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/招聘网站/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="5" column="10990" lean-forward="false" selection-start-line="5" selection-start-column="10990" selection-end-line="5" selection-end-column="10990" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/招聘网站/js/wow.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/招聘网站/js/typehead.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/招聘网站/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/时代/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="67" column="13" lean-forward="true" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/时代/product_cases.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/万象/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="216" column="53" lean-forward="false" selection-start-line="216" selection-start-column="53" selection-end-line="216" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/时代/styles/scss/_ty.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="2060" column="48" lean-forward="false" selection-start-line="2060" selection-start-column="48" selection-end-line="2060" selection-end-column="48" />
+        <state relative-caret-position="236">
+          <caret line="1437" column="56" lean-forward="false" selection-start-line="1437" selection-start-column="56" selection-end-line="1437" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/时代/solution_detial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="100" column="41" lean-forward="true" selection-start-line="100" selection-start-column="41" selection-end-line="100" selection-end-column="41" />
           <folding />
         </state>
       </provider>
