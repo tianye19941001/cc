@@ -6,13 +6,14 @@ body{ font-family: '微软雅黑'; min-width: 1300px; background-color: #fff; }
 .none{ display: none; }
 // input,textarea{ outline: none; }
 .ty_header{ height: 132px; @extend .clearfix;  background-color: #fff;
+	overflow: hidden;
 	.logo{ margin:0 30px 0 6%; float: left; margin-top: 23px;
 		img{ width: 79px; }
 	}
 	.ty_Hlist{ width: auto; float: left; padding: 35px 18px 0;
 		position: relative;
 		ul{ padding-bottom: 15px; @extend .clearfix; @extend %ty_tr;
-			position: absolute; width: 500px;
+			position: absolute; width: 900px;
 			left: 18px;
 			top: 68px;
 			display: none; }
@@ -391,10 +392,10 @@ body{ font-family: '微软雅黑'; min-width: 1300px; background-color: #fff; }
 	}
 }
 body .ty_news_list .titles2,.ty_daili_list .titles2{
-	margin-left: 0;
 	width: 1280px;
-	margin: 0 auto;
+	margin: 72px auto;
 	margin-left: 20px;
+	padding: 0;
 }
 // 联系我们
 .ty_connect_page{ background-color: #eef1f6; min-width: 1300px; width: 100%;  }
@@ -506,6 +507,7 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 // 解决方案
 .ty_solutions_lists{ padding: 0 0 30px;  width: 1200px; margin: 0 auto; 
 	.solutions_lists{ margin-left: -27px; width: 1200+27px; padding-bottom: 0px; @extend .clearfix;
+		margin-top: 72px;
 	 }
 	li{ float: left; width: 380px; height: 358px; margin-left: 27px; border: 1px solid #cecece; @extend %ty_tr; position: relative; overflow: hidden; margin-bottom: 68px;
 		h4{ left: 47px; line-height: 47px; background-color: #49afdd; background-color: rgba(0,145,210,.7); width: 256px; font-size: 25px; color: #fff; position: absolute; left: 63px; top: 195px; @extend %ty_tr; z-index: 2;
@@ -545,7 +547,7 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 	.dimg{
 		img{
 			display: block; width: 100%; }
-		p{ font-size: 12px; text-align: left; padding-top: 30px; text-indent: 24px; }
+		>div{ font-size: 14px; text-align: left; padding-top: 30px; text-indent: 24px; }
 	}
 }
 .ty_solution_detial_video{ background-color: #fff; width: 100%; min-width: 1300px; 
@@ -1451,7 +1453,7 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 				>div{ width: 50%; font-size: rem(20); padding: 0 rem(10); box-sizing: border-box; height: rem(40); line-height: rem(40); }
 			}
 			.dimg{
-				p{ font-size: rem(20); text-align: left; text-indent: rem(40);
+				>div{ font-size: rem(20); text-align: left; text-indent: rem(40);
 					padding: rem(30) rem(12); }
 
 			}
@@ -2060,6 +2062,7 @@ body .ty_news_list .titles2,.ty_daili_list .titles2{
 		border-left: 1px solid #fff !important;
 
 	}
+	margin: 0 !important;
 	li{
 		&:first-child a{
 			border-left: 0 !important; }

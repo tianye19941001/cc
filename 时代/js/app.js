@@ -280,21 +280,16 @@ $(document).ready(function(){
         })
 	}
 
-	// function everyinit(){
-	// 	if (document.body.offsetWidth > 1366) {
-	// 		$('body').css('overflow-x','hidden');
-	// 	}else{
-	// 		$('body').css('overflow-x','auto');
-	// 	}
-	// }
-
 	function resize(){
 		var ScreenW = $(window).width();
-		if ( 768 < ScreenW &&  ScreenW < 1500) {
-			$('.ty_news_list .titles,.ty_daili_list .ty_case_titles').addClass('titles2');
-		}else{
-			$('.ty_news_list .titles,.ty_daili_list .ty_case_titles').removeClass('titles2');
-		}
+		var ttiles = $('.ty_news_list .titles') || $('.ty_daili_list .ty_case_titles');
+		if (ttiles.text() != ''){
+            if ( 768 < ScreenW &&  ScreenW < 1500 ) {
+                $('.ty_news_list .titles,.ty_daili_list .ty_case_titles').addClass('titles2');
+            }else{
+                $('.ty_news_list .titles,.ty_daili_list .ty_case_titles').removeClass('titles2');
+            }
+        }
 		// everyinit();
 	}
 	resize();
