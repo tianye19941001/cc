@@ -3,6 +3,7 @@
 %ty_icon { background: url("../images/ty_sp_2.png") no-repeat 0 0; }
 .oh{ overflow: hidden; }
 .bcf{ background: #fff; }
+$color: #d3bb7b;
 $min-width: 1260px;
 
 body{ background-color: #f6f6f6; font-family: "微软雅黑"; min-width: $min-width; }
@@ -109,15 +110,22 @@ body,.md_PR,.md_DK{ min-width: $min-width; }
 		}
 	}
 }
-.md_PDR{ padding: 120px 0 180px;
+.md_PDR{ padding: 100px 0 130px;
 	.md_PDR_list{ @extend .clearfix; width: 1200px; margin: 0 auto; text-align: center; padding-top: 110px;
-		li{ float: left; width: 399px; border-left: 1px solid #b9baba;
+		li{ float: left; width: 399px; border-left: 1px solid #b9baba; position: relative; padding-bottom: 36px;
 			&:first-child{ border-left: 0; }
 		}
 		em{ font-size: 64px; font-family: Palatino; color: #b9baba; height: 70px; line-height: 70px; overflow: hidden; position: relative; top: -30px; }
 		hr{ width: 43px; margin: 0 auto; position: relative; top: -30px; }
 		h4{ font-size: 18px; color: #4c4948; position: relative; top: -10px; }
-		p{ line-height: 22px; text-align: left; font-size: 15px; color: #999; padding: 0 30px; height: 110px; margin-top: 20px; }
+		p{ line-height: 24px; text-align: left; font-size: 13px; color: #999; padding: 0 30px; height: 24*6px; margin-top: 20px; overflow: hidden; }
+		.more{ position: absolute; display: block; left: 50%; margin-left: -31px; bottom: 10px; font-size: 10px; color: $color; border: 1px solid $color; width: 60px; height: 18px; line-height: 18px;
+			&:hover{
+				background-color: $color;
+				color: #fff;
+				cursor: pointer;
+			}
+		}
 	}
 }
 //产品详情
@@ -660,29 +668,29 @@ body,.md_PR,.md_DK{ min-width: $min-width; }
 	.form_where{ padding-top: 66px;
 		.inps{ float: left; width: 316px; height: auto; margin: 0 25px 0 0; }
 		.inp{ float: left; width: 314px; height: 41px; line-height: 43px; margin-bottom: 12px; background-color: #fff; text-indent: 12px; outline: none; border: 1px solid #fff;
-			&:focus{ color: #d3bb7b; border: 1px solid #d3bb7b;
-				::-webkit-input-placeholder{color: #d3bb7b;}    
-				:-moz-placeholder{color: #d3bb7b;}                  
-				::-moz-placeholder{color: #d3bb7b;}              
-				:-ms-input-placeholder{color: #d3bb7b;} 
+			&:focus{ color: $color; border: 1px solid $color;
+				::-webkit-input-placeholder{color: $color;}    
+				:-moz-placeholder{color: $color;}                  
+				::-moz-placeholder{color: $color;}              
+				:-ms-input-placeholder{color: $color;} 
 			}
 		}
 		.area{ float: left; width: 617px; height: 158-42px; background-color: #fff; padding: 20px; margin-bottom: 12px; resize:none; outline: none; border: 1px solid #fff; 
-			&:focus{ color: #d3bb7b; border: 1px solid #d3bb7b;
-				::-webkit-input-placeholder{color: #d3bb7b;}    
-				:-moz-placeholder{color: #d3bb7b;}                  
-				::-moz-placeholder{color: #d3bb7b;}              
-				:-ms-input-placeholder{color: #d3bb7b;} 
+			&:focus{ color: $color; border: 1px solid $color;
+				::-webkit-input-placeholder{color: $color;}    
+				:-moz-placeholder{color: $color;}                  
+				::-moz-placeholder{color: $color;}              
+				:-ms-input-placeholder{color: $color;} 
 			}
 		}
-		.inpsub{ display: block; overflow: hidden; width: 146px; height: 40px; line-height: 40px; margin: 0 auto; background-color: #d3bb7b; font-size: 17px; color: #fff; border: 0 ; 
+		.inpsub{ display: block; overflow: hidden; width: 146px; height: 40px; line-height: 40px; margin: 0 auto; background-color: $color; font-size: 17px; color: #fff; border: 0 ; 
 		}
 		.submit{ float: left; padding: 16px 0 0; width: 100%; }
 	}
 	.btns{ @extend .clearfix; position: absolute; bottom: 20px; left: 4px;
 		li{ float: left; margin-right: 8px; }
 		a{ width: 34px; height: 30px; display: block; 
-			&:hover{ background-color: #d3bb7b; }
+			&:hover{ background-color: $color; }
 		}	
 	}
 	.weibo{ background:#9d9d9e url('../images/weiboh.png') no-repeat 50% 50%; }
@@ -707,19 +715,20 @@ body,.md_PR,.md_DK{ min-width: $min-width; }
 }
 
 // 列表页
+.md-nav {
+	font-size: 12px;
+	color: #666;
+	a {
+		color: #666;
+		margin: 0 6px;
+	}
+}
 .md-list {
 	width: 1180px;
 	padding: 30px 0 80px;
 	margin: 0 auto;
 
-	.md-list-nav {
-		font-size: 12px;
-		color: #666;
-		a {
-			color: #666;
-			margin: 0 6px;
-		}
-	}
+	
 	.md-list-con {
 		li {
 			display: block;
@@ -741,14 +750,14 @@ body,.md_PR,.md_DK{ min-width: $min-width; }
 				float: left;
 				width: 38px;
 				height: 38px;
-				color: #d3bb7b;
+				color: $color;
 				border: 1px solid #e6e6e6;
 				margin-right: 6px;
 				text-align: center;
 				line-height: 38px;
 
 				&:hover {
-					background-color: #d3bb7b;
+					background-color: $color;
 					color: #fff;
 				}
 			}
@@ -763,7 +772,7 @@ body,.md_PR,.md_DK{ min-width: $min-width; }
 			padding: 12px 0;
 			color: #555;
 			&:hover {
-				color: #d3bb7b;
+				color: $color;
 			}
 		}
 		p {
@@ -788,7 +797,7 @@ body,.md_PR,.md_DK{ min-width: $min-width; }
 			right: 0;
 
 			&:hover {
-				background-color: #d3bb7b;
+				background-color: $color;
 				color: #fff;
 			}
 		}
