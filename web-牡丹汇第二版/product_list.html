@@ -31,7 +31,7 @@
 		<em class="phoneNum"><i></i>400-650-0612</em>
 	</div>
 </div>
-<div class="md_content">
+<div class="md_content bcf">
 	<div class="md_swiper">
 		<div class="swiper-container">
 			<div class="swiper-wrapper">
@@ -69,35 +69,82 @@
 			<li>保健品类</li>
 		</ul>
 		<div class="md_PSD_list2">
-			<ul>
-				<li>
-					<a href="">
-						<img src="images/temp/temp6.png" alt="">
-						<span class="bar">
-							<p class="p1">PEONY SEED OIL/牡丹籽油</p>
-							<p class="p2">红孩儿牡丹籽油健康食用油礼盒450mlX2</p>
-						</span>
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<img src="images/temp/temp6.png" alt="">
-						<span class="bar">
-							<p class="p1">PEONY SEED OIL/牡丹籽油</p>
-							<p class="p2">红孩儿牡丹籽油健康食用油礼盒450mlX2</p>
-						</span>
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<img src="images/temp/temp6.png" alt="">
-						<span class="bar">
-							<p class="p1">PEONY SEED OIL/牡丹籽油</p>
-							<p class="p2">红孩儿牡丹籽油健康食用油礼盒450mlX2</p>
-						</span>
-					</a>
-				</li>
-			</ul>
+			<div class="swiper-container-2">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<a href="">
+							<img src="images/temp/temp6.png" alt="">
+							<span class="bar">
+								<p class="p1">PEONY SEED OIL/牡丹籽油</p>
+								<p class="p2">红孩儿牡丹籽油健康食用油礼盒450mlX2</p>
+							</span>
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="">
+							<img src="images/temp/temp6.png" alt="">
+							<span class="bar">
+								<p class="p1">PEONY SEED OIL/牡丹籽油</p>
+								<p class="p2">红孩儿牡丹籽油健康食用油礼盒450mlX2</p>
+							</span>
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="">
+							<img src="images/temp/temp6.png" alt="">
+							<span class="bar">
+								<p class="p1">PEONY SEED OIL/牡丹籽油</p>
+								<p class="p2">红孩儿牡丹籽油健康食用油礼盒450mlX2</p>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<i class="lbtn"></i>
+			<i class="rbtn"></i>
+		</div>
+	</div>
+	<div class="md_DK DK_normal">
+		<div class="md_title">
+			<i class="down"></i>
+			<h2>深入了解百瑞品牌</h2>
+			<span>Understand Deeper</span>
+		</div>
+		<div class="md_DK_list md_DK_list2">
+			<div class="swiper-container-3">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<a href="area.html">
+							<i class="number">01</i><hr>
+							<h3>深入了解种植基地</h3>
+							<p>深入了解种植基地深入了解种植基地深入了解种植基地深入了解种植基地</p>
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="process.html">
+							<i class="number">02</i><hr>
+							<h3>深入了解深加工</h3>
+							<p>深入了解种植基地深入了解种植基地深入了解种植基地深入了解种植基地</p>
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="tour.html">
+							<i class="number">03</i><hr>
+							<h3>深入了解生态旅游</h3>
+							<p>深入了解种植基地深入了解种植基地深入了解种植基地深入了解种植基地深入了解种植基地深入了解种植基地深入了解种植基地</p>
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="tour.html">
+							<i class="number">04</i><hr>
+							<h3>深入了解生态旅游</h3>
+							<p>深入了解种植基地深入了解种植基地深入了解种植基地深入了解种植基地深入了解种植基地深入了解种植基地深入了解种植基地</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<i class="lbtn2"></i>
+			<i class="rbtn2"></i>
 		</div>
 	</div>
 </div>
@@ -107,13 +154,33 @@
 <script src="js/jquery.SuperSlide.2.1.1.js"></script>
 <script src="js/idangerous.swiper.min.js"></script>
 <script>
-    var mySwiper = new Swiper('.swiper-container',{
-        autoplay: 3000,
-        pagination: '.pagination',
-        loop:true,
-        grabCursor: true,
-        paginationClickable: true
-    })
+  var mySwiper = new Swiper('.swiper-container',{
+      autoplay: 3000,
+      pagination: '.pagination',
+      loop:true,
+      grabCursor: true,
+      paginationClickable: true
+  })
+  var mySwiper2 = new Swiper('.swiper-container-2',{
+	  slidesPerView: 3,
+	  loop: true
+  })
+  var mySwiper3 = new Swiper('.swiper-container-3',{
+	  slidesPerView: 3,
+	  loop: true
+  })
+  $('.lbtn').click(function(){
+		mySwiper2.swipePrev(); 
+	})
+	$('.rbtn').click(function(){
+		mySwiper2.swipeNext(); 
+	})
+	$('.lbtn2').click(function(){
+		mySwiper3.swipePrev(); 
+	})
+	$('.rbtn2').click(function(){
+		mySwiper3.swipeNext(); 
+	})
 </script>
 </body>
 </html>
