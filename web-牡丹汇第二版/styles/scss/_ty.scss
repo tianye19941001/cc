@@ -891,10 +891,12 @@ body,.md_PR,.md_DK{ min-width: $min-width; }
 }
 // 业务体系
 .md-yw {
+	padding-top: 80px;
 	.yw_in {
 		width: 1260px;
 		height: 680px;
-		margin: 0 auto; 
+		margin: 0 auto;
+		padding: 80px 0;
 
 		ul {
 			@extend .clearfix;
@@ -904,6 +906,42 @@ body,.md_PR,.md_DK{ min-width: $min-width; }
 			height: 340px;
 			position: relative;
 			display: block;
+			
+			&:hover {
+				em,.in{ display: none; }
+			}
+
+			em {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: 0;
+				background: #dbba7c;
+				opacity: .5;
+				filter: alpha(opacity=50);
+				z-index: 2;
+			}
+			.in {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+				text-align: center;
+				width: 90%;
+				color: #fff;
+				line-height: 36px;
+				z-index: 3;
+
+				h3 {
+					font-size: 16px;
+					border-bottom: 1px solid #fff;
+				}
+
+				p {
+					font-size: 12px;
+				}
+			}
 		}
 		.big {
 			width: 630px;
@@ -916,6 +954,32 @@ body,.md_PR,.md_DK{ min-width: $min-width; }
 			display: block;
 			width: 100%;
 			height: 100%;
+			z-index: 1;
+		}
+	}
+}
+// 新养老
+.md_xyl {
+	padding-top: 80px;
+	.md_xyl_videos {
+		padding: 80px 0;
+		width: 1280px;
+		overflow: hidden;
+		margin: 0 auto;
+		ul {
+			width: 1310px;
+			margin-left: -30px;
+			@extend .clearfix;
+
+			li {
+				float: left;
+				width: 625px;
+				margin-left: 30px;
+			}
+			video {
+				width: 625px;
+				height: 360px;
+			}
 		}
 	}
 }
