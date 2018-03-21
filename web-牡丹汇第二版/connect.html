@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="styles/idangerous.swiper.css">
 	<link rel="stylesheet" href="styles/plyr.css">
 	<script src="js/fn.js"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=Hy39puRjkD52O5l2T0ne7ZpSepVNY3fN"></script>
 </head>
 <body>
 <div class="md_head">
@@ -34,26 +35,83 @@
 </div>
 <div class="md_content bcf">
 	<div class="md_bannar md_connect_bannar">
-		<img class="" src="images/local.png" alt="">
+		<img class="" src="images/temp/temp1.png" alt="">
 	</div>
-	
-	<div class="md-video">
+		<div class="ty_con">
+		<div class="ty_connect_con">
+			<div class="md_title">
+				<i class="down"></i>
+				<h2>联系方式</h2>
+				<span>Contact Ways</span>
+			</div>
+			<div class="ty_connect1">
+				<div class="ty_map">
+					<div id="container"></div>
+				</div>
+				<div class="location">
+					<h3>中国时代远望科技有限公司</h3>
+					<p>总部地址：北京海淀区蓝靛厂南路59号玲珑花园商务楼三层<br>总部邮编：100097 <br>直拨电话：010-88491909 <br>总部电话：010-88490025 010-88491188 <br>电子邮箱：tree815@126.com</p>
+				</div>
+				<div id="control">
+	        <div class="pageShow">
+	            <h3>搜索行车路径</h3>
+	            <input id="star" placeholder="行车开始地址">
+	            <input id="end" placeholder="行车结束地址" value="中国时代远望科技有限公司">
+	            <a id="car" href="javascript:void(0);">
+	                点击搜索
+	            </a>
+
+	            <h3>搜索公交路径</h3>
+	            <input id="bStar" placeholder="公交开始地址">
+	            <input id="bEnd" placeholder="公交结束地址"  value="中国时代远望科技有限公司">
+	            <a id="bus" href="javascript:void(0);">
+	                点击搜索
+	            </a>
+
+	            <h3>搜索步行路径</h3>
+	            <input id="wStar" placeholder="步行开始地址">
+	            <input id="wEnd" placeholder="步行结束地址"  value="中国时代远望科技有限公司">
+	            <a id="walk" href="javascript:void(0);">
+	                点击搜索
+	            </a>
+	        </div>
+			  </div>
+			  <div id="r-results" class="res"></div>
+			</div>
+			<div class="ty_connect2">
+				<div class="md_title">
+					<i class="down"></i>
+					<h2>合作联系</h2>
+					<span>Cooperation contact</span>
+				</div>
+				<img class="pt50" src="images/E_09.png" alt="">
+				<div class="cooper">
+					<div class="l">
+						<h3>投资管理合作</h3>
+						<p>直拨电话：010-88491909 <br>总部电话：010-88490025 <br>电子邮箱：tree815@126.com</p>
+					</div>
+					<div class="m">
+						<h3>进出口业务贸易合作</h3>
+						<p>直拨电话：010-88491909 <br>总部电话：010-88490025 <br>电子邮箱：tree815@126.com</p>
+					</div>
+					<div class="r">
+						<h3>物业管理合作</h3>
+						<p>直拨电话：010-88491909 <br>总部电话：010-88490025 <br>电子邮箱：tree815@126.com</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- <div class="md-video">
 		<div class="video-in">
 			<video controls>
 			 	<source src="http://www.jplayer.org/video/m4v/Incredibles_Teaser.m4v" type="video/mp4">
-			 	<!-- <source src="/path/to/video.webm" type="video/webm">-->
-			 	<!-- Captions are optional -->
 			</video>
 		</div>
 	</div>
-
-	<div class="md_connect">
+ -->
+	<!-- <div class="md_connect">
 		<div class="md_connect_type">
-			<div class="md_title">
-				<i class="down"></i>
-				<h2>联系我们</h2>
-				<span>Contact Us</span>
-			</div>
 			<div class="list">
 				<div class="l"><i class="icon_phone"></i></div>
 				<div class="r">手机：188- 666- 5188<br>电话：400- 888- 8888</div>
@@ -87,7 +145,7 @@
 				</li>
 			</ul>
 		</div>
-	</div>
+	</div> -->
 </div>
 <div class="bottom-connect">
 	<div class="main">
