@@ -6,10 +6,6 @@
 $color: #d3bb7b;
 $min-width: 1260px;
 
-@media screen and (min-width:1px) and (max-width:1019px){
-
-}
-
 body{ background-color: #f6f6f6; font-family: "微软雅黑"; min-width: $min-width; }
 
 .pt50 {padding-top: 50px;}
@@ -20,16 +16,27 @@ body,.md_PR,.md_DK{ min-width: $min-width; }
 // 首页
 .md_head{ height: 114px; line-height: 114px; background-color: #fff; min-width: $min-width;
 	.logo{ width: 194px; height: 32px; @extend  %ty_sp; background-position: 0 -230px; position: absolute; left: 72px; top: 40px; }
+	.icon_menu {display: none;}
 	.right{ float: right; height: 16px; line-height: 16px; padding: 23px 0; margin-top: 114-16-23-23px;
 		ul{ @extend .clearfix; }
 		.nav_bar{ float: left;
 			>li{ width: 160px; border-left: 1px solid #4d4a49; text-align: center; position: relative;
+				a{ color: #333; }
 				&:first-child{ border-left: 0; 
 					a{ font-size: 14px; color: #4c4948; }
 				}
 				&:hover{
 					.listIn{ display: block; }
+					>a { color: $color; }
 				}
+			}
+			.listIn {
+				a:hover {
+					color: $color;
+				}
+			}
+			.on> a{
+				color: $color;
 			}
 		}
 		.listIn{ position: absolute; display: none; width: 100%; top: 16px; left: 0; z-index: 9; background-color: #fff; padding-top: 12px;

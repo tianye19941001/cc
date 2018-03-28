@@ -122,8 +122,19 @@
 		    body.style.fontSize = docWidth / 32 + 'px';
 		}
 		if ($('.picScroll-left').length>0) {
-			jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:3,trigger:"click"});
+			jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:2,trigger:"click"});
 		}
+
+		$('body').on('click','.icon_menu',function(){
+  		$('html,body').animate({scrollTop: 0},600);
+  		if($('.md_head').hasClass('open-nav')){
+  			$('.md_head').removeClass('open-nav');
+  			$('body').removeClass('oh')
+  		}else{
+  			$('.md_head').addClass('open-nav');
+  			$('body').addClass('oh')
+  		}
+  	})
 	}
 
 	// 动画延时函数
