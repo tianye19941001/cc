@@ -265,26 +265,25 @@
       grabCursor: true,
       paginationClickable: true
   })
-  var mySwiper2 = new Swiper('.swiper-container-2',{
-	  slidesPerView: 3,
-	  loop: true
-  })
-  var mySwiper3 = new Swiper('.swiper-container-3',{
-	  slidesPerView: 3,
-	  loop: true
-  })
+  if (document.body.clientWidth>=768) { 
+		var mySwiper2 = new Swiper('.swiper-container-2',{
+		  slidesPerView: 3,
+		  loop: true
+	  })
+	} else {
+		var mySwiper2 = new Swiper('.swiper-container-2',{
+		  autoplay: 3000,
+			loop:true
+	  })
+	}
+
   $('.lbtn').click(function(){
 		mySwiper2.swipePrev(); 
 	})
 	$('.rbtn').click(function(){
 		mySwiper2.swipeNext(); 
 	})
-	$('.lbtn2').click(function(){
-		mySwiper3.swipePrev(); 
-	})
-	$('.rbtn2').click(function(){
-		mySwiper3.swipeNext(); 
-	})
+
 </script>
 </body>
 </html>

@@ -289,10 +289,17 @@
 		grabCursor: true,
 		paginationClickable: true
 	})
-	var mySwiper2 = new Swiper('.swiper-container2',{
-		slidesPerView: 3,
-	  loop: true
-	})
+	if (document.body.clientWidth>=768) { 
+		var mySwiper2 = new Swiper('.swiper-container2',{
+		  slidesPerView: 3,
+		  loop: true
+	  })
+	} else {
+		var mySwiper2 = new Swiper('.swiper-container2',{
+		  autoplay: 3000,
+			loop:true
+	  })
+	}
 	$('.lbtn').click(function(){
 		mySwiper2.swipePrev(); 
 	})
