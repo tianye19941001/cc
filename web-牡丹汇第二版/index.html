@@ -8,6 +8,7 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="styles/styles.css">
 	<link rel="stylesheet" href="styles/idangerous.swiper.css">
+	<link rel="stylesheet" href="styles/plyr.css">
 	<script src="js/fn.js"></script>
 </head>
 <body>
@@ -57,14 +58,16 @@
 			<h3 class="tit">关于我们</h3>
 			<p class="tit2">About Us</p>
 			<div class="about-in">
-				<img src="./images/temp/temp12.png" alt="">
+				<div class="index-video">
+					<video poster="./images/temp/temp18_small.png" controls>
+					 	<source src="http://www.jplayer.org/video/m4v/Incredibles_Teaser.m4v" type="video/mp4">
+					</video>
+				</div>
 				<p>百瑞众康创立于2010年，是一家以农业科技、健康产品、生活用品为核心，集农业种植，产品研发、生产、销售、服务于一体的集团化公司，国际事业总部设立北京，拥有“百瑞牡丹”、“红孩儿”、“美丹瑞”、“东方神参”四大品牌基础项目，集大健康、项目投资、新养老、云电商、云旅游等五大板块运营体系于一身，旨在为消费者、合作伙伴、会员全方位打造系统化、立体化、精细化的一站式服务平台。</p>
 				<p>
-发展至今，已形成以北京百瑞众康农业科技发展有限公司为主体，分设北京百瑞众康国际贸易有限公司、北京百瑞众康科技有限公司、内蒙古百瑞众康国际贸易有限公司、百瑞众康国际（菏泽）分公司、菏泽丹瑞种植专业合作社等市场战略布局。
-</p>
-<!--
-				<a href="">MORE</a>
--->
+				发展至今，已形成以北京百瑞众康农业科技发展有限公司为主体，分设北京百瑞众康国际贸易有限公司、北京百瑞众康科技有限公司、内蒙古百瑞众康国际贸易有限公司、百瑞众康国际（菏泽）分公司、菏泽丹瑞种植专业合作社等市场战略布局。
+				</p>
+				<!--<a href="">MORE</a>-->
 			</div>
 			<div class="numberBar">
 				<ul>
@@ -360,7 +363,7 @@
 	var mySwiper = new Swiper('.swiper-container',{
 		autoplay: 3000,
 		pagination: '.pagination',
-		loop:true,
+		loop:false,
 		grabCursor: true,
 		paginationClickable: true
 	})
@@ -382,6 +385,10 @@
 	$('.rbtn2').click(function(){
 		mySwiper3.swipeNext();
 	})
+</script>
+<script src="js/plyr.js"></script>
+<script>
+	plyr.setup();
 </script>
 </body>
 </html>

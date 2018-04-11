@@ -200,7 +200,7 @@
 	    var local = new BMap.LocalSearch(map, {
 	        renderOptions: {map: map}
 	    });
-	    local.search('百瑞牡丹籽油牡丹（北京）有限公司');
+	    local.search('北京百瑞众康有限公司');
 
 	    //驾车路线
 	    var driving = new BMap.DrivingRoute(map, {
@@ -239,7 +239,7 @@
 	        })
 	    })
 	    $('#map').on('click', function () {
-	    	local.search('中国时代远望科技有限公司');
+	    	local.search('北京百瑞众康有限公司');
 	    	$('.ty_dialog').show();
 	    })
 	}
