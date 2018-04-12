@@ -3,7 +3,7 @@
 	body,.md_PR,.md_DK{ min-width: 100%; }
 	.md_head{ height: 60px; min-width: 100%;
 		.icon_menu{ width: rem(60); height: rem(60); display: block; position: absolute; right: rem(30); top: rem(22); background-size: rem(60) rem(60); background-image: url("../images/phone_menu.png"); background-color: #fff; z-index: 16; }
-		.logo{ position: absolute; width: 194px; height: 32px; top: 15px; left: 50%; transform: translateX(-50%); z-index: 16; background-color: #fff; }
+		.logo{ position: absolute; width: 38px; height: 42px; top: 10px; left: 50%; transform: translateX(-50%); z-index: 16; background-color: #fff; }
 		.right{ display: none; float: none; position: absolute; width: 100%; height: 100%; line-height: rem(30); box-sizing: border-box; padding: 70px 0 0; margin-top: 0; background: #fff; z-index: 15; overflow: scroll;
 			.nav_bar{ float: none;
 				>li{ width: 100%; border-left:0; text-align: center; position: relative; line-height: rem(90); font-size: 18px;

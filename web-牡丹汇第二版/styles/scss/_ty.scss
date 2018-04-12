@@ -15,7 +15,7 @@ body,.md_PR,.md_DK{ min-width: $min-width; }
 .md_bannar{ text-align: center; }
 // 首页
 .md_head{ height: 114px; line-height: 114px; background-color: #fff; min-width: $min-width;
-	.logo{ width: 194px; height: 32px; @extend  %ty_sp; background-position: 0 -230px; position: absolute; left: 72px; top: 40px; }
+	.logo{ height: 85px; position: absolute; left: 72px; top: 10px; background-image: url(../images/logo-br.png); background-size: cover; width: 77px; }
 	.icon_menu {display: none;}
 	.right{ float: right; height: 16px; line-height: 16px; padding: 23px 0; margin-top: 114-16-23-23px;
 		ul{ @extend .clearfix; }
@@ -1269,6 +1269,16 @@ body,.md_PR,.md_DK{ min-width: $min-width; }
 			}
 			&:hover {
 				.bar { display: none; }
+			}
+			&:first-child{
+				float: left;
+				width: 640px;
+				height: 640px;
+				overflow: hidden;
+				position: relative;
+				.bar-in {
+					top: 200px;
+				}
 			}
 		}
 	}
