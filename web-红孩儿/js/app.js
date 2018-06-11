@@ -240,7 +240,10 @@
 	})
 	$('.red_index_main2T .tit').click(function(){
 		$('.red_index_main2T .tit').removeClass('on');
-		$(this).addClass('on')
+		$('.red_index_main2_list>div').removeClass('on');
+		var index = $('.red_index_main2T .tit').index($(this));
+		$(this).addClass('on');
+		$('.red_index_main2_list>div').eq(index).addClass('on');
 	})
 	$('.detialselect').click(function(){
 		var index = $('.detialselect').index($(this));
