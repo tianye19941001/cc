@@ -105,8 +105,8 @@
 		var about1 = $('.product .proIN').width();
 		$('.product .proIN img').height(about1/345*358)
 
-		var about2 = $('.gov .l').width();
-		$('.gov,.jidiIn .outer').height(about2)
+		// var about2 = $('.gov .l').width();
+		// $('.gov,.jidiIn .outer').height(about2)
 
 		var intro2 = $('.wayin').width();
 		$('.wayin .img').height(intro2/324*254)
