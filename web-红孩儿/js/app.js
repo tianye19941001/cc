@@ -341,4 +341,50 @@
 			}
         })
 	}
+
+	// 动画延时函数
+	function adddelay(obj,time){
+		if (obj.length>0) {
+			for (var i = 0; i < obj.length; i++) {
+				obj.eq(i).addClass('an_delay'+(i*time+3));
+			}
+		}
+	}
+
+	// 动画增加函数
+	function addAnimate(elem,Class,count,nums){
+		if( elem.length > 0){
+			var offsetT = elem.offset().top;
+			var overHeight = $(document).scrollTop() + $(window).height() - 80;
+			if (elem.length>=1){
+				for( var i = 0; i < elem.length; i++ ){
+					if (overHeight > elem.eq(i).offset().top){
+						if (!elem.eq(i).hasClass(Class)) {
+							elem.eq(i).addClass(Class);
+						}
+					}
+				}
+			}
+		}
+	}
+
+	// 动画
+	function animateInit(){
+		var toTop = '.red_index_main1 h2,.red_index_main1 h3,.red_index_main1 h4,.red_index_main2_list a, .jidiIn .middle, .gov .l,.red_intro1 img, .new_intro .pic_list, .time_list li, .pic_text li,.new_intro h2, .red_intro4 p, .intro_xm_text h2, .intro_xm_shop li';
+		var toLeft = '.red_index_main1 img, .red_index_main3 h3, .red_index_main5In .l ,.about1Int h3, .jidiIn .l, .red_intro1 h3, .listpic li, .intro_xm_text h3';
+		var toRight = '.red_index_main2 .tit, .Enterprise_intr p, .red_index_main5In .r ,.about1Int strong , .jidiIn .r, .red_intro1 p,.red_intro4 h2, .intro_xm_shop h2, .fengcai li';
+		var toBottom = '.red_index_main1 p, .red_tit_o, .red_index_main5In .m, .about1Int p, .about1In .red_abouttit, .tob_bannar img,.red_introtit, .wayin, .fengcai h2';
+		addAnimate($(toTop),'an_toTop');
+		addAnimate($(toLeft),'an_toLeft');
+		addAnimate($(toRight),'an_toRight');
+		addAnimate($(toBottom),'an_toBottom');
+	}
+
+	$(window).scroll(function() {
+  	animateInit();
+	});
+
+	(function init(){
+		animateInit();
+	})();
 });
