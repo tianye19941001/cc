@@ -289,6 +289,14 @@
         }
 	}
 	if (document.body.clientWidth>=768) {
+		fnResize();
+		window.addEventListener("resize", function() {
+		    fnResize()
+		}, false);
+		function fnResize(){
+		    var weHeight = $('.jidiIn .outer .l').height();
+		    $('.jidiIn .outer .middle').height(weHeight);
+		}
 		$('.jidiIn .m .mIN').click(function(){
 			$(this).addClass('on').siblings().removeClass('on');
 			$('.jidiIn .l h4').html($(this).find('h4').html());

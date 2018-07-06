@@ -116,12 +116,12 @@ body{ background-color: #fff; font-family: "黑体"; min-width: 1300px; }
 	span{ display: block; font-size: 12px; color: #929292; margin-top: -2px; }
 }
 .red_index_main3{ background-color: #f5f6f6; margin: 78px 25px 0 0; padding-bottom: 120px; 
-	.more{ padding: 40px 0; float: left; width: percent(396*4); text-align: center; 
-		a{width: 93px; height: 24px; line-height: 24px; display: inline-block; text-align: center; border: 1px solid #d9dbe2; color: #4a4746;  font-size: 12px; }
-	}
 	.IN2{
 		.pic{ float: right; }
 	}
+}
+.more{ margin: 20px 0; width: percent(396*4); text-align: center; 
+	a{width: 93px; height: 24px; line-height: 24px; display: inline-block; text-align: center; border: 1px solid #d9dbe2; color: #4a4746;  font-size: 12px; }
 }
 .red_index_main3IN{ @extend .clearfix; margin: 0 auto;
 	.picword{ float: left; width: 50%; margin-bottom: 10px; }
@@ -540,9 +540,6 @@ body{ background-color: #fff; font-family: "黑体"; min-width: 1300px; }
 				h4{ font-size: 14px; line-height: 26px; }
 				p{ line-height: 16px; font-size: 12px; }
 			}
-			&:nth-child(even){
-				margin-top: 0;
-			}
 		}
 		.r{ float: left; width: 62%; height: 100%;
 			.t,.b{ width: 100%; height: 50%; @extend .clearfix; 
@@ -605,7 +602,7 @@ body{ background-color: #fff; font-family: "黑体"; min-width: 1300px; }
 			}
 		}
 		.middle {
-			float: left; width: 33.3%; height: 100%;
+			float: left; width: 33.3%; height: 100%; position: relative;
 			.t{ margin: 0 6px; height: 197px; position: relative;
 				p{ position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 80%;}
 			}
@@ -736,7 +733,7 @@ body{ background-color: #fff; font-family: "黑体"; min-width: 1300px; }
 // 手机
 .phone{ display: none; }
 @media screen and (min-width:1px) and (max-width:1019px){
-	.nav-to{display: none;}
+	.nav-to{display: none !important;}
 	.open-news{ width: 100%; margin-bottom: 0; }
 	.news-article h4.maintitle{ text-align: center; padding-bottom: 0; height: auto; line-height:rem(50); color: #d61518; border-bottom: 1px solid #333; white-space: normal; padding: rem(20); }
 	.news-article h5.subtitle{ padding: 10px 0; }
@@ -1189,7 +1186,7 @@ body{ background-color: #fff; font-family: "黑体"; min-width: 1300px; }
 	}
 	.new_intro { padding: rem(40) rem(10);
 		h2{ font-size: rem(30); margin-bottom: rem(30); }
-		.pic_list { margin-bottom: 30px;
+		.pic_list { margin-bottom: 30px; width: 100%;
 			.img{ float: none; width: 80%; margin: 0 auto; margin-bottom: rem(20); 
 				&:first-child{ margin: 0 auto; }
 			}
